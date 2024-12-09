@@ -117,7 +117,8 @@
     "vizier",
     "harpy",
     "summoner",
-    "boffin"
+    "boffin",
+    "xaan"
   ],
   ".demon": [
     "al-hadikhia",
@@ -156,6 +157,7 @@
     "matron",
     "scapegoat",
     "thief",
-    "voudon"
+    "voudon",
+    "gnome"
   ]
 }
