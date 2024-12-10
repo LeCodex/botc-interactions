@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    
     <title>BotC Script Interactions</title>
-
+    
+    <link rel="icon" type="image/x-icon" href="./icon.webp" />
     <link rel="canonical" href="https://lecodex.github.io/botc-interactions/" />
     <meta
       name="description"
@@ -44,18 +45,21 @@
         <p>
           All interactions are written in <a href="https://docs.google.com/spreadsheets/d/1KBF5DurN0zq8eSLuh3u2Lg2w7e6Fr7N4B5qzc-wRO4U/edit?usp=sharing" target="_blank">this document</a>. If you wish to suggest changes, please leave a comment on it.
         </p>
-        <input type="file" accept=".json" id="scriptUpload">
-        <span>
-          | Display 
-          <select id="displayTypeInput">
-            <option value="messageType">per message type</option>
-            <option value="character">per character</option>
-          </select>
-        </span>
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1em;">
+          <input type="file" accept=".json" id="scriptUpload">
+          <span>|</span>
+          <span>
+            Display 
+            <select id="displayTypeInput">
+              <option value="messageType">per message type</option>
+              <option value="character">per character</option>
+            </select>
+          </span>
+        </div>
         
         <ul id="returnList"></ul>
       </div>
     </div>
   </body>
 </html>
-<!-- Tool and document created and maintained by Le Codex -->
+<!-- Tool and document created and maintained by Le Codex. Check me out on Github! -->

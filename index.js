@@ -1,3 +1,5 @@
+// Code written by Le Codex. Check me out on Github!
+
 const input = document.getElementById("scriptUpload");
 const output = document.getElementById("returnList");
 const displayTypeInput = document.getElementById("displayTypeInput");
