@@ -29,7 +29,7 @@ a {
 }
 
 a:visited {
-  color: hotpink
+  color: darkorchid
 }
 
 .input {
@@ -42,6 +42,7 @@ a:visited {
 .output {
   font-size: 16px;
   list-style-type: none;
-  text-align: center;
-  margin: 4em;
+  text-align: justify;
+  margin-left: 4em;
+  margin-right: 4em;
 }
