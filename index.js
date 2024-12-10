@@ -168,9 +168,7 @@ function printMessagesPerCharacter() {
 
   for (let [group, characters] of Object.entries(groups)) {
     let title = document.createElement("li");
-    title.innerHTML = `======== [${capitalizeFirstLetter(
-      group.slice(1)
-    )}s] ========`;
+    title.innerHTML = `<h2>======== [${capitalizeFirstLetter(group.slice(1))}s] ========</h2>`;
     title.style.color = color_per_character_type[group.slice(1)];
     title.style["font-weight"] = "bold";
     output.appendChild(title);
@@ -187,7 +185,7 @@ function printMessagesPerCharacter() {
       if (messages_per_type.error.length)
         addons.push(`${messages_per_type.error.length} error(s)`);
 
-      title.innerHTML = `[${formatCharacterName(char)}]: ` + addons.join(", ");
+      title.innerHTML = `<h3>[${formatCharacterName(char)}]: ${addons.join(", ")}</h3>`;
       title.style.color = color_per_character_type[group.slice(1)];
       title.style["font-weight"] = "bold";
       output.appendChild(title);
