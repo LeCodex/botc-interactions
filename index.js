@@ -118,7 +118,7 @@ function printMessagesPerType() {
     if (!messages.length) continue;
 
     let title = document.createElement("li");
-    title.innerHTML = `[${capitalizeFirstLetter(t)}] (${messages.length})`;
+    title.innerHTML = `<h3>[${capitalizeFirstLetter(t)}] (${messages.length})</h3>`;
     title.style.color = color_per_message_type[t];
     title.style["font-weight"] = "bold";
     output.appendChild(title);

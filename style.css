@@ -24,9 +24,24 @@ h1, h2, h3 {
   text-align: center;
 }
 
+a {
+  color: deepskyblue
+}
+
+a:visited {
+  color: hotpink
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
 .output {
-  font-size: 14px;
+  font-size: 16px;
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  text-align: center;
+  margin: 4em;
 }
