@@ -29,7 +29,10 @@ window
 let matchups = {};
 window
   .fetch("./matchups.json")
-  .then((x) => x.json())
+  .then((x) => {
+    document.getElementById("lastModified").innerText = x.headers["last-modified"];
+    return x.json();
+  })
   .then((x) => (matchups = x));
 
 let matchups_messages = [];
