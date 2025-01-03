@@ -117,6 +117,9 @@
         "xaan": {
             "info": "Xaan cannot trigger the Acrobat"
         },
+        "wizard": {
+            "good": "Acrobat can detect arbitrary droison"
+        },
         "fang_gu": {
             "warning": "Somewhat of a bad jump target (is supposed to die)"
         },
@@ -212,7 +215,7 @@
             "info": "Alch-Baron is fairly weak, but can be useful for confirmation"
         },
         "scarlet_woman": {
-            "warning": "Ach-Scarlet Woman is near-useless without Heretic (confirms a SW is not in-play)"
+            "warning": "Alch-Scarlet Woman is near-useless without Heretic. Beware creating 2 Demons"
         },
         "evil_twin": {
             "good": "Evil Twin can prevent Alchemist from winning through certain abilities"
@@ -252,6 +255,9 @@
         "xaan": {
             "info": "Xaanchemist creates a loop: everyone remains poisoned"
         },
+        "wizard": {
+            "warning": "Very powerful ability for the Alchemist"
+        },
         "vortox": {
             "warning": "This role can easily confirm a Vortox"
         },
@@ -259,7 +265,7 @@
             "warning": "Alchemist reatins its ability during Riot day"
         },
         "lleech": {
-            "good": "Alchemist can be fooled into having an in-play ability if Lleech host"
+            "good": "Alchemist can be fooled into having another ability if Lleech host"
         },
         "kazali": {
             "good": "Kazali controls which abilities the Alchemist has access to"
@@ -718,6 +724,9 @@
         "boffin": {
             "good": "Interesting Boffin ability"
         },
+        "wizard": {
+            "good": "Artist can ask about arbitrary game changes"
+        },
         "vortox": {
             "warning": "This role can easily confirm a Vortox"
         },
@@ -827,6 +836,9 @@
         "puzzlemaster": {
             "info": "Puzzlemaster doesn't prevent setup abilities"
         },
+        "heretic": {
+            "error": "Storyteller dependent. If there are only good players, good should always win."
+        },
         "plague_doctor": {
             "good": "Plague Doctor allows unfakeable Minions to be done by the ST"
         },
@@ -880,6 +892,9 @@
         },
         "boffin": {
             "warning": "The setup doesn't apply. The ST can break the rules, but good wins if they're executed. Probably not a wise choice"
+        },
+        "wizard": {
+            "warning": "The possibility of Wizard makes Atheist games harder to solve for, but also allows for wilder games"
         },
         "fang_gu": {
             "warning": "Evil players with Atheist is a bad idea"
@@ -1112,6 +1127,9 @@
         }
     },
     "banshee": {
+        "bounty_hunter": {
+            "good": "Confirmable evil characters are powerful and throw shade on their ability"
+        },
         "farmer": {
             "warning": "Beware too much confirmation"
         },
@@ -1173,7 +1191,7 @@
             "warning": "Bad choice for a Twin"
         },
         "pit-hag": {
-            "good": "Pit-Hag can change the role of the Banshee once dead"
+            "good": "Pit-Hag can change the role of the Banshee once dead. Pit-Hag can create an evil Banshee"
         },
         "assassin": {
             "warning": "Assassin can kill a Banshee without giving it its ability"
@@ -1208,6 +1226,9 @@
         },
         "xaan": {
             "good": "Xaan can disable this role (although hard to time)"
+        },
+        "wizard": {
+            "good": "Killing the Banshee is an interesting cost. Wizard could fake this role"
         },
         "imp": {
             "warning": "Imp can't fake Banshee"
@@ -1531,9 +1552,6 @@
         "investigator": {
             "good": "Cannibal can get a second round of first night info"
         },
-        "juggler": {
-            "warning": "If another player is executed the day after Juggler is, the Cannibal can't get the information from the ability"
-        },
         "knight": {
             "good": "Cannibal can get a second round of first night info"
         },
@@ -1852,6 +1870,9 @@
         "goon": {
             "warning": "Goon might become evil before the Chef acts"
         },
+        "ogre": {
+            "info": "Ogre doesn't change the Chef number (acts after the Chef)"
+        },
         "spy": {
             "good": "Spy can appear as good"
         },
@@ -1990,6 +2011,9 @@
         },
         "xaan": {
             "good": "Xaan can disable this role (although hard to time)"
+        },
+        "wizard": {
+            "good": "Killing the King is an interesting cost"
         },
         "vortox": {
             "warning": "Vortox makes this info near useless"
@@ -2288,6 +2312,9 @@
         },
         "xaan": {
             "good": "This Minion can help against a Courtier"
+        },
+        "wizard": {
+            "good": "Courtier can confirm this role isn't active (limited time)"
         },
         "vigormortis": {
             "warning": "If the Vigormortis is droisoned, the Minions lose their ability"
@@ -2762,6 +2789,9 @@
         "xaan": {
             "warning": "Engineer could remove the Xaan before it triggers"
         },
+        "wizard": {
+            "good": "Engineer can confirm this role isn't active"
+        },
         "vigormortis": {
             "warning": "Engineer can « kill » Minions"
         },
@@ -3080,6 +3110,9 @@
         },
         "xaan": {
             "good": "If this role triggers successfully, it confirms a non-Xaan-night. Xaan can disable this role (although hard to time)"
+        },
+        "wizard": {
+            "good": "Killing the Farmer is an interesting cost"
         },
         "imp": {
             "good": "Imp can fake dying in the night"
@@ -3605,7 +3638,7 @@
             "good": "Can explain a red herring dying in the night"
         },
         "riot": {
-            "warning": "Many Demons make Fortune Teller information less useful on night 3"
+            "info": "Riots only spread at dawn or nominations"
         },
         "lleech": {
             "warning": "Knowing who the Demon is isn't very useful for Lleech"
@@ -3752,6 +3785,9 @@
         "xaan": {
             "good": "If this role triggers successfully, it confirms a non-Xaan-night"
         },
+        "wizard": {
+            "good": "Can confirm Wizard is in-play"
+        },
         "imp": {
             "good": "Imp can fake dying in the night"
         },
@@ -3871,6 +3907,9 @@
         },
         "boffin": {
             "good": "Interesting Boffin ability"
+        },
+        "wizard": {
+            "good": "General can detect a sudden game state change"
         },
         "po": {
             "good": "General can detect a Po charge"
@@ -4008,6 +4047,9 @@
         },
         "boffin": {
             "good": "Good Boffin ability"
+        },
+        "wizard": {
+            "good": "Gossip can ask about the Wizard"
         },
         "vortox": {
             "warning": "This role's info is immune to Vortox"
@@ -4284,6 +4326,9 @@
         "boffin": {
             "good": "Interesting Boffin ability"
         },
+        "wizard": {
+            "good": "High Priestess can be guiven directions to the hint"
+        },
         "legion": {
             "good": "High Priestess will most likely learn the few good players"
         }
@@ -4543,6 +4588,9 @@
         "xaan": {
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
         },
+        "wizard": {
+            "good": "Can confirm Wizard is in-play"
+        },
         "vigormortis": {
             "warning": "First night info is immune to Vigormortis poison ",
             "good": "Investigator can't confirm one of their picks by having the other die in the night"
@@ -4792,8 +4840,8 @@
         "boffin": {
             "good": "Interesting Boffin ability"
         },
-        "xaan": {
-            "warning": "Xaan 1 makes the Demon not learn the King on night 1"
+        "wizard": {
+            "good": "King can (eventually) confirm this role to be in-play"
         },
         "vortox": {
             "warning": "Vortox will learn a wrong player"
@@ -5124,7 +5172,8 @@
             "good": "First night info roles are good targets for Lycanthrope kills. Faux Paw registers as evil"
         },
         "oracle": {
-            "good": "Faux Paw registers as evil"
+            "good": "Faux Paw registers as evil ",
+            "warning": "Oracle number can decrease"
         },
         "pacifist": {
             "good": "Faux Paw registers as evil"
@@ -5439,9 +5488,6 @@
         "boffin": {
             "warning": "This ability is useless to the Demon"
         },
-        "xaan": {
-            "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
-        },
         "imp": {
             "warning": "Imp can suicide to prove itself to Minions"
         },
@@ -5549,6 +5595,9 @@
         "xaan": {
             "good": "Mathematician can detect day characters that were poisoned the day afterward"
         },
+        "wizard": {
+            "good": "Mathematician can detect arbitrary droison"
+        },
         "vortox": {
             "warning": "Vortox makes this info near useless"
         }
@@ -5624,6 +5673,9 @@
         "boffin": {
             "good": "Good Boffin ability"
         },
+        "wizard": {
+            "good": "Mayor can help the good team win even with a powerful wish"
+        },
         "po": {
             "warning": "Multiple night deaths can cause the 3-player day to be skipped"
         },
@@ -5637,7 +5689,10 @@
             "warning": "Multiple days can match the Mayor's condition, and the final day (with \"only\" two alive players) can't"
         },
         "al-hadikhia": {
-            "warning": "Mayor choice might not matter, and can be confirmed through non-picked death"
+            "warning": "Mayor choice might not matter, and can be confirmed through non-picked death. Can also bounce twice (probably don't)"
+        },
+        "riot": {
+            "warning": "Mayor jinx isn't bluffable"
         },
         "legion": {
             "warning": "Legion targets are chosen by the ST ",
@@ -5828,6 +5883,9 @@
         "boffin": {
             "warning": "This ability is useless to the Demon (but could be interesting with certain Demons)"
         },
+        "xaan": {
+            "good": "Monk target death (with no other sources of extra death) can hint at Xaan night"
+        },
         "imp": {
             "good": "Monk can prevent an Imp starpass"
         },
@@ -5945,6 +6003,9 @@
         "xaan": {
             "good": "If this role triggers successfully, it confirms a non-Xaan-night"
         },
+        "wizard": {
+            "good": "Wizard could fake this role"
+        },
         "vortox": {
             "warning": "This role can easily confirm a Vortox"
         },
@@ -6032,8 +6093,7 @@
             "good": "Snitch can help Minions hide"
         },
         "ogre": {
-            "warning": "Noble seeing an Ogre is equivalent to seeing their pick, without them necessarily knowing who it is ",
-            "good": "This role can learn the Ogre's alignment"
+            "warning": "Noble will always see the Ogre as good"
         },
         "scarlet_woman": {
             "good": "The Demon can more safely be given to a Noble"
@@ -6372,6 +6432,9 @@
         "boffin": {
             "good": "Good Boffin ability"
         },
+        "xaan": {
+            "info": "Philosopher still gains their abiltiy if used on Xaan night"
+        },
         "shabaloth": {
             "warning": "When resurrected, this gets another use of its ability"
         },
@@ -6700,7 +6763,7 @@
             "good": "Recluse can appear as a Minion and lose their ability"
         },
         "barber": {
-            "warning": "The Minins can move around"
+            "warning": "The Minions can move around"
         },
         "snitch": {
             "good": "Snitch can compensate for Minions losing their abilities"
@@ -6750,6 +6813,9 @@
         "xaan": {
             "good": "This Minion can help against a Preacher"
         },
+        "wizard": {
+            "warning": "Preacher can't stop an active wish"
+        },
         "vigormortis": {
             "good": "Preacher can disable undead Minions"
         },
@@ -6797,6 +6863,9 @@
         },
         "boffin": {
             "good": "Good Boffin ability"
+        },
+        "wizard": {
+            "good": "Wizard could fake this role"
         },
         "vortox": {
             "warning": "This role's info is immune to Vortox"
@@ -6886,6 +6955,9 @@
         },
         "xaan": {
             "good": "Xaan can disable this role (although hard to time)"
+        },
+        "wizard": {
+            "good": "Killing the Ravenkeeper is an interesting cost"
         },
         "imp": {
             "good": "Imp can fake dying in the night"
@@ -7021,6 +7093,9 @@
         },
         "xaan": {
             "good": "Xaan can disable this role (although hard to time)"
+        },
+        "wizard": {
+            "good": "Killing the Sage is an interesting cost"
         },
         "imp": {
             "good": "Imp can fake dying in the night"
@@ -7170,6 +7245,9 @@
         "boffin": {
             "good": "Good Boffin ability (self-drunking only affects the Sailor ability)"
         },
+        "xaan": {
+            "info": "Sailor can stop the Xaan (don't)"
+        },
         "vortox": {
             "warning": "This role's info is immune to Vortox"
         },
@@ -7270,6 +7348,9 @@
         },
         "boffin": {
             "good": "Interesting Boffin ability"
+        },
+        "wizard": {
+            "good": "Savant wan learn about the Wizard"
         },
         "vortox": {
             "info": "Both information must be false if a Vortox is in-play"
@@ -7401,7 +7482,7 @@
             "good": "This bluff gives a good reason to execute"
         },
         "marionette": {
-            "good": "If Shugenja is the Marionette, their (false) information can help confirm the Demon when they tell them they are the Marionette"
+            "good": "If Shugenja is the Marionette, the fact they usually receive false info can help confirm a Demon outing to them"
         },
         "mezepheles": {
             "warning": "Change of alignment can make Shugenja info obsolete"
@@ -7678,6 +7759,9 @@
         },
         "boffin": {
             "warning": "This ability is useless to the Demon"
+        },
+        "xaan": {
+            "good": "Soldier death (with no other sources of extra death) can hint at Xaan night"
         },
         "vigormortis": {
             "good": "Soldier is immue to Vigormortis poison"
@@ -8208,6 +8292,9 @@
         "boffin": {
             "good": "Interesting Boffin ability"
         },
+        "wizard": {
+            "good": "Can confirm Wizard is in-play"
+        },
         "vortox": {
             "good": "Forcing executions works well with this role, and it can easily confirm a Vortox"
         },
@@ -8382,6 +8469,9 @@
         "boffin": {
             "info": "The Demon can only gain this ability if there is a spare token"
         },
+        "wizard": {
+            "good": "Sobering all Village Idiots is an interesting cost"
+        },
         "imp": {
             "good": "This Demon can die"
         },
@@ -8520,6 +8610,9 @@
         },
         "xaan": {
             "good": "If this role triggers successfully, it confirms a non-Xaan-night"
+        },
+        "wizard": {
+            "good": "Wizard could fake this role"
         },
         "vortox": {
             "warning": "This role's info is immune to Vortox"
@@ -8693,7 +8786,8 @@
             "good": "Widow knows who the Drunk is"
         },
         "xaan": {
-            "warning": "Hidden Outsiders make Xaan hard to solve for"
+            "warning": "Hidden Outsiders make Xaan hard to solve for ",
+            "good": "Xaan night can hint at the presence of a Drunk"
         },
         "fang_gu": {
             "good": "Fang Gu can jump to an Outsider that doesn't know it"
@@ -9077,6 +9171,9 @@
         "xaan": {
             "warning": "Hidden Outsiders make Xaan hard to solve for"
         },
+        "wizard": {
+            "warning": "Beware multiple wishes"
+        },
         "fang_gu": {
             "warning": "Fang Gu jumping to this Outsider is kind of a loss"
         },
@@ -9272,7 +9369,7 @@
             "good": "Baron works better with hidden Outsiders"
         },
         "pit-hag": {
-            "good": "Creating this Outsider can be silent"
+            "good": "Creating this Outsider can be silent. Mad players can claim to be pit-hagged"
         },
         "cerenovus": {
             "warning": "The Cerenovus can make the Mutant mad as an Outsider ",
@@ -9862,6 +9959,9 @@
         "baron": {
             "good": "Baron works better with hidden Outsiders"
         },
+        "spy": {
+            "info": "Damsel is poisoned even if this Minion doesn't see the grim or the Damsel"
+        },
         "pit-hag": {
             "good": "Choosing Damsel is a safe pick. Creating this Outsider can be silent"
         },
@@ -9877,8 +9977,14 @@
         "psychopath": {
             "warning": "Psychopath can accidentally kill the Damsel"
         },
+        "widow": {
+            "info": "Damsel is poisoned even if this Minion doesn't see the grim or the Damsel"
+        },
         "xaan": {
             "warning": "Hidden Outsiders make Xaan hard to solve for. Damsel announcement can help Xaan get the Outsider count"
+        },
+        "wizard": {
+            "good": "KIlling the Damsel can be an interesting cost"
         },
         "fang_gu": {
             "warning": "Fang Gu jumping to this Outsider is kind of a loss"
@@ -9960,6 +10066,9 @@
         "xaan": {
             "warning": "Confirmed Outsiders make it easier to find Xaan night"
         },
+        "wizard": {
+            "good": "Wizard could fake this role"
+        },
         "fang_gu": {
             "good": "Fang Gu disables the confirmation"
         },
@@ -10017,6 +10126,9 @@
         },
         "xaan": {
             "warning": "Hidden Outsiders make Xaan hard to solve for"
+        },
+        "wizard": {
+            "good": "Politician can receive the hint"
         },
         "fang_gu": {
             "warning": "Beware two extra evil players"
@@ -10352,6 +10464,9 @@
         "xaan": {
             "warning": "Hidden Outsiders make Xaan hard to solve for"
         },
+        "wizard": {
+            "warning": "Wizard ST is very hard to track"
+        },
         "fang_gu": {
             "warning": "Fang Gu jumping to this Outsider is kind of a loss"
         },
@@ -10463,6 +10578,9 @@
         "xaan": {
             "warning": "Hidden Outsiders make Xaan hard to solve for"
         },
+        "wizard": {
+            "warning": "Beware multiple wishes"
+        },
         "imp": {
             "good": "Interesting Demon to change into"
         },
@@ -10527,7 +10645,7 @@
             "warning": "Picking a Twin makes it hard to know the Ogre's alignment"
         },
         "godfather": {
-            "good": "An evil Ogra can get itself executed for a Godfather"
+            "good": "An evil Ogre can get itself executed for a Godfather"
         },
         "boomdandy": {
             "good": "Boomdandy can be confirmed as evil"
@@ -10560,12 +10678,18 @@
         "xaan": {
             "warning": "Evil Ogre can hide"
         },
+        "wizard": {
+            "good": "Evil Ogre can receive the hint"
+        },
         "fang_gu": {
             "warning": "Beware two extra evil players ",
             "good": "Fang Gu can change the Ogre's target's alignment"
         },
         "shabaloth": {
             "warning": "Resurrected Ogre picks again"
+        },
+        "riot": {
+            "good": "Can nominate on behalf on their Riot friend"
         },
         "lleech": {
             "good": "Llech can be confirmed as evil"
@@ -10776,6 +10900,9 @@
         "boffin": {
             "good": "Allows the Boffin to give death abilities, and potentially duplicates it"
         },
+        "wizard": {
+            "good": "SW can make the cost more risky"
+        },
         "imp": {
             "warning": "If in-play, the starpass to this Minion is mandatory"
         },
@@ -10851,6 +10978,9 @@
             "great": "Good synergy (knows the number of Outsiders) ",
             "warning": "Spy cannot misregister to change Xaan night"
         },
+        "wizard": {
+            "good": "More information can help the Wizard choose its wish"
+        },
         "imp": {
             "good": "This Minion is a good target for a starpass"
         },
@@ -10913,6 +11043,9 @@
         "summoner": {
             "warning": "Loud Minions can confirm a Summoner not being in-play"
         },
+        "wizard": {
+            "warning": "Loud Minions can confirm a Wizard not being in-play"
+        },
         "vigormortis": {
             "great": "Good synergy"
         },
@@ -10957,6 +11090,9 @@
         },
         "summoner": {
             "warning": "Loud Minions can confirm a Summoner not being in-play"
+        },
+        "wizard": {
+            "warning": "Loud Minions can confirm a Wizard not being in-play"
         },
         "imp": {
             "good": "Evil Twin can change to the Imp"
@@ -11005,6 +11141,9 @@
         }
     },
     "pit-hag": {
+        "cerenovus": {
+            "good": "Mad players can claim to be pit-hagged"
+        },
         "assassin": {
             "group": "Both explain extra night deaths"
         },
@@ -11038,6 +11177,9 @@
         },
         "xaan": {
             "info": "Creating a Xaan midgame uses the setup's outsider count. Changing the number of Outsiders midgame doesn't affect when the Xaan night is"
+        },
+        "wizard": {
+            "warning": "Pit-Hag can muddle a potential Wizard wish. Beware multiple wishes"
         },
         "imp": {
             "good": "Interesting Demon to change into"
@@ -11103,6 +11245,9 @@
         "organ_grinder": {
             "good": "Cerenovus execution can be hidden by OG"
         },
+        "wizard": {
+            "good": "Wizard could fake this role"
+        },
         "vigormortis": {
             "great": "Good synergy"
         },
@@ -11111,6 +11256,9 @@
         },
         "leviathan": {
             "warning": "Madness executions are very powerful in a Leviathan game"
+        },
+        "legion": {
+            "warning": "Cerenovus ability confirms no Legion"
         },
         "ojo": {
             "warning": "Madness can make the Ojo's job harder"
@@ -11269,6 +11417,9 @@
         "vizier": {
             "good": "Vizier can push through a Demon execution, and make it look good"
         },
+        "wizard": {
+            "good": "Mastermind can make the cost more risky"
+        },
         "vigormortis": {
             "warning": "Killing this Minion fully disables it, no matter what"
         },
@@ -11360,6 +11511,9 @@
         "harpy": {
             "good": "Harpy can help Boomdandy be executed"
         },
+        "wizard": {
+            "good": "Wizard could fake this role"
+        },
         "vigormortis": {
             "warning": "Killing this Minion fully disables it, no matter what"
         },
@@ -11428,6 +11582,9 @@
         "summoner": {
             "warning": "Loud Minions can confirm a Summoner not being in-play"
         },
+        "wizard": {
+            "warning": "Loud Minions can confirm a Wizard not being in-play"
+        },
         "vigormortis": {
             "warning": "Killing this Minion fully disables it, no matter what"
         },
@@ -11462,6 +11619,9 @@
         },
         "vizier": {
             "warning": "Marionette does not count as a good vote"
+        },
+        "xaan": {
+            "good": "Marionette Outsider doesn't count for Xaan, and can be useful to throw off the Xaan night"
         },
         "imp": {
             "good": "This Minion is a good target for a starpass. A dead Demon has no reason to hide to a Marionette"
@@ -11526,6 +11686,9 @@
         "vizier": {
             "warning": "Extra evil players can make the Vizier's job harder"
         },
+        "wizard": {
+            "good": "Wizard could fake this role"
+        },
         "fang_gu": {
             "warning": "Beware two extra evil players"
         },
@@ -11551,7 +11714,7 @@
             "warning": "Beware two extra evils if Apprentice joined late"
         },
         "gnome": {
-            "warning": "The amigo can change alignment"
+            "warning": "The amigo/Traveller can change alignment"
         },
         "revolutionary": {
             "error": "Alignment changing prevents the Revolutionary from being used an accessibility tool"
@@ -11575,6 +11738,9 @@
         },
         "summoner": {
             "warning": "Loud Minions can confirm a Summoner not being in-play"
+        },
+        "wizard": {
+            "warning": "Loud Minions can confirm a Wizard not being in-play"
         },
         "vigormortis": {
             "warning": "An unkillable Psychopath is very powerful"
@@ -11618,6 +11784,9 @@
         },
         "xaan": {
             "great": "Good synergy (knows the number of Outsiders)"
+        },
+        "wizard": {
+            "good": "More information can help the Wizard choose its wish"
         },
         "fang_gu": {
             "good": "Knowing where the Outsiders are is useful ",
@@ -11721,6 +11890,10 @@
         "summoner": {
             "warning": "Loud Minions can confirm a Summoner not being in-play"
         },
+        "wizard": {
+            "warning": "Loud Minions can confirm a Wizard not being in-play ",
+            "good": "Wizard could fake this role"
+        },
         "vigormortis": {
             "warning": "An unkillable OG is very powerful"
         },
@@ -11755,6 +11928,9 @@
     "vizier": {
         "summoner": {
             "warning": "Loud Minions can confirm a Summoner not being in-play"
+        },
+        "wizard": {
+            "warning": "Loud Minions can confirm a Wizard not being in-play"
         },
         "vigormortis": {
             "good": "Killing the Vizier allows to avoid 50/50 on final day (but reveals the Demon type)"
@@ -11797,6 +11973,9 @@
         "summoner": {
             "good": "Extra night deaths can hide the Summoner"
         },
+        "wizard": {
+            "good": "Wizard could fake this role"
+        },
         "vigormortis": {
             "great": "Good synergy"
         },
@@ -11822,6 +12001,9 @@
         "lleech": {
             "warning": "Can kill the Lleech host"
         },
+        "legion": {
+            "warning": "Harpy ability confirms no Legion"
+        },
         "yaggababble": {
             "good": "Madness works well for Yaggabbable phrases. Both can simulate day deaths ",
             "group": "Both explain extra night deaths"
@@ -11836,6 +12018,9 @@
         },
         "xaan": {
             "info": "Changing the number of Outsiders midgame doesn't affect when the Xaan night is"
+        },
+        "wizard": {
+            "good": "Wizard could help hide a Summoner"
         },
         "imp": {
             "good": "This Minion is a good target for a starpass"
@@ -11856,10 +12041,16 @@
             "group": "Both explain no night deaths"
         },
         "zombuul": {
-            "group": "Both explain no night deaths"
+            "group": "Both explain no night deaths ",
+            "good": "A summoned Zombuul can be hidden"
         },
         "al-hadikhia": {
-            "warning": "Al-Hadikhia being created can be loud (can be delayed)"
+            "warning": "Al-Hadikhia being created can be loud (can be delayed) ",
+            "good": "Al-Hadikhia can fake being summoned ",
+            "group": "Both explain no night deaths"
+        },
+        "riot": {
+            "group": "Both explain no night deaths"
         },
         "leviathan": {
             "warning": "Leviathan being created is loud"
@@ -11872,9 +12063,6 @@
         },
         "ojo": {
             "group": "Both explain no night deaths"
-        },
-        "kazali": {
-            "warning": "Kazali has no reason to be chosen (sadly)"
         },
         "yaggababble": {
             "group": "Both explain no night deaths ",
@@ -11897,6 +12085,9 @@
         "xaan": {
             "good": "Boffin ability is not affected by Xaan"
         },
+        "wizard": {
+            "good": "More information can help the Wizard choose its wish"
+        },
         "imp": {
             "good": "Allows the Boffin to give death abilities, and potentially duplicates it"
         },
@@ -11909,11 +12100,17 @@
         "zombuul": {
             "good": "Allows the Boffin to give death abilities"
         },
+        "legion": {
+            "good": "If a good/Traveller Boffin is in-play, Legion can register as a Minion to pass the abiltiy around"
+        },
         "lil_monsta": {
             "good": "Boffin ability moves with Lil Monsta (but isn't reset)"
         },
         "ojo": {
             "good": "Boffin info abilities can help the Ojo make informed decisions"
+        },
+        "kazali": {
+            "good": "Interesting choice for Kazali"
         },
         "lord_of_typhon": {
             "good": "Boffin ability can help \"break\" the LoT line through confirmation"
@@ -11935,11 +12132,61 @@
         "riot": {
             "warning": "Riot means Xaan must be a 1 or 2"
         },
+        "kazali": {
+            "info": "Xaan does not override Kazali's outsider mod"
+        },
+        "lord_of_typhon": {
+            "info": "Xaan does not override Lord of Typhon's outsider mod"
+        },
         "apprentice": {
             "info": "Creating a Xaan midgame uses the setup's outsider count. Changing the number of Outsiders midgame doesn't affect when the Xaan night is"
         },
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
+        }
+    },
+    "wizard": {
+        "imp": {
+            "good": "This Minion is a good target for a starpass"
+        },
+        "vigormortis": {
+            "great": "Good synergy"
+        },
+        "riot": {
+            "warning": "Wizard must wish on day 1 or 2"
+        },
+        "leviathan": {
+            "good": "Slow games can benefit the Wizard"
+        },
+        "legion": {
+            "good": "Legion can bluff receiving hints of a Wizard"
+        },
+        "kazali": {
+            "good": "Interesting choice for Kazali"
+        },
+        "lord_of_typhon": {
+            "warning": "The hint might give out the LoT line"
+        },
+        "apprentice": {
+            "warning": "The wish stays after the exile"
+        },
+        "bone_collector": {
+            "warning": "Beware multiple wishes"
+        },
+        "gnome": {
+            "good": "Interesting amigo"
+        },
+        "revolutionary": {
+            "warning": "Be careful of wishes that break the pair"
+        },
+        "spirit_of_ivory": {
+            "warning": "Wishes must respect the Spirit of Ivory"
+        },
+        "stormcatcher": {
+            "warning": "Wishes must respect the Stormcatcher"
+        },
+        "toymaker": {
+            "warning": "Wishes must respect the Toymaker"
         }
     },
     "imp": {
