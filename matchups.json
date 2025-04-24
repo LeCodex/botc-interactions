@@ -63,7 +63,8 @@
             "warning": "Undertaker benefits from long games"
         },
         "village_idiot": {
-            "warning": "Village Idiot benefits from long games to find the drunk one"
+            "warning": "Village Idiot benefits from long games to find the drunk one ",
+            "good": "Acrobat can help find the drunk Village Idiot"
         },
         "drunk": {
             "good": "Drunk can trigger Acrobat"
@@ -119,9 +120,6 @@
         },
         "wizard": {
             "good": "Acrobat can detect arbitrary droison"
-        },
-        "fang_gu": {
-            "warning": "Somewhat of a bad jump target (is supposed to die)"
         },
         "vigormortis": {
             "good": "Acrobat can narrow down incidental droison"
@@ -1639,6 +1637,9 @@
         "damsel": {
             "good": "Minions don't learn that a Damsel is in play a second time"
         },
+        "snitch": {
+            "good": "Cannibal can give a reason for the Snitch to stay alive"
+        },
         "heretic": {
             "good": "The Cannibal cancels the Heretic while they have their ability"
         },
@@ -2331,9 +2332,6 @@
         "leviathan": {
             "error": "Can cause multiple extra days and free executions"
         },
-        "lleech": {
-            "error": "Droisoned Lleech is a rules nightmare"
-        },
         "legion": {
             "warning": "Courtier would only drunk one Legion"
         },
@@ -2510,6 +2508,9 @@
         },
         "golem": {
             "warning": "Confirming characters are uninteresting for Dreamer"
+        },
+        "puzzlemaster": {
+            "good": "Dreamer can help confirm Puzzlemaster info"
         },
         "zealot": {
             "good": "Easy bluff for a Minion to show to a Dreamer"
@@ -2889,6 +2890,9 @@
         },
         "lunatic": {
             "good": "Exorcist can help a Lunatic (can't be affected)"
+        },
+        "puzzlemaster": {
+            "good": "Exorcist can help confirm Puzzlemaster info"
         },
         "poisoner": {
             "good": "Targeted Minion abilities are powerful against Exorcist"
@@ -3303,6 +3307,9 @@
         "golem": {
             "warning": "Flowergirl benefits from long games"
         },
+        "puzzlemaster": {
+            "good": "Flowergirl can help confirm Puzzlemaster info"
+        },
         "hatter": {
             "warning": "Demon can move (with the Hatter variant)"
         },
@@ -3602,6 +3609,9 @@
         },
         "lunatic": {
             "good": "Good choice for the red herring"
+        },
+        "puzzlemaster": {
+            "good": "FT can help confirm Puzzlemaster info"
         },
         "hatter": {
             "warning": "Demon can move (with the Hatter variant)"
@@ -4860,7 +4870,7 @@
             "good": "Multiple deaths works well with King"
         },
         "leviathan": {
-            "warning": "Leviathan can't kill the King, and King can't get enough dead players"
+            "warning": "Leviathan can't kill the King"
         },
         "lleech": {
             "good": "Lleech can poison King, which gives a reason not to kill them"
@@ -5815,9 +5825,6 @@
         "leviathan": {
             "error": "Can cause a 6th day"
         },
-        "lleech": {
-            "error": "Droisoned Lleech is a rules nightmare"
-        },
         "legion": {
             "error": "Disabling Legions' ability allows them to vote freely"
         },
@@ -5984,6 +5991,9 @@
         },
         "fearmonger": {
             "warning": "Outed good players make the Fearmonger less powerful"
+        },
+        "marionette": {
+            "good": "Fear of being a Marionette might give Nightwatchman to hide a failed ability"
         },
         "mezepheles": {
             "good": "Confirmable evil characters are powerful and throw shade on their ability"
@@ -6545,6 +6555,9 @@
         "al-hadikhia": {
             "good": "Multiple deaths work well with Pixie"
         },
+        "leviathan": {
+            "error": "Pixie is very unlikely to get its ability in a Leviathan game"
+        },
         "legion": {
             "good": "Legion often double claims ",
             "warning": "Pixie relies on good player deaths, which are complicated in Legion games"
@@ -6909,6 +6922,9 @@
         "golem": {
             "warning": "Dying during the day doesn't help trap characters"
         },
+        "puzzlemaster": {
+            "good": "Ravenkeeper can help confirm Puzzlemaster info"
+        },
         "poisoner": {
             "good": "Poisoner can disable this role before a kill"
         },
@@ -7047,7 +7063,7 @@
             "warning": "Dying during the day doesn't help trap characters"
         },
         "puzzlemaster": {
-            "good": "Choirboy can help confirm Puzzlemaster info"
+            "good": "Sage can help confirm Puzzlemaster info"
         },
         "hatter": {
             "warning": "Demon can move (with the Hatter variant)"
@@ -7563,6 +7579,9 @@
         },
         "golem": {
             "good": "Golem can confirm itself or find a Demon"
+        },
+        "puzzlemaster": {
+            "good": "Puzzlemaster can help guide Slayer"
         },
         "hatter": {
             "warning": "Demon can move (with the Hatter variant)"
@@ -9959,6 +9978,9 @@
         "baron": {
             "good": "Baron works better with hidden Outsiders"
         },
+        "poisoner": {
+            "info": "The Minions learn the Damsel during Minion Info, before the Poisoner wakes, despite the position of the Damsel's night order reminder."
+        },
         "spy": {
             "info": "Damsel is poisoned even if this Minion doesn't see the grim or the Damsel"
         },
@@ -10176,8 +10198,7 @@
             "good": "Cerenovus can prevent the Puzzle drunk from revealing itself"
         },
         "mastermind": {
-            "good": "Mastermind can protect from a succesful PM guess ",
-            "warning": "Demon can move"
+            "good": "Mastermind can protect from a succesful PM guess"
         },
         "fearmonger": {
             "good": "This bluff gives a good reason to execute"
@@ -10713,7 +10734,7 @@
             "error": "Alignment changing prevents the Revolutionary from being used an accessibility tool"
         },
         "spirit_of_ivory": {
-            "warning": "Ogre can easily trigger the Spirit of Ivory"
+            "warning": "Ogre can easily trigger the Spirit of Ivory. If there are other sources of alignment change on night 1, the Ogre ability can fail"
         }
     },
     "zealot": {
@@ -10974,6 +10995,9 @@
         "summoner": {
             "good": "Information can help the decision of who to turn into the Demon"
         },
+        "boffin": {
+            "warning": "Spy can change the Boffed character by registering as it"
+        },
         "xaan": {
             "great": "Good synergy (knows the number of Outsiders) ",
             "warning": "Spy cannot misregister to change Xaan night"
@@ -11174,6 +11198,9 @@
         },
         "summoner": {
             "group": "Both explain no night deaths"
+        },
+        "boffin": {
+            "warning": "Pit-Hag can change the Boffed character by creating it"
         },
         "xaan": {
             "info": "Creating a Xaan midgame uses the setup's outsider count. Changing the number of Outsiders midgame doesn't affect when the Xaan night is"
@@ -11440,7 +11467,7 @@
             "error": "Can cause a 6th day"
         },
         "lleech": {
-            "good": "Knowing when the LLeech is killed can be complicated"
+            "good": "Knowing when the LLeech is killed can be complicated. Also gives a reason not to double tap on a Mastermind day"
         },
         "lil_monsta": {
             "good": "Knowing when LM is killed can be complicated ",
