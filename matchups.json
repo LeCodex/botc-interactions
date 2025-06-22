@@ -1753,6 +1753,9 @@
         "golem": {
             "warning": "Confirmed characters are powerful for Chambermaid"
         },
+        "hermit": {
+            "info": "Waking pattern is script dependant"
+        },
         "spy": {
             "info": "Spy can't fake sleeping for Chambermaid"
         },
@@ -2363,6 +2366,9 @@
         },
         "recluse": {
             "good": "Recluse can appear evil"
+        },
+        "barber": {
+            "warning": "An Evil Demon can swap themself with this character to win with good. Beware two extra evil players."
         },
         "goon": {
             "warning": "Beware two extra evil players"
@@ -3900,6 +3906,9 @@
         "heretic": {
             "warning": "General's answers take Heretic into account"
         },
+        "hermit": {
+            "warning": "Hermit can impact the General info quite a lot"
+        },
         "poisoner": {
             "good": "General can detect if someone important was poisoned"
         },
@@ -4359,6 +4368,9 @@
         },
         "damsel": {
             "info": "Linked"
+        },
+        "hermit": {
+            "warning": "Huntsman cannot neutralize Hermit"
         },
         "pit-hag": {
             "warning": "Pit-Hag can bring a new Damsel in-game"
@@ -6566,7 +6578,7 @@
             "good": "Great bluff for Minions"
         },
         "ojo": {
-            "warning": "Madness can make the Ojo's job harder"
+            "warning": "Madness can make the Ojo's job harder, though Pixie madness points towards an in-play, confirmed playet"
         },
         "kazali": {
             "good": "Great bluff for Minions"
@@ -7724,6 +7736,9 @@
         },
         "gnome": {
             "warning": "This amigo can change alignment"
+        },
+        "revolutionary": {
+            "error": "Alignment changing prevents the Revolutionary from being used an accessibility tool"
         }
     },
     "soldier": {
@@ -8866,6 +8881,9 @@
         "zealot": {
             "warning": "Zealot makes Saint easier to executer"
         },
+        "hermit": {
+            "warning": "Doubling this Outsider is dangerous"
+        },
         "poisoner": {
             "warning": "Droison can cause a safe Saint execution"
         },
@@ -9102,6 +9120,9 @@
         "klutz": {
             "warning": "Barber can \"resurrect\" this role"
         },
+        "goon": {
+            "warning": "An evil Demon can swap themself with this character to win with good"
+        },
         "moonchild": {
             "good": "Moonchild can kill this role. Barber can resurrect this role"
         },
@@ -9118,8 +9139,11 @@
         "golem": {
             "warning": "Golem can kill this role"
         },
+        "politician": {
+            "error": "Swapping a player with an evil Policitian can create an evil Politician"
+        },
         "puzzlemaster": {
-            "warning": "Demon can move"
+            "warning": "Demon can move. Changing who the Puzzlemaster is might change who is drunk, even if the new Puzzlemaster is dead."
         },
         "heretic": {
             "group": "Both are hidden Outsiders"
@@ -9131,7 +9155,10 @@
             "warning": "Barber can \"resurrect\" this role"
         },
         "ogre": {
-            "warning": "Beware two extra evil players"
+            "warning": "An evil Demon can swap themself with this character to win with good. Beware two extra evil players"
+        },
+        "hermit": {
+            "warning": "Doubling this Outsider is dangerous. Barber can \"resurrect this role\""
         },
         "baron": {
             "good": "Baron works better with hidden Outsiders"
@@ -9271,6 +9298,9 @@
         },
         "hatter": {
             "group": "Both are hidden Outsiders"
+        },
+        "hermit": {
+            "warning": "Doubling this Outsider is dangerous"
         },
         "baron": {
             "good": "Baron works better with hidden Outsiders"
@@ -9442,6 +9472,9 @@
         "golem": {
             "warning": "Golem can kill this role"
         },
+        "snitch": {
+            "warning": "Evil players can hide better"
+        },
         "heretic": {
             "great": "Interesting interaction"
         },
@@ -9450,6 +9483,9 @@
         },
         "hatter": {
             "group": "Both are hidden Outsiders"
+        },
+        "hermit": {
+            "warning": "Doubling this Outsider is dangerous"
         },
         "baron": {
             "good": "Baron works better with hidden Outsiders"
@@ -9550,6 +9586,9 @@
         "heretic": {
             "warning": "Evil Goon is an additional player who can snitch on the Heretic ",
             "good": "Evil Goon can bluff Heretic"
+        },
+        "hermit": {
+            "warning": "Doubling this Outsider is dangerous. Beware two extra evils"
         },
         "spy": {
             "good": "Spy can check on the alignment of the Goon"
@@ -9661,13 +9700,16 @@
             "group": "Both are hidden Outsiders"
         },
         "plague_doctor": {
-            "warning": "Moonchild can kill this role"
+            "good": "Moonchild can kill this role"
         },
         "hatter": {
-            "warning": "Moonchild can kill this role"
+            "good": "Moonchild can kill this role"
         },
         "ogre": {
             "good": "This role can help find the Ogre's alignment"
+        },
+        "hermit": {
+            "warning": "Doubling this Outsider is dangerous"
         },
         "baron": {
             "good": "Baron works better with hidden Outsiders"
@@ -9777,6 +9819,9 @@
         "lunatic": {
             "good": "Can hide the Demon choosing different targets"
         },
+        "hermit": {
+            "warning": "Doubling this Outsider is dangerous"
+        },
         "witch": {
             "good": "Tinker can fake a kill"
         },
@@ -9873,6 +9918,9 @@
         },
         "ogre": {
             "warning": "Ogre with Lunatic can make it hard to figure out their alignment"
+        },
+        "hermit": {
+            "warning": "Demon can find the Hermit easier"
         },
         "baron": {
             "good": "Baron works better with hidden Outsiders"
@@ -9974,6 +10022,9 @@
         },
         "hatter": {
             "group": "Both are hidden Outsiders"
+        },
+        "hermit": {
+            "warning": "Doubling this Outsider is dangerous (Minions still only get 1 guess)"
         },
         "baron": {
             "good": "Baron works better with hidden Outsiders"
@@ -10125,6 +10176,9 @@
         "zealot": {
             "good": "Politician can use a Zealot to help them"
         },
+        "hermit": {
+            "warning": "Doubling this Outsider is dangerous. Beware two extra evils"
+        },
         "pit-hag": {
             "good": "Creating this Outsider can be silent"
         },
@@ -10181,6 +10235,9 @@
         }
     },
     "puzzlemaster": {
+        "hermit": {
+            "warning": "Requires other reasons to visit the ST to not be obvious"
+        },
         "poisoner": {
             "warning": "This role can make it hard to find the Puzzle drunk"
         },
@@ -10269,6 +10326,9 @@
         }
     },
     "snitch": {
+        "hermit": {
+            "info": "Snitch abilities trigger separately"
+        },
         "baron": {
             "good": "Snitch helps creating a fake Baron world"
         },
@@ -10369,6 +10429,9 @@
         "hatter": {
             "group": "Both are hidden Outsiders"
         },
+        "hermit": {
+            "warning": "Can cause a double Heretic that cancel out, which might be good depending on the combination"
+        },
         "poisoner": {
             "warning": "Droison and Heretic can cause confusing game states"
         },
@@ -10434,6 +10497,9 @@
         }
     },
     "plague_doctor": {
+        "hermit": {
+            "warning": "Doubling this Outsider is dangerous"
+        },
         "baron": {
             "good": "Baron works better with hidden Outsiders"
         },
@@ -10541,6 +10607,9 @@
         }
     },
     "hatter": {
+        "hermit": {
+            "warning": "Doubling this Outsider is dangerous"
+        },
         "baron": {
             "good": "Baron can become an active Minion"
         },
@@ -10659,6 +10728,9 @@
         }
     },
     "ogre": {
+        "hermit": {
+            "warning": "Doubling this Outsider is dangerous. Beware two extra evils"
+        },
         "spy": {
             "good": "Spy knows the alignment of the Ogre"
         },
@@ -10821,6 +10893,41 @@
         },
         "voudon": {
             "warning": "If Voudon is in-play, the Zealot cannot vote"
+        }
+    },
+    "hermit": {
+        "baron": {
+            "warning": "Baron makes duplicate outsider abilities more likely"
+        },
+        "pit-hag": {
+            "good": "Pit-Hag can create a Hermit"
+        },
+        "xaan": {
+            "warning": "Xaan overrides Outsider modification"
+        },
+        "fang_gu": {
+            "warning": "Beware too many Outsider modifications. Hermit makes a jump less likely"
+        },
+        "legion": {
+            "warning": "Hermit is a massive downside to the good team"
+        },
+        "kazali": {
+            "warning": "Kazali overrides Outsider modification"
+        },
+        "lord_of_typhon": {
+            "warning": "LoT might override Outsider modification"
+        },
+        "angel": {
+            "warning": "Hermit is probably not a good pick for Angel"
+        },
+        "revolutionary": {
+            "good": "Revolutionary can help a new Hermit"
+        },
+        "sentinel": {
+            "warning": "Sentinel can obfuscate the presence of this role"
+        },
+        "spirit_of_ivory": {
+            "good": "SoI can prevent double evils with the duplicated abilities"
         }
     },
     "baron": {
@@ -11010,6 +11117,9 @@
         },
         "fang_gu": {
             "good": "Spy can appear as an Outsider. Knowing where the Outsiders are is useful"
+        },
+        "vigormortis": {
+            "good": "Spy can appear as not a Minion to disable the poison"
         },
         "no_dashii": {
             "info": "Spy can appear as a Townsfolk (not a good idea)"
