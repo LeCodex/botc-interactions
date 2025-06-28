@@ -47,6 +47,9 @@
         "philosopher": {
             "good": "Acrobat can confirm a Philosohper has taken someone's ability"
         },
+        "princess": {
+            "good": "This role's death can be more trusted as coming from its ability"
+        },
         "savant": {
             "warning": "Savant benefits from long games"
         },
@@ -698,6 +701,9 @@
         "pixie": {
             "warning": "Pixie can get a second question"
         },
+        "princess": {
+            "good": "Can be executed day 1 for a Princess"
+        },
         "professor": {
             "good": "When resurrected, it gets another use of its ability"
         },
@@ -797,6 +803,13 @@
         },
         "pixie": {
             "warning": "Confirming an Atheist is powerful"
+        },
+        "princess": {
+            "good": "Can be executed day 1 for a Princess ",
+            "group": "Both explain no night deaths"
+        },
+        "professor": {
+            "group": "Both characters explain resurrections"
         },
         "sailor": {
             "warning": "Drunking Atheist mid-game is a bad idea (can be prevented) ",
@@ -907,10 +920,11 @@
             "info": "Poisoning Atheist mid-game is a bad idea "
         },
         "shabaloth": {
-            "group": "Both explain extra night deaths"
+            "group": "Both explain extra night deaths. Both characters explain resurrections"
         },
         "al-hadikhia": {
-            "good": "Atheist can simulate announcements. This role can explain non-picked deaths"
+            "good": "Atheist can simulate announcements. This role can explain non-picked deaths ",
+            "group": "Both characters explain resurrections"
         },
         "riot": {
             "warning": "Riot is easier to win the game with by nominating the ST"
@@ -1148,6 +1162,9 @@
         },
         "pixie": {
             "warning": "Pixie can double the confirmation"
+        },
+        "princess": {
+            "warning": "Princess can prevent trap characters from triggering"
         },
         "professor": {
             "warning": "If resurrected, the Banshee loses its ability"
@@ -1849,6 +1866,9 @@
         "poppygrower": {
             "good": "Public info can help evil find each other"
         },
+        "princess": {
+            "good": "Can be executed day 1 for a Princess"
+        },
         "professor": {
             "warning": "When resurrected, this gets the same info"
         },
@@ -1979,6 +1999,9 @@
         "pixie": {
             "warning": "Pixie seeing hidden characters is complicated"
         },
+        "princess": {
+            "warning": "Princess can prevent trap characters from triggering"
+        },
         "ravenkeeper": {
             "warning": "Beware too many « trap » characters ",
             "good": "Confirming this role is in-play is good"
@@ -2074,6 +2097,9 @@
         },
         "poppygrower": {
             "good": "Public info can help evil find each other"
+        },
+        "princess": {
+            "good": "Can be executed day 1 for a Princess"
         },
         "professor": {
             "warning": "When resurrected, this gets the same info"
@@ -2652,7 +2678,8 @@
             "good": "Good choice for a Twin"
         },
         "boomdandy": {
-            "warning": "Boomdandy can't be executed"
+            "warning": "Boomdandy can't be executed ",
+            "good": "This role encourages executions"
         },
         "fearmonger": {
             "good": "This bluff gives a good reason to execute their neighbors"
@@ -2861,6 +2888,10 @@
         "poppygrower": {
             "good": "Protection works well with PG"
         },
+        "princess": {
+            "warning": "Princess night renders Exorcist info useless ",
+            "group": "Both explain no night deaths"
+        },
         "sailor": {
             "group": "Both explain no night deaths"
         },
@@ -3035,6 +3066,9 @@
         "poppygrower": {
             "warning": "Bad target for Farmer, fully keeps the evil team in the dark"
         },
+        "princess": {
+            "warning": "Princess can prevent trap characters from triggering"
+        },
         "professor": {
             "good": "Used once per game roles are a good target for Farmer"
         },
@@ -3203,6 +3237,9 @@
         "lycanthrope": {
             "good": "Used once per game roles are good target for Lycanthrope kills"
         },
+        "princess": {
+            "good": "Can be executed day 1 for a Princess"
+        },
         "professor": {
             "good": "When resurrected, it gets another use of its ability"
         },
@@ -3264,6 +3301,9 @@
         },
         "poppygrower": {
             "good": "Public info can help evil find each other"
+        },
+        "princess": {
+            "group": "Both like nominations and executions"
         },
         "sailor": {
             "good": "No/less night deaths can allow the Flowergirl to get more guesses"
@@ -3443,7 +3483,13 @@
         "pacifist": {
             "group": "Both characters make executions survivable"
         },
+        "princess": {
+            "warning": "Beware too much protection ",
+            "good": "Can be executed day 1 for a Princess ",
+            "group": "Both explain no night deaths"
+        },
         "sailor": {
+            "warning": "Beware too much protection ",
             "group": "Both characters make executions survivable. Both explain no night deaths"
         },
         "savant": {
@@ -3707,6 +3753,9 @@
         },
         "poppygrower": {
             "good": "Confirming this role is in-play is good"
+        },
+        "princess": {
+            "good": "This role's death can be more trusted as coming from its ability"
         },
         "savant": {
             "warning": "Savant benefits from long games"
@@ -3981,6 +4030,9 @@
         },
         "pixie": {
             "good": "Multiple deaths work well with Pixie"
+        },
+        "princess": {
+            "good": "This role's death can be more trusted as coming from its ability"
         },
         "professor": {
             "good": "Used once per game roles are good target for Gossip kills"
@@ -4421,6 +4473,10 @@
             "error": "Poppy Grower should not be drunk when it dies ",
             "good": "Protection works well with PG"
         },
+        "princess": {
+            "warning": "Beware too much protection ",
+            "group": "Both explain no night deaths"
+        },
         "sailor": {
             "warning": "Beware too much protection ",
             "group": "Both explain no night deaths"
@@ -4539,6 +4595,9 @@
         },
         "preacher": {
             "great": "Powerful synergy"
+        },
+        "princess": {
+            "good": "Can be executed day 1 for a Princess"
         },
         "professor": {
             "good": "When resurrected, it gets new first night info (or same)"
@@ -4669,6 +4728,9 @@
         },
         "poppygrower": {
             "good": "Public info can help evil find each other. Confirming this role is in-play is good"
+        },
+        "princess": {
+            "good": "Surviving night two is powerful for a Juggler"
         },
         "ravenkeeper": {
             "warning": "Juggling trap characters doesn't help them"
@@ -4926,6 +4988,9 @@
         "poppygrower": {
             "good": "Public info can help evil find each other"
         },
+        "princess": {
+            "good": "Can be executed day 1 for a Princess"
+        },
         "professor": {
             "good": "When resurrected, it gets new first night info (or same)"
         },
@@ -5051,6 +5116,9 @@
         },
         "pixie": {
             "good": "Pixie can get a second round of first night info"
+        },
+        "princess": {
+            "good": "Can be executed day 1 for a Princess"
         },
         "professor": {
             "good": "When resurrected, it gets new first night info (or same)"
@@ -5203,6 +5271,9 @@
         "poppygrower": {
             "warning": "Lycanthrope can kill Poppy Grower ",
             "good": "Protection works well with PG"
+        },
+        "princess": {
+            "good": "This role's death can be more trusted as coming from its ability"
         },
         "professor": {
             "good": "Used once per game roles are good target for Lycanthrope kills"
@@ -5751,6 +5822,9 @@
         "philosopher": {
             "good": "Philosopher can guarantee this role is active"
         },
+        "princess": {
+            "group": "Both explain no night deaths"
+        },
         "ravenkeeper": {
             "good": "Confirming this role is in-play is good"
         },
@@ -5859,6 +5933,10 @@
     "monk": {
         "poppygrower": {
             "good": "Protection works well with PG"
+        },
+        "princess": {
+            "warning": "Beware too much protection ",
+            "group": "Both explain no night deaths"
         },
         "sailor": {
             "warning": "Beware too much protection ",
@@ -6078,6 +6156,9 @@
         "preacher": {
             "great": "Good synergy"
         },
+        "princess": {
+            "good": "Can be executed day 1 for a Princess"
+        },
         "professor": {
             "good": "When resurrected, it gets new first night info (or same)"
         },
@@ -6131,6 +6212,9 @@
         },
         "mastermind": {
             "good": "The Demon can more safely be given to a Noble"
+        },
+        "boomdandy": {
+            "good": "Noble ping on a Boomdandy can increase its chances of triggering"
         },
         "fearmonger": {
             "good": "First night roles are good targets for Fearmonger"
@@ -6321,6 +6405,9 @@
         "pixie": {
             "good": "Confirming this role is in-play is good"
         },
+        "princess": {
+            "good": "Can make the Princess executed survive"
+        },
         "ravenkeeper": {
             "good": "Confirming this role is in-play is good"
         },
@@ -6366,6 +6453,10 @@
         "devils_advocate": {
             "group": "Both characters make executions survivable ",
             "good": "Pacifist explains random good players being chosen by DA"
+        },
+        "boomdandy": {
+            "good": "This role encourages executions ",
+            "warning": "Boomdandy discourages executions"
         },
         "fearmonger": {
             "good": "Pacifist encourages executions"
@@ -6413,6 +6504,9 @@
         },
         "poppygrower": {
             "warning": "Philosopher choosing PG only moves who needs to be killed (if it's already in-play)"
+        },
+        "princess": {
+            "good": "Duplication is powerful for this role"
         },
         "professor": {
             "warning": "Multiple resurrections is powerful"
@@ -6483,6 +6577,9 @@
         },
         "preacher": {
             "warning": "Pixie seeing hidden characters is complicated"
+        },
+        "princess": {
+            "good": "Duplication is powerful for this role"
         },
         "ravenkeeper": {
             "warning": "Pixie seeing hidden characters is complicated"
@@ -6821,7 +6918,7 @@
             "warning": "Marionette that gets hit by Preacher learns this, and stops having their fake ability"
         },
         "mezepheles": {
-            "warning": "This role as evil can't do much for the evil team. Once per game Minions can be preached withoout consequence"
+            "warning": "This role as evil can't do much for the evil team. Once per game Minions can be preached without consequence"
         },
         "psychopath": {
             "great": "Interesting interaction if a kill fails and there are other reasons for it"
@@ -6849,6 +6946,213 @@
         },
         "lord_of_typhon": {
             "warning": "Info on the Minions can be powerful in LoT game"
+        }
+    },
+    "princess": {
+        "professor": {
+            "good": "Can resurrect the Princess executed"
+        },
+        "ravenkeeper": {
+            "warning": "Princess can prevent trap characters from triggering"
+        },
+        "sage": {
+            "warning": "Princess can prevent trap characters from triggering"
+        },
+        "sailor": {
+            "warning": "Beware too much protection ",
+            "good": "Can be executed day 1 for a Princess"
+        },
+        "seamstress": {
+            "good": "Can be executed day 1 for a Princess"
+        },
+        "shugenja": {
+            "good": "Can be executed day 1 for a Princess"
+        },
+        "slayer": {
+            "good": "Can be executed day 1 for a Princess"
+        },
+        "steward": {
+            "good": "Can be executed day 1 for a Princess"
+        },
+        "tea_lady": {
+            "good": "Can make the Princess executed survive"
+        },
+        "town_crier": {
+            "group": "Both like nominations and executions"
+        },
+        "undertaker": {
+            "group": "Both like nominations and executions"
+        },
+        "virgin": {
+            "warning": "Virgin execution prevents the Princess from acting"
+        },
+        "washerwoman": {
+            "good": "Can be executed day 1 for a Princess"
+        },
+        "saint": {
+            "warning": "Can't be executed"
+        },
+        "recluse": {
+            "good": "Can be executed day 1 for a Princess"
+        },
+        "mutant": {
+            "good": "Can be executed day 1 for a Princess"
+        },
+        "goon": {
+            "info": "The Demon still chooses a player on a Princess night"
+        },
+        "moonchild": {
+            "good": "This role's death can be more trusted as coming from its ability"
+        },
+        "tinker": {
+            "good": "Can throw shade on a Princess"
+        },
+        "damsel": {
+            "good": "Can be executed day 1 for a Princess"
+        },
+        "snitch": {
+            "good": "Can be executed day 1 for a Princess"
+        },
+        "poisoner": {
+            "good": "Droison can throw shade on the Princess"
+        },
+        "witch": {
+            "good": "Princess likes to nominate"
+        },
+        "evil_twin": {
+            "warning": "Bad choice for a Twin"
+        },
+        "pit-hag": {
+            "good": "Pit-Hag can change the Princess if it's outed"
+        },
+        "cerenovus": {
+            "warning": "While Cerenovus-mad, this role can't use its ability easily"
+        },
+        "assassin": {
+            "good": "Extra deaths can throw shade on the Princess"
+        },
+        "godfather": {
+            "good": "Extra deaths can throw shade on the Princess"
+        },
+        "mastermind": {
+            "good": "If the Demon is executed by the Princess, it's indistinguishable from a Mastermind night"
+        },
+        "devils_advocate": {
+            "warning": "Surviving execution still triggers the Princess"
+        },
+        "boomdandy": {
+            "good": "This role encourages executions ",
+            "warning": "Boomdandy discourages executions"
+        },
+        "fearmonger": {
+            "good": "Princess encourages executions"
+        },
+        "mezepheles": {
+            "warning": "This role as evil can't do much for the evil team"
+        },
+        "goblin": {
+            "warning": "Goblin discourages executions"
+        },
+        "organ_grinder": {
+            "warning": "Organ Grinder makes it harder for the Princess to trigger"
+        },
+        "vizier": {
+            "error": "Vizier can fully prevent a Princess execution without good coordination"
+        },
+        "summoner": {
+            "good": "Summoner can help a Princess bluff"
+        },
+        "boffin": {
+            "warning": "This ability is near-useless to the Demon"
+        },
+        "xaan": {
+            "good": "Droison can throw shade on the Princess"
+        },
+        "imp": {
+            "warning": "All this Demon's ability relies on killing"
+        },
+        "fang_gu": {
+            "warning": "All this Demon's ability relies on killing"
+        },
+        "vigormortis": {
+            "warning": "All this Demon's ability relies on killing"
+        },
+        "no_dashii": {
+            "good": "This Demon's main ability is not disabled by the Princess"
+        },
+        "vortox": {
+            "good": "This Demon's main ability is not disabled by the Princess"
+        },
+        "po": {
+            "good": "Po can charge during a \"Princess\" night ",
+            "group": "Both explain no night deaths"
+        },
+        "pukka": {
+            "group": "Both explain no night deaths"
+        },
+        "zombuul": {
+            "group": "Both explain no night deaths"
+        },
+        "al-hadikhia": {
+            "good": "Al-Had can still resurrect on a Princess night"
+        },
+        "riot": {
+            "error": "Princess is useless with Riot"
+        },
+        "leviathan": {
+            "error": "Princess is useless with Leviathan"
+        },
+        "lleech": {
+            "good": "This Demon's main ability is not disabled by the Princess"
+        },
+        "legion": {
+            "warning": "Considering mostly Legions die in the night, the Princess ability can actually be detrimental"
+        },
+        "ojo": {
+            "warning": "All this Demon's ability relies on killing ",
+            "group": "Both explain no night deaths"
+        },
+        "kazali": {
+            "good": "This Demon's main ability is not disabled by the Princess"
+        },
+        "yaggababble": {
+            "warning": "All this Demon's ability relies on killing"
+        },
+        "lord_of_typhon": {
+            "good": "This Demon's main ability is not disabled by the Princess"
+        },
+        "apprentice": {
+            "good": "Good ability to give to an Apprentice"
+        },
+        "barista": {
+            "warning": "Cannot be boubled"
+        },
+        "bishop": {
+            "error": "Doesn't work together"
+        },
+        "bone_collector": {
+            "good": "Once per game abilities are good to bone collect"
+        },
+        "bureaucrat": {
+            "good": "Princess revolves around nominations"
+        },
+        "butcher": {
+            "info": "Butcher nomination is independant from the Princess one"
+        },
+        "harlot": {
+            "good": "This role's death can be more trusted as coming from its ability"
+        },
+        "judge": {
+            "warning": "Judge can prevent a Princess execution"
+        },
+        "thief": {
+            "good": "Princess revolves around nominations"
+        },
+        "voudon": {
+            "warning": "Voudon often solely decides on Princess executions"
+        },
+        "toymaker": {
+            "info": "Princess night can trigger Toymaker"
         }
     },
     "professor": {
@@ -6900,7 +7204,8 @@
             "warning": "When resurrected, this gets another use of its ability"
         },
         "al-hadikhia": {
-            "good": "Used once per game roles will always choose death. Dead ones are more likely to choose live (and potentially seem like Minions)"
+            "good": "Used once per game roles will always choose death. Dead ones are more likely to choose live (and potentially seem like Minions) ",
+            "group": "Both characters explain resurrections"
         },
         "lil_monsta": {
             "warning": "Hard role to bluff for Minions"
@@ -7262,7 +7567,8 @@
             "group": "Both characters make executions survivable"
         },
         "boomdandy": {
-            "warning": "This role can survive a Boomdandy explosion"
+            "warning": "This role can survive a Boomdandy explosion ",
+            "good": "This role encourages executions"
         },
         "fearmonger": {
             "good": "Good target for Fearmonger"
@@ -10177,7 +10483,7 @@
             "good": "Politician can use a Zealot to help them"
         },
         "hermit": {
-            "warning": "Doubling this Outsider is dangerous. Beware two extra evils"
+            "warning": "Doubling this Outsider is dangerous. Beware two extra evils. The hermit extra abilities allow the Hermit Politicna to be way more potent than the regular one"
         },
         "pit-hag": {
             "good": "Creating this Outsider can be silent"
@@ -10908,6 +11214,9 @@
         "fang_gu": {
             "warning": "Beware too many Outsider modifications. Hermit makes a jump less likely"
         },
+        "no_dashii": {
+            "warning": "Outsider reduction makes finding the No Dashii easier"
+        },
         "legion": {
             "warning": "Hermit is a massive downside to the good team"
         },
@@ -11494,6 +11803,9 @@
         },
         "vigormortis": {
             "warning": "Beware too many Outsider modifications"
+        },
+        "no_dashii": {
+            "warning": "Outsider reduction makes finding the No Dashii easier"
         },
         "vortox": {
             "good": "Forcing executions works well with this role"
