@@ -488,6 +488,9 @@
         "boffin": {
             "warning": "This ability is useless to the Demon"
         },
+        "wraith": {
+            "warning": "Wraith could be an outed Minion"
+        },
         "imp": {
             "warning": "There can be multiple Demons (and less Minions)"
         },
@@ -907,6 +910,9 @@
         "wizard": {
             "warning": "The possibility of Wizard makes Atheist games harder to solve for, but also allows for wilder games"
         },
+        "wraith": {
+            "warning": "No way for a Wraith to be faked in an Atheist game"
+        },
         "fang_gu": {
             "warning": "Evil players with Atheist is a bad idea"
         },
@@ -1077,7 +1083,7 @@
             "good": "Spy can appear as any Townsfolk or Outsider, damaging Balloonist info. Spy can simulate this role"
         },
         "evil_twin": {
-            "good": "Good choice for a Twin"
+            "good": "Good choice for a Twin "
         },
         "assassin": {
             "warning": "Balloonist benefits from long games"
@@ -1086,14 +1092,26 @@
             "good": "Droisoned Balloonist can think there are no Outsiders ",
             "warning": "Balloonist benefits from long games"
         },
+        "psychopath": {
+            "warning": "Loud Minions can make for easier Balloonist info"
+        },
         "widow": {
             "good": "Widow can simulate this role. "
+        },
+        "goblin": {
+            "warning": "Loud Minions can make for easier Balloonist info"
+        },
+        "vizier": {
+            "warning": "Loud Minions can make for easier Balloonist info"
         },
         "boffin": {
             "good": "Interesting Boffin ability"
         },
         "xaan": {
             "info": "Balloonist and Xaan should have minimum 1 Outsider"
+        },
+        "wraith": {
+            "warning": "Wraith could be an outed Minion"
         },
         "vigormortis": {
             "good": "Droisoned Balloonist can think there are no Outsiders"
@@ -1177,6 +1195,9 @@
         },
         "seamstress": {
             "warning": "Confirmed players are powerful with Seamstress"
+        },
+        "snake_charmer": {
+            "good": "Outed characters are safe picks"
         },
         "virgin": {
             "warning": "Beware too much confirmation"
@@ -1485,6 +1506,9 @@
         "xaan": {
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
         },
+        "wraith": {
+            "good": "Wraith wakes with the extra evil"
+        },
         "imp": {
             "good": "Imp can safely die"
         },
@@ -1743,6 +1767,9 @@
         "preacher": {
             "good": "Preacher-chosen Minions don't wake anymore"
         },
+        "princess": {
+            "warning": "Princess doesn't change the waking pattern of the Demon"
+        },
         "professor": {
             "good": "Once per game abilities are interesting for Chambermaid"
         },
@@ -1795,6 +1822,10 @@
         "boffin": {
             "good": "Interesting Boffin ability"
         },
+        "wraith": {
+            "good": "Potentially unusual waking pattern ",
+            "warning": "Wraith could be an outed Minion"
+        },
         "imp": {
             "good": "Jumping can cause a player to change waking pattern"
         },
@@ -1802,10 +1833,10 @@
             "good": "Jumping can cause a player to change waking pattern"
         },
         "pukka": {
-            "good": "Uncommon waking pattern for a Demon)"
+            "good": "Uncommon waking pattern for a Demon"
         },
         "zombuul": {
-            "good": "Uncommon waking pattern for a Demon)"
+            "good": "Uncommon waking pattern for a Demon"
         },
         "riot": {
             "warning": "Demon is known not to wake up"
@@ -1814,16 +1845,16 @@
             "warning": "Demon is known not to wake up"
         },
         "lleech": {
-            "good": "Uncommon waking pattern for a Demon)"
+            "good": "Uncommon waking pattern for a Demon"
         },
         "legion": {
             "warning": "Legion never wakes"
         },
         "lil_monsta": {
-            "good": "Uncommon waking pattern for a Demon)"
+            "good": "Uncommon waking pattern for a Demon"
         },
         "kazali": {
-            "good": "Uncommon waking pattern for a Demon)"
+            "good": "Uncommon waking pattern for a Demon"
         },
         "yaggababble": {
             "good": "Uncommon waking pattern for a Demon"
@@ -1926,6 +1957,9 @@
         },
         "xaan": {
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
+        },
+        "wraith": {
+            "warning": "Wraith could be an outed Minion"
         },
         "vigormortis": {
             "warning": "First night info is immune to Vigormortis poison"
@@ -2158,6 +2192,9 @@
         "xaan": {
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
         },
+        "wraith": {
+            "error": "Wraith could be an outed Minion"
+        },
         "vigormortis": {
             "warning": "First night info is immune to Vigormortis poison"
         },
@@ -2346,6 +2383,9 @@
         "wizard": {
             "good": "Courtier can confirm this role isn't active (limited time)"
         },
+        "wraith": {
+            "warning": "Wraith could be an outed Minion"
+        },
         "vigormortis": {
             "warning": "If the Vigormortis is droisoned, the Minions lose their ability"
         },
@@ -2445,6 +2485,9 @@
         },
         "xaan": {
             "good": "If this role triggers successfully (changing alignment), it confirms a non-Xaan-night"
+        },
+        "wraith": {
+            "good": "Wraith knows when the Cult Leader becomes evil"
         },
         "fang_gu": {
             "warning": "Beware two extra evil players"
@@ -2703,6 +2746,9 @@
         "xaan": {
             "warning": "Poisoning an empath for one night is hard to make impactful if their neighbors don't change"
         },
+        "wraith": {
+            "warning": "Wraith could be an outed Minion"
+        },
         "no_dashii": {
             "great": "Good synergy for evil"
         },
@@ -2825,6 +2871,9 @@
         },
         "wizard": {
             "good": "Engineer can confirm this role isn't active"
+        },
+        "wraith": {
+            "warning": "Adding a potentially loud Minion is confirmed"
         },
         "vigormortis": {
             "warning": "Engineer can « kill » Minions"
@@ -3087,6 +3136,9 @@
         "slayer": {
             "good": "Used once per game roles are a good target for Farmer (tends to use late though)"
         },
+        "snake_charmer": {
+            "good": "Outed characters are safe picks"
+        },
         "steward": {
             "good": "First night info roles are a good target for Farmer"
         },
@@ -3263,6 +3315,9 @@
         },
         "boffin": {
             "good": "Interesting Boffin ability"
+        },
+        "wraith": {
+            "good": "Advice can indicate a Wraith"
         },
         "shabaloth": {
             "warning": "When resurrected, this gets another use of its ability"
@@ -3560,6 +3615,9 @@
         },
         "xaan": {
             "good": "If this role triggers successfully, it confirms a non-Xaan-night"
+        },
+        "wraith": {
+            "good": "This role can survive the Wraith's optional rule"
         },
         "po": {
             "good": "Protection with multi-kill Demons works well. ",
@@ -4499,7 +4557,8 @@
             "good": "No/less night deaths can allow the Undertaker to get more info"
         },
         "village_idiot": {
-            "good": "No/less night deaths can allow the Village Idiot to get more info"
+            "good": "No/less night deaths can allow the Village Idiot to get more info ",
+            "warning": "Incidental droisoning can make it impossible for VIs to solve their info"
         },
         "saint": {
             "good": "Droison can cause a safe Saint execution"
@@ -5841,6 +5900,9 @@
             "group": "Both like nominations and executions ",
             "warning": "If a Minstrel is in-play, Undertaker probably won't see Minions"
         },
+        "village_idiot": {
+            "warning": "Incidental droisoning can make it impossible for VIs to solve their info"
+        },
         "washerwoman": {
             "good": "Confirming this role is in-play is good"
         },
@@ -6048,6 +6110,9 @@
         },
         "seamstress": {
             "warning": "Confirmed characters make Seamstress powerful"
+        },
+        "snake_charmer": {
+            "good": "Outed characters are safe picks"
         },
         "steward": {
             "warning": "Steward seeing a Nightwatchman is redundant"
@@ -6824,6 +6889,9 @@
         "xaan": {
             "error": "Poppy Grower should not be poisoned when it dies"
         },
+        "wraith": {
+            "warning": "Wraith can ignore Poppy Grower"
+        },
         "imp": {
             "good": "Imp can still starpass"
         },
@@ -6937,6 +7005,9 @@
         },
         "wizard": {
             "warning": "Preacher can't stop an active wish"
+        },
+        "wraith": {
+            "warning": "A Preached Wraith is immediately obvious to other waking evils"
         },
         "vigormortis": {
             "good": "Preacher can disable undead Minions"
@@ -7525,7 +7596,8 @@
             "good": "No/less night deaths can allow the Undertaker to get more info"
         },
         "village_idiot": {
-            "good": "No/less night deaths can allow the Village Idiot to get more info"
+            "good": "No/less night deaths can allow the Village Idiot to get more info ",
+            "warning": "Incidental droisoning can make it impossible for VIs to solve their info"
         },
         "virgin": {
             "warning": "Surviving the Virgin nomination is powerful"
@@ -7581,6 +7653,9 @@
         },
         "xaan": {
             "info": "Sailor can stop the Xaan (don't)"
+        },
+        "wraith": {
+            "good": "This role can survive the Wraith's optional rule"
         },
         "vortox": {
             "warning": "This role's info is immune to Vortox"
@@ -7757,6 +7832,9 @@
         "boffin": {
             "warning": "This ability is useless to the Demon"
         },
+        "wraith": {
+            "warning": "Wraith could be an outed Minion"
+        },
         "shabaloth": {
             "warning": "When resurrected, this gets another use of its ability"
         },
@@ -7835,6 +7913,9 @@
         },
         "xaan": {
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
+        },
+        "wraith": {
+            "warning": "Wraith could be an outed Minion"
         },
         "no_dashii": {
             "great": "Good synergy for evil"
@@ -7971,6 +8052,9 @@
         "steward": {
             "warning": "Learning who the SC is makes the penalty even harsher"
         },
+        "virgin": {
+            "good": "Outed characters are safe picks"
+        },
         "washerwoman": {
             "warning": "Learning who the SC is makes the penalty even harsher"
         },
@@ -7982,6 +8066,9 @@
         },
         "lunatic": {
             "good": "Snake Charmer can find a Lunatic"
+        },
+        "golem": {
+            "good": "Outed characters are safe picks"
         },
         "puzzlemaster": {
             "warning": "Demon can move"
@@ -8006,11 +8093,20 @@
             "good": "Interesting role to give the Widow ping to ",
             "warning": "If this role learns of a Widow and becomes evil, a good player learns the Widow is in-play again, if still alive"
         },
+        "goblin": {
+            "good": "Outed characters are safe picks"
+        },
+        "vizier": {
+            "good": "Outed characters are safe picks"
+        },
         "summoner": {
             "good": "Snake charmer can safe the future Demon"
         },
         "boffin": {
             "warning": "This ability is useless to the Demon"
+        },
+        "wraith": {
+            "good": "Outed characters are safe picks"
         },
         "imp": {
             "warning": "Demon can move"
@@ -8363,6 +8459,9 @@
         "summoner": {
             "good": "Tea Lady can safe the future Demon (although unlikely)"
         },
+        "wraith": {
+            "good": "This role can make someone else survive the Wraith's optional rule"
+        },
         "fang_gu": {
             "good": "If an Outsider or the Fang Gu is protected, the Fang Gu can't jump"
         },
@@ -8489,6 +8588,9 @@
         },
         "boffin": {
             "warning": "This ability is useless to the Demon"
+        },
+        "wraith": {
+            "warning": "Wraith could be an outed Minion and poison Town Crier info"
         },
         "vortox": {
             "good": "Forcing executions works well with this role"
@@ -8706,7 +8808,8 @@
             "good": "This Outsider can fairly easily claim Village Idiot"
         },
         "sweetheart": {
-            "good": "This Outsider can fairly easily claim Village Idiot"
+            "good": "This Outsider can fairly easily claim Village Idiot ",
+            "warning": "Incidental droisoning can make it impossible for VIs to solve their info"
         },
         "mutant": {
             "good": "Village Idiot can help confirm this character. This Outsider can fairly easily claim Village Idiot"
@@ -8752,7 +8855,8 @@
             "good": "This role can learn the Ogre's alignment"
         },
         "poisoner": {
-            "good": "This Minion can use the free bluff"
+            "good": "This Minion can use the free bluff ",
+            "warning": "Incidental droisoning can make it impossible for VIs to solve their info"
         },
         "scarlet_woman": {
             "good": "Safety nets for the Demon are good with Village Idiots. This Minion can use the free bluff"
@@ -8809,6 +8913,9 @@
         "boffin": {
             "info": "The Demon can only gain this ability if there is a spare token"
         },
+        "xaan": {
+            "warning": "Incidental droisoning can make it impossible for VIs to solve their info"
+        },
         "wizard": {
             "good": "Sobering all Village Idiots is an interesting cost"
         },
@@ -8828,7 +8935,8 @@
             "warning": "Village Idiot benefits from long games to find the drunk one"
         },
         "pukka": {
-            "good": "No/less night deaths can allow the Village Idiot to get more info"
+            "good": "No/less night deaths can allow the Village Idiot to get more info ",
+            "warning": "Incidental droisoning can make it impossible for VIs to solve their info"
         },
         "shabaloth": {
             "warning": "Village Idiot benefits from long games to find the drunk one"
@@ -9236,6 +9344,9 @@
         "boffin": {
             "warning": "Good wins on a tie, so this ability is useless to the Demon"
         },
+        "wraith": {
+            "good": "Wraith can see that this role never wakes"
+        },
         "fang_gu": {
             "good": "Fang Gu prevents loud Outsiders. Also a very good jump target"
         },
@@ -9366,6 +9477,9 @@
         },
         "xaan": {
             "warning": "Recluse cannot misregister to change Xaan night"
+        },
+        "wraith": {
+            "good": "Wraith can see that this role never wakes"
         },
         "imp": {
             "info": "Recluse can become a good Imp (don't)"
@@ -9526,6 +9640,9 @@
         "wizard": {
             "warning": "Beware multiple wishes"
         },
+        "wraith": {
+            "good": "Wraith can see that this role never wakes"
+        },
         "fang_gu": {
             "warning": "Fang Gu jumping to this Outsider is kind of a loss"
         },
@@ -9641,6 +9758,9 @@
         },
         "xaan": {
             "warning": "Hidden Outsiders make Xaan hard to solve for"
+        },
+        "wraith": {
+            "good": "Wraith can see that this role never wakes"
         },
         "fang_gu": {
             "warning": "Fang Gu jumping to this Outsider is kind of a loss"
@@ -9842,6 +9962,9 @@
         },
         "xaan": {
             "warning": "Hidden Outsiders make Xaan hard to solve for"
+        },
+        "wraith": {
+            "good": "Wraith can see that this role never wakes"
         },
         "fang_gu": {
             "warning": "Fang Gu jumping to this Outsider is kind of a loss"
@@ -10066,6 +10189,9 @@
         "xaan": {
             "warning": "Hidden Outsiders make Xaan hard to solve for"
         },
+        "wraith": {
+            "good": "Wraith can see that this role never wakes"
+        },
         "fang_gu": {
             "warning": "Fang Gu jumping to this Outsider is kind of a loss"
         },
@@ -10261,6 +10387,9 @@
         "xaan": {
             "warning": "Hidden Outsiders make Xaan hard to solve for. Lunatic announcement can help Xaan get the Outsider count"
         },
+        "wraith": {
+            "good": "Wraith could wake with the Lunatic"
+        },
         "imp": {
             "good": "Can have the Lunatic die without thinking they're the Lunatic immediately"
         },
@@ -10365,6 +10494,9 @@
         "wizard": {
             "good": "KIlling the Damsel can be an interesting cost"
         },
+        "wraith": {
+            "good": "Wraith can see that this role never wakes"
+        },
         "fang_gu": {
             "warning": "Fang Gu jumping to this Outsider is kind of a loss"
         },
@@ -10447,6 +10579,9 @@
         },
         "wizard": {
             "good": "Wizard could fake this role"
+        },
+        "wraith": {
+            "warning": "Golem can kill Wraith"
         },
         "fang_gu": {
             "good": "Fang Gu disables the confirmation"
@@ -10860,6 +10995,9 @@
         "wizard": {
             "warning": "Wizard ST is very hard to track"
         },
+        "wraith": {
+            "good": "Wraith can see that this role never wakes"
+        },
         "fang_gu": {
             "warning": "Fang Gu jumping to this Outsider is kind of a loss"
         },
@@ -10976,6 +11114,9 @@
         },
         "wizard": {
             "warning": "Beware multiple wishes"
+        },
+        "wraith": {
+            "good": "Wraith can see that this role never wakes"
         },
         "imp": {
             "good": "Interesting Demon to change into"
@@ -11302,6 +11443,9 @@
         "summoner": {
             "good": "Poisoner can simulate Summoner by poisoning the Demon"
         },
+        "wraith": {
+            "good": "Wraith can guide this role"
+        },
         "vigormortis": {
             "great": "Good synergy"
         },
@@ -11489,6 +11633,9 @@
         "wizard": {
             "warning": "Loud Minions can confirm a Wizard not being in-play"
         },
+        "wraith": {
+            "good": "Wraith can guide this role"
+        },
         "vigormortis": {
             "great": "Good synergy"
         },
@@ -11553,7 +11700,7 @@
             "warning": "This Minion's resurrection is obvious"
         },
         "riot": {
-            "warning": "An Alchemist with this ability is very powerful in a Riot game"
+            "warning": "An Alchemist with this ability is very powerful in a Riot game. Outed Minions with Riot will die quickly"
         },
         "leviathan": {
             "warning": "Can cause a 6th (or more) day"
@@ -11581,6 +11728,9 @@
         },
         "gnome": {
             "great": "Very interesting amigo"
+        },
+        "revolutionary": {
+            "warning": "Outed evils in the pair can be rough"
         }
     },
     "pit-hag": {
@@ -11626,6 +11776,9 @@
         },
         "wizard": {
             "warning": "Pit-Hag can muddle a potential Wizard wish. Beware multiple wishes"
+        },
+        "wraith": {
+            "good": "Wraith can guide this role"
         },
         "imp": {
             "good": "Interesting Demon to change into"
@@ -11694,6 +11847,9 @@
         "wizard": {
             "good": "Wizard could fake this role"
         },
+        "wraith": {
+            "good": "Wraith can guide this role"
+        },
         "vigormortis": {
             "great": "Good synergy"
         },
@@ -11725,6 +11881,9 @@
         },
         "summoner": {
             "good": "Extra night deaths can hide Summoner"
+        },
+        "wraith": {
+            "good": "Wraith can guide this role"
         },
         "imp": {
             "good": "This Minion is a good target for a starpass (once used)"
@@ -11797,6 +11956,9 @@
         "xaan": {
             "warning": "Xaan overrides Outsider modification ",
             "great": "Good synergy (knows the number of Outsiders)"
+        },
+        "wraith": {
+            "good": "Wraith can guide this role"
         },
         "fang_gu": {
             "warning": "Beware too many Outsider modifications"
@@ -11921,6 +12083,9 @@
         "vizier": {
             "good": "Vizier can help setup a play with DA"
         },
+        "wraith": {
+            "good": "Wraith can guide this role"
+        },
         "vigormortis": {
             "great": "Good synergy"
         },
@@ -12034,6 +12199,9 @@
         "wizard": {
             "warning": "Loud Minions can confirm a Wizard not being in-play"
         },
+        "wraith": {
+            "good": "Wraith can guide this role"
+        },
         "vigormortis": {
             "warning": "Killing this Minion fully disables it, no matter what"
         },
@@ -12138,6 +12306,9 @@
         "wizard": {
             "good": "Wizard could fake this role"
         },
+        "wraith": {
+            "good": "Wraith wakes with the extra evil"
+        },
         "fang_gu": {
             "warning": "Beware two extra evil players"
         },
@@ -12201,6 +12372,9 @@
         "zombuul": {
             "good": "Extra day deaths can make up for Zombuul kills"
         },
+        "riot": {
+            "warning": "Outed Minions with Riot will die quickly"
+        },
         "leviathan": {
             "good": "Psychopath can bring kills to a Leviathan game"
         },
@@ -12221,6 +12395,9 @@
         },
         "gnome": {
             "warning": "Confirmed amigo"
+        },
+        "revolutionary": {
+            "warning": "Outed evils in the pair can be rough"
         }
     },
     "widow": {
@@ -12310,6 +12487,9 @@
         "zombuul": {
             "good": "Execution fear can allow the Zombuul to kill"
         },
+        "riot": {
+            "warning": "Outed Minions with Riot will die quickly"
+        },
         "leviathan": {
             "good": "Execution fear can help the Leviathan"
         },
@@ -12330,6 +12510,9 @@
         },
         "judge": {
             "warning": "Evil Judge can force an execution of a Goblin"
+        },
+        "revolutionary": {
+            "warning": "Outed evils in the pair can be rough"
         }
     },
     "organ_grinder": {
@@ -12393,6 +12576,9 @@
         "al-hadikhia": {
             "warning": "This Minion can't be resurrected"
         },
+        "riot": {
+            "warning": "Outed Minions with Riot will die quickly"
+        },
         "leviathan": {
             "error": "Vizier is very powerful in a Leviathan game"
         },
@@ -12414,6 +12600,9 @@
         "ferryman": {
             "good": "Additional voting is good for Vizier"
         },
+        "revolutionary": {
+            "warning": "Outed evils in the pair can be rough"
+        },
         "stormcatcher": {
             "warning": "Vizier can force an execution on the stormcaught player"
         }
@@ -12424,6 +12613,9 @@
         },
         "wizard": {
             "good": "Wizard could fake this role"
+        },
+        "wraith": {
+            "good": "Wraith can guide this role"
         },
         "vigormortis": {
             "great": "Good synergy"
@@ -12470,6 +12662,9 @@
         },
         "wizard": {
             "good": "Wizard could help hide a Summoner"
+        },
+        "wraith": {
+            "good": "Wraith can guide this role"
         },
         "imp": {
             "good": "This Minion is a good target for a starpass"
@@ -12617,7 +12812,10 @@
             "warning": "The hint might give out the LoT line"
         },
         "apprentice": {
-            "warning": "The wish stays after the exile"
+            "good": "The wish stays after the exile"
+        },
+        "barista": {
+            "warning": "Beware multiple wishes"
         },
         "bone_collector": {
             "warning": "Beware multiple wishes"
@@ -12636,6 +12834,55 @@
         },
         "toymaker": {
             "warning": "Wishes must respect the Toymaker"
+        }
+    },
+    "wraith": {
+        "fang_gu": {
+            "good": "Wraith can guide this role"
+        },
+        "vigormortis": {
+            "good": "Killing the Wraith allows it to remain eyes open ",
+            "warning": "A dead Wraith with eyes open outs a Vigormortis"
+        },
+        "pukka": {
+            "good": "Wraith can guide this role"
+        },
+        "riot": {
+            "warning": "Outed Minions with Riot will die quickly"
+        },
+        "legion": {
+            "warning": "Legion can't bluff outed evils"
+        },
+        "ojo": {
+            "good": "Wraith can guide this role"
+        },
+        "kazali": {
+            "good": "Interesting choice for Kazali"
+        },
+        "lord_of_typhon": {
+            "good": "Being closer together means easier communication"
+        },
+        "apprentice": {
+            "good": "Wraith can guide this role if evil"
+        },
+        "bureaucrat": {
+            "good": "Wraith can guide this role if evil"
+        },
+        "judge": {
+            "good": "Wraith can guide this role if evil"
+        },
+        "thief": {
+            "good": "Wraith can guide this role if evil"
+        },
+        "gnome": {
+            "good": "Interesting amigo"
+        },
+        "revolutionary": {
+            "warning": "Outed evils in the pair can be rough ",
+            "good": "Waking the pair together can be nice"
+        },
+        "toymaker": {
+            "good": "Wraith can help decide the night of no kills"
         }
     },
     "imp": {
