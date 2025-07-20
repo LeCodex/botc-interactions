@@ -38,12 +38,12 @@ fetch("./hermit.json")
   .then((x) => x.json())
   .then((x) => (hermit = x));
 
-let matchups_messages = [];
+const matchups_messages = [];
 
 input.onchange = (evt) => {
   if (!window.FileReader) return; // Browser is not compatible
 
-  let reader = new FileReader();
+  const reader = new FileReader();
   reader.onload = (evt) => {
     if (evt.target.readyState != 2) return;
     if (evt.target.error) {
@@ -51,7 +51,7 @@ input.onchange = (evt) => {
       return;
     }
 
-    let filecontent = null;
+    const filecontent = null;
     try {
       filecontent = JSON.parse(evt.target.result);
     } catch (e) {
@@ -63,7 +63,7 @@ input.onchange = (evt) => {
     }
 
     console.log(filecontent);
-    let characters = filecontent
+    const characters = filecontent
       .filter((e) => e.id !== "_meta")
       .map((e) => (typeof e === "string" ? e : e.id));
 
@@ -89,7 +89,7 @@ input.onchange = (evt) => {
     printMessages();
   };
 
-  reader.readAsText(event.target.files[0]);
+  reader.readAsText(evt.target.files[0]);
 };
 
 displayTypeInput.onchange = () => { printMessages(); };
@@ -102,7 +102,7 @@ function getFormattedCharacterKey(char) {
 }
 
 function printMessages() {
-  let displayType = displayTypeInput.value;
+  const displayType = displayTypeInput.value;
   output.innerHTML = "";
 
   switch (displayType) {
@@ -116,7 +116,7 @@ function printMessages() {
 }
 
 function printMessagesPerType() {
-  let messages_per_type = {
+  const messages_per_type = {
     info: [],
     good: [],
     great: [],
@@ -124,36 +124,58 @@ function printMessagesPerType() {
     error: [],
     group: [],
   };
-  for (let [type, chars, msg] of matchups_messages) {
+  for (const [type, chars, msg] of matchups_messages) {
     messages_per_type[type].push([chars, msg]);
   }
 
-  for (let [t, messages] of Object.entries(messages_per_type)) {
+  for (const [t, messages] of Object.entries(messages_per_type)) {
     if (!messages.length) continue;
 
-    let title = document.createElement("li");
+    const title = document.createElement("li");
     title.innerHTML = `<h3>[${capitalizeFirstLetter(t)}] (${messages.length})</h3>`;
     title.style.color = color_per_message_type[t];
     title.style["font-weight"] = "bold";
     output.appendChild(title);
 
-    for (let [chars, msg] of messages) {
-      let elt = document.createElement("li");
-      let names = document.createElement("span");
-      let message = document.createElement("span");
-      names.innerHTML = chars.map(formatCharacterName).join(' + ') + ': ';
-      names.style.color = color_per_message_type[t];
-      message.innerHTML = msg;
-
-      elt.appendChild(names);
-      elt.appendChild(message);
-      output.appendChild(elt);
+    if (t === "group") {
+      const characters_per_group = {};
+      for (const [chars, msg] of messages) {
+        characters_per_group[msg] ??= new Set();
+        for (const char of chars) {
+          characters_per_group[msg].add(char);
+        }
+      }
+      for (const [msg, chars] of Object.entries(characters_per_group)) {
+        const elt = document.createElement("li");
+        const message = document.createElement("span");
+        const names = document.createElement("span");
+        message.innerHTML = msg + ": ";
+        message.style.color = color_per_message_type[t];
+        names.innerHTML = [...chars].map(formatCharacterName).join(', ');
+  
+        elt.appendChild(message);
+        elt.appendChild(names);
+        output.appendChild(elt);
+      }
+    } else {
+      for (const [chars, msg] of messages) {
+        const elt = document.createElement("li");
+        const names = document.createElement("span");
+        const message = document.createElement("span");
+        names.innerHTML = chars.map(formatCharacterName).join(' + ') + ': ';
+        names.style.color = color_per_message_type[t];
+        message.innerHTML = msg;
+  
+        elt.appendChild(names);
+        elt.appendChild(message);
+        output.appendChild(elt);
+      }
     }
   }
 }
 
 function printMessagesPerCharacter() {
-  let messages_per_character = {};
+  const messages_per_character = {};
   for (const [type, chars, msg] of matchups_messages) {
     for (const char of chars) {
       if (!messages_per_character[char])
@@ -169,20 +191,20 @@ function printMessagesPerCharacter() {
     }
   }
 
-  for (let [group, characters] of Object.entries(groups)) {
-    let title = document.createElement("li");
+  for (const [group, characters] of Object.entries(groups)) {
+    const title = document.createElement("li");
     title.innerHTML = `<h2>======== [${capitalizeFirstLetter(group.slice(1))}s] ========</h2>`;
     title.style.color = color_per_character_type[group.slice(1)];
     title.style["font-weight"] = "bold";
     output.appendChild(title);
 
-    for (let char of characters) {
+    for (const char of characters) {
       if (!messages_per_character[char]) continue;
 
-      let messages_per_type = messages_per_character[char];
-      let title = document.createElement("li");
+      const messages_per_type = messages_per_character[char];
+      const title = document.createElement("li");
 
-      let addons = [];
+      const addons = [];
       if (messages_per_type.warning.length)
         addons.push(`${messages_per_type.warning.length} warning(s)`);
       if (messages_per_type.error.length)
@@ -193,13 +215,13 @@ function printMessagesPerCharacter() {
       title.style["font-weight"] = "bold";
       output.appendChild(title);
 
-      for (let [type, messages] of Object.entries(messages_per_type)) {
+      for (const [type, messages] of Object.entries(messages_per_type)) {
         if (!messages.length) continue;
 
         for (let [chars, msg] of messages) {
-          let elt = document.createElement("li");
-          let names = document.createElement("span");
-          let message = document.createElement("span");
+          const elt = document.createElement("li");
+          const names = document.createElement("span");
+          const message = document.createElement("span");
           names.innerHTML = chars.map(formatCharacterName).join(' + ') + ': ';
           names.style.color = color_per_message_type[type];
           message.innerHTML = msg;
@@ -214,7 +236,7 @@ function printMessagesPerCharacter() {
 }
 
 function getCharacterType(char) {
-  for (let [type, characters] of Object.entries(groups)) {
+  for (const [type, characters] of Object.entries(groups)) {
     if (characters.includes(char)) return type.slice(1);
   }
 }
