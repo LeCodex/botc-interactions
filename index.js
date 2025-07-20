@@ -51,7 +51,7 @@ input.onchange = (evt) => {
       return;
     }
 
-    const filecontent = null;
+    let filecontent = null;
     try {
       filecontent = JSON.parse(evt.target.result);
     } catch (e) {
@@ -68,7 +68,7 @@ input.onchange = (evt) => {
       .map((e) => (typeof e === "string" ? e : e.id));
 
     const hermitActive = characters.some((e) => getFormattedCharacterKey(e) === "hermit");
-    matchups_messages = [];
+    matchups_messages.length = 0;
     for (const char of characters) {
       const key = getFormattedCharacterKey(char);
       if (!key) continue;
