@@ -228,14 +228,8 @@
             "good": "Alch-Godfather can confirm executed Outsiders ",
             "warning": "Alchemist with a killing is powerful"
         },
-        "mastermind": {
-            "warning": "Alch-Mastermind is near-useless without Heretic (confirms executees as non Demons)"
-        },
         "boomdandy": {
             "warning": "Alch-Dandy is pretty weak"
-        },
-        "marionette": {
-            "error": "Widely considered a bad interaction. The Alchemist can think they're the Alchemist, just with a wrong ability"
         },
         "mezepheles": {
             "error": "Alch-Zepheles can just become evil on command"
@@ -243,9 +237,8 @@
         "psychopath": {
             "warning": "Alchemist with a killing is powerful. Alchemist Psychopath can't be prevented easily"
         },
-        "organ_grinder": {
-            "good": "Storyteller can forcefully enable/disable Alchemist Organ Grinder\n",
-            "warning": "Multiple Organ Grinder abilities don't stack"
+        "widow": {
+            "warning": "Alchemist Widow can be confirmed"
         },
         "harpy": {
             "warning": "Alch-Harpy is pretty weak"
@@ -263,13 +256,10 @@
             "warning": "This role can easily confirm a Vortox"
         },
         "riot": {
-            "warning": "Alchemist reatins its ability during Riot day"
+            "warning": "Alchemist retains its ability during Riot day"
         },
         "lleech": {
             "good": "Alchemist can be fooled into having another ability if Lleech host"
-        },
-        "kazali": {
-            "good": "Kazali controls which abilities the Alchemist has access to"
         }
     },
     "alsaahir": {
@@ -777,7 +767,7 @@
             "warning": "Bad target for Farmer"
         },
         "fool": {
-            "group": "Both explain no night deaths. Both characters make executions survivable"
+            "group": "Both explain no night deaths. Both make executions survivable"
         },
         "gambler": {
             "group": "Both explain extra night deaths"
@@ -799,7 +789,7 @@
             "group": "Both explain no night deaths"
         },
         "pacifist": {
-            "group": "Both characters make executions survivable"
+            "group": "Both make executions survivable"
         },
         "philosopher": {
             "warning": " Philosopher shouldn't be allowed to gain the Atheist ability."
@@ -812,11 +802,11 @@
             "group": "Both explain no night deaths"
         },
         "professor": {
-            "group": "Both characters explain resurrections"
+            "group": "Both explain resurrections"
         },
         "sailor": {
             "warning": "Drunking Atheist mid-game is a bad idea (can be prevented) ",
-            "group": "Both explain no night deaths. Both characters make executions survivable"
+            "group": "Both explain no night deaths. Both make executions survivable"
         },
         "soldier": {
             "group": "Both explain no night deaths"
@@ -825,7 +815,7 @@
             "warning": "Steward should not see the Atheist"
         },
         "tea_lady": {
-            "group": "Both explain no night deaths. Both characters make executions survivable"
+            "group": "Both explain no night deaths. Both make executions survivable"
         },
         "washerwoman": {
             "warning": "Confirmation of Atheist is unwise most of the time"
@@ -920,17 +910,20 @@
             "info": "Poisoning Atheist mid-game is a bad idea"
         },
         "po": {
-            "group": "Both explain extra night deaths"
+            "group": "Both explain extra night deaths. Both explain no night deaths"
         },
         "pukka": {
-            "info": "Poisoning Atheist mid-game is a bad idea "
+            "group": "Both explain no night deaths"
         },
         "shabaloth": {
-            "group": "Both explain extra night deaths. Both characters explain resurrections"
+            "group": "Both explain extra night deaths. Both explain resurrections"
+        },
+        "zombuul": {
+            "group": "Both explain no night deaths"
         },
         "al-hadikhia": {
             "good": "Atheist can simulate announcements. This role can explain non-picked deaths ",
-            "group": "Both characters explain resurrections"
+            "group": "Both explain resurrections"
         },
         "riot": {
             "warning": "Riot is easier to win the game with by nominating the ST"
@@ -1959,7 +1952,7 @@
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
         },
         "wraith": {
-            "warning": "Wraith could be an outed Minion"
+            "warning": "Wraith could be an outed Minion. This role ignores the Wraith optional rule as their ability already triggered when they wake"
         },
         "vigormortis": {
             "warning": "First night info is immune to Vigormortis poison"
@@ -2075,6 +2068,9 @@
         },
         "wizard": {
             "good": "Killing the King is an interesting cost"
+        },
+        "wraith": {
+            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
         },
         "vortox": {
             "warning": "Vortox makes this info near useless"
@@ -2193,7 +2189,8 @@
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
         },
         "wraith": {
-            "error": "Wraith could be an outed Minion"
+            "error": "Wraith could be an outed Minion ",
+            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
         },
         "vigormortis": {
             "warning": "First night info is immune to Vigormortis poison"
@@ -2237,7 +2234,7 @@
             "warning": "Courtier can immediately drunk the characters that the Engineer creates"
         },
         "exorcist": {
-            "group": "Both can explain no night deaths"
+            "group": "Both explain no night deaths"
         },
         "farmer": {
             "good": "Used once per game roles are a good target for Farmer"
@@ -2246,7 +2243,7 @@
             "good": "No/less night deaths can allow the Flowergirl to get more info"
         },
         "fool": {
-            "group": "Both can explain no night deaths"
+            "group": "Both explain no night deaths"
         },
         "general": {
             "good": "General can detect a successful drunkening"
@@ -2258,16 +2255,16 @@
             "good": "Courtier can drunk Grandmother to keep it alive"
         },
         "innkeeper": {
-            "group": "Both can explain no night deaths"
+            "group": "Both explain no night deaths"
         },
         "lycanthrope": {
             "good": "Used once per game roles are good target for Lycanthrope kills"
         },
         "minstrel": {
-            "group": "Both can explain no night deaths"
+            "group": "Both explain no night deaths"
         },
         "monk": {
-            "group": "Both can explain no night deaths"
+            "group": "Both explain no night deaths"
         },
         "pacifist": {
             "good": "Confirming no evil execution survival role is active is good"
@@ -2279,16 +2276,16 @@
             "good": "When resurrected, it gets another use of its ability"
         },
         "sailor": {
-            "group": "Both can explain no night deaths"
+            "group": "Both explain no night deaths"
         },
         "savant": {
             "good": "No/less night deaths can allow the Savant to get more info"
         },
         "soldier": {
-            "group": "Both can explain no night deaths"
+            "group": "Both explain no night deaths"
         },
         "tea_lady": {
-            "group": "Both can explain no night deaths"
+            "group": "Both explain no night deaths"
         },
         "town_crier": {
             "good": "No/less night deaths can allow the Town Crier to get more info"
@@ -2306,7 +2303,7 @@
             "warning": "Recluse can hide from Courtier"
         },
         "goon": {
-            "group": "Both can explain no night deaths"
+            "group": "Both explain no night deaths"
         },
         "lunatic": {
             "warning": "A droisoned Lunatic doesn't give its picks to the Demon"
@@ -2348,7 +2345,7 @@
             "good": "This Minion can help against a Courtier"
         },
         "mastermind": {
-            "group": "Both can explain no night deaths"
+            "group": "Both explain no night deaths"
         },
         "devils_advocate": {
             "good": "Courtier can confirm this role isn't active"
@@ -2390,13 +2387,13 @@
             "warning": "If the Vigormortis is droisoned, the Minions lose their ability"
         },
         "po": {
-            "group": "Both can explain no night deaths"
+            "group": "Both explain no night deaths"
         },
         "pukka": {
-            "group": "Both can explain no night deaths"
+            "group": "Both explain no night deaths"
         },
         "zombuul": {
-            "group": "Both can explain no night deaths"
+            "group": "Both explain no night deaths"
         },
         "leviathan": {
             "error": "Can cause multiple extra days and free executions"
@@ -2408,7 +2405,7 @@
             "error": "Droisoned LM is a rules nightmare"
         },
         "ojo": {
-            "group": "Both can explain no night deaths"
+            "group": "Both explain no night deaths"
         },
         "yaggababble": {
             "group": "Both explain no night deaths"
@@ -2917,6 +2914,7 @@
             "good": "No/less night deaths can allow the Flowergirl to get more guesses"
         },
         "fool": {
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "fortune_teller": {
@@ -2926,12 +2924,14 @@
             "good": "General can detect a successful exorcism"
         },
         "innkeeper": {
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "minstrel": {
             "group": "Both explain no night deaths"
         },
         "monk": {
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "poppygrower": {
@@ -2942,6 +2942,7 @@
             "group": "Both explain no night deaths"
         },
         "sailor": {
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "savant": {
@@ -2951,9 +2952,11 @@
             "good": "Snake Charmer can move the Demon"
         },
         "soldier": {
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "tea_lady": {
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "town_crier": {
@@ -3519,7 +3522,7 @@
             "info": "Fool doesn't make a great grandchild"
         },
         "innkeeper": {
-            "warning": "Beware too much protection ",
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "lycanthrope": {
@@ -3532,31 +3535,31 @@
             "group": "Both explain no night deaths"
         },
         "monk": {
-            "warning": "Beware too much protection ",
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "pacifist": {
-            "group": "Both characters make executions survivable"
+            "group": "Both make executions survivable"
         },
         "princess": {
-            "warning": "Beware too much protection ",
+            "warning": "Beware too much protection without multiple sources of death ",
             "good": "Can be executed day 1 for a Princess ",
             "group": "Both explain no night deaths"
         },
         "sailor": {
-            "warning": "Beware too much protection ",
-            "group": "Both characters make executions survivable. Both explain no night deaths"
+            "warning": "Beware too much protection without multiple sources of death ",
+            "group": "Both make executions survivable. Both explain no night deaths"
         },
         "savant": {
             "good": "No/less night deaths can allow the Savant to get more info"
         },
         "soldier": {
-            "warning": "Beware too much protection ",
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "tea_lady": {
-            "warning": "Beware too much protection ",
-            "group": "Both characters make executions survivable. Both explain no night deaths"
+            "warning": "Beware too much protection without multiple sources of death ",
+            "group": "Both make executions survivable. Both explain no night deaths"
         },
         "town_crier": {
             "good": "No/less night deaths can allow the Town Crier to get more info"
@@ -3599,7 +3602,7 @@
             "group": "Both explain no night deaths"
         },
         "devils_advocate": {
-            "group": "Both characters make executions survivable"
+            "group": "Both make executions survivable"
         },
         "boomdandy": {
             "warning": "This role can survive a Boomdandy explosion"
@@ -3641,7 +3644,7 @@
             "error": "Fool can confirm themself by nominating themself first"
         },
         "lleech": {
-            "group": "Both characters make executions survivable"
+            "group": "Both make executions survivable"
         },
         "legion": {
             "warning": "Legion targets are chosen by the ST"
@@ -4458,6 +4461,9 @@
         "wizard": {
             "good": "High Priestess can be guiven directions to the hint"
         },
+        "wraith": {
+            "good": "High Priestess can be given a person who saw the Wraith"
+        },
         "legion": {
             "good": "High Priestess will most likely learn the few good players"
         }
@@ -4524,7 +4530,7 @@
             "group": "Both explain no night deaths"
         },
         "monk": {
-            "warning": "Beware too much protection ",
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "poppygrower": {
@@ -4532,22 +4538,22 @@
             "good": "Protection works well with PG"
         },
         "princess": {
-            "warning": "Beware too much protection ",
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "sailor": {
-            "warning": "Beware too much protection ",
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "savant": {
             "good": "No/less night deaths can allow the Savant to get more info"
         },
         "soldier": {
-            "warning": "Beware too much protection ",
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "tea_lady": {
-            "warning": "Beware too much protection ",
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "town_crier": {
@@ -4591,6 +4597,9 @@
         },
         "boffin": {
             "good": "Good Boffin ability"
+        },
+        "xaan": {
+            "warning": "Beware too much misinformation"
         },
         "po": {
             "good": "Protection with multi-kill Demons works well. ",
@@ -4731,6 +4740,9 @@
         "wizard": {
             "good": "Can confirm Wizard is in-play"
         },
+        "wraith": {
+            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
+        },
         "vigormortis": {
             "warning": "First night info is immune to Vigormortis poison ",
             "good": "Investigator can't confirm one of their picks by having the other die in the night"
@@ -4841,6 +4853,9 @@
         },
         "xaan": {
             "warning": "Xaan 2 is powerful against this role"
+        },
+        "wraith": {
+            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
         },
         "vortox": {
             "warning": "Vortox makes this info near useless"
@@ -5107,6 +5122,9 @@
         "xaan": {
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
         },
+        "wraith": {
+            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
+        },
         "imp": {
             "warning": "Demon can move"
         },
@@ -5260,6 +5278,9 @@
         },
         "xaan": {
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
+        },
+        "wraith": {
+            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
         },
         "fang_gu": {
             "good": "Fang Gu can turn the Librarian target into the Demon"
@@ -5640,6 +5661,9 @@
         "boffin": {
             "warning": "This ability is useless to the Demon"
         },
+        "wraith": {
+            "warning": "Magician can be found early because of a Wraith guess"
+        },
         "imp": {
             "warning": "Imp can suicide to prove itself to Minions"
         },
@@ -5997,25 +6021,25 @@
             "good": "Protection works well with PG"
         },
         "princess": {
-            "warning": "Beware too much protection ",
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "sailor": {
-            "warning": "Beware too much protection ",
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "savant": {
             "good": "No/less night deaths can allow the Savant to get more info"
         },
         "soldier": {
-            "warning": "Beware too much protection ",
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "steward": {
             "great": "Good synergy"
         },
         "tea_lady": {
-            "warning": "Beware too much protection. A Monk sat next to a Tea Lady can make both unkillable ",
+            "warning": "Beware too much protection without multiple sources of death. A Monk sat next to a Tea Lady can make both unkillable ",
             "group": "Both explain no night deaths"
         },
         "town_crier": {
@@ -6299,6 +6323,9 @@
         "xaan": {
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
         },
+        "wraith": {
+            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
+        },
         "imp": {
             "good": "The Demon can more safely be given to a Noble"
         },
@@ -6477,10 +6504,10 @@
             "good": "Confirming this role is in-play is good"
         },
         "sailor": {
-            "group": "Both characters make executions survivable"
+            "group": "Both make executions survivable"
         },
         "tea_lady": {
-            "group": "Both characters make executions survivable"
+            "group": "Both make executions survivable"
         },
         "undertaker": {
             "warning": "This role can make executions survivable"
@@ -6516,7 +6543,7 @@
             "info": "This role can make other players survive Cere madness break (not a good idea)"
         },
         "devils_advocate": {
-            "group": "Both characters make executions survivable ",
+            "group": "Both make executions survivable ",
             "good": "Pacifist explains random good players being chosen by DA"
         },
         "boomdandy": {
@@ -6548,7 +6575,7 @@
             "warning": "Executions still count, even if no one dies"
         },
         "lleech": {
-            "group": "Both characters make executions survivable"
+            "group": "Both make executions survivable"
         },
         "legion": {
             "good": "Very powerful in a Legion game"
@@ -6614,7 +6641,7 @@
             "good": "Good Boffin ability"
         },
         "xaan": {
-            "info": "Philosopher still gains their abiltiy if used on Xaan night"
+            "warning": "Beware too much misinformation"
         },
         "shabaloth": {
             "warning": "When resurrected, this gets another use of its ability"
@@ -7021,7 +7048,7 @@
     },
     "princess": {
         "professor": {
-            "good": "Can resurrect the Princess executed"
+            "good": "Can resurrect the Princess executed. Can give a second Princess day"
         },
         "ravenkeeper": {
             "warning": "Princess can prevent trap characters from triggering"
@@ -7030,7 +7057,7 @@
             "warning": "Princess can prevent trap characters from triggering"
         },
         "sailor": {
-            "warning": "Beware too much protection ",
+            "warning": "Beware too much protection without multiple sources of death ",
             "good": "Can be executed day 1 for a Princess"
         },
         "seamstress": {
@@ -7055,7 +7082,7 @@
             "group": "Both like nominations and executions"
         },
         "virgin": {
-            "warning": "Virgin execution prevents the Princess from acting"
+            "good": "The Princess nominated can nominate the Virgin to get confirmed"
         },
         "washerwoman": {
             "good": "Can be executed day 1 for a Princess"
@@ -7081,17 +7108,23 @@
         "damsel": {
             "good": "Can be executed day 1 for a Princess"
         },
+        "golem": {
+            "good": "If the Golem nominates day 1, they can be executed for a Princess"
+        },
         "snitch": {
             "good": "Can be executed day 1 for a Princess"
+        },
+        "zealot": {
+            "good": "Zealot can healp a Princess execution (but also could harm it if other nominations are made)"
         },
         "poisoner": {
             "good": "Droison can throw shade on the Princess"
         },
         "witch": {
-            "good": "Princess likes to nominate"
+            "good": "Princess likes to nominate. Princess can nominate Witch killed players"
         },
         "evil_twin": {
-            "warning": "Bad choice for a Twin"
+            "warning": "Bad choice for a Twin, but day 1 Demon execution could look identical to a Princess night"
         },
         "pit-hag": {
             "good": "Pit-Hag can change the Princess if it's outed"
@@ -7116,10 +7149,13 @@
             "warning": "Boomdandy discourages executions"
         },
         "fearmonger": {
-            "good": "Princess encourages executions"
+            "good": "Princess encourages executions. Good bluff for a Fearmonger"
         },
         "mezepheles": {
             "warning": "This role as evil can't do much for the evil team"
+        },
+        "psychopath": {
+            "good": "Princess can nominate the Psychopath killed player"
         },
         "goblin": {
             "warning": "Goblin discourages executions"
@@ -7137,7 +7173,7 @@
             "warning": "This ability is near-useless to the Demon"
         },
         "xaan": {
-            "good": "Droison can throw shade on the Princess"
+            "good": "Droison (Xaan 2) can throw shade on the Princess"
         },
         "imp": {
             "warning": "All this Demon's ability relies on killing"
@@ -7152,7 +7188,7 @@
             "good": "This Demon's main ability is not disabled by the Princess"
         },
         "vortox": {
-            "good": "This Demon's main ability is not disabled by the Princess"
+            "good": "This Demon's main ability is not disabled by the Princess. Vortox and Princess both encourage executions"
         },
         "po": {
             "good": "Po can charge during a \"Princess\" night ",
@@ -7161,11 +7197,15 @@
         "pukka": {
             "group": "Both explain no night deaths"
         },
+        "shabaloth": {
+            "warning": "All this Demon's ability relies on killing. Princess can prevent multiple deaths from this demon. When resurrected, this gets another use of its ability"
+        },
         "zombuul": {
             "group": "Both explain no night deaths"
         },
         "al-hadikhia": {
-            "good": "Al-Had can still resurrect on a Princess night"
+            "good": "Al-Had can still resurrect on a Princess night ",
+            "warning": "Al-Had not killing confirms Princess if no other sources of protection are present"
         },
         "riot": {
             "error": "Princess is useless with Riot"
@@ -7187,7 +7227,7 @@
             "good": "This Demon's main ability is not disabled by the Princess"
         },
         "yaggababble": {
-            "warning": "All this Demon's ability relies on killing"
+            "warning": "All this Demon's ability relies on killing (Princess can prevent multiple death from this demon)"
         },
         "lord_of_typhon": {
             "good": "This Demon's main ability is not disabled by the Princess"
@@ -7202,7 +7242,7 @@
             "error": "Doesn't work together"
         },
         "bone_collector": {
-            "good": "Once per game abilities are good to bone collect"
+            "warning": "Bone Collector is useless on this role: dead Princess can't nominate"
         },
         "bureaucrat": {
             "good": "Princess revolves around nominations"
@@ -7210,17 +7250,32 @@
         "butcher": {
             "info": "Butcher nomination is independant from the Princess one"
         },
+        "gangster": {
+            "good": "Princess can nominate the Gangster killed player"
+        },
+        "gunslinger": {
+            "good": "Princess can nominate the Gunslinger killed player"
+        },
         "harlot": {
             "good": "This role's death can be more trusted as coming from its ability"
         },
         "judge": {
             "warning": "Judge can prevent a Princess execution"
         },
+        "scapegoat": {
+            "warning": "Scapegoat can prevent a Princess form activating"
+        },
         "thief": {
             "good": "Princess revolves around nominations"
         },
         "voudon": {
             "warning": "Voudon often solely decides on Princess executions"
+        },
+        "gnome": {
+            "good": "Princess can nominate the Gnome killed player"
+        },
+        "doomsayer": {
+            "good": "Princess can nominate the Doomsayer killed player"
         },
         "toymaker": {
             "info": "Princess night can trigger Toymaker"
@@ -7271,12 +7326,12 @@
             "warning": "This role's info is immune to Vortox"
         },
         "shabaloth": {
-            "group": "Both characters explain resurrections ",
+            "group": "Both explain resurrections ",
             "warning": "When resurrected, this gets another use of its ability"
         },
         "al-hadikhia": {
             "good": "Used once per game roles will always choose death. Dead ones are more likely to choose live (and potentially seem like Minions) ",
-            "group": "Both characters explain resurrections"
+            "group": "Both explain resurrections"
         },
         "lil_monsta": {
             "warning": "Hard role to bluff for Minions"
@@ -7362,6 +7417,9 @@
         },
         "wizard": {
             "good": "Killing the Ravenkeeper is an interesting cost"
+        },
+        "wraith": {
+            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
         },
         "imp": {
             "good": "Imp can fake dying in the night"
@@ -7501,6 +7559,9 @@
         "wizard": {
             "good": "Killing the Sage is an interesting cost"
         },
+        "wraith": {
+            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
+        },
         "imp": {
             "good": "Imp can fake dying in the night"
         },
@@ -7581,12 +7642,12 @@
             "good": "No/less night deaths can allow the Savant to get more info"
         },
         "soldier": {
-            "warning": "Beware too much protection ",
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "tea_lady": {
-            "warning": "Beware too much protection ",
-            "group": "Both characters make executions survivable. Both explain no night deaths"
+            "warning": "Beware too much protection without multiple sources of death ",
+            "group": "Both make executions survivable. Both explain no night deaths"
         },
         "town_crier": {
             "good": "No/less night deaths can allow the Town Crier to get more info"
@@ -7636,7 +7697,7 @@
             "group": "Both explain no night deaths"
         },
         "devils_advocate": {
-            "group": "Both characters make executions survivable"
+            "group": "Both make executions survivable"
         },
         "boomdandy": {
             "warning": "This role can survive a Boomdandy explosion ",
@@ -7652,7 +7713,7 @@
             "good": "Good Boffin ability (self-drunking only affects the Sailor ability)"
         },
         "xaan": {
-            "info": "Sailor can stop the Xaan (don't)"
+            "warning": "Beware too much misinformation"
         },
         "wraith": {
             "good": "This role can survive the Wraith's optional rule"
@@ -7674,7 +7735,7 @@
             "warning": "Protected players choices don't matter"
         },
         "lleech": {
-            "group": "Both characters make executions survivable ",
+            "group": "Both make executions survivable ",
             "warning": "Sailor might want to be executed"
         },
         "lil_monsta": {
@@ -7915,7 +7976,7 @@
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
         },
         "wraith": {
-            "warning": "Wraith could be an outed Minion"
+            "warning": "Wraith could be an outed Minion. This role ignores the Wraith optional rule as their ability already triggered when they wake"
         },
         "no_dashii": {
             "great": "Good synergy for evil"
@@ -7936,7 +7997,8 @@
             "good": "Great bluff for Minions"
         },
         "lord_of_typhon": {
-            "good": "Great bluff for Minions"
+            "good": "Great bluff for Minions ",
+            "warning": "Shugenja will always point towards the Demon"
         },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
@@ -8145,7 +8207,7 @@
     },
     "soldier": {
         "tea_lady": {
-            "warning": "Beware too much protection ",
+            "warning": "Beware too much protection without multiple sources of death ",
             "group": "Both explain no night deaths"
         },
         "town_crier": {
@@ -8309,6 +8371,9 @@
         "xaan": {
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
         },
+        "wraith": {
+            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
+        },
         "fang_gu": {
             "warning": "Steward target can become evil"
         },
@@ -8441,7 +8506,7 @@
             "group": "Both explain no night deaths"
         },
         "devils_advocate": {
-            "group": "Both characters make executions survivable ",
+            "group": "Both make executions survivable ",
             "good": "Tea Lady explains random good players being chosen by DA"
         },
         "boomdandy": {
@@ -8488,7 +8553,7 @@
             "warning": "Protected players choices don't matter"
         },
         "lleech": {
-            "group": "Both characters make executions survivable"
+            "group": "Both make executions survivable"
         },
         "lil_monsta": {
             "warning": "LM targets are chosen by the ST"
@@ -8919,6 +8984,9 @@
         "wizard": {
             "good": "Sobering all Village Idiots is an interesting cost"
         },
+        "wraith": {
+            "good": "Potentially outed Minion could be used to check sobriety"
+        },
         "imp": {
             "good": "This Demon can die"
         },
@@ -9141,6 +9209,9 @@
         "xaan": {
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
         },
+        "wraith": {
+            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
+        },
         "vigormortis": {
             "warning": "First night info is immune to Vigormortis poison"
         },
@@ -9234,7 +9305,7 @@
             "good": "Widow knows who the Drunk is"
         },
         "xaan": {
-            "warning": "Hidden Outsiders make Xaan hard to solve for ",
+            "warning": "Hidden Outsiders make Xaan hard to solve for. Beware too much misinformation ",
             "good": "Xaan night can hint at the presence of a Drunk"
         },
         "fang_gu": {
@@ -10060,6 +10131,12 @@
         "boffin": {
             "good": "Good Boffin ability"
         },
+        "xaan": {
+            "warning": "Beware too much misinformation"
+        },
+        "wraith": {
+            "good": "Wraith knows when the Goon becomes evil"
+        },
         "fang_gu": {
             "warning": "Beware two extra evil players"
         },
@@ -10388,7 +10465,8 @@
             "warning": "Hidden Outsiders make Xaan hard to solve for. Lunatic announcement can help Xaan get the Outsider count"
         },
         "wraith": {
-            "good": "Wraith could wake with the Lunatic"
+            "good": "Wraith could wake with the Lunatic ",
+            "warning": "Wraith must wake itself for the Lunatic"
         },
         "imp": {
             "good": "Can have the Lunatic die without thinking they're the Lunatic immediately"
@@ -10495,7 +10573,7 @@
             "good": "KIlling the Damsel can be an interesting cost"
         },
         "wraith": {
-            "good": "Wraith can see that this role never wakes"
+            "good": "Wraith can see that this role never wakes, and can know when the Damsel changed character"
         },
         "fang_gu": {
             "warning": "Fang Gu jumping to this Outsider is kind of a loss"
@@ -10996,7 +11074,8 @@
             "warning": "Wizard ST is very hard to track"
         },
         "wraith": {
-            "good": "Wraith can see that this role never wakes"
+            "good": "Wraith can see that this role never wakes ",
+            "warning": "Adding a potentially loud Minion is confirmed"
         },
         "fang_gu": {
             "warning": "Fang Gu jumping to this Outsider is kind of a loss"
@@ -11443,6 +11522,9 @@
         "summoner": {
             "good": "Poisoner can simulate Summoner by poisoning the Demon"
         },
+        "xaan": {
+            "warning": "Beware too much misinformation"
+        },
         "wraith": {
             "good": "Wraith can guide this role"
         },
@@ -11565,6 +11647,9 @@
         "wizard": {
             "good": "More information can help the Wizard choose its wish"
         },
+        "wraith": {
+            "good": "Wraith and Spy can learn the complete game state"
+        },
         "imp": {
             "good": "This Minion is a good target for a starpass"
         },
@@ -11684,6 +11769,9 @@
         "wizard": {
             "warning": "Loud Minions can confirm a Wizard not being in-play"
         },
+        "wraith": {
+            "warning": "When waking the twins together, the Wraith must also be awake. In 2 minion games, that good player then knows both minions. The optional rule gives the Good Twin an out to die without execution."
+        },
         "imp": {
             "good": "Evil Twin can change to the Imp"
         },
@@ -11778,7 +11866,7 @@
             "warning": "Pit-Hag can muddle a potential Wizard wish. Beware multiple wishes"
         },
         "wraith": {
-            "good": "Wraith can guide this role"
+            "good": "Wraith can guide this role. Changing an (extra) evil's character forces them to wake with the Wraith"
         },
         "imp": {
             "good": "Interesting Demon to change into"
@@ -11848,7 +11936,7 @@
             "good": "Wizard could fake this role"
         },
         "wraith": {
-            "good": "Wraith can guide this role"
+            "good": "Wraith can guide this role. Making an (extra) evil mad forces them to wake with the Wraith"
         },
         "vigormortis": {
             "great": "Good synergy"
@@ -12099,7 +12187,7 @@
             "error": "DA protecting the Leviathan every other day can be very hard for good"
         },
         "lleech": {
-            "group": "Both characters make executions survivable ",
+            "group": "Both make executions survivable ",
             "good": "Lleech explains random good players being chosen by DA"
         },
         "lil_monsta": {
@@ -12238,7 +12326,8 @@
             "warning": "Marionette does not count as a good vote"
         },
         "xaan": {
-            "good": "Marionette Outsider doesn't count for Xaan, and can be useful to throw off the Xaan night"
+            "good": "Marionette Outsider doesn't count for Xaan, and can be useful to throw off the Xaan night ",
+            "warning": "Beware too much misinformation"
         },
         "imp": {
             "good": "This Minion is a good target for a starpass. A dead Demon has no reason to hide to a Marionette"
@@ -12409,10 +12498,14 @@
             "warning": "Loud Minions can confirm a Summoner not being in-play"
         },
         "xaan": {
-            "great": "Good synergy (knows the number of Outsiders)"
+            "great": "Good synergy (knows the number of Outsiders) ",
+            "warning": "Beware too much misinformation"
         },
         "wizard": {
             "good": "More information can help the Wizard choose its wish"
+        },
+        "wraith": {
+            "good": "Wraith and Widow can learn the complete game state"
         },
         "fang_gu": {
             "good": "Knowing where the Outsiders are is useful ",
@@ -12615,7 +12708,7 @@
             "good": "Wizard could fake this role"
         },
         "wraith": {
-            "good": "Wraith can guide this role"
+            "good": "Wraith can guide this role. Making an (extra) evil mad forces them to wake with the Wraith"
         },
         "vigormortis": {
             "great": "Good synergy"
@@ -12664,7 +12757,7 @@
             "good": "Wizard could help hide a Summoner"
         },
         "wraith": {
-            "good": "Wraith can guide this role"
+            "good": "Wraith can guide this role and the new Demon"
         },
         "imp": {
             "good": "This Minion is a good target for a starpass"
@@ -12770,11 +12863,23 @@
         "fang_gu": {
             "warning": "Avoid high Outsider count with Xaan. Xaan overrides Outsider modification"
         },
+        "vigormortis": {
+            "warning": "Beware too much misinformation"
+        },
+        "no_dashii": {
+            "warning": "Beware too much misinformation"
+        },
         "vortox": {
             "warning": "Xaan only affects mechanical roles with Vortox"
         },
+        "pukka": {
+            "warning": "Beware too much misinformation"
+        },
         "riot": {
             "warning": "Riot means Xaan must be a 1 or 2"
+        },
+        "lleech": {
+            "warning": "Beware too much misinformation"
         },
         "kazali": {
             "info": "Xaan does not override Kazali's outsider mod"
@@ -12784,6 +12889,9 @@
         },
         "apprentice": {
             "info": "Creating a Xaan midgame uses the setup's outsider count. Changing the number of Outsiders midgame doesn't affect when the Xaan night is"
+        },
+        "fibbin": {
+            "warning": "Beware too much misinformation"
         },
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
@@ -12837,21 +12945,30 @@
         }
     },
     "wraith": {
+        "imp": {
+            "warning": "Wraith not waking can indicate a starpass (or can be faked as such)"
+        },
         "fang_gu": {
-            "good": "Wraith can guide this role"
+            "good": "Wraith can guide this role and the new Demon"
         },
         "vigormortis": {
             "good": "Killing the Wraith allows it to remain eyes open ",
-            "warning": "A dead Wraith with eyes open outs a Vigormortis"
+            "warning": "A dead Wraith with eyes open outs a Vigormortis. A dead Wraith has weird implications with the optional rule"
         },
         "pukka": {
             "good": "Wraith can guide this role"
+        },
+        "al-hadikhia": {
+            "good": "Wraith wakes with evil players when they choose to live/die"
         },
         "riot": {
             "warning": "Outed Minions with Riot will die quickly"
         },
         "legion": {
             "warning": "Legion can't bluff outed evils"
+        },
+        "lil_monsta": {
+            "good": "Wraith can circumvent the \"babysitting isnt discussion time\" rule"
         },
         "ojo": {
             "good": "Wraith can guide this role"
@@ -12860,16 +12977,24 @@
             "good": "Interesting choice for Kazali"
         },
         "lord_of_typhon": {
-            "good": "Being closer together means easier communication"
+            "good": "Being closer together means easier communication ",
+            "warning": "Potentially loud Minions might give out the extra one added by LoT, and the LoT itself"
         },
         "apprentice": {
-            "good": "Wraith can guide this role if evil"
+            "good": "Wraith can guide this role if evil ",
+            "warning": "If found out, an Apprentice Wraith will be exiled quickly"
+        },
+        "barista": {
+            "warning": "Cannot be boubled"
         },
         "bureaucrat": {
             "good": "Wraith can guide this role if evil"
         },
         "judge": {
             "good": "Wraith can guide this role if evil"
+        },
+        "matron": {
+            "good": "Wraith can allow evil to still communicate during the night even if far away"
         },
         "thief": {
             "good": "Wraith can guide this role if evil"
