@@ -56,8 +56,8 @@
     {
         "name": "Explains no night deaths",
         "recommended": false,
-        "multiple": true,
-        "evil_or_fabled": true,
+        "multiple": false,
+        "evil_or_fabled": false,
         "characters": [
             "atheist",
             "courtier",
