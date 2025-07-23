@@ -78,12 +78,13 @@ input.onchange = (evt) => {
     matchups_messages.length = 0;
     for (const group of groups) {
       const inGroup = group.characters.filter((e) => characters.some((f) => getFormattedCharacterKey(f) === e));
+      const nonTravellers = inGroup.filter((e) => getCharacterType(e) !== "traveller");
       const descriptor = `${group.name.slice(0, 1).toLowerCase()}${group.name.slice(1)}`;
-      if (group.recommended && inGroup.length === 0) {
-        matchups_messages.push(["warning", ["global"], `No character that ${descriptor}`]);
+      if (group.recommended && nonTravellers.length === 0) {
+        matchups_messages.push(["warning", ["global"], `No non-Traveller character that ${descriptor}`]);
       }
-      if (group.multiple && inGroup.length === 1) {
-        matchups_messages.push(["warning", ["global"], `Only one character that ${descriptor} (${formatCharacterName(inGroup[0])})`]);
+      if (group.multiple && nonTravellers.length === 1) {
+        matchups_messages.push(["warning", ["global"], `Only one non-Traveller character that ${descriptor} (${formatCharacterName(inGroup[0])})`]);
       }
       if (group.evil_or_fabled && inGroup.filter((e) => evilOrFabledTypes.includes(getCharacterType(e))) === 0) {
         matchups_messages.push(["warning", ["global"], `No evil or Fabled character that ${descriptor}`]);
