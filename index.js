@@ -160,14 +160,14 @@ function printMessagesPerType() {
     title.style["font-weight"] = "bold";
     output.appendChild(title);
 
-    for (const [group, chars] of messages) {
+    for (const [chars, msg] of messages) {
       const elt = document.createElement("li");
       const names = document.createElement("span");
       const message = document.createElement("span");
       if (t === "group") {
-        message.innerHTML = group + ": ";
+        message.innerHTML = msg + ": ";
         message.style.color = color_per_message_type[t];
-        names.innerHTML = [...chars].map(formatCharacterName).join(', ');
+        names.innerHTML = chars.map(formatCharacterName).join(', ');
   
         elt.appendChild(message);
         elt.appendChild(names);
