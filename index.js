@@ -83,8 +83,9 @@ input.onchange = (evt) => {
       if (group.recommended && nonTravellers.length === 0) {
         matchups_messages.push(["warning", ["global"], `No non-Traveller character that ${descriptor}`]);
       }
-      if (group.multiple && nonTravellers.length === 1) {
-        matchups_messages.push(["warning", ["global"], `Only one non-Traveller character that ${descriptor} (${formatCharacterName(inGroup[0])})`]);
+      // Atheist can explain anything, but it will never do something that can't be explained otherwise
+      if (group.multiple && nonTravellers.length === 1 && nonTravellers[0] !== "atheist") {
+        matchups_messages.push(["warning", ["global"], `Only one non-Traveller character that ${descriptor} (${formatCharacterName(nonTravellers[0])})`]);
       }
       if (group.evil_or_fabled && inGroup.filter((e) => evilOrFabledTypes.includes(getCharacterType(e))) === 0) {
         matchups_messages.push(["warning", ["global"], `No evil or Fabled character that ${descriptor}`]);
