@@ -9,10 +9,11 @@ const color_per_message_type = {
   good: "lime",
   great: "aqua",
   warning: "yellow",
-  error: "red",
+  conflict: "red",
   group: "Orchid",
 };
 const color_per_character_type = {
+  global: "",
   townsfolk: "RoyalBlue",
   outsider: "aqua",
   minion: "orange",
@@ -20,10 +21,15 @@ const color_per_character_type = {
   traveller: "DarkOrchid",
 };
 
-let groups = {};
+let groups = [];
 fetch("./groups.json")
   .then((x) => x.json())
   .then((x) => (groups = x));
+
+let categories = {};
+fetch("./categories.json")
+  .then((x) => x.json())
+  .then((x) => (categories = x));
 
 let matchups = {};
 fetch("./matchups.json")
@@ -39,6 +45,7 @@ fetch("./hermit.json")
   .then((x) => (hermit = x));
 
 const matchups_messages = [];
+const evilOrFabledTypes = ["minion", "demon", "fabled"];
 
 input.onchange = (evt) => {
   if (!window.FileReader) return; // Browser is not compatible
@@ -69,6 +76,22 @@ input.onchange = (evt) => {
 
     const hermitActive = characters.some((e) => getFormattedCharacterKey(e) === "hermit");
     matchups_messages.length = 0;
+    for (const group of groups) {
+      const inGroup = group.characters.filter((e) => characters.some((f) => getFormattedCharacterKey(f) === e));
+      const descriptor = `${group.name.slice(0, 1).toLowerCase()}${group.name.slice(1)}`;
+      if (group.recommended && inGroup.length === 0) {
+        matchups_messages.push(["warning", ["global"], `No character that ${descriptor}`]);
+      }
+      if (group.multiple && inGroup.length === 1) {
+        matchups_messages.push(["warning", ["global"], `Only one character that ${descriptor} (${formatCharacterName(inGroup[0])})`]);
+      }
+      if (group.evil_or_fabled && inGroup.filter((e) => evilOrFabledTypes.includes(getCharacterType(e))) === 0) {
+        matchups_messages.push(["warning", ["global"], `No evil or Fabled character that ${descriptor}`]);
+      }
+      if (inGroup.length > 1) {
+        matchups_messages.push(["group", inGroup, group.name]);
+      }
+    }
     for (const char of characters) {
       const key = getFormattedCharacterKey(char);
       if (!key) continue;
@@ -121,7 +144,7 @@ function printMessagesPerType() {
     good: [],
     great: [],
     warning: [],
-    error: [],
+    conflict: [],
     group: [],
   };
   for (const [type, chars, msg] of matchups_messages) {
@@ -137,39 +160,26 @@ function printMessagesPerType() {
     title.style["font-weight"] = "bold";
     output.appendChild(title);
 
-    if (t === "group") {
-      const characters_per_group = {};
-      for (const [chars, msg] of messages) {
-        characters_per_group[msg] ??= new Set();
-        for (const char of chars) {
-          characters_per_group[msg].add(char);
-        }
-      }
-      for (const [msg, chars] of Object.entries(characters_per_group)) {
-        const elt = document.createElement("li");
-        const message = document.createElement("span");
-        const names = document.createElement("span");
-        message.innerHTML = msg + ": ";
+    for (const [group, chars] of messages) {
+      const elt = document.createElement("li");
+      const names = document.createElement("span");
+      const message = document.createElement("span");
+      if (t === "group") {
+        message.innerHTML = group + ": ";
         message.style.color = color_per_message_type[t];
         names.innerHTML = [...chars].map(formatCharacterName).join(', ');
   
         elt.appendChild(message);
         elt.appendChild(names);
-        output.appendChild(elt);
-      }
-    } else {
-      for (const [chars, msg] of messages) {
-        const elt = document.createElement("li");
-        const names = document.createElement("span");
-        const message = document.createElement("span");
+      } else {
         names.innerHTML = chars.map(formatCharacterName).join(' + ') + ': ';
         names.style.color = color_per_message_type[t];
         message.innerHTML = msg;
   
         elt.appendChild(names);
         elt.appendChild(message);
-        output.appendChild(elt);
       }
+      output.appendChild(elt);
     }
   }
 }
@@ -184,17 +194,17 @@ function printMessagesPerCharacter() {
           good: [],
           great: [],
           warning: [],
-          error: [],
+          conflict: [],
           group: [],
         };
       messages_per_character[char][type].push([chars, msg]);
     }
   }
 
-  for (const [group, characters] of Object.entries(groups)) {
+  for (const [category, characters] of Object.entries(categories)) {
     const title = document.createElement("li");
-    title.innerHTML = `<h2>======== [${capitalizeFirstLetter(group.slice(1))}s] ========</h2>`;
-    title.style.color = color_per_character_type[group.slice(1)];
+    title.innerHTML = `<h2>======== [${capitalizeFirstLetter(category)}s] ========</h2>`;
+    title.style.color = color_per_character_type[category];
     title.style["font-weight"] = "bold";
     output.appendChild(title);
 
@@ -207,11 +217,11 @@ function printMessagesPerCharacter() {
       const addons = [];
       if (messages_per_type.warning.length)
         addons.push(`${messages_per_type.warning.length} warning(s)`);
-      if (messages_per_type.error.length)
-        addons.push(`${messages_per_type.error.length} error(s)`);
+      if (messages_per_type.conflict.length)
+        addons.push(`${messages_per_type.conflict.length} conflict(s)`);
 
       title.innerHTML = `<h3>[${formatCharacterName(char)}]: ${addons.join(", ")}</h3>`;
-      title.style.color = color_per_character_type[group.slice(1)];
+      title.style.color = color_per_character_type[category];
       title.style["font-weight"] = "bold";
       output.appendChild(title);
 
@@ -236,8 +246,8 @@ function printMessagesPerCharacter() {
 }
 
 function getCharacterType(char) {
-  for (const [type, characters] of Object.entries(groups)) {
-    if (characters.includes(char)) return type.slice(1);
+  for (const [category, characters] of Object.entries(categories)) {
+    if (characters.includes(char)) return category;
   }
 }
 
