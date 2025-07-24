@@ -4,7 +4,7 @@
             "warning": "The Hermit Drunk cannot know they're the other role"
         },
         "butler": {
-            "error": "The Hermit Drunk cannot know they're the other role"
+            "conflict": "The Hermit Drunk cannot know they're the other role"
         },
         "recluse": {
             "warning": "The Hermit Drunk cannot know they're the other role"
@@ -19,19 +19,19 @@
             "great": "Interesting combination"
         },
         "klutz": {
-            "error": "The Hermit Drunk cannot know they're the other role, unless everyone must claim it"
+            "conflict": "The Hermit Drunk cannot know they're the other role, unless everyone must claim it"
         },
         "goon": {
             "warning": "The Hermit might learn they are this role"
         },
         "moonchild": {
-            "error": "The Hermit Drunk cannot know they're the other role, unless everyone must claim it"
+            "conflict": "The Hermit Drunk cannot know they're the other role, unless everyone must claim it"
         },
         "tinker": {
             "great": "Interesting combination"
         },
         "lunatic": {
-            "error": "Doesn't work"
+            "conflict": "Doesn't work"
         },
         "damsel": {
             "warning": "The Hermit Drunk cannot know they're the other role"
@@ -49,7 +49,7 @@
             "warning": "The Hermit Drunk cannot know they're the other role"
         },
         "heretic": {
-            "error": "The Hermit Drunk cannot know they're the other role"
+            "conflict": "The Hermit Drunk cannot know they're the other role"
         },
         "plague_doctor": {
             "warning": "The Hermit Drunk cannot know they're the other role"
@@ -58,10 +58,10 @@
             "warning": "The Hermit Drunk cannot know they're the other role"
         },
         "ogre": {
-            "error": "Doesn't work"
+            "conflict": "Doesn't work"
         },
         "zealot": {
-            "error": "The Hermit Drunk cannot know they're the other role, unless everyone must claim it"
+            "conflict": "The Hermit Drunk cannot know they're the other role, unless everyone must claim it"
         }
     },
     "saint": {
@@ -90,7 +90,7 @@
             "warning": "Bad synergy"
         },
         "golem": {
-            "error": "Hermit Golem Saint can kill itself"
+            "conflict": "Hermit Golem Saint can kill itself"
         },
         "politician": {
             "great": "Interesting combination"
@@ -129,7 +129,7 @@
             "warning": "Butler is hard to hide"
         },
         "lunatic": {
-            "error": "Doesn't work"
+            "conflict": "Doesn't work"
         },
         "damsel": {
             "warning": "Butler is hard to hide. Hermit Butler Damsel can't easily communicate with its master"
@@ -201,7 +201,7 @@
             "warning": "Golem is hard to hide. Hermit Golem can control its death"
         },
         "politician": {
-            "error": "Swapping a player with an evil Policitian can create an evil Politician"
+            "conflict": "Swapping a player with an evil Policitian can create an evil Politician"
         },
         "puzzlemaster": {
             "warning": "Changing who the Puzzlemaster is might change who is drunk, even if the new Puzzlemaster is dead."
@@ -301,7 +301,7 @@
             "good": "ST can trigger this ability thanks to the Tinker"
         },
         "lunatic": {
-            "error": "Doesn't work"
+            "conflict": "Doesn't work"
         },
         "damsel": {
             "warning": "This role's death might telegraph the presence of the Damsel"
@@ -339,7 +339,7 @@
             "warning": "Doesn't work without a jinx, most likely the Lunatic doesn't learn if they change alignment"
         },
         "damsel": {
-            "error": "Evil Damsel doesn't work"
+            "conflict": "Evil Damsel doesn't work"
         },
         "golem": {
             "warning": "Golem is hard to hide. Hermit Golem can control its death"
@@ -362,7 +362,7 @@
             "good": "ST can trigger this ability thanks to the Tinker"
         },
         "lunatic": {
-            "error": "Doesn't work"
+            "conflict": "Doesn't work"
         },
         "damsel": {
             "warning": "This role's death might telegraph the presence of the Damsel"
@@ -399,7 +399,7 @@
     },
     "lunatic": {
         "damsel": {
-            "error": "The Demon knows the Lunatic"
+            "conflict": "The Demon knows the Lunatic"
         },
         "golem": {
             "warning": "Bad synergy"
@@ -420,10 +420,10 @@
             "great": "Interesting combination"
         },
         "ogre": {
-            "error": "Doesn't work"
+            "conflict": "Doesn't work"
         },
         "zealot": {
-            "error": "Doesn't work"
+            "conflict": "Doesn't work"
         }
     },
     "damsel": {
@@ -431,7 +431,7 @@
             "warning": "Golem is hard to hide. Hermit Golem can control its death"
         },
         "politician": {
-            "error": "Doesn't work"
+            "conflict": "Doesn't work"
         },
         "puzzlemaster": {
             "warning": "Will need other reasons to visit the ST to bluff"
@@ -446,10 +446,10 @@
             "warning": "This role's death might telegraph the presence of the Damsel"
         },
         "ogre": {
-            "error": "Evil Damsel doesn't work"
+            "conflict": "Evil Damsel doesn't work"
         },
         "zealot": {
-            "error": "Zealot is hard to hide"
+            "conflict": "Zealot is hard to hide"
         }
     },
     "golem": {
@@ -468,7 +468,7 @@
     },
     "politician": {
         "heretic": {
-            "error": "Doesn't work"
+            "conflict": "Doesn't work"
         },
         "ogre": {
             "great": "Interesting combination"
