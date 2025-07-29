@@ -1032,10 +1032,10 @@
             "warning": "If resurrected, the Banshee loses its ability"
         },
         "ravenkeeper": {
-            "warning": "Beware too many « trap » characters"
+            "warning": "Beware too many \"trap\" characters"
         },
         "sage": {
-            "warning": "Beware too many « trap » characters"
+            "warning": "Beware too many \"trap\" characters"
         },
         "seamstress": {
             "warning": "Confirmed players are powerful with Seamstress"
@@ -1875,11 +1875,11 @@
             "warning": "Princess can prevent trap characters from triggering"
         },
         "ravenkeeper": {
-            "warning": "Beware too many « trap » characters",
+            "warning": "Beware too many \"trap\" characters",
             "good": "Confirming this role is in-play is good"
         },
         "sage": {
-            "warning": "Beware too many « trap » characters"
+            "warning": "Beware too many \"trap\" characters"
         },
         "snake_charmer": {
             "good": "Snake charmer can move the Demon"
@@ -2662,7 +2662,7 @@
             "warning": "Adding a potentially loud Minion is confirmed"
         },
         "vigormortis": {
-            "warning": "Engineer can « kill » Minions"
+            "warning": "Engineer can ��kill�� Minions"
         },
         "vortox": {
             "good": "Engineer can confirm this role isn't active"
@@ -2881,10 +2881,10 @@
             "good": "Used once per game roles are a good target for Farmer"
         },
         "ravenkeeper": {
-            "warning": "Beware too many « trap » characters"
+            "warning": "Beware too many \"trap\" characters"
         },
         "sage": {
-            "warning": "Beware too many « trap » characters"
+            "warning": "Beware too many \"trap\" characters"
         },
         "seamstress": {
             "good": "Used once per game roles are a good target for Farmer"
@@ -5544,7 +5544,7 @@
             "good": "This role doesn't have many ways to know if they're the Drunk"
         },
         "recluse": {
-            "good": "Recluse can appear as a Minion"
+            "good": "Recluse can appear as a�Minion"
         },
         "moonchild": {
             "good": "If Moonchild is droisoned in the night after their choice, the target can appear evil"
@@ -6897,7 +6897,7 @@
     },
     "ravenkeeper": {
         "sage": {
-            "warning": "Beware too many « trap » characters"
+            "warning": "Beware too many \"trap\" characters"
         },
         "soldier": {
             "good": "Confirming this role is in-play is good"
