@@ -47,6 +47,8 @@ fetch("./hermit.json")
 const matchups_messages = [];
 const evilOrFabledTypes = ["minion", "demon", "fabled"];
 
+const hiddenMessages = [];
+
 input.onchange = (evt) => {
   if (!window.FileReader) return; // Browser is not compatible
 
@@ -76,6 +78,7 @@ input.onchange = (evt) => {
 
     const hermitActive = characters.some((e) => getFormattedCharacterKey(e) === "hermit");
     matchups_messages.length = 0;
+    hiddenMessages.length = 0;
     for (const group of groups) {
       const inGroup = group.characters.filter((e) => characters.some((f) => getFormattedCharacterKey(f) === e));
       const nonTravellers = inGroup.filter((e) => getCharacterType(e) !== "traveller");
@@ -126,6 +129,17 @@ function getFormattedCharacterKey(char) {
   return undefined;
 }
 
+function createDeleteButton() {
+  const deleteBtn = document.createElement("b");
+  deleteBtn.innerHTML = "X";
+  deleteBtn.style["cursor"] = "pointer";
+  deleteBtn.addEventListener("click", () => {
+    hiddenMessages.push(msg);
+    printMessages();
+  });
+  return deleteBtn;
+}
+
 function printMessages() {
   const displayType = displayTypeInput.value;
   output.innerHTML = "";
@@ -163,6 +177,10 @@ function printMessagesPerType() {
     output.appendChild(title);
 
     for (const [chars, msg] of messages) {
+      if (hiddenMessages.includes(msg)) {
+        continue;
+      }
+
       const elt = document.createElement("li");
       const names = document.createElement("span");
       const message = document.createElement("span");
@@ -177,9 +195,11 @@ function printMessagesPerType() {
         names.innerHTML = chars.map(formatCharacterName).join(' + ') + ': ';
         names.style.color = color_per_message_type[t];
         message.innerHTML = msg;
+        const deleteBtn = createDeleteButton();
   
         elt.appendChild(names);
         elt.appendChild(message);
+        elt.appendChild(deleteBtn);
       }
       output.appendChild(elt);
     }
@@ -231,15 +251,21 @@ function printMessagesPerCharacter() {
         if (!messages.length) continue;
 
         for (let [chars, msg] of messages) {
+          if (hiddenMessages.includes(msg)) {
+            continue;
+          }
+
           const elt = document.createElement("li");
           const names = document.createElement("span");
           const message = document.createElement("span");
+          const deleteBtn = createDeleteButton();
           names.innerHTML = chars.map(formatCharacterName).join(' + ') + ': ';
           names.style.color = color_per_message_type[type];
           message.innerHTML = msg;
 
           elt.appendChild(names);
           elt.appendChild(message);
+          elt.appendChild(deleteBtn);
           output.appendChild(elt);
         }
       }

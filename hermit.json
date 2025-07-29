@@ -110,22 +110,22 @@
             "good": "Prevents the Hermit from just being executed"
         },
         "sweetheart": {
-            "good": "Prevents the Hermit from just being executed ",
+            "good": "Prevents the Hermit from just being executed",
             "warning": "Butler is hard to hide"
         },
         "mutant": {
-            "great": "Interesting combination ",
-            "warning": "The Butler is less likely to communicate with its master"
+            "great": "Interesting combination",
+            "warning": "Hermit Butler Mutant can't communicate with its master"
         },
         "klutz": {
-            "good": "Prevents the Hermit from just being executed ",
+            "good": "Prevents the Hermit from just being executed",
             "warning": "Butler is hard to hide"
         },
         "goon": {
             "warning": "Butler is hard to hide"
         },
         "moonchild": {
-            "good": "Prevents the Hermit from just being executed ",
+            "good": "Prevents the Hermit from just being executed",
             "warning": "Butler is hard to hide"
         },
         "lunatic": {
@@ -141,11 +141,11 @@
             "warning": "This ability can telegraph where the Hermit Heretic is (or prevents the Butler from communicating). Butler is hard to hide"
         },
         "plague_doctor": {
-            "good": "Prevents the Hermit from just being executed ",
+            "good": "Prevents the Hermit from just being executed",
             "warning": "Butler is hard to hide"
         },
         "hatter": {
-            "good": "Prevents the Hermit from just being executed ",
+            "good": "Prevents the Hermit from just being executed",
             "warning": "Butler is hard to hide"
         },
         "ogre": {
@@ -174,21 +174,20 @@
             "warning": "Hermit will probably be Barber swapped back into play, but moving a Sweetheart ends its ability"
         },
         "mutant": {
-            "good": "Hermit can control its death (somewhat) ",
-            "warning": "Hermit Butler Mutant can't communicate with its master"
+            "good": "Hermit can control its death (somewhat)"
         },
         "klutz": {
             "warning": "Hermit will probably be Barber swapped back into play"
         },
         "goon": {
-            "warning": "Goon makes it harder for the Hermit to die. Beware two extra evils ",
+            "warning": "Goon makes it harder for the Hermit to die. Beware two extra evils",
             "good": "Evil Barber can coordinate with evil."
         },
         "moonchild": {
             "warning": "Hermit will probably be Barber swapped back into play"
         },
         "tinker": {
-            "good": "ST can trigger this ability thanks to the Tinker ",
+            "good": "ST can trigger this ability thanks to the Tinker",
             "warning": "Hermit will probably be Barber swapped back into play, but moving a Sweetheart ends its ability"
         },
         "lunatic": {
@@ -219,7 +218,7 @@
             "warning": "Hermit will probably be Barber swapped back into play. ST can resolve abilities in either order"
         },
         "ogre": {
-            "warning": "Beware two extra evils ",
+            "warning": "Beware two extra evils",
             "good": "Evil Hermit Barber can coordinate"
         },
         "zealot": {

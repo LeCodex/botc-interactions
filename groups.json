@@ -11,6 +11,7 @@
             "philosopher",
             "sailor",
             "village_idiot",
+            "lycanthrope",
             "drunk",
             "recluse",
             "sweetheart",
@@ -39,6 +40,7 @@
         "multiple": false,
         "evil_or_fabled": true,
         "characters": [
+            "atheist",
             "balloonist",
             "drunk",
             "hermit",
@@ -51,6 +53,36 @@
             "kazali",
             "lord_of_typhon",
             "sentinel"
+        ]
+    },
+    {
+        "name": "Pushes good to nominate and execute",
+        "recommended": true,
+        "multiple": false,
+        "evil_or_fabled": false,
+        "characters": [
+            "bounty_hunter",
+            "cannibal",
+            "empath",
+            "flowergirl",
+            "king",
+            "minstrel",
+            "oracle",
+            "pacifist",
+            "princess",
+            "sailor",
+            "fool",
+            "tea_lady",
+            "town_crier",
+            "undertaker",
+            "virgin",
+            "devils_advocate",
+            "zombuul",
+            "vortox",
+            "bureaucrat",
+            "butcher",
+            "thief",
+            "scapegoat"
         ]
     },
     {
@@ -91,6 +123,7 @@
         "multiple": true,
         "evil_or_fabled": true,
         "characters": [
+            "atheist",
             "acrobat",
             "gambler",
             "gossip",
@@ -106,7 +139,6 @@
             "legion",
             "ojo",
             "yaggababble",
-            "atheist",
             "barista",
             "harlot"
         ]
@@ -138,36 +170,6 @@
         ]
     },
     {
-        "name": "Pushes good to nominate and execute",
-        "recommended": true,
-        "multiple": false,
-        "evil_or_fabled": false,
-        "characters": [
-            "bounty_hunter",
-            "cannibal",
-            "empath",
-            "flowergirl",
-            "king",
-            "minstrel",
-            "oracle",
-            "pacifist",
-            "princess",
-            "sailor",
-            "fool",
-            "tea_lady",
-            "town_crier",
-            "undertaker",
-            "virgin",
-            "devils_advocate",
-            "zombuul",
-            "vortox",
-            "bureaucrat",
-            "butcher",
-            "thief",
-            "scapegoat"
-        ]
-    },
-    {
         "name": "Benefits from longer games",
         "recommended": false,
         "multiple": false,
@@ -180,6 +182,7 @@
             "savant",
             "town_crier",
             "village_idiot",
+            "slayer",
             "puzzlemaster"
         ]
     },
@@ -221,9 +224,9 @@
         "multiple": false,
         "evil_or_fabled": false,
         "characters": [
+            "vigormortis",
             "lil_monsta",
-            "lord_of_typhon",
-            "vigormortis"
+            "lord_of_typhon"
         ]
     }
 ]

@@ -93,7 +93,7 @@
             "good": "Extra night deaths can hide Summoner"
         },
         "boffin": {
-            "warning": "This ability is dangerous for the Demon"
+            "warning": "This ability is useless to the Demon"
         },
         "xaan": {
             "info": "Xaan cannot trigger the Acrobat"
@@ -217,9 +217,6 @@
         },
         "wizard": {
             "warning": "Very powerful ability for the Alchemist"
-        },
-        "vortox": {
-            "warning": "This role can easily confirm a Vortox"
         },
         "riot": {
             "warning": "Alchemist retains its ability during Riot day"
@@ -8297,8 +8294,7 @@
             "warning": "Undertaker benefits from long games"
         },
         "zombuul": {
-            "good": "Undertaker benefits from long games",
-            "warning": "Undertaker can confirm an executed Zombuul"
+            "conflict": "Undertaker will catch the Zombuul when executed."
         },
         "al-hadikhia": {
             "warning": "Undertaker benefits from long games"
