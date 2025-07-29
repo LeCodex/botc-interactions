@@ -129,9 +129,9 @@ function getFormattedCharacterKey(char) {
   return undefined;
 }
 
-function createDeleteButton() {
+function createDeleteButton(msg) {
   const deleteBtn = document.createElement("b");
-  deleteBtn.innerHTML = "X";
+  deleteBtn.innerHTML = "  X";
   deleteBtn.style["cursor"] = "pointer";
   deleteBtn.addEventListener("click", () => {
     hiddenMessages.push(msg);
@@ -195,7 +195,7 @@ function printMessagesPerType() {
         names.innerHTML = chars.map(formatCharacterName).join(' + ') + ': ';
         names.style.color = color_per_message_type[t];
         message.innerHTML = msg;
-        const deleteBtn = createDeleteButton();
+        const deleteBtn = createDeleteButton(msg);
   
         elt.appendChild(names);
         elt.appendChild(message);
@@ -258,7 +258,7 @@ function printMessagesPerCharacter() {
           const elt = document.createElement("li");
           const names = document.createElement("span");
           const message = document.createElement("span");
-          const deleteBtn = createDeleteButton();
+          const deleteBtn = createDeleteButton(msg);
           names.innerHTML = chars.map(formatCharacterName).join(' + ') + ': ';
           names.style.color = color_per_message_type[type];
           message.innerHTML = msg;
