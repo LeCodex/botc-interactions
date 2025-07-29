@@ -78,7 +78,7 @@
             "good": "Spy can appear as good to \"hide\" a droisoned good neighbor"
         },
         "pit-hag": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "godfather": {
             "warning": "Acrobat is more likely to die at night"
@@ -707,7 +707,7 @@
             "warning": "Drunking Atheist mid-game is a bad idea (can be prevented)"
         },
         "philosopher": {
-            "warning": "Philosopher shouldn't be allowed to gain the Atheist ability."
+            "warning": "Philosopher shouldn't be allowed to gain the Atheist ability"
         },
         "pixie": {
             "warning": "Confirming an Atheist is powerful"
@@ -740,7 +740,7 @@
             "info": "Puzzlemaster doesn't prevent setup abilities"
         },
         "heretic": {
-            "conflict": "Storyteller dependent. If there are only good players, good should always win."
+            "conflict": "Storyteller dependent. If there are only good players, good should always win"
         },
         "plague_doctor": {
             "good": "Plague Doctor allows unfakeable Minions to be done by the ST"
@@ -940,7 +940,7 @@
             "warning": "Loud Minions can make for easier Balloonist info"
         },
         "widow": {
-            "good": "Widow can simulate this role."
+            "good": "Widow can simulate this role"
         },
         "goblin": {
             "warning": "Loud Minions can make for easier Balloonist info"
@@ -2158,7 +2158,7 @@
         },
         "pit-hag": {
             "good": "This Minion can help against a Courtier",
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "assassin": {
             "good": "This Minion can help against a Courtier"
@@ -2232,7 +2232,7 @@
             "good": "Recluse can appear evil"
         },
         "barber": {
-            "warning": "An Evil Demon can swap themself with this character to win with good. Beware two extra evil players."
+            "warning": "An Evil Demon can swap themself with this character to win with good. Beware two extra evil players"
         },
         "goon": {
             "warning": "Beware two extra evil players"
@@ -2773,7 +2773,7 @@
         },
         "pit-hag": {
             "good": "Targeted Minion abilities are powerful against Exorcist",
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "cerenovus": {
             "good": "Targeted Minion abilities are powerful against Exorcist"
@@ -3319,7 +3319,7 @@
             "warning": "Bad choice for a Twin"
         },
         "pit-hag": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "cerenovus": {
             "warning": "This role can survive Cerenovus madness break"
@@ -3346,10 +3346,10 @@
             "good": "This role can survive the Wraith's optional rule"
         },
         "po": {
-            "good": "Protection with multi-kill Demons works well."
+            "good": "Protection with multi-kill Demons works well"
         },
         "pukka": {
-            "good": "Pukka disables self protected characters."
+            "good": "Pukka disables self protected characters"
         },
         "shabaloth": {
             "good": "Protection with multi-kill Demons works well",
@@ -3577,7 +3577,7 @@
             "warning": "Bad choice for a Twin"
         },
         "pit-hag": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "cerenovus": {
             "good": "Cerenovus can get the Gambler killed with false claims"
@@ -3586,7 +3586,7 @@
             "good": "Gambler can hide a Mastermind day"
         },
         "marionette": {
-            "good": "Gambling Marionette is hard"
+            "good": "Gambling Marionette is hard. Marionette gives a reason to not give your claim to a Gambler"
         },
         "psychopath": {
             "warning": "Confirmation saves a gamble"
@@ -3837,7 +3837,7 @@
             "good": "Good choice for a Twin"
         },
         "pit-hag": {
-            "warning": "Arbitrary death can confuse a Gossip. Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Arbitrary death can confuse a Gossip. Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "cerenovus": {
             "warning": "This role requires a public claim"
@@ -3974,7 +3974,7 @@
             "warning": "Bad choice for a Twin"
         },
         "pit-hag": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "assassin": {
             "good": "Grandmother can help confirm Assassin"
@@ -4231,7 +4231,7 @@
             "warning": "Droison and Heretic can cause confusing game states"
         },
         "pit-hag": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "assassin": {
             "good": "Assassin ignores protection"
@@ -4246,7 +4246,7 @@
             "warning": "Beware too much misinformation"
         },
         "po": {
-            "good": "Protection with multi-kill Demons works well."
+            "good": "Protection with multi-kill Demons works well"
         },
         "shabaloth": {
             "good": "Protection with multi-kill Demons works well"
@@ -4307,7 +4307,7 @@
             "good": "Night one roles can be executed to be confirmed"
         },
         "village_idiot": {
-            "good": "Village Idiot can help find the true player."
+            "good": "Village Idiot can help find the true player"
         },
         "saint": {
             "good": "This role is a good false target"
@@ -4827,13 +4827,13 @@
             "good": "When resurrected, it gets new first night info (or same)"
         },
         "village_idiot": {
-            "good": "Village Idiot can help find the true player."
+            "good": "Village Idiot can help find the true player"
         },
         "virgin": {
             "good": "First night info can die to Virgin"
         },
         "drunk": {
-            "warning": "If Librarian sees a Drunk without other droison, only 3 players are valid Drunk.",
+            "warning": "If Librarian sees a Drunk without other droison, only 3 players are valid Drunk",
             "good": "Can be faked on any player, since Drunk is a hidden Outsider"
         },
         "butler": {
@@ -5074,7 +5074,7 @@
             "good": "Targeted Minions prevent the Lycanthrope from outing"
         },
         "evil_twin": {
-            "warning": "Bad choice for a Twin. Lycanthrope can kill the good Twin (or the Demon can fake doing so). Faux Paw registers as evil and cannot be the good twin (unless Alchemist is involved)."
+            "warning": "Bad choice for a Twin. Lycanthrope can kill the good Twin (or the Demon can fake doing so). Faux Paw registers as evil and cannot be the good twin (unless Alchemist is involved)"
         },
         "pit-hag": {
             "good": "Targeted Minions prevent the Lycanthrope from outing"
@@ -5562,7 +5562,7 @@
             "warning": "Evil Twin is hard to execute. Minstrel can confirm that the Evil Twin was executed. If the good twin is executed on a Minstrel day, good doesn't lose"
         },
         "pit-hag": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "mastermind": {
             "warning": "If the Demon is LM, the Mastermind has no use with a Minstrel in play"
@@ -5645,7 +5645,7 @@
             "warning": "Bad choice for a Twin"
         },
         "pit-hag": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "mezepheles": {
             "warning": "This role as evil can't do much for the evil team beyond disabling it"
@@ -5672,11 +5672,11 @@
             "good": "Monk can protect from Vortox false info"
         },
         "po": {
-            "good": "Protection with multi-kill Demons works well."
+            "good": "Protection with multi-kill Demons works well"
         },
         "pukka": {
             "conflict": "Monk has twice as many chances to protect from Pukka, who already doesn't kill much",
-            "good": "Monk can protect from this Demon's poison."
+            "good": "Monk can protect from this Demon's poison"
         },
         "shabaloth": {
             "good": "Protection with multi-kill Demons works well"
@@ -6689,7 +6689,7 @@
         },
         "pit-hag": {
             "good": "Pit-Hag can change the Princess if it's outed",
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "cerenovus": {
             "warning": "While Cerenovus-mad, this role can't use its ability easily. Cerenovus-mad players can break madness if Princess nominated"
@@ -7238,7 +7238,7 @@
             "warning": "Bad choice for a Twin"
         },
         "pit-hag": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "cerenovus": {
             "warning": "This role can survive Cerenovus madness break"
@@ -7752,7 +7752,7 @@
         },
         "pit-hag": {
             "good": "If Pit-Hag makes a new Demon, the Soldier can die",
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "assassin": {
             "good": "Assassin can kill Soldier"
@@ -7782,7 +7782,7 @@
             "good": "Soldier is immue to No Dashii poison"
         },
         "pukka": {
-            "good": "Soldier is immue to Pukka poison."
+            "good": "Soldier is immue to Pukka poison"
         },
         "al-hadikhia": {
             "warning": "Protected players choices don't matter"
@@ -7994,7 +7994,7 @@
             "warning": "Bad choice for a Twin without support"
         },
         "pit-hag": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "cerenovus": {
             "warning": "This role can make other players survive Cerenovus madness break"
@@ -8294,7 +8294,7 @@
             "warning": "Undertaker benefits from long games"
         },
         "zombuul": {
-            "conflict": "Undertaker will catch the Zombuul when executed."
+            "conflict": "Undertaker will catch the Zombuul when executed"
         },
         "al-hadikhia": {
             "warning": "Undertaker benefits from long games"
@@ -9081,7 +9081,7 @@
             "conflict": "Swapping a player with an evil Policitian can create an evil Politician"
         },
         "puzzlemaster": {
-            "warning": "Demon can move. Changing who the Puzzlemaster is might change who is drunk, even if the new Puzzlemaster is dead."
+            "warning": "Demon can move. Changing who the Puzzlemaster is might change who is drunk, even if the new Puzzlemaster is dead"
         },
         "plague_doctor": {
             "warning": "Barber can \"resurrect\" this role"
@@ -9177,7 +9177,7 @@
             "good": "Extra deaths work well with this Outsider"
         },
         "zombuul": {
-            "conflict": "If a \"dead\" Zombuul swaps with a Minion, they live, but still appear as dead."
+            "conflict": "If a \"dead\" Zombuul swaps with a Minion, they live, but still appear as dead"
         },
         "al-hadikhia": {
             "good": "Extra deaths work well with this Outsider"
@@ -9493,7 +9493,7 @@
             "good": "Spy can check on the alignment of the Goon"
         },
         "pit-hag": {
-            "warning": "If Pit-Hag manages to change the Goon into another character, beware of two extra evil players. Varying amount of night deaths makes Pit-Hag Demon changes harder to track.",
+            "warning": "If Pit-Hag manages to change the Goon into another character, beware of two extra evil players. Varying amount of night deaths makes Pit-Hag Demon changes harder to track",
             "good": "An evil Goon can be turned into a Minion or Demon (though complicated). Creating this Outsider can be silent"
         },
         "assassin": {
@@ -9614,7 +9614,7 @@
         },
         "pit-hag": {
             "good": "Creating this Outsider can be silent",
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "cerenovus": {
             "warning": "This role must claim itself even if mad"
@@ -9702,7 +9702,7 @@
             "good": "Tinker can fake a kill"
         },
         "pit-hag": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "godfather": {
             "good": "Tinker can trigger the Godfather at any time"
@@ -9877,7 +9877,7 @@
             "good": "Baron works better with hidden Outsiders"
         },
         "poisoner": {
-            "info": "The Minions learn the Damsel during Minion Info, before the Poisoner wakes, despite the position of the Damsel's night order reminder."
+            "info": "The Minions learn the Damsel during Minion Info, before the Poisoner wakes, despite the position of the Damsel's night order reminder"
         },
         "spy": {
             "info": "Damsel is poisoned even if this Minion doesn't see the grim or the Damsel"
@@ -10545,7 +10545,7 @@
             "warning": "If changed into a Pukka, no death will happen tonight"
         },
         "zombuul": {
-            "conflict": "If a \"dead\" Zombuul changes character, they live, but still appear as dead."
+            "conflict": "If a \"dead\" Zombuul changes character, they live, but still appear as dead"
         },
         "al-hadikhia": {
             "warning": "Changing to a loud Demon can confirm Hatter"
@@ -11098,7 +11098,7 @@
             "warning": "Loud Minions can confirm a Wizard not being in-play"
         },
         "wraith": {
-            "warning": "When waking the twins together, the Wraith must also be awake. In 2 minion games, that good player then knows both minions. The optional rule gives the Good Twin an out to die without execution."
+            "warning": "When waking the twins together, the Wraith must also be awake. In 2 minion games, that good player then knows both minions. The optional rule gives the Good Twin an out to die without execution"
         },
         "imp": {
             "good": "Evil Twin can change to the Imp"
@@ -11154,13 +11154,13 @@
             "good": "Mad players can claim to be pit-hagged"
         },
         "assassin": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "godfather": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "mastermind": {
-            "warning": "Mastermind allows the Pit-Hag to create a new Demon after the first one has died. Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Mastermind allows the Pit-Hag to create a new Demon after the first one has died. Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "fearmonger": {
             "warning": "Adding a loud Minion is confirmed"
@@ -11185,7 +11185,7 @@
             "warning": "Adding a loud Minion is confirmed"
         },
         "harpy": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "boffin": {
             "warning": "Pit-Hag can change the Boffed character by creating it"
@@ -11215,13 +11215,13 @@
             "good": "Interesting Demon to change into"
         },
         "po": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "pukka": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "zombuul": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "al-hadikhia": {
             "warning": "Changing loud Demons can be confirmed (can be delayed)"
@@ -11233,27 +11233,27 @@
             "good": "Interesting Demon to change into"
         },
         "legion": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "lil_monsta": {
             "warning": "Creating a Lil Monsta requires a ST ruling"
         },
         "ojo": {
             "good": "Pit Hag can change the target's role before Ojo kills them for sure",
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "kazali": {
             "good": "Kazali can become a Demon with ongoing benefits if they make a Pit-Hag"
         },
         "yaggababble": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "lord_of_typhon": {
             "warning": "Loud Minions might give out the extra one added by LoT",
             "good": "LoT can become a Demon with ongoing benefits if they make a Pit-Hag"
         },
         "barista": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "spirit_of_ivory": {
             "good": "SoI can prevent double evils with any alignment changer"
@@ -11262,7 +11262,7 @@
             "conflict": "Pit-Hag can change the stormcaught role"
         },
         "toymaker": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track."
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         }
     },
     "cerenovus": {
@@ -11919,7 +11919,7 @@
     },
     "organ_grinder": {
         "vizier": {
-            "warning": "Vizier doesn't know if its ability will work."
+            "warning": "Vizier doesn't know if its ability will work"
         },
         "summoner": {
             "warning": "Loud Minions can confirm a Summoner not being in-play"

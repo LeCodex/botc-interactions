@@ -17,7 +17,7 @@ def extract_messages(row):
             new_partitions = []
             
             for part in partitions:
-                if part in categories.keys(): # The partition is a separator: ignore it
+                if part in categories.keys():  # The partition is a separator: ignore it
                     new_partitions.append(part)
                     continue
 
@@ -25,7 +25,7 @@ def extract_messages(row):
 
             partitions = new_partitions
 
-        partitions = [v.strip() for v in partitions if v != ""] # Filter out the empty strings
+        partitions = [v.strip(" .") for v in partitions if v != ""]  # Filter out the empty strings
         
         # If no symbols: it's just an info
         if len(partitions) == 1:
@@ -48,8 +48,9 @@ def extract_groups(row: list[str]):
     }
 
 outputs = {}
+base_url = "https://docs.google.com/spreadsheets/d/1KBF5DurN0zq8eSLuh3u2Lg2w7e6Fr7N4B5qzc-wRO4U/gviz/tq?tqx=out:csv"
 for tab in ["Matchups", "Hermit"]:
-    response = requests.get(f"https://docs.google.com/spreadsheets/d/1KBF5DurN0zq8eSLuh3u2Lg2w7e6Fr7N4B5qzc-wRO4U/gviz/tq?tqx=out:csv&sheet={tab}")
+    response = requests.get(f"{base_url}&sheet={tab}")
     reader = csv.DictReader(response.text.split("\n"))
     output = {}
     for row in reader:
@@ -59,7 +60,7 @@ for tab in ["Matchups", "Hermit"]:
     outputs[tab] = output
 
 for tab in ["Groups"]:
-    response = requests.get(f"https://docs.google.com/spreadsheets/d/1KBF5DurN0zq8eSLuh3u2Lg2w7e6Fr7N4B5qzc-wRO4U/gviz/tq?tqx=out:csv&sheet={tab}")
+    response = requests.get(f"{base_url}&sheet={tab}")
     reader = csv.reader(response.text.split("\n")[1:])  # Skip header
     output = []
     for row in reader:
@@ -67,6 +68,7 @@ for tab in ["Groups"]:
     outputs[tab] = output
 
 for name, output in outputs.items():
-    json_filename = f"./{tab.lower()}.json"
+    json_filename = f"./{name.lower()}.json"
+    print(f"printing {json_filename}")
     with open(json_filename, "w") as file:
         json.dump(output, fp=file, ensure_ascii=False, indent=4)

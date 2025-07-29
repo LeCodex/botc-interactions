@@ -81,7 +81,7 @@
             "warning": "The Hermit Saint can only die at night"
         },
         "goon": {
-            "warning": "Dangerous but interesting combination. Goon makes it harder for the Hermit to die at night."
+            "warning": "Dangerous but interesting combination. Goon makes it harder for the Hermit to die at night"
         },
         "moonchild": {
             "warning": "The Hermit Saint can only die at night"
@@ -181,7 +181,7 @@
         },
         "goon": {
             "warning": "Goon makes it harder for the Hermit to die. Beware two extra evils",
-            "good": "Evil Barber can coordinate with evil."
+            "good": "Evil Barber can coordinate with evil"
         },
         "moonchild": {
             "warning": "Hermit will probably be Barber swapped back into play"
@@ -203,7 +203,7 @@
             "conflict": "Swapping a player with an evil Policitian can create an evil Politician"
         },
         "puzzlemaster": {
-            "warning": "Changing who the Puzzlemaster is might change who is drunk, even if the new Puzzlemaster is dead."
+            "warning": "Changing who the Puzzlemaster is might change who is drunk, even if the new Puzzlemaster is dead"
         },
         "snitch": {
             "warning": "Hermit will probably be Barber swapped back into play, which will trigger Snitch again"
@@ -233,7 +233,7 @@
             "warning": "Announced death will force the reveal of this role"
         },
         "goon": {
-            "warning": "Goon makes it harder for the Hermit to die."
+            "warning": "Goon makes it harder for the Hermit to die"
         },
         "moonchild": {
             "warning": "Announced death will force the reveal of this role"
@@ -291,7 +291,7 @@
     },
     "klutz": {
         "goon": {
-            "warning": "Goon makes it harder for the Hermit to die."
+            "warning": "Goon makes it harder for the Hermit to die"
         },
         "moonchild": {
             "info": "Distinguishable from regular Moonchild and Klutz"
@@ -329,7 +329,7 @@
     },
     "goon": {
         "moonchild": {
-            "warning": "Goon makes it harder for the Hermit to die."
+            "warning": "Goon makes it harder for the Hermit to die"
         },
         "tinker": {
             "good": "ST can force the Goon to stay in their alignment"
@@ -344,10 +344,10 @@
             "warning": "Golem is hard to hide. Hermit Golem can control its death"
         },
         "plague_doctor": {
-            "warning": "Goon makes it harder for the Hermit to die."
+            "warning": "Goon makes it harder for the Hermit to die"
         },
         "hatter": {
-            "warning": "Goon makes it harder for the Hermit to die."
+            "warning": "Goon makes it harder for the Hermit to die"
         },
         "ogre": {
             "warning": "Goon overrides Ogre"
