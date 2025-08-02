@@ -69,7 +69,8 @@
             "good": "Acrobat can narrow down incidental droison"
         },
         "puzzlemaster": {
-            "good": "Acrobat can help find the Puzzle drunk"
+            "good": "Acrobat can help find the Puzzle drunk",
+            "warning": "Puzzlemaster benefits from long games"
         },
         "poisoner": {
             "good": "Acrobat can narrow down incidental droison"
@@ -401,6 +402,9 @@
         "spy": {
             "info": "Spy may not register as a Minion (don't)"
         },
+        "witch": {
+            "warning": "Alsaahir benefits from long games"
+        },
         "evil_twin": {
             "warning": "Loud Minions are easier targets for Alsaahir. Alsaahir can't win until ET is solved"
         },
@@ -564,6 +568,9 @@
         },
         "poisoner": {
             "warning": "Amnesiac works best with static droison, rather than new/moving one"
+        },
+        "witch": {
+            "warning": "Amnesiac benefits from long games"
         },
         "assassin": {
             "warning": "Amnesiac benefits from long games"
@@ -925,6 +932,9 @@
         },
         "spy": {
             "good": "Spy can appear as any Townsfolk or Outsider, damaging Balloonist info. Spy can simulate this role"
+        },
+        "witch": {
+            "warning": "Balloonist benefits from long games"
         },
         "evil_twin": {
             "good": "Good choice for a Twin"
@@ -2130,7 +2140,8 @@
             "good": "Good Outsider to drunk, and good bluff for Minions looking for the Damsel"
         },
         "puzzlemaster": {
-            "warning": "This role can make it hard to find the Puzzle drunk"
+            "warning": "This role can make it hard to find the Puzzle drunk",
+            "good": "Puzzlemaster benefits from long games"
         },
         "heretic": {
             "warning": "Droison and Heretic can cause confusing game states"
@@ -2757,7 +2768,7 @@
             "good": "Exorcist can help a Lunatic (can't be affected)"
         },
         "puzzlemaster": {
-            "good": "Exorcist can help confirm Puzzlemaster info"
+            "good": "Exorcist can help confirm Puzzlemaster info. Puzzlemaster benefits from long games"
         },
         "poisoner": {
             "good": "Targeted Minion abilities are powerful against Exorcist"
@@ -2801,9 +2812,6 @@
         },
         "vortox": {
             "warning": "Vortox will a learn a wrong player if targeted. This role's info is immune to Vortox"
-        },
-        "leviathan": {
-            "warning": "Exorcist is useless in a Leviathan game"
         },
         "legion": {
             "warning": "Exorcist is useless in a Legion game"
@@ -3165,7 +3173,8 @@
             "warning": "The Demon can move around"
         },
         "witch": {
-            "good": "Encouraging nominations works well with this Minion"
+            "good": "Encouraging nominations works well with this Minion",
+            "warning": "Flowergirl benefits from long games"
         },
         "evil_twin": {
             "good": "Good choice for a Twin"
@@ -3308,6 +3317,9 @@
         },
         "golem": {
             "good": "This role can appear as the Demon if Golem nominated"
+        },
+        "puzzlemaster": {
+            "good": "Puzzlemaster benefits from long games"
         },
         "zealot": {
             "good": "Zealot helps with executions"
@@ -3566,6 +3578,9 @@
         },
         "golem": {
             "good": "Confirmation saves a gamble"
+        },
+        "puzzlemaster": {
+            "warning": "Puzzlemaster benefits from long games"
         },
         "scarlet_woman": {
             "good": "With a Scarlet Woman, the Demon can fake dying in the night"
@@ -3830,6 +3845,9 @@
         "lunatic": {
             "good": "Gossip kill can hide the Demon chosing other targets"
         },
+        "puzzlemaster": {
+            "warning": "Puzzlemaster benefits from long games"
+        },
         "spy": {
             "warning": "Spy can muddle Gossip info (use sparingly)"
         },
@@ -3963,6 +3981,9 @@
         },
         "lunatic": {
             "good": "Grandmother can confirm Lunatic (or make Demon believe they are the Lunatic)"
+        },
+        "puzzlemaster": {
+            "warning": "Puzzlemaster benefits from long games"
         },
         "heretic": {
             "warning": "Confirmed Heretic is powerful"
@@ -4225,7 +4246,8 @@
             "warning": "A droisoned Lunatic doesn't give its picks to the Demon"
         },
         "puzzlemaster": {
-            "warning": "This role can make it hard to find the Puzzle drunk"
+            "warning": "This role can make it hard to find the Puzzle drunk",
+            "good": "Puzzlemaster benefits from long games"
         },
         "heretic": {
             "warning": "Droison and Heretic can cause confusing game states"
@@ -5549,6 +5571,9 @@
         "moonchild": {
             "good": "If Moonchild is droisoned in the night after their choice, the target can appear evil"
         },
+        "puzzlemaster": {
+            "good": "Puzzlemaster benefits from long games"
+        },
         "heretic": {
             "warning": "Droison and Heretic can cause confusing game states"
         },
@@ -5597,9 +5622,6 @@
         "leviathan": {
             "conflict": "Can cause a 6th day"
         },
-        "legion": {
-            "conflict": "Disabling Legions' ability allows them to vote freely"
-        },
         "lil_monsta": {
             "warning": "Lil Monsta is immune to Minstrel drunkeness"
         },
@@ -5640,6 +5662,9 @@
         },
         "village_idiot": {
             "good": "No/less night deaths can allow the Village Idiot to get more info"
+        },
+        "puzzlemaster": {
+            "good": "Puzzlemaster benefits from long games"
         },
         "evil_twin": {
             "warning": "Bad choice for a Twin"
@@ -6100,6 +6125,9 @@
         },
         "mutant": {
             "info": "This role can make other players survive Mutant madness break (not a good idea)"
+        },
+        "puzzlemaster": {
+            "good": "Puzzlemaster benefits from long games"
         },
         "zealot": {
             "good": "Zealot helps with executions"
@@ -6606,9 +6634,6 @@
         "vigormortis": {
             "good": "Preacher can disable undead Minions"
         },
-        "legion": {
-            "warning": "Preacher can disable all the alive Legions"
-        },
         "lord_of_typhon": {
             "warning": "Info on the Minions can be powerful in LoT game"
         }
@@ -6851,6 +6876,9 @@
         },
         "drunk": {
             "good": "Can cause good faith fails"
+        },
+        "puzzlemaster": {
+            "good": "Puzzlemaster benefits from long games"
         },
         "spy": {
             "good": "Spy can appear as a Townsfolk"
@@ -7228,6 +7256,9 @@
         "golem": {
             "good": "This role can appear as the Demon if Golem nominated"
         },
+        "puzzlemaster": {
+            "good": "Puzzlemaster benefits from long games"
+        },
         "heretic": {
             "warning": "Droison and Heretic can cause confusing game states"
         },
@@ -7332,6 +7363,9 @@
         },
         "spy": {
             "warning": "Spy can muddle Savant info (use sparingly)"
+        },
+        "witch": {
+            "warning": "Savant benefits from long games"
         },
         "evil_twin": {
             "good": "Good choice for a Twin"
@@ -7744,6 +7778,9 @@
         "washerwoman": {
             "good": "Confirming this role is in-play is good"
         },
+        "puzzlemaster": {
+            "good": "Puzzlemaster benefits from long games"
+        },
         "witch": {
             "good": "Witch can kill a Soldier"
         },
@@ -7975,6 +8012,9 @@
         "golem": {
             "good": "This role can make its neighbors appear as the Demon if Golem nominated"
         },
+        "puzzlemaster": {
+            "good": "Puzzlemaster benefits from long games"
+        },
         "plague_doctor": {
             "good": "Tea Lady can protect this Outsider"
         },
@@ -8099,6 +8139,7 @@
             "good": "Spy can hide from Town Crier"
         },
         "witch": {
+            "warning": "Town Crier benefits from long games",
             "good": "Encouraging nominations works well with this Minion"
         },
         "evil_twin": {
@@ -8229,7 +8270,8 @@
             "good": "Spy can appear as any good role. Spy can simulate this role"
         },
         "witch": {
-            "warning": "Other ways of dying during the day doesn't help the Undertaker"
+            "warning": "Other ways of dying during the day doesn't help the Undertaker. Undertaker benefits from long games",
+            "good": "Encouraging nominations works well with this Minion"
         },
         "evil_twin": {
             "good": "Undertaker can know when this role was executed"
@@ -8244,14 +8286,15 @@
             "good": "Allows the Undertaker to realistically see a Demon"
         },
         "devils_advocate": {
-            "warning": "This role can make executions survivable"
+            "warning": "This role can make executions survivable",
+            "good": "Encouraging nominations works well with this Minion"
         },
         "boomdandy": {
-            "good": "Boomdandy likes more nominations",
+            "good": "Encouraging nominations works well with this Minion",
             "warning": "Boomdandy discourages executions"
         },
         "fearmonger": {
-            "good": "Fearmonger likes more nominations",
+            "good": "Encouraging nominations works well with this Minion",
             "warning": "Fearmonger discourages executions"
         },
         "marionette": {
@@ -8264,7 +8307,8 @@
             "good": "Widow can simulate this role"
         },
         "goblin": {
-            "warning": "Goblin discourages executions"
+            "warning": "Goblin discourages executions",
+            "good": "Encouraging nominations works well with this Minion"
         },
         "organ_grinder": {
             "good": "Organ Grinder makes executions uncertain"
@@ -8282,7 +8326,8 @@
             "good": "Can confirm Wizard is in-play"
         },
         "vortox": {
-            "good": "Forcing executions works well with this role, and it can easily confirm a Vortox"
+            "good": "Forcing executions works well with this role",
+            "warning": "Can easily confirm a Vortox"
         },
         "po": {
             "warning": "Undertaker benefits from long games"
@@ -8408,6 +8453,7 @@
             "good": "Spy can appear as good"
         },
         "witch": {
+            "warning": "Village Idiot benefits from long games to find the drunk one",
             "good": "This Minion can use the free bluff"
         },
         "evil_twin": {
@@ -8886,6 +8932,9 @@
         },
         "riot": {
             "conflict": "Saint is a huge liability"
+        },
+        "leviathan": {
+            "warning": "After the first good execution, Saint becomes a dud"
         },
         "lil_monsta": {
             "good": "Great bluff for Minions"
@@ -9588,6 +9637,9 @@
         "golem": {
             "warning": "Golem can kill this role"
         },
+        "puzzlemaster": {
+            "warning": "Puzzlemaster benefits from long games"
+        },
         "plague_doctor": {
             "good": "Moonchild can kill this role"
         },
@@ -9694,6 +9746,9 @@
     "tinker": {
         "lunatic": {
             "good": "Can hide the Demon choosing different targets"
+        },
+        "puzzlemaster": {
+            "warning": "Puzzlemaster benefits from long games"
         },
         "hermit": {
             "warning": "Doubling this Outsider is dangerous"
@@ -9941,6 +9996,9 @@
         }
     },
     "golem": {
+        "puzzlemaster": {
+            "warning": "Puzzlemaster benefits from long games"
+        },
         "plague_doctor": {
             "warning": "Golem can kill this role"
         },
@@ -10101,14 +10159,29 @@
         "spy": {
             "warning": "Seeing the Grimoire can sometimes help the evil team hide the Puzzle drunk"
         },
+        "witch": {
+            "warning": "Puzzlemaster benefits from long games"
+        },
         "evil_twin": {
-            "good": "This Outsider can have a twin"
+            "great": "This Outsider can have a twin"
         },
         "cerenovus": {
             "good": "Cerenovus can prevent the Puzzle drunk from revealing itself"
         },
+        "assassin": {
+            "warning": "Puzzlemaster benefits from long games"
+        },
+        "godfather": {
+            "warning": "Puzzlemaster benefits from long games"
+        },
         "mastermind": {
             "good": "Mastermind can protect from a succesful PM guess"
+        },
+        "devils_advocate": {
+            "good": "Puzzlemaster benefits from long games"
+        },
+        "boomdandy": {
+            "warning": "Puzzlemaster benefits from long games"
         },
         "fearmonger": {
             "good": "This bluff gives a good reason to execute"
@@ -10116,14 +10189,19 @@
         "marionette": {
             "warning": "This role can make it hard to find the Puzzle drunk"
         },
+        "psychopath": {
+            "warning": "Puzzlemaster benefits from long games"
+        },
         "widow": {
             "warning": "Widow poison hides the Puzzle drunk. Seeing the Grimoire can sometimes help the evil team hide the Puzzle drunk"
         },
         "harpy": {
-            "good": "Harpy can prevent the Puzzle drunk from revealing itself"
+            "good": "Harpy can prevent the Puzzle drunk from revealing itself",
+            "warning": "Puzzlemaster benefits from long games"
         },
         "summoner": {
-            "conflict": "If the puzzledrunk player is chosen by Summoner, the Demon is drunk. If the Puzzlemaster guesses correctly before a Demon is made, the game state is invalid"
+            "conflict": "If the puzzledrunk player is chosen by Summoner, the Demon is drunk. If the Puzzlemaster guesses correctly before a Demon is made, the game state is invalid",
+            "good": "Puzzlemaster benefits from long games"
         },
         "boffin": {
             "good": "Good Boffin ability"
@@ -10144,10 +10222,20 @@
             "warning": "This role can make it hard to find the Puzzle drunk"
         },
         "pukka": {
-            "warning": "This role can make it hard to find the Puzzle drunk"
+            "warning": "This role can make it hard to find the Puzzle drunk",
+            "good": "Puzzlemaster benefits from long games"
+        },
+        "zombuul": {
+            "good": "Puzzlemaster benefits from long games"
+        },
+        "al-hadikhia": {
+            "warning": "Puzzlemaster benefits from long games"
         },
         "riot": {
             "warning": "Puzzlemaster guess is useless on day 3"
+        },
+        "leviathan": {
+            "good": "Puzzlemaster benefits from long games"
         },
         "lleech": {
             "warning": "Knowing who the Demon is isn't very useful for Lleech. Also, permanent poison can make the PM's job harder and hide the Lleech host"
@@ -10166,7 +10254,8 @@
             "good": "Great bluff for Minions"
         },
         "yaggababble": {
-            "good": "This role gives good opportunities for phrases"
+            "good": "This role gives good opportunities for phrases",
+            "warning": "Puzzlemaster guess is useless on day 3"
         },
         "lord_of_typhon": {
             "good": "Great bluff for Minions"
@@ -12418,14 +12507,38 @@
         }
     },
     "leviathan": {
+        "barista": {
+            "warning": "Cannot be boubled"
+        },
+        "beggar": {
+            "warning": "Few dead players means few tokens to be given out to the Beggar"
+        },
         "gangster": {
             "good": "Day kills aren't executions"
         },
         "gunslinger": {
             "good": "Day kills aren't executions"
         },
+        "scapegoat": {
+            "good": "Scapegoat execution is still an execution"
+        },
+        "voudon": {
+            "warning": "Few dead players means Voudon has a lot of power. Dead players are more often evil in a Leviathan game"
+        },
         "gnome": {
             "good": "Day kills aren't executions"
+        },
+        "buddhist": {
+            "good": "Buddhist can help new players find their voice in high-info games like Leviathan"
+        },
+        "ferryman": {
+            "warning": "Dead players are more often evil in a Leviathan game"
+        },
+        "stormcatcher": {
+            "warning": "Leviathan can't kill"
+        },
+        "toymaker": {
+            "warning": "Toymaker downside doesn't come into play with Leviathan"
         }
     },
     "lleech": {
