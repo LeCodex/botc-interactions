@@ -75,9 +75,6 @@
         "poisoner": {
             "good": "Acrobat can narrow down incidental droison"
         },
-        "spy": {
-            "good": "Spy can appear as good to \"hide\" a droisoned good neighbor"
-        },
         "pit-hag": {
             "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
@@ -4166,6 +4163,9 @@
         "pit-hag": {
             "warning": "Pit-Hag can bring a new Damsel in-game"
         },
+        "marionette": {
+            "warning": "If the Huntsman adds a Damsel, they can't be the Marionette"
+        },
         "boffin": {
             "good": "Good Boffin ability"
         },
@@ -7885,7 +7885,7 @@
             "warning": "Steward seeing Heretic is powerful"
         },
         "ogre": {
-            "good": "This role can learn the Ogre's alignment"
+            "warning": "This role cannot learn the Ogre's alignment (it acts after that info)"
         },
         "spy": {
             "good": "Spy can appear as good"
@@ -12533,6 +12533,12 @@
         },
         "ferryman": {
             "warning": "Dead players are more often evil in a Leviathan game"
+        },
+        "fibbin": {
+            "warning": "Fibbin alone probably isn't enough for a Leviathan game"
+        },
+        "spirit_of_ivory": {
+            "info": "Less likely to have an evil majority at higher player counts with a Leviathan, even with two extra evils. SoI is still a good idea for smaller games"
         },
         "stormcatcher": {
             "warning": "Leviathan can't kill"
