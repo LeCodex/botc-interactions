@@ -368,7 +368,8 @@
             "info": "Recluse can appear as a Minion or Demon (don't)"
         },
         "barber": {
-            "warning": "Barber can change the Alsaahir targets"
+            "warning": "Barber can change the Alsaahir targets",
+            "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
         "klutz": {
             "good": "Klutz can help eliminate Alsaahir candidates"
@@ -653,6 +654,9 @@
         },
         "recluse": {
             "good": "Recluse can muddle Artist info"
+        },
+        "barber": {
+            "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
         "spy": {
             "good": "Spy can muddle Artist info"
@@ -1633,6 +1637,9 @@
         "butler": {
             "good": "Butler is one of the only Outsiders that wake, making them a good bluff"
         },
+        "barber": {
+            "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
+        },
         "goon": {
             "good": "Chambermaid can detect a Goon alignment change"
         },
@@ -1896,6 +1903,9 @@
         },
         "recluse": {
             "warning": "Recluse can appear as the Demon (not a good idea)"
+        },
+        "barber": {
+            "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
         "puzzlemaster": {
             "good": "Choirboy can help confirm Puzzlemaster info"
@@ -2380,6 +2390,9 @@
         },
         "recluse": {
             "good": "Recluse can appear as any Minion or Demon"
+        },
+        "barber": {
+            "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
         "mutant": {
             "good": "Dreamer can find if someone is Mutant"
@@ -3143,7 +3156,8 @@
             "good": "Recluse can appear as a Demon"
         },
         "barber": {
-            "warning": "The Demon can move around"
+            "warning": "The Demon can move around",
+            "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
         "goon": {
             "good": "No/less night deaths can allow the Flowergirl to get more info"
@@ -3440,7 +3454,8 @@
             "good": "Recluse can appear as a Demon"
         },
         "barber": {
-            "warning": "The Demon can move around"
+            "warning": "The Demon can move around",
+            "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
         "lunatic": {
             "good": "Good choice for the red herring"
@@ -3566,6 +3581,9 @@
         },
         "recluse": {
             "good": "Recluse can appear as another role"
+        },
+        "barber": {
+            "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
         "mutant": {
             "good": "Gambling Mutant is hard"
@@ -3838,6 +3856,9 @@
         },
         "recluse": {
             "warning": "Recluse can muddle Gossip info (use sparingly)"
+        },
+        "barber": {
+            "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
         "lunatic": {
             "good": "Gossip kill can hide the Demon chosing other targets"
@@ -4590,6 +4611,9 @@
         },
         "recluse": {
             "good": "Recluse can appear as any Minion or Demon"
+        },
+        "barber": {
+            "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
         "moonchild": {
             "warning": "Moonchild can kill King",
@@ -6292,7 +6316,7 @@
         },
         "village_idiot": {
             "good": "Village Idiot can help confirm this character. Pixie can explain 4 Village Idiots",
-            "warning": "Hard for Pixie to know whuch Village Idiot it's copying"
+            "warning": "Hard for Pixie to know which Village Idiot it's copying"
         },
         "virgin": {
             "good": "Can allow other roles to nominate the Virgin if they have a Pixie"
@@ -6778,7 +6802,8 @@
             "good": "This Demon's main ability is not disabled by the Princess. Vortox and Princess both encourage executions"
         },
         "po": {
-            "good": "Po can charge during a \"Princess\" night"
+            "good": "Po can charge to fake a Princess",
+            "warning": "Po can just charge during a Princess night"
         },
         "shabaloth": {
             "warning": "All this Demon's ability relies on killing. Princess can prevent multiple deaths from this demon. When resurrected, this gets another use of its ability"
@@ -6936,6 +6961,9 @@
         "recluse": {
             "good": "Recluse can appear as any Minion or Demon"
         },
+        "barber": {
+            "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
+        },
         "mutant": {
             "good": "Ravenkeeper can find a Mutant"
         },
@@ -7080,7 +7108,8 @@
             "good": "Recluse can appear as a Demon"
         },
         "barber": {
-            "warning": "The Demon can move around"
+            "warning": "The Demon can move around",
+            "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
         "moonchild": {
             "warning": "Moonchild can kill a Sage"
@@ -7349,6 +7378,9 @@
         "recluse": {
             "warning": "Recluse can muddle Savant info (use sparingly)"
         },
+        "barber": {
+            "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
+        },
         "goon": {
             "good": "No/less night deaths can allow the Savant to get more info"
         },
@@ -7590,7 +7622,8 @@
             "good": "Recluse can appear as a Demon (only use if it makes sense)"
         },
         "barber": {
-            "warning": "The Demon can move around"
+            "warning": "The Demon can move around",
+            "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
         "tinker": {
             "good": "Tinker can fake a kill"
@@ -7681,7 +7714,8 @@
             "info": "Recluse can trigger Snake Charmer (don't)"
         },
         "barber": {
-            "warning": "The Demon can move around"
+            "warning": "The Demon can move around",
+            "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
         "lunatic": {
             "good": "Snake Charmer can find a Lunatic"
@@ -8119,6 +8153,9 @@
         "recluse": {
             "good": "Recluse can appear as a Minion"
         },
+        "barber": {
+            "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
+        },
         "goon": {
             "good": "No/less night deaths can allow the Town Crier to get more info"
         },
@@ -8237,6 +8274,9 @@
         },
         "recluse": {
             "good": "Recluse can appear as any Minion or Demon"
+        },
+        "barber": {
+            "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
         "sweetheart": {
             "good": "Undertaker can know when this role was executed"
@@ -12453,7 +12493,11 @@
             "info": "Fibbin can give true info with Vortox"
         }
     },
-    "po": {},
+    "po": {
+        "al-hadikhia": {
+            "good": "Al-had hiding on night 2 can fake a Po charge"
+        }
+    },
     "pukka": {
         "barista": {
             "good": "Single kill Demons can kill twice with a Barista"

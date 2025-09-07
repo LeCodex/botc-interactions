@@ -86,6 +86,23 @@
         ]
     },
     {
+        "name": "Explains evil night deaths (not extra evil)",
+        "recommended": true,
+        "multiple": false,
+        "evil_or_fabled": false,
+        "characters": [
+            "poppygrower",
+            "scarlet_woman",
+            "pit-hag",
+            "imp",
+            "fang_gu",
+            "vigormortis",
+            "zombuul",
+            "legion",
+            "lil_monsta"
+        ]
+    },
+    {
         "name": "Explains no night deaths",
         "recommended": false,
         "multiple": false,
