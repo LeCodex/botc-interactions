@@ -201,9 +201,6 @@
         "psychopath": {
             "warning": "Alchemist with a killing is powerful. Alchemist Psychopath can't be prevented easily"
         },
-        "widow": {
-            "warning": "Alchemist Widow can be confirmed"
-        },
         "harpy": {
             "warning": "Alch-Harpy is pretty weak"
         },
@@ -428,7 +425,7 @@
             "warning": "Loud Minions are easier targets for Alsaahir"
         },
         "vizier": {
-            "warning": "Loud Minions are easier targets for Alsaahir"
+            "good": "If both are in-play, mute Vizier can blufff day protection"
         },
         "summoner": {
             "warning": "There can be no Demons"
@@ -800,9 +797,6 @@
         },
         "al-hadikhia": {
             "good": "Atheist can simulate announcements. This role can explain non-picked deaths"
-        },
-        "riot": {
-            "warning": "Riot is easier to win the game with by nominating the ST"
         },
         "leviathan": {
             "good": "Atheist can simulate announcements"
@@ -1233,7 +1227,8 @@
             "good": "Evil Mayor makes evil win"
         },
         "minstrel": {
-            "warning": "This role as evil can't do much for the evil team"
+            "warning": "This role as evil can't do much for the evil team",
+            "conflict": "A Bounty Hunter exeucting their target will most likely be drunk when learning their next target"
         },
         "monk": {
             "warning": "This role as evil can't do much for the evil team"
@@ -1526,6 +1521,12 @@
         },
         "damsel": {
             "good": "Minions don't learn that a Damsel is in play a second time"
+        },
+        "politician": {
+            "warning": "Only at most one player can be most responsible for good losing"
+        },
+        "puzzlemaster": {
+            "warning": "Cannibal dying keeps the Puzzlemaster ability"
         },
         "snitch": {
             "good": "Cannibal can give a reason for the Snitch to stay alive"
@@ -1947,7 +1948,7 @@
             "good": "If a Minion holding LM kills the King, the Choirboy wake to learn info"
         },
         "kazali": {
-            "warning": "If King is chosen, the Kazali learns that a Choirboy is in-play"
+            "conflict": "Kazali can delete the King"
         },
         "lord_of_typhon": {
             "conflict": "LoT can delete the King"
@@ -2043,6 +2044,9 @@
         },
         "vizier": {
             "conflict": "Clockmaker and outed Minions can make the ability very powerful"
+        },
+        "summoner": {
+            "warning": "Clockmaker no on 5-9 players (10-12 with Marionette)"
         },
         "boffin": {
             "warning": "This ability is useless to the Demon"
@@ -2201,6 +2205,9 @@
         },
         "organ_grinder": {
             "good": "Organ Grinder can fake a Courtier picking them"
+        },
+        "vizier": {
+            "good": "Vizier can frame good players if droisoned"
         },
         "harpy": {
             "good": "This Minion can help against a Courtier"
@@ -2702,9 +2709,6 @@
         },
         "lleech": {
             "warning": "With loud Minions, easily detectable if droisoned"
-        },
-        "legion": {
-            "warning": "Engineer can't start in game with Legion"
         },
         "lil_monsta": {
             "good": "If Engineer makes a LM, a new Minion is a created. In the other way, the babysitter Minion becomes the Demon"
@@ -4184,9 +4188,6 @@
         "pit-hag": {
             "warning": "Pit-Hag can bring a new Damsel in-game"
         },
-        "marionette": {
-            "warning": "If the Huntsman adds a Damsel, they can't be the Marionette"
-        },
         "boffin": {
             "good": "Good Boffin ability"
         },
@@ -4200,7 +4201,7 @@
             "good": "Used once per game roles will always choose death. Dead ones are more likely to choose live (and potentially seem like Minions)"
         },
         "kazali": {
-            "warning": "If Damsel becomes a Minion, the new Damsel knows the old one is a Minion, giving them no bluffs"
+            "conflict": "Kazali can delete the Damsel"
         },
         "lord_of_typhon": {
             "conflict": "LoT can delete the Damsel"
@@ -5309,9 +5310,6 @@
         "fearmonger": {
             "warning": "Magician can't fake this Minion without double claim"
         },
-        "marionette": {
-            "good": "Magician can appear as the Marionette if next to the Demon"
-        },
         "mezepheles": {
             "warning": "This role as evil can't do much for the evil team beyond disabling it"
         },
@@ -5359,9 +5357,6 @@
         },
         "riot": {
             "good": "Magician is harder to find with Riot"
-        },
-        "legion": {
-            "good": "Magician is harder to find with Legion"
         },
         "ojo": {
             "warning": "Ojo can kill Magician immediately, but this outs it being in-play"
@@ -5428,17 +5423,11 @@
         "washerwoman": {
             "good": "Mathematician can help first night info"
         },
-        "drunk": {
-            "warning": "Drunk does not trigger Mathematician"
-        },
         "recluse": {
             "good": "Good source of malfunction"
         },
         "spy": {
             "good": "Good source of malfunction"
-        },
-        "marionette": {
-            "warning": "Marionette doesn't trigger Mathematician"
         },
         "xaan": {
             "good": "Mathematician can detect day characters that were poisoned the day afterward"
@@ -10161,7 +10150,7 @@
             "warning": "Beware two extra evil players"
         },
         "legion": {
-            "conflict": "Extra evils in Legion games are dangerous"
+            "warning": "Extra evils in Legion games are dangerous"
         },
         "lil_monsta": {
             "good": "Politician could hold LM"
@@ -10408,6 +10397,9 @@
         "hermit": {
             "warning": "Can cause a double Heretic that cancel out, which might be good depending on the combination"
         },
+        "baron": {
+            "info": "Recommended to have 5 Outsiders to avoid weird Baron being impossible with base 2 Outsiders"
+        },
         "poisoner": {
             "warning": "Droison and Heretic can cause confusing game states"
         },
@@ -10483,7 +10475,7 @@
             "good": "Extra deaths work well with this Outsider"
         },
         "evil_twin": {
-            "warning": "Script requires an additional Minion for the Plague Doctor to add in 3 Minions games"
+            "good": "PD-created Evil Twin can be either alignment"
         },
         "pit-hag": {
             "good": "Creating this Outsider can be silent"
@@ -10500,11 +10492,14 @@
         "devils_advocate": {
             "warning": "Storyteller with DA's ability will work more like a Pacifist. Doubling DA ability can be overpowered"
         },
+        "boomdandy": {
+            "good": "The PD created Boomdandy can be either alignmnt"
+        },
         "fearmonger": {
             "warning": "Adding a loud Minion is confirmed"
         },
         "marionette": {
-            "warning": "Beware other extra evil roles"
+            "warning": "Beware two extra evil players"
         },
         "psychopath": {
             "warning": "Adding a loud Minion is confirmed. Unkillable Psychopath is powerful"
@@ -10640,7 +10635,7 @@
             "warning": "Changing to a loud Minion is confirmed"
         },
         "summoner": {
-            "warning": "If Hatter dies before night 3, it has no effect"
+            "warning": "Beware two living Demons"
         },
         "boffin": {
             "good": "Interesting if the Demon can safely die"
@@ -10684,9 +10679,6 @@
         },
         "lleech": {
             "good": "Interesting Demon to change into"
-        },
-        "legion": {
-            "warning": "Legion targets are chosen by the ST"
         },
         "lil_monsta": {
             "warning": "LM targets are chosen by the ST"
@@ -11268,6 +11260,9 @@
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
+        "bureaucrat": {
+            "good": "Helps with execution"
+        },
         "judge": {
             "warning": "Evil Judge can force an execution on the good twin"
         },
@@ -11542,6 +11537,9 @@
         "lord_of_typhon": {
             "warning": "Outsider modification might not apply. LoT makes this character harder to solve for"
         },
+        "bureaucrat": {
+            "good": "Helps with execution"
+        },
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
         }
@@ -11564,9 +11562,6 @@
         },
         "wizard": {
             "good": "Mastermind can make the cost more risky"
-        },
-        "vigormortis": {
-            "warning": "Killing this Minion fully disables it, no matter what"
         },
         "vortox": {
             "good": "Forcing executions works well with this role"
@@ -11627,6 +11622,9 @@
         },
         "lil_monsta": {
             "warning": "DA can constantly protect the new babysitter"
+        },
+        "bureaucrat": {
+            "good": "Helps with execution"
         },
         "scapegoat": {
             "good": "Interesting synergy"
@@ -11694,6 +11692,9 @@
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
+        "bureaucrat": {
+            "good": "Helps with execution"
+        },
         "gnome": {
             "good": "Interesting amigo"
         },
@@ -11752,6 +11753,9 @@
         "apprentice": {
             "warning": "Apprentice Fearmonger is outed immediately if they joined late"
         },
+        "bureaucrat": {
+            "good": "Helps with execution"
+        },
         "gnome": {
             "good": "Gnome can protect from a Fearmonger nomination"
         }
@@ -11762,6 +11766,10 @@
         },
         "vizier": {
             "warning": "Marionette does not count as a good vote"
+        },
+        "summoner": {
+            "good": "Summoner also indirectly chooses the Marionette",
+            "warning": "Solo evil on 10-12 players is rough"
         },
         "xaan": {
             "good": "Marionette Outsider doesn't count for Xaan, and can be useful to throw off the Xaan night",
@@ -11789,7 +11797,7 @@
             "good": "Marionette can help appear socially good before becoming Riot"
         },
         "lil_monsta": {
-            "good": "A dead Minion has no reason to hide to a Marionette"
+            "good": "A dead Minion has no reason to hide to a Marionette. Minions choose where the Marionette can be"
         },
         "yaggababble": {
             "good": "This role gives good opportunities for phrases"
@@ -11907,9 +11915,6 @@
         },
         "legion": {
             "warning": "Legion can't bluff outed evils"
-        },
-        "lil_monsta": {
-            "conflict": "Psychopath is nearly invincible babysitter"
         },
         "yaggababble": {
             "good": "This role gives good opportunities for phrases. Yaggababble can simulate day deaths"
@@ -12039,6 +12044,9 @@
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
+        "bureaucrat": {
+            "good": "Helps with execution"
+        },
         "judge": {
             "warning": "Evil Judge can force an execution of a Goblin"
         },
@@ -12124,6 +12132,12 @@
         },
         "apprentice": {
             "warning": "Apprentice Vizier is outed immediately"
+        },
+        "bureaucrat": {
+            "warning": "This Traveller's abilit might not matter with a Vizier"
+        },
+        "thief": {
+            "warning": "This Traveller's abilit might not matter with a Vizier"
         },
         "gnome": {
             "warning": "Confirmed amigo"
@@ -12217,6 +12231,9 @@
         },
         "lil_monsta": {
             "info": "Should have 5 Minions for base 3-Minion games"
+        },
+        "kazali": {
+            "warning": "Beware two living Demons"
         },
         "yaggababble": {
             "warning": "Creating this Demon causes night 3 to have no deaths"
@@ -12483,6 +12500,9 @@
         "barista": {
             "good": "Single kill Demons can kill twice with a Barista"
         },
+        "bureaucrat": {
+            "good": "Helps with execution"
+        },
         "voudon": {
             "conflict": "Evil Voudon can choose not to vote on day 1, causing a loss"
         },
@@ -12556,6 +12576,9 @@
         },
         "beggar": {
             "warning": "Few dead players means few tokens to be given out to the Beggar"
+        },
+        "bureaucrat": {
+            "good": "Helps with execution"
         },
         "gangster": {
             "good": "Day kills aren't executions"
