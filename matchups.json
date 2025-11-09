@@ -4,10 +4,13 @@
             "warning": "Alsaahir benefits from long games"
         },
         "amnesiac": {
-            "warning": "Amnesiac benefits from long games"
+            "warning": "Amnesiac benefits from longer games"
         },
         "balloonist": {
             "warning": "Balloonist benefits from long games"
+        },
+        "cannibal": {
+            "good": "Acrobat can help the Cannibal determine the executee's alignment"
         },
         "courtier": {
             "good": "Acrobat can pair up with Courtier to narrow down who the chosen player is"
@@ -39,6 +42,9 @@
         },
         "princess": {
             "good": "This role's death can be more trusted as coming from its ability"
+        },
+        "sailor": {
+            "good": "Acrobat can help a sailor determine who they drunked"
         },
         "savant": {
             "warning": "Savant benefits from long games"
@@ -87,6 +93,9 @@
         "widow": {
             "good": "Acrobat is good at finding Widow target"
         },
+        "organ_grinder": {
+            "good": "Acrobat can find a hidden Organ Grinder"
+        },
         "summoner": {
             "good": "Extra night deaths can hide Summoner"
         },
@@ -102,6 +111,9 @@
         "vigormortis": {
             "good": "Acrobat can narrow down incidental droison"
         },
+        "no_dashii": {
+            "good": "Acrobat can help find the No Dashii"
+        },
         "pukka": {
             "good": "Acrobat can narrow down incidental droison"
         },
@@ -110,6 +122,12 @@
         },
         "al-hadikhia": {
             "warning": "This role needs explanation for non-picked deaths"
+        },
+        "riot": {
+            "warning": "Acrobat is powerful with no regular sources of night deaths"
+        },
+        "leviathan": {
+            "warning": "Acrobat is powerful with no regular sources of night deaths"
         },
         "lleech": {
             "good": "Acrobat is good at finding the host"
@@ -123,8 +141,14 @@
         "lord_of_typhon": {
             "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
+        "barista": {
+            "warning": "Doubling obscures how the Acrobat died"
+        },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
+        },
+        "voudon": {
+            "good": "More deaths is good for Voudon"
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
@@ -137,14 +161,23 @@
         "cannibal": {
             "good": "Cannibal can confirm this ability"
         },
+        "chambermaid": {
+            "good": "Chambermaid can confirm that the Alchemist woke N1, which its Minion ability might not do"
+        },
         "dreamer": {
             "warning": "Dreamer choices on Alchemist are obvious"
+        },
+        "gambler": {
+            "good": "Alchemist is a good character to confirm"
         },
         "grandmother": {
             "good": "Grandmother seeing Alchemist can cover a Minion"
         },
         "investigator": {
             "good": "Alchemist makes for obvious second target"
+        },
+        "lycanthrope": {
+            "good": "Obvious faux paw"
         },
         "noble": {
             "good": "Good target for Noble"
@@ -156,10 +189,14 @@
             "good": "If the Alchemist has an outed ability, Preacher can confirm them"
         },
         "professor": {
-            "good": "When resurrected, it gets a new ability (or same)"
+            "good": "When resurrected, it gets a new ability (or same)",
+            "warning": "Bluffing Alchemist can waste a Professor"
         },
         "steward": {
             "good": "False Steward ping can claim to be the Alchemist"
+        },
+        "town_crier": {
+            "good": "Town Crier can differentiate an Alchemist from a Minion"
         },
         "village_idiot": {
             "good": "Village Idiot can help confirm this character"
@@ -186,7 +223,7 @@
             "good": "Evil Twin can prevent Alchemist from winning through certain abilities"
         },
         "cerenovus": {
-            "warning": "Alch-Cerenovus is pretty weak, but narrows madness sources and can prevent evil outed roles"
+            "warning": "Alch-Cerenovus is pretty weak"
         },
         "godfather": {
             "good": "Alch-Godfather can confirm executed Outsiders",
@@ -197,9 +234,6 @@
         },
         "mezepheles": {
             "conflict": "Alch-Zepheles can just become evil on command"
-        },
-        "psychopath": {
-            "warning": "Alchemist with a killing is powerful. Alchemist Psychopath can't be prevented easily"
         },
         "harpy": {
             "warning": "Alch-Harpy is pretty weak"
@@ -218,6 +252,12 @@
         },
         "lleech": {
             "good": "Alchemist can be fooled into having another ability if Lleech host"
+        },
+        "scapegoat": {
+            "warning": "Scapegoat saving an Alchemist is suspicious"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "alsaahir": {
@@ -301,6 +341,9 @@
         "lycanthrope": {
             "good": "Lycanthrope can help eliminate Alsaahir candidates"
         },
+        "magician": {
+            "warning": "Alsaahir can accidentally out the Magician"
+        },
         "minstrel": {
             "good": "Minstrel can help guide Alsaahir"
         },
@@ -313,8 +356,17 @@
         "oracle": {
             "great": "Good synergy"
         },
+        "pacifist": {
+            "good": "Alsaahir benefits from longer games"
+        },
+        "pixie": {
+            "warning": "Madness can muddle Alsaahir guesses"
+        },
         "preacher": {
             "good": "Preacher can help guide Alsaahir"
+        },
+        "princess": {
+            "good": "Alsaahir benefits from longer games"
         },
         "ravenkeeper": {
             "great": "Good synergy"
@@ -334,8 +386,11 @@
         "shugenja": {
             "good": "Shugenja can help guide Alsaahir"
         },
+        "slayer": {
+            "good": "Slayer can help eliminate Alsaahir candidates"
+        },
         "snake_charmer": {
-            "good": "Snake Charmercan help eliminate Alsaahir candidates"
+            "good": "Snake Charmer can help eliminate Alsaahir candidates"
         },
         "soldier": {
             "good": "Alsaahir benefits from longer games"
@@ -368,6 +423,9 @@
             "warning": "Barber can change the Alsaahir targets",
             "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
+        "mutant": {
+            "warning": "Madness can muddle Alsaahir guesses"
+        },
         "klutz": {
             "good": "Klutz can help eliminate Alsaahir candidates"
         },
@@ -388,6 +446,9 @@
         "puzzlemaster": {
             "good": "Puzzlemaster can help guide Alsaahir"
         },
+        "snitch": {
+            "warning": "Having bluffs makes minions harder to narrow down"
+        },
         "hatter": {
             "warning": "Alsaahir targets can change (with the alternative rules)"
         },
@@ -407,13 +468,16 @@
             "warning": "The Demon can move around, and there can be two Demons"
         },
         "cerenovus": {
-            "warning": "This role requires a public claim"
+            "warning": "This role requires a public claim. Madness can muddle Alsaahir guesses"
         },
         "assassin": {
             "warning": "Alsaahir benefits from long games"
         },
         "godfather": {
             "warning": "Alsaahir benefits from long games"
+        },
+        "devils_advocate": {
+            "good": "Alsaahir benefits from longer games"
         },
         "mezepheles": {
             "warning": "This role as evil can't do much for the evil team beyond disabling it"
@@ -425,7 +489,10 @@
             "warning": "Loud Minions are easier targets for Alsaahir"
         },
         "vizier": {
-            "good": "If both are in-play, mute Vizier can blufff day protection"
+            "good": "Mute Vizier can blufff day protection"
+        },
+        "harpy": {
+            "warning": "Harpy can \"force\" a player into the guess"
         },
         "summoner": {
             "warning": "There can be no Demons"
@@ -463,8 +530,11 @@
         "leviathan": {
             "good": "Alsaahir benefits from longer games"
         },
+        "lleech": {
+            "warning": "Lleech can be an outed Demon"
+        },
         "legion": {
-            "warning": "There can be multiple Demons (and no Minions), but Legion registers as a Minion and Demon"
+            "warning": "Characters that register as a minion AND demon must be guessed as Demons"
         },
         "lil_monsta": {
             "warning": "Demon can move"
@@ -506,16 +576,16 @@
             "good": "No/less night deaths can allow the Amnesiac to get more guesses"
         },
         "gambler": {
-            "warning": "Amnesiac benefits from long games"
+            "warning": "Amnesiac benefits from longer games"
         },
         "general": {
             "good": "General can detect a bingo"
         },
         "gossip": {
-            "warning": "Amnesiac benefits from long games"
+            "warning": "Amnesiac benefits from longer games"
         },
         "grandmother": {
-            "warning": "Amnesiac benefits from long games"
+            "warning": "Amnesiac benefits from longer games"
         },
         "high_priestess": {
             "good": "High Priestess can be sent to Amne after they get a Bingo, or to help with finding its ability"
@@ -531,6 +601,12 @@
             "warning": "Amnesiac works best with static droison, rather than new/moving one"
         },
         "monk": {
+            "good": "No/less night deaths can allow the Amnesiac to get more guesses"
+        },
+        "pacifist": {
+            "good": "Amnesiac benefits from longer games"
+        },
+        "princess": {
             "good": "No/less night deaths can allow the Amnesiac to get more guesses"
         },
         "sailor": {
@@ -553,63 +629,84 @@
             "good": "No/less night deaths can allow the Amnesiac to get more guesses"
         },
         "moonchild": {
-            "warning": "Amnesiac benefits from long games"
+            "warning": "Amnesiac benefits from longer games"
         },
         "tinker": {
-            "warning": "Amnesiac benefits from long games"
+            "warning": "Amnesiac benefits from longer games"
         },
         "golem": {
-            "warning": "Amnesiac benefits from long games"
+            "warning": "Amnesiac benefits from longer games"
+        },
+        "ogre": {
+            "good": "Ogre can help friend Amnesiac find their ability"
         },
         "poisoner": {
             "warning": "Amnesiac works best with static droison, rather than new/moving one"
         },
         "witch": {
-            "warning": "Amnesiac benefits from long games"
+            "warning": "Amnesiac benefits from longer games"
+        },
+        "evil_twin": {
+            "good": "Interesting choice for a Twin"
         },
         "assassin": {
-            "warning": "Amnesiac benefits from long games"
+            "warning": "Amnesiac benefits from longer games"
         },
         "godfather": {
-            "warning": "Amnesiac benefits from long games"
+            "warning": "Amnesiac benefits from longer games"
+        },
+        "devils_advocate": {
+            "good": "Amnesiac benefits from longer games"
         },
         "boffin": {
             "good": "Interesting Boffin ability"
+        },
+        "wizard": {
+            "good": "Wizard can more easily bluff this role"
         },
         "vigormortis": {
             "warning": "Amnesiac works best with static droison, rather than new/moving one"
         },
         "vortox": {
-            "warning": "Vortox flips the Amnesiac guesses"
+            "warning": "Vortox flips the Amnesiac guesses (ST-dependent)"
         },
         "po": {
-            "warning": "Amnesiac benefits from long games"
+            "warning": "Amnesiac benefits from longer games"
         },
         "pukka": {
             "good": "No/less night deaths can allow the Amnesiac to get more info",
             "warning": "Amnesiac works best with static droison, rather than new/moving one"
         },
         "shabaloth": {
-            "warning": "Amnesiac benefits from long games"
+            "warning": "Amnesiac benefits from longer games"
         },
         "zombuul": {
-            "good": "Amnesiac benefits from long games"
+            "good": "Amnesiac benefits from longer games"
         },
         "al-hadikhia": {
-            "warning": "Amnesiac benefits from long games"
+            "warning": "Amnesiac benefits from longer games"
         },
         "riot": {
-            "warning": "Amnesiac benefits from long games"
+            "warning": "Amnesiac benefits from longer games"
         },
         "leviathan": {
-            "good": "Amnesiac benefits from long games"
+            "good": "Amnesiac benefits from longer games"
         },
         "yaggababble": {
             "good": "This role gives good opportunities for phrases",
-            "warning": "Amnesiac benefits from long games"
+            "warning": "Amnesiac benefits from longer games"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
+        },
+        "gardener": {
+            "good": "Can give interesting interactions for an Amnesiac ability"
         },
         "stormcatcher": {
             "good": "This role benefits from the extra survivability"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are if they go ask the ST"
         }
     },
     "artist": {
@@ -632,7 +729,8 @@
             "good": "Mathematician can help once per game roles"
         },
         "philosopher": {
-            "warning": "Philosopher can get a second question"
+            "warning": "Philosopher can get a second question",
+            "good": "Philosopher can use once per game abilities again without risk"
         },
         "pixie": {
             "warning": "Pixie can get a second question"
@@ -647,6 +745,9 @@
             "great": "Good synergy"
         },
         "undertaker": {
+            "good": "Used once per game roles can be executed to be confirmed"
+        },
+        "virgin": {
             "good": "Used once per game roles can be executed to be confirmed"
         },
         "recluse": {
@@ -691,13 +792,34 @@
         "lord_of_typhon": {
             "good": "Great bluff for Minions"
         },
+        "apprentice": {
+            "good": "Once per game abilities are good for arriving late or leaving early"
+        },
         "bone_collector": {
             "good": "Once per game abilities are good to bone collect"
+        },
+        "gangster": {
+            "good": "Used abilities are safe to die"
+        },
+        "gunslinger": {
+            "good": "Used abilities are safe to die"
+        },
+        "harlot": {
+            "good": "Used abilities are safe to die"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
+        },
+        "tor": {
+            "good": "This role can find out for sure who they are if their ability triggers/is used"
         }
     },
     "atheist": {
         "bounty_hunter": {
             "warning": "Evil players with Atheist is a bad idea (can be prevented with Atheist ability)"
+        },
+        "choirboy": {
+            "good": "Kingless Choirboy can be an indicator"
         },
         "courtier": {
             "warning": "Drunking Atheist mid-game is a bad idea (can be prevented)"
@@ -705,11 +827,21 @@
         "cult_leader": {
             "warning": "Evil players with Atheist is a bad idea"
         },
+        "engineer": {
+            "good": "Engineer can narrow the \"evil characters\" the ST plays (also potential for indicator)"
+        },
         "farmer": {
             "warning": "Bad target for Farmer"
         },
+        "huntsman": {
+            "good": "Damselless Huntsman can be an indicator"
+        },
         "innkeeper": {
-            "warning": "Drunking Atheist mid-game is a bad idea (can be prevented)"
+            "warning": "Drunking Atheist mid-game is a bad idea (can be prevented)",
+            "good": "Protected players dying can be an indicator"
+        },
+        "monk": {
+            "good": "Protected players dying can be an indicator"
         },
         "philosopher": {
             "warning": "Philosopher shouldn't be allowed to gain the Atheist ability"
@@ -722,6 +854,9 @@
         },
         "sailor": {
             "warning": "Drunking Atheist mid-game is a bad idea (can be prevented)"
+        },
+        "soldier": {
+            "good": "Protected players dying can be an indicator"
         },
         "steward": {
             "warning": "Steward should not see the Atheist"
@@ -740,6 +875,13 @@
         },
         "tinker": {
             "good": "Tinker is useful to create situations to fake Atheist"
+        },
+        "golem": {
+            "good": "Golem miss can be an indicator"
+        },
+        "politician": {
+            "conflict": "Evil players in an Atheist game is a bad idea",
+            "good": "Claiming to be the Atheist incorrectly can cause good to lose"
         },
         "puzzlemaster": {
             "info": "Puzzlemaster doesn't prevent setup abilities"
@@ -807,11 +949,17 @@
         "legion": {
             "warning": "Legion emulating Atheist is harder to figure out than a normal evil team doing so"
         },
+        "lil_monsta": {
+            "good": "Atheist can simulate Lil Monsta passes"
+        },
         "yaggababble": {
             "good": "This role gives good opportunities for phrases"
         },
         "apprentice": {
             "warning": "Apprentice can't have this ability"
+        },
+        "bishop": {
+            "warning": "ST must choose themself at some point"
         },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
@@ -819,11 +967,26 @@
         "fibbin": {
             "warning": "Fibbin can make ithard to determine an Atheist game"
         },
+        "fiddler": {
+            "conflict": "Fiddler can't resolve Atheist games"
+        },
+        "big_wig": {
+            "info": "The ST also gets to choose who defends them"
+        },
         "stormcatcher": {
             "warning": "Storm catching Atheist does nothing"
+        },
+        "tor": {
+            "warning": "Atheist can fake anything"
         }
     },
     "balloonist": {
+        "banshee": {
+            "good": "This role can provide a fixed point"
+        },
+        "cannibal": {
+            "warning": "Cannibal can't get much info out of this ability unless no one is executed afterwards"
+        },
         "courtier": {
             "good": "No/less night deaths can allow the Balloonist to get more info"
         },
@@ -832,6 +995,10 @@
         },
         "exorcist": {
             "good": "No/less night deaths can allow the Balloonist to get more info"
+        },
+        "farmer": {
+            "warning": "Players can change character types",
+            "good": "This role can provide a fixed point"
         },
         "fool": {
             "good": "No/less night deaths can allow the Balloonist to get more info"
@@ -847,13 +1014,38 @@
             "warning": "Balloonist benefits from long games"
         },
         "huntsman": {
-            "good": "Droisoned Balloonist can think there are no Outsiders"
+            "warning": "Players can change character types",
+            "good": "This role can provide a fixed point"
         },
         "innkeeper": {
             "good": "No/less night deaths can allow the Balloonist to get more info"
         },
+        "investigator": {
+            "great": "Good synergy"
+        },
+        "knight": {
+            "great": "Good synergy"
+        },
+        "librarian": {
+            "great": "Good synergy"
+        },
+        "magician": {
+            "warning": "Balloonist can accidentally out the Magician"
+        },
         "monk": {
             "good": "No/less night deaths can allow the Balloonist to get more info"
+        },
+        "nightwatchman": {
+            "good": "This role can provide a fixed point"
+        },
+        "noble": {
+            "great": "Good synergy"
+        },
+        "princess": {
+            "good": "This role can provide a fixed point. No/less night deaths can allow the Balloonist to get more info"
+        },
+        "professor": {
+            "good": "This role can provide a fixed point"
         },
         "sailor": {
             "good": "No/less night deaths can allow the Balloonist to get more info"
@@ -862,13 +1054,21 @@
             "good": "No/less night deaths can allow the Balloonist to get more info"
         },
         "steward": {
-            "good": "Steward is good for role swaps with powerful info roles"
+            "good": "Steward is good for role swaps with powerful info roles",
+            "great": "Good synergy"
         },
         "tea_lady": {
             "good": "No/less night deaths can allow the Balloonist to get more info"
         },
+        "undertaker": {
+            "great": "Good synergy if pings are executed"
+        },
+        "virgin": {
+            "warning": "This role can provide a fixed point"
+        },
         "washerwoman": {
-            "good": "WW is good for role swaps with powerful info roles"
+            "good": "WW is good for role swaps with powerful info roles",
+            "great": "Good synergy"
         },
         "drunk": {
             "good": "Drunk is a hidden Outsider",
@@ -878,7 +1078,8 @@
             "good": "Recluse can appear as any Minion or Demon"
         },
         "barber": {
-            "good": "Barber is a hidden Outsider"
+            "good": "Barber is a hidden Outsider",
+            "warning": "Players can change character types"
         },
         "sweetheart": {
             "good": "Sweetheart is a hidden Outsider"
@@ -890,7 +1091,8 @@
             "good": "Klutz is a hidden Outsider"
         },
         "goon": {
-            "good": "No/less night deaths can allow the Balloonist to get more info"
+            "good": "No/less night deaths can allow the Balloonist to get more info",
+            "warning": "Balloonist doesnt affect/get affected by the goon"
         },
         "moonchild": {
             "good": "Moonchild is a hidden Outsider"
@@ -920,10 +1122,14 @@
             "good": "Plague Doctor is a hidden Outsider"
         },
         "hatter": {
-            "good": "Hatter is a hidden Outsider"
+            "good": "Hatter is a hidden Outsider",
+            "warning": "Players can change character types (with alt ruling)"
         },
         "baron": {
             "warning": "Beware too many Outsider modifications"
+        },
+        "scarlet_woman": {
+            "warning": "Players can change character types"
         },
         "spy": {
             "good": "Spy can appear as any Townsfolk or Outsider, damaging Balloonist info. Spy can simulate this role"
@@ -934,12 +1140,18 @@
         "evil_twin": {
             "good": "Good choice for a Twin"
         },
+        "pit-hag": {
+            "warning": "Players can change character types"
+        },
         "assassin": {
             "warning": "Balloonist benefits from long games"
         },
         "godfather": {
-            "good": "Droisoned Balloonist can think there are no Outsiders",
+            "good": "Godfather can detect other Outsider modifications",
             "warning": "Balloonist benefits from long games"
+        },
+        "devils_advocate": {
+            "good": "Baloonist benefits from longer games"
         },
         "psychopath": {
             "warning": "Loud Minions can make for easier Balloonist info"
@@ -953,6 +1165,9 @@
         "vizier": {
             "warning": "Loud Minions can make for easier Balloonist info"
         },
+        "summoner": {
+            "warning": "Players can change character types"
+        },
         "boffin": {
             "good": "Interesting Boffin ability"
         },
@@ -961,6 +1176,12 @@
         },
         "wraith": {
             "warning": "Wraith could be an outed Minion"
+        },
+        "imp": {
+            "warning": "Players can change character types"
+        },
+        "fang_gu": {
+            "warning": "Players can change character types"
         },
         "vigormortis": {
             "good": "Droisoned Balloonist can think there are no Outsiders"
@@ -984,7 +1205,7 @@
             "warning": "Balloonist benefits from long games"
         },
         "riot": {
-            "warning": "Balloonist benefits from long games"
+            "warning": "Balloonist benefits from long games. Players can change character types"
         },
         "leviathan": {
             "good": "Balloonist benefits from long games"
@@ -992,11 +1213,23 @@
         "lleech": {
             "good": "If the Lleech is outed, Balloonist information becomes more powerful"
         },
+        "lil_monsta": {
+            "warning": "Players can change character types (Minions with LM become the Demon)"
+        },
         "yaggababble": {
             "warning": "Balloonist benefits from long games"
         },
+        "barista": {
+            "info": "Order of the players matter if triggered twice"
+        },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
+        },
+        "cacklejack": {
+            "warning": "Players can change character types"
+        },
+        "revolutionary": {
+            "good": "This role can provide a fixed point (if in the pair)"
         },
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
@@ -1009,6 +1242,15 @@
         "bounty_hunter": {
             "good": "Confirmable evil characters are powerful and throw shade on their ability"
         },
+        "chef": {
+            "great": "Confirmation works well with this role"
+        },
+        "clockmaker": {
+            "great": "Confirmation works well with this role"
+        },
+        "courtier": {
+            "warning": "Banshee can stop working which confirms droison"
+        },
         "farmer": {
             "warning": "Beware too much confirmation"
         },
@@ -1018,14 +1260,23 @@
         "grandmother": {
             "good": "Banshee can also help confirm a Grandmother"
         },
+        "innkeeper": {
+            "warning": "Banshee can stop working which confirms droison"
+        },
         "lycanthrope": {
             "warning": "Lycanthrope can kill this character without giving it its ability"
         },
         "mayor": {
             "good": "Trap characters can receive a Mayor bounce"
         },
+        "minstrel": {
+            "warning": "Banshee can stop working which confirms droison"
+        },
         "nightwatchman": {
             "warning": "Beware too much confirmation"
+        },
+        "philosopher": {
+            "warning": "Banshee can stop working which confirms droison. Philosopher can double the Banshee ability both by dying first and by choosing after"
         },
         "pixie": {
             "warning": "Pixie can double the confirmation"
@@ -1042,6 +1293,9 @@
         "sage": {
             "warning": "Beware too many \"trap\" characters"
         },
+        "sailor": {
+            "warning": "Banshee can stop working which confirms droison"
+        },
         "seamstress": {
             "warning": "Confirmed players are powerful with Seamstress"
         },
@@ -1051,17 +1305,33 @@
         "virgin": {
             "warning": "Beware too much confirmation"
         },
+        "drunk": {
+            "warning": "Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
+        },
+        "barber": {
+            "warning": "Barber can \"kill\" this role withut triggering it"
+        },
+        "sweetheart": {
+            "warning": "Banshee can stop working which confirms droison. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
+        },
         "moonchild": {
             "warning": "Moonchild can kill this role without giving it its ability"
         },
+        "damsel": {
+            "good": "Damsel can safely out to this role once confirmed"
+        },
         "golem": {
             "warning": "Dying during the day doesn't help trap characters"
+        },
+        "puzzlemaster": {
+            "warning": "Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
         },
         "ogre": {
             "good": "Banshee can be confirmed as good"
         },
         "poisoner": {
-            "good": "Poisoner can disable this role before a kill"
+            "good": "Poisoner can disable this role before a kill",
+            "warning": "Banshee can stop working which confirms droison. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
         },
         "scarlet_woman": {
             "warning": "Demon can't fake Banshee"
@@ -1090,6 +1360,9 @@
         "fearmonger": {
             "good": "More nominations is good for this role"
         },
+        "marionette": {
+            "warning": "\"Droisoned\" Banshee needs other reasons to die at night or is confirmed droisoned"
+        },
         "mezepheles": {
             "good": "Confirmable evil characters are powerful and throw shade on their ability"
         },
@@ -1097,7 +1370,7 @@
             "warning": "Dying during the day doesn't help trap characters"
         },
         "widow": {
-            "warning": "Seeing the Grimoire disables trap characters"
+            "warning": "Seeing the Grimoire disables trap characters. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
         },
         "goblin": {
             "good": "More nominations is good for this role"
@@ -1110,7 +1383,8 @@
             "good": "Interesting if the Demon can safely die"
         },
         "xaan": {
-            "good": "Xaan can disable this role (although hard to time)"
+            "good": "Xaan can disable this role (although hard to time)",
+            "warning": "Banshee can stop working which confirms droison. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
         },
         "wizard": {
             "good": "Killing the Banshee is an interesting cost. Wizard could fake this role"
@@ -1122,7 +1396,10 @@
             "warning": "Fang Gu can't fake Banshee"
         },
         "vigormortis": {
-            "warning": "Minions can't fake Banshee"
+            "warning": "Minions can't fake Banshee. Banshee can stop working which confirms droison. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
+        },
+        "no_dashii": {
+            "warning": "Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
         },
         "vortox": {
             "warning": "This role's info is immune to Vortox"
@@ -1131,7 +1408,8 @@
             "good": "Trap characters with multi kill Demons work well"
         },
         "pukka": {
-            "good": "Pukka disables trap characters"
+            "good": "Pukka disables trap characters",
+            "warning": "Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
         },
         "shabaloth": {
             "good": "Trap characters with multi kill Demons work well"
@@ -1187,6 +1465,9 @@
         "gnome": {
             "warning": "Dying during the day doesn't help trap characters",
             "good": "A dead Banshee doesn't fear this Traveler"
+        },
+        "stormcatcher": {
+            "warning": "Storm catching this role is a bad idea"
         }
     },
     "bounty_hunter": {
@@ -1742,7 +2023,8 @@
             "good": "Mathematician can help first night info"
         },
         "philosopher": {
-            "warning": "Philosopher can only confirm this info"
+            "warning": "Philosopher can only confirm this info",
+            "good": "Philosopher can use once per game abilities again without risk"
         },
         "pixie": {
             "warning": "Pixie can only confirm this info"
@@ -1834,6 +2116,9 @@
         },
         "lord_of_typhon": {
             "good": "High Chef info is more likely"
+        },
+        "apprentice": {
+            "good": "Once per game abilities are good for arriving late or leaving early"
         },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
@@ -1958,6 +2243,9 @@
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "clockmaker": {
@@ -1983,7 +2271,8 @@
             "good": "Public info can help evil find each other"
         },
         "philosopher": {
-            "warning": "Philosopher can only confirm this info"
+            "warning": "Philosopher can only confirm this info",
+            "good": "Philosopher can use once per game abilities again without risk"
         },
         "pixie": {
             "warning": "Pixie can only confirm this info"
@@ -2075,6 +2364,9 @@
         },
         "lord_of_typhon": {
             "good": "Low Clockmaker info is more likely"
+        },
+        "apprentice": {
+            "good": "Once per game abilities are good for arriving late or leaving early"
         },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
@@ -2235,6 +2527,21 @@
         },
         "lil_monsta": {
             "conflict": "Droisoned LM is a rules nightmare"
+        },
+        "apprentice": {
+            "good": "Once per game abilities are good for arriving late or leaving early"
+        },
+        "gangster": {
+            "good": "Used abilities are safe to die"
+        },
+        "gunslinger": {
+            "good": "Used abilities are safe to die"
+        },
+        "harlot": {
+            "good": "Used abilities are safe to die"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
         }
     },
     "cult_leader": {
@@ -2341,6 +2648,9 @@
         },
         "stormcatcher": {
             "good": "This role benefits from the extra survivability"
+        },
+        "tor": {
+            "warning": "This role can immediately know who they are"
         }
     },
     "dreamer": {
@@ -2495,6 +2805,9 @@
         },
         "gnome": {
             "good": "Dreamer can check the amigo"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "empath": {
@@ -2620,6 +2933,9 @@
         "undertaker": {
             "good": "Engineer can limit the Minion or Demon pool. Used once per game roles can be executed to be confirmed"
         },
+        "virgin": {
+            "good": "Used once per game roles can be executed to be confirmed"
+        },
         "recluse": {
             "info": "Recluse can be affected by Engineer (don't)"
         },
@@ -2721,6 +3037,24 @@
         },
         "lord_of_typhon": {
             "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
+        },
+        "apprentice": {
+            "good": "Once per game abilities are good for arriving late or leaving early"
+        },
+        "gangster": {
+            "good": "Used abilities are safe to die"
+        },
+        "gunslinger": {
+            "good": "Used abilities are safe to die"
+        },
+        "harlot": {
+            "good": "Used abilities are safe to die"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
+        },
+        "tor": {
+            "good": "This role can find out for sure who they are if their ability triggers/is used"
         }
     },
     "exorcist": {
@@ -2746,7 +3080,7 @@
             "good": "Protection works well with PG"
         },
         "princess": {
-            "warning": "Princess night renders Exorcist info useless"
+            "warning": "Princess night renders Exorcist info useless. Beware too much protection without multiple sources of death"
         },
         "sailor": {
             "warning": "Beware too much protection without multiple sources of death"
@@ -3061,6 +3395,9 @@
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
+        },
+        "tor": {
+            "good": "This role can find out for sure who they are if their ability triggers/is used"
         }
     },
     "fisherman": {
@@ -3070,6 +3407,12 @@
         "lycanthrope": {
             "good": "Used once per game roles are good target for Lycanthrope kills"
         },
+        "philosopher": {
+            "good": "Philosopher can use once per game abilities again without risk"
+        },
+        "pixie": {
+            "good": "Pixie can get a second advice"
+        },
         "princess": {
             "good": "Can be executed day 1 for a Princess"
         },
@@ -3077,6 +3420,9 @@
             "good": "When resurrected, it gets another use of its ability"
         },
         "undertaker": {
+            "good": "Used once per game roles can be executed to be confirmed"
+        },
+        "virgin": {
             "good": "Used once per game roles can be executed to be confirmed"
         },
         "recluse": {
@@ -3106,8 +3452,26 @@
         "lleech": {
             "good": "Fisherman can get a hint that helps with finding the host instead of the Demon"
         },
+        "apprentice": {
+            "good": "Once per game abilities are good for arriving late or leaving early"
+        },
         "bone_collector": {
             "good": "Once per game abilities are good to bone collect"
+        },
+        "gangster": {
+            "good": "Used abilities are safe to die"
+        },
+        "gunslinger": {
+            "good": "Used abilities are safe to die"
+        },
+        "harlot": {
+            "good": "Used abilities are safe to die"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
+        },
+        "tor": {
+            "good": "This role can find out for sure who they are if their ability triggers/is used"
         }
     },
     "flowergirl": {
@@ -3135,8 +3499,14 @@
         "monk": {
             "good": "No/less night deaths can allow the Flowergirl to get more guesses"
         },
+        "pacifist": {
+            "good": "Flowergirl benefits from longer games"
+        },
         "poppygrower": {
             "good": "Public info can help evil find each other"
+        },
+        "princess": {
+            "good": "No/less night deaths can allow the Flowergirl to get more guesses"
         },
         "sailor": {
             "good": "No/less night deaths can allow the Flowergirl to get more guesses"
@@ -3204,7 +3574,7 @@
             "warning": "Flowergirl benefits from long games"
         },
         "devils_advocate": {
-            "good": "Encouraging nominations works well with this Minion"
+            "good": "Encouraging nominations works well with this Minion. Flowergirl benefits from longer games"
         },
         "boomdandy": {
             "good": "Encouraging nominations works well with this Minion"
@@ -3297,6 +3667,12 @@
         },
         "monk": {
             "warning": "Beware too much protection without multiple sources of death"
+        },
+        "philosopher": {
+            "good": "Philosopher can use once per game abilities again without risk"
+        },
+        "pixie": {
+            "good": "Pixie can get a second confirmation"
         },
         "princess": {
             "warning": "Beware too much protection without multiple sources of death",
@@ -3519,6 +3895,9 @@
         },
         "lord_of_typhon": {
             "good": "Fortune Teller can become more efficient by picking neighbors in a LoT game. Great bluff for Minions"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "gambler": {
@@ -3694,6 +4073,12 @@
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
+        "voudon": {
+            "good": "More deaths is good for Voudon"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
+        },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea. Gambler can check if a \"stormcaught\" player is bluffing"
         }
@@ -3776,6 +4161,9 @@
         },
         "kazali": {
             "good": "The starting gamestate might not be as clearcut as it usually is"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "gossip": {
@@ -3922,6 +4310,9 @@
         "yaggababble": {
             "good": "This role gives good opportunities for phrases. Extra deaths can hide nights with no kills",
             "warning": "Multiple ST-chosen deaths can muddle this role's info"
+        },
+        "voudon": {
+            "good": "More deaths is good for Voudon"
         }
     },
     "grandmother": {
@@ -4077,6 +4468,12 @@
         },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
+        },
+        "voudon": {
+            "good": "More deaths is good for Voudon"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "high_priestess": {
@@ -4211,6 +4608,18 @@
         },
         "bone_collector": {
             "good": "Once per game abilities are good to bone collect"
+        },
+        "gangster": {
+            "good": "Used abilities are safe to die"
+        },
+        "gunslinger": {
+            "good": "Used abilities are safe to die"
+        },
+        "harlot": {
+            "good": "Used abilities are safe to die"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
         },
         "stormcatcher": {
             "good": "This role benefits from the extra survivability"
@@ -4353,6 +4762,9 @@
         "village_idiot": {
             "good": "Village Idiot can help find the true player"
         },
+        "virgin": {
+            "good": "First night info can die to Virgin"
+        },
         "saint": {
             "good": "This role is a good false target"
         },
@@ -4447,8 +4859,23 @@
             "warning": "Info on the Minions can be powerful in LoT game",
             "good": "Great bluff for Minions"
         },
+        "apprentice": {
+            "good": "Once per game abilities are good for arriving late or leaving early"
+        },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
+        },
+        "gangster": {
+            "good": "This role is fine to die to this Traveler"
+        },
+        "gunslinger": {
+            "good": "This role is fine to die to this Traveler"
+        },
+        "harlot": {
+            "good": "This role is fine to die to this Traveler"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "juggler": {
@@ -4554,16 +4981,32 @@
         "lord_of_typhon": {
             "warning": "Info on the Minions can be powerful in LoT game"
         },
+        "apprentice": {
+            "good": "Once per game abilities are good for arriving late or leaving early"
+        },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
+        "gangster": {
+            "good": "Used abilities are safe to die"
+        },
+        "gunslinger": {
+            "good": "Used abilities are safe to die"
+        },
+        "harlot": {
+            "good": "Used abilities are safe to die"
+        },
         "stormcatcher": {
             "warning": "Juggler can check a \"stormcaught\" player"
+        },
+        "tor": {
+            "good": "This role can find out for sure who they are if their ability triggers/is used"
         }
     },
     "king": {
         "lycanthrope": {
-            "warning": "Lycanthrope can kill King"
+            "warning": "Lycanthrope can kill King",
+            "good": "Obvious faux paw"
         },
         "magician": {
             "good": "Public info can help evil find each other"
@@ -4838,6 +5281,9 @@
         "lord_of_typhon": {
             "good": "Great bluff for Minions"
         },
+        "apprentice": {
+            "good": "Once per game abilities are good for arriving late or leaving early"
+        },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
         },
@@ -4852,6 +5298,9 @@
         },
         "gnome": {
             "good": "This role is fine to die to this Traveler"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "librarian": {
@@ -4985,6 +5434,9 @@
         "lord_of_typhon": {
             "good": "Great bluff for Minions"
         },
+        "apprentice": {
+            "good": "Once per game abilities are good for arriving late or leaving early"
+        },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
         },
@@ -4999,11 +5451,15 @@
         },
         "gnome": {
             "good": "This role is fine to die to this Traveler"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "lycanthrope": {
         "mayor": {
-            "warning": "Lycanthrope can keep trying to kill the Mayor"
+            "warning": "Lycanthrope can keep trying to kill the Mayor",
+            "good": "Obvious faux paw"
         },
         "monk": {
             "warning": "Monk can confirm their target was killed by Lycanthrope if no killing Minions are in-play"
@@ -5020,6 +5476,9 @@
         },
         "pacifist": {
             "good": "Faux Paw registers as evil"
+        },
+        "pixie": {
+            "good": "Obvious faux paw"
         },
         "poppygrower": {
             "warning": "Lycanthrope can kill Poppy Grower",
@@ -5043,6 +5502,9 @@
         "slayer": {
             "good": "Used once per game roles are good target for Lycanthrope kills"
         },
+        "snake_charmer": {
+            "good": "Obvious faux paw"
+        },
         "soldier": {
             "warning": "Soldier can confirm they were killed by Lycanthrope if no killing Minions are in-play"
         },
@@ -5061,10 +5523,10 @@
             "good": "First night info roles are good targets for Lycanthrope kills"
         },
         "drunk": {
-            "good": "Good target for the Lycanthrope"
+            "good": "Good target for the Lycanthrope. Obvious faux paw"
         },
         "saint": {
-            "good": "Good target for the Lycanthrope"
+            "good": "Good target for the Lycanthrope. Obvious faux paw"
         },
         "butler": {
             "good": "Good target for the Lycanthrope"
@@ -5073,7 +5535,7 @@
             "good": "Recluse can appear evil"
         },
         "mutant": {
-            "good": "Good target for the Lycanthrope"
+            "good": "Good target for the Lycanthrope. Obvious faux paw"
         },
         "klutz": {
             "good": "Faux Paw registers as evil"
@@ -5088,7 +5550,7 @@
             "good": "Good target for the Lycanthrope"
         },
         "lunatic": {
-            "good": "Lycanthrope can help a Lunatic"
+            "good": "Lycanthrope can help a Lunatic. Obvious faux paw"
         },
         "damsel": {
             "good": "Good target for the Lycanthrope"
@@ -5100,7 +5562,7 @@
             "good": "Good target for the Lycanthrope"
         },
         "heretic": {
-            "good": "Good target for the Lycanthrope"
+            "good": "Good target for the Lycanthrope. Obvious faux paw"
         },
         "ogre": {
             "good": "This role can help find the Ogre's alignment",
@@ -5229,6 +5691,9 @@
         },
         "stormcatcher": {
             "good": "Faux Paw can be Storm Caught (or potentially learn the stormcaught player)"
+        },
+        "tor": {
+            "good": "Can be confused for the Demon. Can help good players learn who they are"
         }
     },
     "magician": {
@@ -5325,6 +5790,9 @@
         "organ_grinder": {
             "warning": "Magician can't fake this Minion without double claim"
         },
+        "vizier": {
+            "good": "Vizier can use the Magician to frame players"
+        },
         "summoner": {
             "great": "Magician can hide the Summoner to the other Minions"
         },
@@ -5375,6 +5843,12 @@
         },
         "duchess": {
             "good": "Evil team can try to use Duchess to figure out who's the Magician"
+        },
+        "revolutionary": {
+            "warning": "Magician is impossible in the pair"
+        },
+        "tor": {
+            "conflict": "Useless in Tor games"
         }
     },
     "mathematician": {
@@ -5437,6 +5911,9 @@
         },
         "vortox": {
             "warning": "Vortox makes this info near useless"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
         }
     },
     "mayor": {
@@ -5557,6 +6034,9 @@
         },
         "doomsayer": {
             "warning": "Mayor can't protect from day death"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "minstrel": {
@@ -5643,6 +6123,9 @@
         },
         "fibbin": {
             "warning": "Beware too much misinformation"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "monk": {
@@ -5768,6 +6251,9 @@
         "washerwoman": {
             "info": "Nightwatchman can confirm itself to WW"
         },
+        "damsel": {
+            "good": "Damsel can safely out to this role once confirmed"
+        },
         "politician": {
             "good": "Interesting target for the Nightwatchman"
         },
@@ -5832,16 +6318,29 @@
             "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
         "apprentice": {
-            "warning": "Apprentice having this ability only confirms they're good"
+            "warning": "Apprentice having this ability only confirms they're good",
+            "good": "Once per game abilities are good for arriving late or leaving early"
         },
         "bone_collector": {
             "warning": "Nightwatchman getting double confirmation is powerful"
+        },
+        "gangster": {
+            "good": "Used abilities are safe to die"
+        },
+        "gunslinger": {
+            "good": "Used abilities are safe to die"
+        },
+        "harlot": {
+            "good": "Used abilities are safe to die"
         },
         "gnome": {
             "warning": "Confirmable amigo"
         },
         "stormcatcher": {
             "warning": "Storm catching confirmed roles leads to guaranteed good  on final day"
+        },
+        "tor": {
+            "good": "This role can find out for sure who they are if their ability triggers/is used"
         }
     },
     "noble": {
@@ -5975,6 +6474,9 @@
         "lord_of_typhon": {
             "good": "Great bluff for Minions"
         },
+        "apprentice": {
+            "good": "Once per game abilities are good for arriving late or leaving early"
+        },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
         },
@@ -5992,6 +6494,9 @@
         },
         "duchess": {
             "great": "Good synergy"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "oracle": {
@@ -6055,6 +6560,9 @@
         "godfather": {
             "warning": "Additional deaths makes the Oracle job harder"
         },
+        "devils_advocate": {
+            "warning": "Less deaths make the Oracle's job easier"
+        },
         "psychopath": {
             "warning": "Additional deaths makes the Oracle job harder"
         },
@@ -6103,6 +6611,9 @@
         },
         "lord_of_typhon": {
             "good": "Oracle can help narrow down the LoT line. Great bluff for Minions"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are night 2"
         }
     },
     "pacifist": {
@@ -6118,8 +6629,17 @@
         "ravenkeeper": {
             "good": "Confirming this role is in-play is good"
         },
+        "savant": {
+            "good": "Savant benefits from longer games"
+        },
+        "town_crier": {
+            "good": "Town Crier benefits from longer games"
+        },
         "undertaker": {
             "warning": "This role can make executions survivable"
+        },
+        "village_idiot": {
+            "good": "Village Idiot benefits from longer games"
         },
         "virgin": {
             "warning": "Probably shouldn't save the sacrificied Townsfolk"
@@ -6196,6 +6716,9 @@
         },
         "scapegoat": {
             "good": "Interesting synergy"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "philosopher": {
@@ -6268,6 +6791,9 @@
         },
         "lord_of_typhon": {
             "good": "Great bluff for Minions"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
         }
     },
     "pixie": {
@@ -6404,8 +6930,14 @@
         "gnome": {
             "good": "Extra kills work well with this role"
         },
+        "revolutionary": {
+            "good": "Partner can help this role out"
+        },
         "stormcatcher": {
             "good": "This role can't announce they're stormcaught"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "poppygrower": {
@@ -6576,8 +7108,14 @@
         "duchess": {
             "good": "Evil team can try and use Duchess to find each other"
         },
+        "revolutionary": {
+            "good": "Partner can help this role out"
+        },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
+        },
+        "tor": {
+            "conflict": "Useless in Tor games"
         }
     },
     "preacher": {
@@ -6665,6 +7203,9 @@
             "warning": "Beware too much protection without multiple sources of death",
             "good": "Can be executed day 1 for a Princess"
         },
+        "savant": {
+            "good": "No/less night deaths can allow the Savant to get more info"
+        },
         "seamstress": {
             "good": "Can be executed day 1 for a Princess"
         },
@@ -6679,6 +7220,13 @@
         },
         "tea_lady": {
             "good": "Can make the Princess executed survive"
+        },
+        "town_crier": {
+            "good": "No/less night deaths can allow the Town Crier to get more info"
+        },
+        "village_idiot": {
+            "good": "No/less night deaths can allow the Village Idiot to get more info",
+            "warning": "Incidental droisoning can make it impossible for VIs to solve their info"
         },
         "virgin": {
             "good": "The Princess nominated can nominate the Virgin to get confirmed"
@@ -6829,7 +7377,7 @@
             "good": "Good ability to give to an Apprentice"
         },
         "barista": {
-            "warning": "Cannot be boubled"
+            "warning": "Cannot be doubled"
         },
         "bishop": {
             "conflict": "Doesn't work together"
@@ -6869,6 +7417,9 @@
         },
         "doomsayer": {
             "good": "Princess can nominate the Doomsayer killed player"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
         },
         "toymaker": {
             "info": "Princess night can trigger Toymaker"
@@ -6935,6 +7486,12 @@
         },
         "lord_of_typhon": {
             "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
+        },
+        "tor": {
+            "good": "This role can find out for sure who they are if their ability triggers/is used"
         }
     },
     "ravenkeeper": {
@@ -7397,6 +7954,9 @@
         "godfather": {
             "warning": "Savant benefits from long games"
         },
+        "devils_advocate": {
+            "good": "Savant benefits from longer games"
+        },
         "boffin": {
             "good": "Interesting Boffin ability"
         },
@@ -7429,6 +7989,9 @@
         },
         "yaggababble": {
             "good": "This role gives good opportunities for phrases"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are if they ask the ST"
         }
     },
     "seamstress": {
@@ -7493,14 +8056,29 @@
             "warning": "Seamtress yes on two evils is more likely",
             "good": "Great bluff for Minions"
         },
+        "apprentice": {
+            "good": "Once per game abilities are good for arriving late or leaving early"
+        },
         "bone_collector": {
             "good": "Once per game abilities are good to bone collect"
+        },
+        "gangster": {
+            "good": "Used abilities are safe to die"
+        },
+        "gunslinger": {
+            "good": "Used abilities are safe to die"
+        },
+        "harlot": {
+            "good": "Used abilities are safe to die"
         },
         "gnome": {
             "warning": "Seamstress can check three players at once if they pick one of the gnome or their amigo"
         },
         "duchess": {
             "great": "Good synergy"
+        },
+        "tor": {
+            "good": "This role can find out for sure who they are if their ability triggers/is used"
         }
     },
     "shugenja": {
@@ -7581,6 +8159,9 @@
             "good": "Great bluff for Minions",
             "warning": "Shugenja will always point towards the Demon"
         },
+        "apprentice": {
+            "good": "Once per game abilities are good for arriving late or leaving early"
+        },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
         },
@@ -7598,10 +8179,16 @@
         },
         "gnome": {
             "good": "This role is fine to die to this Traveler"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are if they ask the ST"
         }
     },
     "slayer": {
         "undertaker": {
+            "good": "Used once per game roles can be executed to be confirmed"
+        },
+        "virgin": {
             "good": "Used once per game roles can be executed to be confirmed"
         },
         "drunk": {
@@ -7682,8 +8269,23 @@
             "warning": "Slayer will have an easier job if LoT is confirmed",
             "good": "Great bluff for Minions"
         },
+        "apprentice": {
+            "good": "Once per game abilities are good for arriving late or leaving early"
+        },
         "bone_collector": {
             "good": "Once per game abilities are good to bone collect"
+        },
+        "gangster": {
+            "good": "Used abilities are safe to die"
+        },
+        "gunslinger": {
+            "good": "Used abilities are safe to die"
+        },
+        "harlot": {
+            "good": "Used abilities are safe to die"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
         },
         "stormcatcher": {
             "good": "This role benefits from the extra survivability"
@@ -7865,6 +8467,9 @@
         },
         "stormcatcher": {
             "warning": "Storm catching protected roles is not a great idea"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "steward": {
@@ -8130,6 +8735,12 @@
         },
         "gnome": {
             "good": "This role can protect from this Traveler"
+        },
+        "revolutionary": {
+            "good": "Tea Lady protects their partner"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "town_crier": {
@@ -8178,7 +8789,7 @@
             "warning": "Town Crier benefits from long games"
         },
         "devils_advocate": {
-            "good": "Encouraging nominations works well with this Minion"
+            "good": "Encouraging nominations works well with this Minion. Town Crier benefits from longer games"
         },
         "boomdandy": {
             "good": "Encouraging nominations works well with this Minion"
@@ -8316,7 +8927,7 @@
         },
         "devils_advocate": {
             "warning": "This role can make executions survivable",
-            "good": "Encouraging nominations works well with this Minion"
+            "good": "Encouraging nominations works well with this Minion. Undertaker benefits from longer games"
         },
         "boomdandy": {
             "good": "Encouraging nominations works well with this Minion",
@@ -8403,6 +9014,9 @@
         },
         "doomsayer": {
             "warning": "Dying during the day doesn't help the Undertaker"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are night 2 (if there was an execution)"
         }
     },
     "village_idiot": {
@@ -8506,7 +9120,7 @@
             "good": "Safety nets for the Demon are good with Village Idiots. This Minion can use the free bluff"
         },
         "devils_advocate": {
-            "good": "This Minion can use the free bluff"
+            "good": "This Minion can use the free bluff. Village Idiot benefits from long games to find the drunk one ? This Minion can use the free bluff"
         },
         "boomdandy": {
             "great": "Boomdandy prevents immediate executions of Village Idiot-found evils"
@@ -8617,6 +9231,9 @@
         },
         "stormcatcher": {
             "warning": "Storm Catcher is unclear if it only protects one of them"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "virgin": {
@@ -8628,6 +9245,9 @@
         },
         "tinker": {
             "warning": "Tinker can't fake an execution"
+        },
+        "damsel": {
+            "good": "Damsel can safely out to this role once confirmed"
         },
         "ogre": {
             "good": "Virgin is confirmed as good"
@@ -8721,8 +9341,14 @@
         "gnome": {
             "warning": "Bad/confirmable Gnome amigo"
         },
+        "revolutionary": {
+            "warning": "Double confirmation if in the Rev pair"
+        },
         "stormcatcher": {
             "warning": "Storm catching confirmed roles leads to guaranteed good  on final day"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "washerwoman": {
@@ -8803,6 +9429,9 @@
         },
         "gnome": {
             "good": "This role is fine to die to this Traveler"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "drunk": {
@@ -8977,6 +9606,15 @@
         "lord_of_typhon": {
             "good": "Great bluff for Minions"
         },
+        "gangster": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "gunslinger": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "harlot": {
+            "warning": "This role is fine to die to this Traveler"
+        },
         "judge": {
             "warning": "Evil Judge can end the game easily"
         },
@@ -8985,6 +9623,12 @@
         },
         "gnome": {
             "good": "Interesting amigo"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "butler": {
@@ -9026,6 +9670,18 @@
         },
         "lleech": {
             "warning": "Butler might want to be executed"
+        },
+        "gangster": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "gunslinger": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "harlot": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "tor": {
+            "conflict": "Might accidentally break the rules"
         }
     },
     "recluse": {
@@ -9120,6 +9776,15 @@
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
+        "gangster": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "gunslinger": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "harlot": {
+            "warning": "This role is fine to die to this Traveler"
+        },
         "gnome": {
             "info": "The Recluse can register as evil (don't)"
         },
@@ -9131,6 +9796,9 @@
         },
         "fibbin": {
             "warning": "Beware too much misinformation"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "barber": {
@@ -9285,6 +9953,9 @@
         },
         "gnome": {
             "good": "Interesting amigo"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "sweetheart": {
@@ -9391,6 +10062,9 @@
         },
         "fibbin": {
             "warning": "Beware too much misinformation"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "mutant": {
@@ -9438,8 +10112,23 @@
         "lord_of_typhon": {
             "good": "Hidden Outsiders work well with LoT, unless they become Minions"
         },
+        "gangster": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "gunslinger": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "harlot": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "revolutionary": {
+            "warning": "Can cause lying in the Rev pair"
+        },
         "stormcatcher": {
             "good": "This role can't announce they're stormcaught"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "klutz": {
@@ -9554,6 +10243,12 @@
         },
         "gnome": {
             "good": "Interesting amigo"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "goon": {
@@ -9654,6 +10349,9 @@
         },
         "stormcatcher": {
             "warning": "Knowing who the Goon is can lead to an evil-lock on it"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are if their ability triggers"
         }
     },
     "moonchild": {
@@ -9768,8 +10466,17 @@
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
+        "voudon": {
+            "good": "More deaths is good for Voudon"
+        },
         "gnome": {
             "good": "Interesting amigo"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "tinker": {
@@ -9837,6 +10544,9 @@
         },
         "lord_of_typhon": {
             "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
+        },
+        "voudon": {
+            "good": "More deaths is good for Voudon"
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
@@ -9942,11 +10652,14 @@
         },
         "stormcatcher": {
             "good": "This role can't announce they're stormcaught"
+        },
+        "tor": {
+            "great": "Good synergy"
         }
     },
     "damsel": {
         "golem": {
-            "good": "Golem can kill this role"
+            "good": "Golem can kill this role. Damsel can safely out to this role once confirmed"
         },
         "snitch": {
             "good": "Snitch can help Minions hide"
@@ -10020,8 +10733,23 @@
         "lord_of_typhon": {
             "good": "Hidden Outsiders work well with LoT, unless they become Minions"
         },
+        "gangster": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "gunslinger": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "harlot": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
+        },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "golem": {
@@ -10104,8 +10832,26 @@
         "lord_of_typhon": {
             "warning": "Good players can't neighbor the Demon in LoT games. Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
+        "gangster": {
+            "warning": "This role is fine to die to this Traveler once used"
+        },
+        "gunslinger": {
+            "warning": "This role is fine to die to this Traveler once used"
+        },
+        "harlot": {
+            "warning": "This role is fine to die to this Traveler once used"
+        },
+        "voudon": {
+            "good": "More deaths is good for Voudon"
+        },
         "gnome": {
             "warning": "Confirmable amigo"
+        },
+        "revolutionary": {
+            "warning": "Double confirmation if in the Rev pair"
+        },
+        "tor": {
+            "conflict": "Might accidentally break the rules"
         }
     },
     "politician": {
@@ -10172,6 +10918,9 @@
         },
         "spirit_of_ivory": {
             "warning": "If there's an extra evil player, this role can't change alignment"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "puzzlemaster": {
@@ -10292,8 +11041,14 @@
         "gnome": {
             "good": "Interesting amigo"
         },
+        "revolutionary": {
+            "good": "Partner can help this role out"
+        },
         "stormcatcher": {
             "good": "This role benefits from the extra survivability"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "snitch": {
@@ -10391,6 +11146,18 @@
         },
         "bone_collector": {
             "good": "Bone collecting this role is interesting"
+        },
+        "gangster": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "gunslinger": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "harlot": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "heretic": {
@@ -10462,6 +11229,9 @@
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
+        },
+        "tor": {
+            "conflict": "Unknown Heretic can lead to unfun games"
         }
     },
     "plague_doctor": {
@@ -10579,6 +11349,9 @@
         },
         "gnome": {
             "good": "Interesting amigo"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "hatter": {
@@ -10700,6 +11473,9 @@
         },
         "gnome": {
             "good": "Interesting amigo"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "ogre": {
@@ -10857,6 +11633,15 @@
         "butcher": {
             "good": "Zealot helps with executions"
         },
+        "gangster": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "gunslinger": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "harlot": {
+            "warning": "This role is fine to die to this Traveler"
+        },
         "judge": {
             "warning": "Judge will always be able to execute with a Zealot"
         },
@@ -10868,6 +11653,9 @@
         },
         "voudon": {
             "warning": "If Voudon is in-play, the Zealot cannot vote"
+        },
+        "tor": {
+            "conflict": "Might accidentally break the rules"
         }
     },
     "hermit": {
@@ -10960,8 +11748,17 @@
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
+        "gangster": {
+            "good": "This role is fine to die to this Traveler"
+        },
+        "gunslinger": {
+            "good": "This role is fine to die to this Traveler"
+        },
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "poisoner": {
@@ -10994,6 +11791,9 @@
         },
         "fibbin": {
             "warning": "Beware too much misinformation"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
         }
     },
     "scarlet_woman": {
@@ -11059,6 +11859,9 @@
         },
         "doomsayer": {
             "good": "SW can make the Demon survive the Doomsayer"
+        },
+        "tor": {
+            "good": "This role can find out for sure who they are if their ability triggers/is used, and can allow the Demon to learn who they are"
         }
     },
     "spy": {
@@ -11149,6 +11952,12 @@
         },
         "fibbin": {
             "warning": "Beware too much misinformation"
+        },
+        "revolutionary": {
+            "good": "Good partner role"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "witch": {
@@ -11194,6 +12003,12 @@
         },
         "lord_of_typhon": {
             "warning": "Loud Minions might give out the extra one added by LoT"
+        },
+        "voudon": {
+            "good": "More deaths is good for Voudon"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
         }
     },
     "evil_twin": {
@@ -11271,6 +12086,9 @@
         },
         "revolutionary": {
             "warning": "Outed evils in the pair can be rough"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are, but their target doesn't know what role they have"
         }
     },
     "pit-hag": {
@@ -11379,14 +12197,17 @@
         "barista": {
             "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
+        "revolutionary": {
+            "good": "Partner can help this role out"
+        },
         "spirit_of_ivory": {
             "good": "SoI can prevent double evils with any alignment changer"
         },
-        "stormcatcher": {
-            "conflict": "Pit-Hag can change the stormcaught role"
-        },
         "toymaker": {
             "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
+        },
+        "stormcatcher": {
+            "conflict": "Pit-Hag can change the stormcaught role"
         }
     },
     "cerenovus": {
@@ -11430,6 +12251,10 @@
         "yaggababble": {
             "good": "Madness works well for Yaggabbable phrases"
         },
+        "revolutionary": {
+            "warning": "Can cause lying in the Rev pair",
+            "good": "Partner can help this role out"
+        },
         "stormcatcher": {
             "warning": "Cerenovus can cere-lock the stormcaught role"
         }
@@ -11465,8 +12290,26 @@
         "lleech": {
             "warning": "Can kill the Lleech host"
         },
+        "apprentice": {
+            "good": "Once per game abilities are good for arriving late or leaving early"
+        },
+        "gangster": {
+            "good": "Used abilities are safe to die"
+        },
+        "gunslinger": {
+            "good": "Used abilities are safe to die"
+        },
+        "voudon": {
+            "good": "More deaths is good for Voudon"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
+        },
         "stormcatcher": {
             "warning": "Assassin may be able to kill through the Stormcatcher (up to the ST)"
+        },
+        "tor": {
+            "good": "This role can find out for sure who they are if their ability triggers/is used"
         }
     },
     "godfather": {
@@ -11540,8 +12383,17 @@
         "bureaucrat": {
             "good": "Helps with execution"
         },
+        "voudon": {
+            "good": "More deaths is good for Voudon"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
+        },
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
+        },
+        "tor": {
+            "good": "This role can find out for sure who they are if their ability triggers/is used"
         }
     },
     "mastermind": {
@@ -11596,6 +12448,10 @@
         },
         "gnome": {
             "good": "Interesting amigo"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play",
+            "good": "This role can allow the Demon to learn who they are"
         }
     },
     "devils_advocate": {
@@ -11628,6 +12484,12 @@
         },
         "scapegoat": {
             "good": "Interesting synergy"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
+        },
+        "tor": {
+            "good": "This role can find out for sure who they are if their ability triggers/is used"
         }
     },
     "boomdandy": {
@@ -11700,6 +12562,9 @@
         },
         "stormcatcher": {
             "warning": "Boomdandy can't kill through Storm Catcher"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "fearmonger": {
@@ -11758,6 +12623,12 @@
         },
         "gnome": {
             "good": "Gnome can protect from a Fearmonger nomination"
+        },
+        "revolutionary": {
+            "good": "Partner can help this role out"
+        },
+        "tor": {
+            "warning": "This role can immediately know who they are, depending on when the ST does the announcement"
         }
     },
     "marionette": {
@@ -11817,11 +12688,14 @@
         "matron": {
             "warning": "Matron can move Marionette away from the Demon and vice versa"
         },
+        "revolutionary": {
+            "conflict": "Marionette in the pair prevents the Revolutionary from being used an accessibility tool"
+        },
         "gardener": {
             "good": "Garderner is one way to let you choose which character is the Marionette"
         },
-        "revolutionary": {
-            "conflict": "Alignment changing prevents the Revolutionary from being used an accessibility tool"
+        "tor": {
+            "warning": "A Marionette tells the Demon they are the Demon"
         }
     },
     "mezepheles": {
@@ -11866,16 +12740,21 @@
             "warning": "Might muddle the LoT line"
         },
         "apprentice": {
-            "warning": "Beware two extra evils if Apprentice joined late"
+            "warning": "Beware two extra evils if Apprentice joined late",
+            "good": "Once per game abilities are good for arriving late or leaving early"
         },
         "gnome": {
             "warning": "The amigo/Traveller can change alignment"
         },
         "revolutionary": {
-            "conflict": "Alignment changing prevents the Revolutionary from being used an accessibility tool"
+            "conflict": "Alignment changing prevents the Revolutionary from being used an accessibility tool",
+            "good": "Partner can help this role out"
         },
         "spirit_of_ivory": {
             "warning": "If there's already an extra evil player, Mezepheles has no ability"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "psychopath": {
@@ -11925,11 +12804,17 @@
         "apprentice": {
             "warning": "Apprentice Psychopath is outed immediately and has no protection"
         },
+        "voudon": {
+            "good": "More deaths is good for Voudon"
+        },
         "gnome": {
             "warning": "Confirmed amigo"
         },
         "revolutionary": {
             "warning": "Outed evils in the pair can be rough"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "widow": {
@@ -11992,6 +12877,9 @@
         },
         "fibbin": {
             "warning": "Beware too much misinformation"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "goblin": {
@@ -12052,6 +12940,9 @@
         },
         "revolutionary": {
             "warning": "Outed evils in the pair can be rough"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "organ_grinder": {
@@ -12150,6 +13041,9 @@
         },
         "stormcatcher": {
             "warning": "Vizier can force an execution on the stormcaught player"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "harpy": {
@@ -12187,8 +13081,18 @@
         "yaggababble": {
             "good": "Madness works well for Yaggabbable phrases. Both can simulate day deaths"
         },
+        "voudon": {
+            "good": "More deaths is good for Voudon"
+        },
         "duchess": {
             "good": "Harpy could cause people to lie about Duchess info"
+        },
+        "revolutionary": {
+            "warning": "Can cause lying in the Rev pair",
+            "good": "Partner can help this role out"
+        },
+        "big_wig": {
+            "warning": "If a Harpy-mad player wears the Big Wig, they might die in any case"
         },
         "stormcatcher": {
             "warning": "Harpy madness has no consequences on the stormcaught role"
@@ -12249,6 +13153,9 @@
         },
         "revolutionary": {
             "conflict": "Alignment changing prevents the Revolutionary from being used an accessibility tool"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "boffin": {
@@ -12290,6 +13197,9 @@
         },
         "gnome": {
             "good": "Interesting amigo"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are and tells the Demon they are the Demon"
         }
     },
     "xaan": {
@@ -12328,6 +13238,9 @@
         },
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "wizard": {
@@ -12353,7 +13266,7 @@
             "warning": "The hint might give out the LoT line"
         },
         "apprentice": {
-            "good": "The wish stays after the exile"
+            "good": "The wish stays after the exile. Once per game abilities are good for arriving late or leaving early"
         },
         "barista": {
             "warning": "Beware multiple wishes"
@@ -12365,16 +13278,20 @@
             "good": "Interesting amigo"
         },
         "revolutionary": {
-            "warning": "Be careful of wishes that break the pair"
+            "warning": "Be careful of wishes that break the pair",
+            "good": "Partner can help this role out"
         },
         "spirit_of_ivory": {
             "warning": "Wishes must respect the Spirit of Ivory"
         },
+        "toymaker": {
+            "warning": "Wishes must respect the Toymaker"
+        },
         "stormcatcher": {
             "warning": "Wishes must respect the Stormcatcher"
         },
-        "toymaker": {
-            "warning": "Wishes must respect the Toymaker"
+        "tor": {
+            "good": "This role can find out for sure who they are if their ability triggers/is used"
         }
     },
     "wraith": {
@@ -12418,7 +13335,7 @@
             "warning": "If found out, an Apprentice Wraith will be exiled quickly"
         },
         "barista": {
-            "warning": "Cannot be boubled"
+            "warning": "Cannot be doubled"
         },
         "bureaucrat": {
             "good": "Wraith can guide this role if evil"
@@ -12441,6 +13358,9 @@
         },
         "toymaker": {
             "good": "Wraith can help decide the night of no kills"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "imp": {
@@ -12449,6 +13369,10 @@
         },
         "bone_collector": {
             "good": "Bone Collector can give a kill to the dead Imp"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play",
+            "good": "A jump can tell both players their team"
         }
     },
     "fang_gu": {
@@ -12472,6 +13396,9 @@
         },
         "spirit_of_ivory": {
             "info": "If there's an extra evil, Fang Gu can't jump (will still kill the outsider targeted)"
+        },
+        "tor": {
+            "good": "A jump can tell both players their team"
         }
     },
     "vigormortis": {
@@ -12486,6 +13413,9 @@
         },
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
+        },
+        "tor": {
+            "good": "Vigormortis can deal with not knowing their team"
         }
     },
     "no_dashii": {
@@ -12516,6 +13446,12 @@
     "po": {
         "al-hadikhia": {
             "good": "Al-had hiding on night 2 can fake a Po charge"
+        },
+        "voudon": {
+            "good": "More deaths is good for Voudon"
+        },
+        "tor": {
+            "warning": "This role can easily find out who they are"
         }
     },
     "pukka": {
@@ -12533,9 +13469,19 @@
         },
         "fibbin": {
             "warning": "Beware too much misinformation"
+        },
+        "tor": {
+            "warning": "Harder to identify as the Demon"
         }
     },
-    "shabaloth": {},
+    "shabaloth": {
+        "voudon": {
+            "good": "More deaths is good for Voudon"
+        },
+        "tor": {
+            "warning": "This role can easily find out who they are"
+        }
+    },
     "zombuul": {
         "barista": {
             "good": "Single kill Demons can kill twice with a Barista"
@@ -12552,27 +13498,42 @@
         "doomsayer": {
             "warning": "Doomsayer can prevent the Zombuul from attacking",
             "good": "Zombuul can survive the Doomsayer"
+        },
+        "tor": {
+            "good": "Allows the Demon to learn who they are"
         }
     },
     "al-hadikhia": {
+        "voudon": {
+            "good": "More deaths is good for Voudon"
+        },
         "toymaker": {
             "warning": "If the Al-Hadikhia doesn't kill, everyone learns this"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "riot": {
         "apprentice": {
             "warning": "Apprentice retains its Minion ability during Rot day"
         },
+        "voudon": {
+            "warning": "Few dead players means Voudon has a lot of power. Dead players are more often evil in a Riot game"
+        },
         "gnome": {
             "warning": "Reduced number of nominations, hard to use on day 3"
         },
         "ferryman": {
             "warning": "Ferryman is useless with Riot"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "leviathan": {
         "barista": {
-            "warning": "Cannot be boubled"
+            "warning": "Cannot be doubled"
         },
         "beggar": {
             "warning": "Few dead players means few tokens to be given out to the Beggar"
@@ -12607,11 +13568,11 @@
         "spirit_of_ivory": {
             "info": "Less likely to have an evil majority at higher player counts with a Leviathan, even with two extra evils. SoI is still a good idea for smaller games"
         },
-        "stormcatcher": {
-            "warning": "Leviathan can't kill"
-        },
         "toymaker": {
             "warning": "Toymaker downside doesn't come into play with Leviathan"
+        },
+        "stormcatcher": {
+            "warning": "Leviathan can't kill"
         }
     },
     "lleech": {
@@ -12632,11 +13593,17 @@
         },
         "fiddler": {
             "warning": "Outed Lleech can't win a Fiddler contest"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play"
         }
     },
     "legion": {
         "apprentice": {
             "good": "Apprentice can bring Minions to a Legion game"
+        },
+        "voudon": {
+            "conflict": "Dead players will often be evil and it might not be possible to have good votes"
         },
         "gnome": {
             "good": "Good Gnome is very powerful on Legion"
@@ -12646,6 +13613,9 @@
         },
         "fiddler": {
             "conflict": "Legion with a Fiddler is a instant loss for good"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it very hard to play"
         }
     },
     "lil_monsta": {
@@ -12660,9 +13630,19 @@
         },
         "deviant": {
             "warning": "Evil Deviant can keep Lil Monsta theoretically forever"
+        },
+        "tor": {
+            "warning": "Allows the Minions to immediately know who they are"
         }
     },
-    "ojo": {},
+    "ojo": {
+        "voudon": {
+            "good": "More deaths is good for Voudon"
+        },
+        "tor": {
+            "warning": "This role can easily find out who they are"
+        }
+    },
     "kazali": {
         "lord_of_typhon": {
             "info": "If a player changes into an evil Minion, they won't know if it's Kazali or LoT"
@@ -12675,11 +13655,17 @@
         },
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "yaggababble": {
         "lord_of_typhon": {
             "good": "Yaggababble can fake extra minions"
+        },
+        "voudon": {
+            "good": "More deaths is good for Voudon"
         },
         "gnome": {
             "good": "Yaggababble could allow an evil Gnome to ake their amigo"
@@ -12689,6 +13675,9 @@
         },
         "duchess": {
             "good": "This role gives good opportunities for phrases"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "lord_of_typhon": {
@@ -12731,6 +13720,9 @@
         },
         "toymaker": {
             "great": "Very recommended"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it very hard to play"
         }
     },
     "apprentice": {},
@@ -12738,6 +13730,9 @@
     "beggar": {
         "ferryman": {
             "warning": "Ferryman makes the Beggar much stronger"
+        },
+        "tor": {
+            "good": "Can help players figure out who they are"
         }
     },
     "bishop": {
@@ -12748,42 +13743,108 @@
             "warning": "Only the ST nomintes with a Bishop in play"
         }
     },
-    "bone_collector": {},
+    "bone_collector": {
+        "tor": {
+            "good": "Can help players figure out who they are"
+        }
+    },
     "bureaucrat": {
         "thief": {
             "good": "If both choose the same player, that player has -3 votes"
         }
     },
-    "butcher": {},
+    "butcher": {
+        "voudon": {
+            "good": "More deaths is good for Voudon"
+        }
+    },
     "deviant": {},
-    "gangster": {},
-    "gunslinger": {},
-    "harlot": {},
+    "gangster": {
+        "voudon": {
+            "good": "More deaths is good for Voudon"
+        },
+        "tor": {
+            "good": "Might get request to die to learn who you are"
+        }
+    },
+    "gunslinger": {
+        "voudon": {
+            "good": "More deaths is good for Voudon"
+        },
+        "tor": {
+            "good": "Might get request to die to learn who you are"
+        }
+    },
+    "harlot": {
+        "voudon": {
+            "good": "More deaths is good for Voudon"
+        },
+        "tor": {
+            "good": "Can help players figure out who they are"
+        }
+    },
     "judge": {
         "stormcatcher": {
             "warning": "Evil Judge can force an execution on the stormcaught player"
         }
     },
     "matron": {},
-    "scapegoat": {},
-    "thief": {},
-    "voudon": {
-        "ferryman": {
-            "warning": "Voudon makes the Ferryman useless if alive on final day"
+    "scapegoat": {
+        "tor": {
+            "good": "Can help players figure out who they are"
         }
     },
-    "gnome": {},
+    "thief": {},
+    "voudon": {
+        "gnome": {
+            "good": "More deaths is good for Voudon"
+        },
+        "ferryman": {
+            "warning": "Voudon makes the Ferryman useless if alive on final day"
+        },
+        "tor": {
+            "great": "Good synergy"
+        }
+    },
+    "gnome": {
+        "tor": {
+            "good": "Can help players figure out who they are"
+        }
+    },
+    "cacklejack": {},
     "angel": {},
     "buddhist": {},
-    "doomsayer": {},
-    "duchess": {},
+    "doomsayer": {
+        "tor": {
+            "good": "Can help players figure out who they are"
+        }
+    },
+    "duchess": {
+        "tor": {
+            "good": "Can help players figure out who they are"
+        }
+    },
     "ferryman": {},
     "fibbin": {},
     "fiddler": {},
-    "gardener": {},
-    "revolutionary": {},
+    "revolutionary": {
+        "tor": {
+            "good": "Can help players figure out who they are"
+        }
+    },
     "sentinel": {},
     "spirit_of_ivory": {},
-    "stormcatcher": {},
-    "toymaker": {}
+    "toymaker": {},
+    "big_wig": {},
+    "gardener": {
+        "tor": {
+            "warning": "Redundant"
+        }
+    },
+    "stormcatcher": {
+        "tor": {
+            "warning": "Stormcaught player doesn't know they're stormcaught, and tells all evil players they are evil"
+        }
+    },
+    "tor": {}
 }

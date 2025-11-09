@@ -19,6 +19,8 @@ const color_per_character_type = {
   minion: "orange",
   demon: "red",
   traveller: "DarkOrchid",
+  fabled: "gold",
+  loric: "YellowGreen",
 };
 
 let groups = [];
