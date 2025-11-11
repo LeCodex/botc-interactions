@@ -164,6 +164,9 @@
         "chambermaid": {
             "good": "Chambermaid can confirm that the Alchemist woke N1, which its Minion ability might not do"
         },
+        "courtier": {
+            "good": "Alchemist might know a certain jinxed minion is(n't) in play. Courtier choosing the Minion of the Alchemist's ability can help confirm the Alchemist"
+        },
         "dreamer": {
             "warning": "Dreamer choices on Alchemist are obvious"
         },
@@ -257,7 +260,7 @@
             "warning": "Scapegoat saving an Alchemist is suspicious"
         },
         "tor": {
-            "warning": "This role immediately knows who they are"
+            "warning": "Alchemist doesn't know their ability and so might think they are a Minion"
         }
     },
     "alsaahir": {
@@ -557,6 +560,9 @@
         },
         "harlot": {
             "great": "Good synergy"
+        },
+        "tor": {
+            "warning": "Not knowing you're this role makes it hard to play (everyone who didn't wake will try to guess)"
         }
     },
     "amnesiac": {
@@ -722,6 +728,9 @@
         "high_priestess": {
             "good": "High Priestess can be given ths role once it receives information"
         },
+        "innkeeper": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
+        },
         "lycanthrope": {
             "good": "Used once per game roles are good target for Lycanthrope kills"
         },
@@ -733,13 +742,16 @@
             "good": "Philosopher can use once per game abilities again without risk"
         },
         "pixie": {
-            "warning": "Pixie can get a second question"
+            "warning": "Pixie can get a second question. Pixie might try to ask a question daily"
         },
         "princess": {
             "good": "Can be executed day 1 for a Princess"
         },
         "professor": {
             "good": "When resurrected, it gets another use of its ability"
+        },
+        "sailor": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
         "shugenja": {
             "great": "Good synergy"
@@ -806,6 +818,9 @@
         },
         "harlot": {
             "good": "Used abilities are safe to die"
+        },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
         "revolutionary": {
             "good": "Partner can help this role out"
@@ -1302,6 +1317,9 @@
         "snake_charmer": {
             "good": "Outed characters are safe picks"
         },
+        "steward": {
+            "good": "Steward can allow trust of hidden Townsfolk"
+        },
         "virgin": {
             "warning": "Beware too much confirmation"
         },
@@ -1465,6 +1483,9 @@
         "gnome": {
             "warning": "Dying during the day doesn't help trap characters",
             "good": "A dead Banshee doesn't fear this Traveler"
+        },
+        "cacklejack": {
+            "good": "Turning a powerful role into a trap role can be interesting"
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
@@ -1867,6 +1888,9 @@
         },
         "lord_of_typhon": {
             "warning": "Hard role to bluff for certain Minions, but LoT can more easily share bluffs"
+        },
+        "tor": {
+            "good": "This role can find out for sure who they are if their ability triggers/is used (unique waking pattern)"
         }
     },
     "chambermaid": {
@@ -1995,6 +2019,10 @@
         },
         "lord_of_typhon": {
             "info": "LoT doesn't wake on the first night, unlike Kazali"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are",
+            "good": "Chambermaid can determine if people are lying about their waking patterns to determine their role"
         }
     },
     "chef": {
@@ -2043,6 +2071,9 @@
         },
         "shugenja": {
             "warning": "Powerful synergy"
+        },
+        "steward": {
+            "great": "Good synergy (limits possible worlds)"
         },
         "undertaker": {
             "great": "Good synergy",
@@ -2138,6 +2169,9 @@
         "gnome": {
             "good": "This role is fine to die to this Traveler"
         },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+        },
         "duchess": {
             "great": "Good synergy"
         }
@@ -2154,6 +2188,9 @@
         },
         "grandmother": {
             "good": "Confirming this role is in-play is good"
+        },
+        "innkeeper": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
         "juggler": {
             "good": "Confirming this role is in-play is good"
@@ -2181,8 +2218,14 @@
         "sage": {
             "warning": "Beware too many \"trap\" characters"
         },
+        "sailor": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
+        },
         "snake_charmer": {
             "good": "Snake charmer can move the Demon"
+        },
+        "steward": {
+            "good": "Steward can allow trust of hidden Townsfolk"
         },
         "washerwoman": {
             "good": "Confirming this role is in-play is good"
@@ -2240,6 +2283,9 @@
         },
         "apprentice": {
             "warning": "Apprentice can't have this ability, unless a King is already in-play (not a good idea if they leave)"
+        },
+        "cacklejack": {
+            "warning": "Cacklejack creating a Choirboy mid-game can be tough to detect for the evil team"
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
@@ -2385,6 +2431,9 @@
         },
         "gnome": {
             "good": "This role is fine to die to this Traveler"
+        },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         }
     },
     "courtier": {
@@ -2641,7 +2690,7 @@
             "great": "Good synergy"
         },
         "revolutionary": {
-            "conflict": "Alignment changing prevents the Revolutionary from being used an accessibility tool"
+            "conflict": "Cult Leader is either disabled or turns their partner"
         },
         "spirit_of_ivory": {
             "warning": "If there's an extra evil player, this role can't change alignment"
@@ -2912,6 +2961,9 @@
         "gossip": {
             "good": "Used once per game roles are good target for Gossip kills"
         },
+        "innkeeper": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
+        },
         "investigator": {
             "warning": "Engineer can change what an Investigator saw"
         },
@@ -2929,6 +2981,9 @@
         },
         "ravenkeeper": {
             "good": "Engineer can limit the Minion or Demon pool"
+        },
+        "sailor": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
         "undertaker": {
             "good": "Engineer can limit the Minion or Demon pool. Used once per game roles can be executed to be confirmed"
@@ -3049,6 +3104,9 @@
         },
         "harlot": {
             "good": "Used abilities are safe to die"
+        },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
         "revolutionary": {
             "good": "Partner can help this role out"
@@ -3172,6 +3230,9 @@
         },
         "lord_of_typhon": {
             "good": "Great bluff for Minions"
+        },
+        "tor": {
+            "warning": "Exorcist can let Demon know who they are"
         }
     },
     "farmer": {
@@ -3255,7 +3316,7 @@
             "good": "Outed characters are safe picks"
         },
         "steward": {
-            "good": "First night info roles are a good target for Farmer"
+            "good": "First night info roles are a good target for Farmer. Steward can allow trust of hidden Townsfolk"
         },
         "virgin": {
             "warning": "Very powerful confirmation if turned into a Farmer"
@@ -3390,6 +3451,9 @@
         "gnome": {
             "warning": "Dying during the day doesn't help trap characters"
         },
+        "cacklejack": {
+            "good": "Turning a powerful role into a trap role can be interesting"
+        },
         "doomsayer": {
             "warning": "Dying during the day doesn't help trap characters"
         },
@@ -3403,6 +3467,9 @@
     "fisherman": {
         "gossip": {
             "good": "Used once per game roles are good target for Gossip kills"
+        },
+        "innkeeper": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
         "lycanthrope": {
             "good": "Used once per game roles are good target for Lycanthrope kills"
@@ -3418,6 +3485,9 @@
         },
         "professor": {
             "good": "When resurrected, it gets another use of its ability"
+        },
+        "sailor": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
         "undertaker": {
             "good": "Used once per game roles can be executed to be confirmed"
@@ -3466,6 +3536,9 @@
         },
         "harlot": {
             "good": "Used abilities are safe to die"
+        },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
         "revolutionary": {
             "good": "Partner can help this role out"
@@ -4563,6 +4636,9 @@
         }
     },
     "huntsman": {
+        "innkeeper": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
+        },
         "juggler": {
             "good": "Juggler can help find Damsel"
         },
@@ -4575,6 +4651,9 @@
         },
         "professor": {
             "good": "When resurrected, it gets another use of its ability"
+        },
+        "sailor": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
         "damsel": {
             "info": "Linked"
@@ -4618,6 +4697,9 @@
         "harlot": {
             "good": "Used abilities are safe to die"
         },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+        },
         "revolutionary": {
             "good": "Partner can help this role out"
         },
@@ -4626,6 +4708,9 @@
         }
     },
     "innkeeper": {
+        "juggler": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
+        },
         "king": {
             "good": "Innkeeper can protect the King if a Choirboy isn't in-play"
         },
@@ -4635,18 +4720,31 @@
         "monk": {
             "warning": "Beware too much protection without multiple sources of death"
         },
+        "nightwatchman": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
+        },
         "poppygrower": {
             "conflict": "Poppy Grower should not be drunk when it dies",
             "good": "Protection works well with PG"
         },
         "princess": {
-            "warning": "Beware too much protection without multiple sources of death"
+            "warning": "Beware too much protection without multiple sources of death",
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
+        },
+        "professor": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
         "sailor": {
             "warning": "Beware too much protection without multiple sources of death"
         },
         "savant": {
             "good": "No/less night deaths can allow the Savant to get more info"
+        },
+        "seamstress": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
+        },
+        "slayer": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
         "soldier": {
             "warning": "Beware too much protection without multiple sources of death"
@@ -4663,6 +4761,9 @@
         "village_idiot": {
             "good": "No/less night deaths can allow the Village Idiot to get more info",
             "warning": "Incidental droisoning can make it impossible for VIs to solve their info"
+        },
+        "virgin": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
         "saint": {
             "good": "Droison can cause a safe Saint execution"
@@ -4874,6 +4975,9 @@
         "harlot": {
             "good": "This role is fine to die to this Traveler"
         },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+        },
         "tor": {
             "warning": "This role immediately knows who they are"
         }
@@ -4911,6 +5015,9 @@
         },
         "sage": {
             "warning": "Juggling trap characters doesn't help them"
+        },
+        "sailor": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
         "soldier": {
             "good": "Confirming this role is in-play is good"
@@ -4995,6 +5102,9 @@
         },
         "harlot": {
             "good": "Used abilities are safe to die"
+        },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
         "stormcatcher": {
             "warning": "Juggler can check a \"stormcaught\" player"
@@ -5154,9 +5264,15 @@
             "great": "Can explain an Apprentice dying in the night",
             "warning": "Apprentice can't have this ability if they joined late"
         },
+        "cacklejack": {
+            "warning": "Creating an immediately active King is powerful"
+        },
         "stormcatcher": {
             "warning": "King is already known by the evil team",
             "good": "Stormcaught King can exist on a script without a Choirboy"
+        },
+        "tor": {
+            "warning": "A King immediately tells the Demon they are the Demon"
         }
     },
     "knight": {
@@ -5298,6 +5414,9 @@
         },
         "gnome": {
             "good": "This role is fine to die to this Traveler"
+        },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
         "tor": {
             "warning": "This role immediately knows who they are"
@@ -5451,6 +5570,9 @@
         },
         "gnome": {
             "good": "This role is fine to die to this Traveler"
+        },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
         "tor": {
             "warning": "This role immediately knows who they are"
@@ -5686,9 +5808,6 @@
         "duchess": {
             "good": "Faux Paw registers as evil"
         },
-        "revolutionary": {
-            "conflict": "Alignment muddling prevents the Revolutionary from being used an accessibility tool"
-        },
         "stormcatcher": {
             "good": "Faux Paw can be Storm Caught (or potentially learn the stormcaught player)"
         },
@@ -5841,6 +5960,9 @@
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
+        "cacklejack": {
+            "warning": "Useless ability mid-game"
+        },
         "duchess": {
             "good": "Evil team can try to use Duchess to figure out who's the Magician"
         },
@@ -5928,6 +6050,9 @@
         },
         "sage": {
             "good": "Trap characters can receive a Mayor bounce"
+        },
+        "steward": {
+            "good": "Steward can allow trust of hidden Townsfolk"
         },
         "village_idiot": {
             "good": "Village Idiot can help confirm this character"
@@ -6230,6 +6355,9 @@
         "professor": {
             "warning": "Double confirmation is powerful"
         },
+        "sailor": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
+        },
         "seamstress": {
             "warning": "Confirmed characters make Seamstress powerful"
         },
@@ -6335,6 +6463,10 @@
         },
         "gnome": {
             "warning": "Confirmable amigo"
+        },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game",
+            "warning": "Confirmed character change"
         },
         "stormcatcher": {
             "warning": "Storm catching confirmed roles leads to guaranteed good  on final day"
@@ -6491,6 +6623,9 @@
         },
         "gnome": {
             "good": "This role is fine to die to this Traveler"
+        },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
         "duchess": {
             "great": "Good synergy"
@@ -6827,7 +6962,7 @@
             "warning": "Pixie seeing hidden characters is complicated"
         },
         "steward": {
-            "good": "Pixie can get a second round of first night info"
+            "good": "Pixie can get a second round of first night info. Steward can allow trust of hidden Townsfolk"
         },
         "village_idiot": {
             "good": "Village Idiot can help confirm this character. Pixie can explain 4 Village Idiots",
@@ -6935,9 +7070,6 @@
         },
         "stormcatcher": {
             "good": "This role can't announce they're stormcaught"
-        },
-        "tor": {
-            "warning": "This role immediately knows who they are"
         }
     },
     "poppygrower": {
@@ -6963,7 +7095,7 @@
             "good": "If snake charmed while PG lives, the old Demon can't rat out their Minions"
         },
         "steward": {
-            "good": "Public info can help evil find each other"
+            "good": "Public info can help evil find each other. Steward can allow trust of hidden Townsfolk"
         },
         "tea_lady": {
             "good": "Protection works well with PG"
@@ -7105,6 +7237,9 @@
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
+        "cacklejack": {
+            "warning": "Useless ability mid-game"
+        },
         "duchess": {
             "good": "Evil team can try and use Duchess to find each other"
         },
@@ -7115,7 +7250,7 @@
             "warning": "Storm catching this role is a bad idea"
         },
         "tor": {
-            "conflict": "Useless in Tor games"
+            "conflict": "An active detriment in Tor games"
         }
     },
     "preacher": {
@@ -7201,7 +7336,7 @@
         },
         "sailor": {
             "warning": "Beware too much protection without multiple sources of death",
-            "good": "Can be executed day 1 for a Princess"
+            "good": "Can be executed day 1 for a Princess. Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
         "savant": {
             "good": "No/less night deaths can allow the Savant to get more info"
@@ -7415,6 +7550,9 @@
         "gnome": {
             "good": "Princess can nominate the Gnome killed player"
         },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+        },
         "doomsayer": {
             "good": "Princess can nominate the Doomsayer killed player"
         },
@@ -7423,9 +7561,15 @@
         },
         "toymaker": {
             "info": "Princess night can trigger Toymaker"
+        },
+        "tor": {
+            "conflict": "Not knowing you're this role makes it very hard to play"
         }
     },
     "professor": {
+        "sailor": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
+        },
         "steward": {
             "good": "When resurrected, it gets new first night info (or same)"
         },
@@ -7487,6 +7631,9 @@
         "lord_of_typhon": {
             "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+        },
         "revolutionary": {
             "good": "Partner can help this role out"
         },
@@ -7500,6 +7647,9 @@
         },
         "soldier": {
             "good": "Confirming this role is in-play is good"
+        },
+        "steward": {
+            "good": "Steward can allow trust of hidden Townsfolk"
         },
         "drunk": {
             "good": "Ravenkeeper can find a Drunk"
@@ -7639,6 +7789,9 @@
         "gnome": {
             "warning": "Dying during the day doesn't help trap characters"
         },
+        "cacklejack": {
+            "good": "Turning a powerful role into a trap role can be interesting"
+        },
         "doomsayer": {
             "warning": "Dying during the day doesn't help trap characters"
         },
@@ -7649,6 +7802,9 @@
     "sage": {
         "slayer": {
             "great": "Good synergy"
+        },
+        "steward": {
+            "good": "Steward can allow trust of hidden Townsfolk"
         },
         "recluse": {
             "good": "Recluse can appear as a Demon"
@@ -7785,6 +7941,9 @@
         "gnome": {
             "warning": "Dying during the day doesn't help trap characters"
         },
+        "cacklejack": {
+            "good": "Turning a powerful role into a trap role can be interesting"
+        },
         "doomsayer": {
             "warning": "Dying during the day doesn't help trap characters"
         },
@@ -7795,6 +7954,12 @@
     "sailor": {
         "savant": {
             "good": "No/less night deaths can allow the Savant to get more info"
+        },
+        "seamstress": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
+        },
+        "slayer": {
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
         "soldier": {
             "warning": "Beware too much protection without multiple sources of death"
@@ -7814,7 +7979,8 @@
             "warning": "Incidental droisoning can make it impossible for VIs to solve their info"
         },
         "virgin": {
-            "warning": "Surviving the Virgin nomination is powerful"
+            "warning": "Surviving the Virgin nomination is powerful",
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
         "saint": {
             "good": "Droison can cause a safe Saint execution"
@@ -8074,6 +8240,9 @@
         "gnome": {
             "warning": "Seamstress can check three players at once if they pick one of the gnome or their amigo"
         },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+        },
         "duchess": {
             "great": "Good synergy"
         },
@@ -8180,11 +8349,17 @@
         "gnome": {
             "good": "This role is fine to die to this Traveler"
         },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+        },
         "tor": {
-            "warning": "This role immediately knows who they are if they ask the ST"
+            "warning": "This role immediately knows who they are"
         }
     },
     "slayer": {
+        "steward": {
+            "good": "Steward can allow trust of hidden Townsfolk"
+        },
         "undertaker": {
             "good": "Used once per game roles can be executed to be confirmed"
         },
@@ -8283,6 +8458,9 @@
         },
         "harlot": {
             "good": "Used abilities are safe to die"
+        },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
         "revolutionary": {
             "good": "Partner can help this role out"
@@ -8384,7 +8562,7 @@
             "warning": "This amigo can change alignment"
         },
         "revolutionary": {
-            "conflict": "Alignment changing prevents the Revolutionary from being used an accessibility tool"
+            "conflict": "Snake Charmer is either disabled or turns their partner"
         }
     },
     "soldier": {
@@ -8598,6 +8776,9 @@
         },
         "gnome": {
             "good": "This role is fine to die to this Traveler. Checking this Traveller's alignment is powerful"
+        },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
         "duchess": {
             "great": "Good synergy"
@@ -9340,6 +9521,9 @@
         },
         "gnome": {
             "warning": "Bad/confirmable Gnome amigo"
+        },
+        "cacklejack": {
+            "warning": "Confirmed character change"
         },
         "revolutionary": {
             "warning": "Double confirmation if in the Rev pair"
@@ -10342,7 +10526,7 @@
             "warning": "Beware too much misinformation"
         },
         "revolutionary": {
-            "conflict": "Alignment changing prevents the Revolutionary from being used an accessibility tool"
+            "conflict": "Goon is either disabled or turns their partner"
         },
         "spirit_of_ivory": {
             "warning": "If there's an extra evil player, this role can't change alignment"
@@ -10648,13 +10832,14 @@
             "warning": "Lunatic LoT is hard to make believable"
         },
         "revolutionary": {
-            "conflict": "Alignment changing prevents the Revolutionary from being used an accessibility tool"
+            "conflict": "Lunatic in the pair prevents the Revolutionary from being used an accessibility tool"
         },
         "stormcatcher": {
             "good": "This role can't announce they're stormcaught"
         },
         "tor": {
-            "great": "Good synergy"
+            "great": "Good synergy",
+            "warning": "This role immediately tells the Demon they are the Demon"
         }
     },
     "damsel": {
@@ -10847,6 +11032,9 @@
         "gnome": {
             "warning": "Confirmable amigo"
         },
+        "cacklejack": {
+            "warning": "Confirmed character change"
+        },
         "revolutionary": {
             "warning": "Double confirmation if in the Rev pair"
         },
@@ -10914,7 +11102,7 @@
             "warning": "This amigo can change alignment"
         },
         "revolutionary": {
-            "conflict": "Alignment changing prevents the Revolutionary from being used an accessibility tool"
+            "conflict": "Politican either can't trigger or acts on both Revolutionaries, effectively adding two extra evils"
         },
         "spirit_of_ivory": {
             "warning": "If there's an extra evil player, this role can't change alignment"
@@ -11554,10 +11742,13 @@
             "good": "Ogre can use the Duchess to find its alignment"
         },
         "revolutionary": {
-            "conflict": "Alignment changing prevents the Revolutionary from being used an accessibility tool"
+            "conflict": "Ogre in the pair cannot change alignment or must turn their partner, which outs their alignment"
         },
         "spirit_of_ivory": {
             "warning": "Ogre can easily trigger the Spirit of Ivory. If there are other sources of alignment change on night 1, the Ogre ability can fail"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are night 2"
         }
     },
     "zealot": {
@@ -11754,6 +11945,10 @@
         "gunslinger": {
             "good": "This role is fine to die to this Traveler"
         },
+        "cacklejack": {
+            "good": "Cacklejack can replace this Minion",
+            "warning": "Useless ability mid-game"
+        },
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
         },
@@ -11857,11 +12052,14 @@
         "gnome": {
             "good": "Interesting amigo"
         },
+        "cacklejack": {
+            "good": "Swapping into ths role is interesting"
+        },
         "doomsayer": {
             "good": "SW can make the Demon survive the Doomsayer"
         },
         "tor": {
-            "good": "This role can find out for sure who they are if their ability triggers/is used, and can allow the Demon to learn who they are"
+            "good": "This role can allow the Demon to learn who they are"
         }
     },
     "spy": {
@@ -12197,6 +12395,9 @@
         "barista": {
             "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
+        "cacklejack": {
+            "warning": "Cacklejack makes it harder to know if a Pit-Hag is in-play"
+        },
         "revolutionary": {
             "good": "Partner can help this role out"
         },
@@ -12257,6 +12458,9 @@
         },
         "stormcatcher": {
             "warning": "Cerenovus can cere-lock the stormcaught role"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are"
         }
     },
     "assassin": {
@@ -12301,6 +12505,9 @@
         },
         "voudon": {
             "good": "More deaths is good for Voudon"
+        },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
         "revolutionary": {
             "good": "Partner can help this role out"
@@ -12393,7 +12600,7 @@
             "warning": "Sentinel can obfuscate the presence of this role"
         },
         "tor": {
-            "good": "This role can find out for sure who they are if their ability triggers/is used"
+            "warning": "This role immediately knows who they are"
         }
     },
     "mastermind": {
@@ -12448,6 +12655,9 @@
         },
         "gnome": {
             "good": "Interesting amigo"
+        },
+        "cacklejack": {
+            "good": "Swapping into ths role is interesting"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play",
@@ -12624,6 +12834,9 @@
         "gnome": {
             "good": "Gnome can protect from a Fearmonger nomination"
         },
+        "cacklejack": {
+            "good": "Swapping away from a Fearmonger is interesting"
+        },
         "revolutionary": {
             "good": "Partner can help this role out"
         },
@@ -12746,8 +12959,11 @@
         "gnome": {
             "warning": "The amigo/Traveller can change alignment"
         },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+        },
         "revolutionary": {
-            "conflict": "Alignment changing prevents the Revolutionary from being used an accessibility tool",
+            "conflict": "Mezepheles cannot turn a Revolutionary (or turns both, but unlikely)",
             "good": "Partner can help this role out"
         },
         "spirit_of_ivory": {
@@ -12810,11 +13026,14 @@
         "gnome": {
             "warning": "Confirmed amigo"
         },
+        "cacklejack": {
+            "warning": "Confirmed character change"
+        },
         "revolutionary": {
             "warning": "Outed evils in the pair can be rough"
         },
         "tor": {
-            "warning": "Not knowing you're this role makes it hard to play"
+            "warning": "Not knowing you're this role makes it hard to play (everyone might try to Psychopath kill)"
         }
     },
     "widow": {
@@ -12985,6 +13204,9 @@
         },
         "thief": {
             "good": "Thief's effect is not announced"
+        },
+        "tor": {
+            "warning": "This role immediately knows who they are (might be night 2 depending on how the ST plays it)"
         }
     },
     "vizier": {
@@ -13032,6 +13254,9 @@
         },
         "gnome": {
             "warning": "Confirmed amigo"
+        },
+        "cacklejack": {
+            "warning": "Swapping away from a Vizier is powerful"
         },
         "ferryman": {
             "good": "Additional voting is good for Vizier"
@@ -13151,8 +13376,12 @@
         "bishop": {
             "warning": "In 1 Minion games, a good Bishop will always nominate the Summoner on both day 1 and 2"
         },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used",
+            "warning": "Not a good ability to give mid-game"
+        },
         "revolutionary": {
-            "conflict": "Alignment changing prevents the Revolutionary from being used an accessibility tool"
+            "warning": "Summoner cannot summon in the Rev pair"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -13199,7 +13428,7 @@
             "good": "Interesting amigo"
         },
         "tor": {
-            "warning": "This role immediately knows who they are and tells the Demon they are the Demon"
+            "warning": "This role tells the Demon they are the Demon"
         }
     },
     "xaan": {
@@ -13232,6 +13461,9 @@
         },
         "apprentice": {
             "info": "Creating a Xaan midgame uses the setup's outsider count. Changing the number of Outsiders midgame doesn't affect when the Xaan night is"
+        },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
         "fibbin": {
             "warning": "Beware too much misinformation"
@@ -13276,6 +13508,9 @@
         },
         "gnome": {
             "good": "Interesting amigo"
+        },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
         "revolutionary": {
             "warning": "Be careful of wishes that break the pair",
@@ -13360,7 +13595,7 @@
             "good": "Wraith can help decide the night of no kills"
         },
         "tor": {
-            "warning": "Not knowing you're this role makes it hard to play"
+            "warning": "This role tells ALL evil players they are evil (including themself)"
         }
     },
     "imp": {
@@ -13369,6 +13604,9 @@
         },
         "bone_collector": {
             "good": "Bone Collector can give a kill to the dead Imp"
+        },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play",
@@ -13388,8 +13626,11 @@
         "gnome": {
             "warning": "The amigo can change alignment"
         },
+        "cacklejack": {
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+        },
         "revolutionary": {
-            "conflict": "Alignment changing prevents the Revolutionary from being used an accessibility tool"
+            "warning": "Fang Gu cannot jump into the Rev pair"
         },
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
@@ -13408,6 +13649,9 @@
         "barista": {
             "good": "Single kill Demons can kill twice with a Barista"
         },
+        "cacklejack": {
+            "warning": "If swapped, Minions lose their ability"
+        },
         "fibbin": {
             "warning": "Beware too much misinformation"
         },
@@ -13421,6 +13665,9 @@
     "no_dashii": {
         "barista": {
             "good": "Single kill Demons can kill twice with a Barista"
+        },
+        "cacklejack": {
+            "good": "Swapping into ths role is interesting"
         }
     },
     "vortox": {
@@ -13435,6 +13682,9 @@
         },
         "voudon": {
             "conflict": "Evil Voudon can choose not to vote on day 1, causing a loss"
+        },
+        "cacklejack": {
+            "warning": "Swapping into ths role is powerful"
         },
         "duchess": {
             "good": "Duchess is immune to Vortox"
@@ -13495,17 +13745,23 @@
         "gnome": {
             "warning": "Gnome kill prevents a Zombuul kill"
         },
+        "cacklejack": {
+            "warning": "Zombuul should not be swapped away after first death"
+        },
         "doomsayer": {
             "warning": "Doomsayer can prevent the Zombuul from attacking",
             "good": "Zombuul can survive the Doomsayer"
         },
         "tor": {
-            "good": "Allows the Demon to learn who they are"
+            "good": "Allows the Demon to learn who they are. This role can figure out who they are after some time"
         }
     },
     "al-hadikhia": {
         "voudon": {
             "good": "More deaths is good for Voudon"
+        },
+        "cacklejack": {
+            "warning": "Confirmed character change"
         },
         "toymaker": {
             "warning": "If the Al-Hadikhia doesn't kill, everyone learns this"
@@ -13556,6 +13812,9 @@
         "gnome": {
             "good": "Day kills aren't executions"
         },
+        "cacklejack": {
+            "warning": "Confirmed character change"
+        },
         "buddhist": {
             "good": "Buddhist can help new players find their voice in high-info games like Leviathan"
         },
@@ -13588,6 +13847,9 @@
         "gnome": {
             "warning": "Can kill the Lleech host"
         },
+        "cacklejack": {
+            "good": "Swapping into ths role is interesting"
+        },
         "fibbin": {
             "warning": "Beware too much misinformation"
         },
@@ -13607,6 +13869,9 @@
         },
         "gnome": {
             "good": "Good Gnome is very powerful on Legion"
+        },
+        "cacklejack": {
+            "warning": "Swapping into this role is a detriment. Swapping out of Legion will probably give a massive advantage to the evil team"
         },
         "ferryman": {
             "warning": "Legion benefits a lot from Ferryman"
@@ -13631,6 +13896,9 @@
         "deviant": {
             "warning": "Evil Deviant can keep Lil Monsta theoretically forever"
         },
+        "cacklejack": {
+            "warning": "Cannot swap in or out of Lil Monsta"
+        },
         "tor": {
             "warning": "Allows the Minions to immediately know who they are"
         }
@@ -13650,14 +13918,17 @@
         "barista": {
             "good": "Single kill Demons can kill twice with a Barista"
         },
+        "cacklejack": {
+            "warning": "Useless ability mid-game"
+        },
         "revolutionary": {
-            "conflict": "Alignment changing prevents the Revolutionary from being used an accessibility tool"
+            "warning": "Kazali must turn either none or both Revolutionaries and cannot be in the Rev pair"
         },
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
         },
         "tor": {
-            "warning": "This role immediately knows who they are"
+            "warning": "This role immediately knows who they are, and allows all Minions to know they're evil"
         }
     },
     "yaggababble": {
@@ -13701,6 +13972,9 @@
         },
         "scapegoat": {
             "good": "Scapegoat can help figure out the LoT line"
+        },
+        "cacklejack": {
+            "warning": "Useless ability mid-game"
         },
         "doomsayer": {
             "warning": "Doomsayer can make the LoT line more obvious"
@@ -13811,8 +14085,19 @@
             "good": "Can help players figure out who they are"
         }
     },
-    "cacklejack": {},
-    "angel": {},
+    "cacklejack": {
+        "stormcatcher": {
+            "warning": "Stormcaught player should not change characters"
+        },
+        "tor": {
+            "warning": "Players don't know what they changed into, and lose information about what they were"
+        }
+    },
+    "angel": {
+        "tor": {
+            "warning": "Tor is not beginner-friendly"
+        }
+    },
     "buddhist": {},
     "doomsayer": {
         "tor": {
@@ -13828,13 +14113,20 @@
     "fibbin": {},
     "fiddler": {},
     "revolutionary": {
+        "spirit_of_ivory": {
+            "warning": "Spirit of Ivory prevents both characters from becoming evil at once"
+        },
         "tor": {
             "good": "Can help players figure out who they are"
         }
     },
     "sentinel": {},
     "spirit_of_ivory": {},
-    "toymaker": {},
+    "toymaker": {
+        "tor": {
+            "warning": "Toymaker allows regular Demon and Minion info with Tor"
+        }
+    },
     "big_wig": {},
     "gardener": {
         "tor": {
