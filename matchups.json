@@ -152,6 +152,9 @@
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "alchemist": {
@@ -261,6 +264,9 @@
         },
         "tor": {
             "warning": "Alchemist doesn't know their ability and so might think they are a Minion"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "alsaahir": {
@@ -563,6 +569,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play (everyone who didn't wake will try to guess)"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "amnesiac": {
@@ -713,6 +722,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are if they go ask the ST"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "artist": {
@@ -827,6 +839,9 @@
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "atheist": {
@@ -993,6 +1008,9 @@
         },
         "tor": {
             "warning": "Atheist can fake anything"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "balloonist": {
@@ -1707,6 +1725,9 @@
         },
         "spirit_of_ivory": {
             "warning": "Bounty Hunter immediately triggers Spirit of Ivory"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "cannibal": {
@@ -2292,6 +2313,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "clockmaker": {
@@ -2591,6 +2615,9 @@
         },
         "revolutionary": {
             "good": "Partner can help this role out"
+        },
+        "zenomancer": {
+            "good": "Longer games are good for quests"
         }
     },
     "cult_leader": {
@@ -2700,6 +2727,9 @@
         },
         "tor": {
             "warning": "This role can immediately know who they are"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "dreamer": {
@@ -3113,6 +3143,9 @@
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "exorcist": {
@@ -3233,6 +3266,9 @@
         },
         "tor": {
             "warning": "Exorcist can let Demon know who they are"
+        },
+        "zenomancer": {
+            "good": "Longer games are good for quests. Interesting role to give information about"
         }
     },
     "farmer": {
@@ -3462,6 +3498,9 @@
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "fisherman": {
@@ -3545,6 +3584,9 @@
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "flowergirl": {
@@ -4154,6 +4196,9 @@
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea. Gambler can check if a \"stormcaught\" player is bluffing"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "general": {
@@ -4386,6 +4431,9 @@
         },
         "voudon": {
             "good": "More deaths is good for Voudon"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "grandmother": {
@@ -4547,6 +4595,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "high_priestess": {
@@ -4823,6 +4874,9 @@
         },
         "fibbin": {
             "warning": "Beware too much misinformation"
+        },
+        "zenomancer": {
+            "good": "Longer games are good for quests"
         }
     },
     "investigator": {
@@ -5273,6 +5327,9 @@
         },
         "tor": {
             "warning": "A King immediately tells the Demon they are the Demon"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "knight": {
@@ -5813,6 +5870,9 @@
         },
         "tor": {
             "good": "Can be confused for the Demon. Can help good players learn who they are"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "magician": {
@@ -5971,6 +6031,9 @@
         },
         "tor": {
             "conflict": "Useless in Tor games"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "mathematician": {
@@ -6036,6 +6099,9 @@
         },
         "revolutionary": {
             "good": "Partner can help this role out"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "mayor": {
@@ -6162,6 +6228,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "minstrel": {
@@ -6251,6 +6320,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "good": "Longer games are good for quests"
         }
     },
     "monk": {
@@ -6854,6 +6926,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "good": "Longer games are good for quests"
         }
     },
     "philosopher": {
@@ -7070,6 +7145,9 @@
         },
         "stormcatcher": {
             "good": "This role can't announce they're stormcaught"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "poppygrower": {
@@ -7251,6 +7329,9 @@
         },
         "tor": {
             "conflict": "An active detriment in Tor games"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "preacher": {
@@ -7322,6 +7403,9 @@
         },
         "lord_of_typhon": {
             "warning": "Info on the Minions can be powerful in LoT game"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "princess": {
@@ -7564,6 +7648,9 @@
         },
         "tor": {
             "conflict": "Not knowing you're this role makes it very hard to play"
+        },
+        "zenomancer": {
+            "good": "Longer games are good for quests"
         }
     },
     "professor": {
@@ -7635,10 +7722,13 @@
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
         "revolutionary": {
-            "good": "Partner can help this role out"
+            "good": "Partner can help this role out. Rev can misregister to get resurrected"
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
+        },
+        "zenomancer": {
+            "good": "Longer games are good for quests"
         }
     },
     "ravenkeeper": {
@@ -8072,6 +8162,9 @@
         },
         "stormcatcher": {
             "warning": "Storm catching protected roles is not a great idea"
+        },
+        "zenomancer": {
+            "good": "Longer games are good for quests. Interesting role to give information about"
         }
     },
     "savant": {
@@ -8158,6 +8251,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are if they ask the ST"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "seamstress": {
@@ -8463,10 +8559,13 @@
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
         "revolutionary": {
-            "good": "Partner can help this role out"
+            "good": "Partner can help this role out. Rev can misregister and be killed"
         },
         "stormcatcher": {
             "good": "This role benefits from the extra survivability"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "snake_charmer": {
@@ -8648,6 +8747,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "good": "Longer games are good for quests"
         }
     },
     "steward": {
@@ -8922,6 +9024,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "good": "Longer games are good for quests"
         }
     },
     "town_crier": {
@@ -9415,6 +9520,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "virgin": {
@@ -9684,6 +9792,9 @@
         },
         "stormcatcher": {
             "good": "This role can't announce they're stormcaught"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "saint": {
@@ -10140,6 +10251,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "sweetheart": {
@@ -10313,6 +10427,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "klutz": {
@@ -10526,7 +10643,7 @@
             "warning": "Beware too much misinformation"
         },
         "revolutionary": {
-            "conflict": "Goon is either disabled or turns their partner"
+            "conflict": "Goon is either disabled or turns their partner (still drunks people who chooses them)"
         },
         "spirit_of_ivory": {
             "warning": "If there's an extra evil player, this role can't change alignment"
@@ -10661,6 +10778,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "tinker": {
@@ -10734,6 +10854,9 @@
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "lunatic": {
@@ -10935,6 +11058,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "golem": {
@@ -11040,6 +11166,9 @@
         },
         "tor": {
             "conflict": "Might accidentally break the rules"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "politician": {
@@ -11237,6 +11366,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "snitch": {
@@ -11364,6 +11496,9 @@
         "evil_twin": {
             "warning": "Preventing an evil loss with a Heretic is detrimental for evil"
         },
+        "pit-hag": {
+            "conflict": "Pit-Hag can make itself the evil Heretic"
+        },
         "mastermind": {
             "warning": "Preventing an evil loss with a Heretic is detrimental for evil"
         },
@@ -11420,6 +11555,9 @@
         },
         "tor": {
             "conflict": "Unknown Heretic can lead to unfun games"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "plague_doctor": {
@@ -11540,6 +11678,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "hatter": {
@@ -11664,6 +11805,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "ogre": {
@@ -11749,6 +11893,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are night 2"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "zealot": {
@@ -11885,6 +12032,9 @@
         },
         "spirit_of_ivory": {
             "good": "SoI can prevent double evils with the duplicated abilities"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "baron": {
@@ -11954,6 +12104,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "poisoner": {
@@ -11989,6 +12142,9 @@
         },
         "revolutionary": {
             "good": "Partner can help this role out"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "scarlet_woman": {
@@ -12060,6 +12216,9 @@
         },
         "tor": {
             "good": "This role can allow the Demon to learn who they are"
+        },
+        "zenomancer": {
+            "good": "Longer games are good for quests"
         }
     },
     "spy": {
@@ -12207,6 +12366,9 @@
         },
         "revolutionary": {
             "good": "Partner can help this role out"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "evil_twin": {
@@ -12287,6 +12449,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are, but their target doesn't know what role they have"
+        },
+        "zenomancer": {
+            "good": "Longer games are good for quests"
         }
     },
     "pit-hag": {
@@ -12461,6 +12626,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "assassin": {
@@ -12517,6 +12685,9 @@
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "godfather": {
@@ -12601,6 +12772,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "mastermind": {
@@ -12662,6 +12836,9 @@
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play",
             "good": "This role can allow the Demon to learn who they are"
+        },
+        "zenomancer": {
+            "good": "Longer games are good for quests"
         }
     },
     "devils_advocate": {
@@ -12775,6 +12952,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "fearmonger": {
@@ -12842,6 +13022,9 @@
         },
         "tor": {
             "warning": "This role can immediately know who they are, depending on when the ST does the announcement"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "marionette": {
@@ -12909,6 +13092,9 @@
         },
         "tor": {
             "warning": "A Marionette tells the Demon they are the Demon"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "mezepheles": {
@@ -12971,6 +13157,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "psychopath": {
@@ -13034,6 +13223,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play (everyone might try to Psychopath kill)"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "widow": {
@@ -13099,6 +13291,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "goblin": {
@@ -13162,6 +13357,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "organ_grinder": {
@@ -13207,6 +13405,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are (might be night 2 depending on how the ST plays it)"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "vizier": {
@@ -13321,6 +13522,9 @@
         },
         "stormcatcher": {
             "warning": "Harpy madness has no consequences on the stormcaught role"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "summoner": {
@@ -13381,10 +13585,13 @@
             "warning": "Not a good ability to give mid-game"
         },
         "revolutionary": {
-            "warning": "Summoner cannot summon in the Rev pair"
+            "warning": "Summoner cannot summon in the Rev pair without changing both"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "boffin": {
@@ -13429,6 +13636,9 @@
         },
         "tor": {
             "warning": "This role tells the Demon they are the Demon"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "xaan": {
@@ -13473,6 +13683,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "wizard": {
@@ -13527,6 +13740,9 @@
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "wraith": {
@@ -13596,6 +13812,9 @@
         },
         "tor": {
             "warning": "This role tells ALL evil players they are evil (including themself)"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "imp": {
@@ -13611,6 +13830,9 @@
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play",
             "good": "A jump can tell both players their team"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "fang_gu": {
@@ -13630,7 +13852,7 @@
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
         "revolutionary": {
-            "warning": "Fang Gu cannot jump into the Rev pair"
+            "warning": "Fang Gu cannot jump into the Rev pair without changing both"
         },
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
@@ -13640,6 +13862,9 @@
         },
         "tor": {
             "good": "A jump can tell both players their team"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "vigormortis": {
@@ -13654,6 +13879,9 @@
         },
         "fibbin": {
             "warning": "Beware too much misinformation"
+        },
+        "revolutionary": {
+            "good": "Rev can misregister to have the poison be placed further away"
         },
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
@@ -13691,6 +13919,9 @@
         },
         "fibbin": {
             "info": "Fibbin can give true info with Vortox"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "po": {
@@ -13702,6 +13933,9 @@
         },
         "tor": {
             "warning": "This role can easily find out who they are"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "pukka": {
@@ -13722,6 +13956,9 @@
         },
         "tor": {
             "warning": "Harder to identify as the Demon"
+        },
+        "zenomancer": {
+            "good": "Longer games are good for quests"
         }
     },
     "shabaloth": {
@@ -13730,6 +13967,9 @@
         },
         "tor": {
             "warning": "This role can easily find out who they are"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "zombuul": {
@@ -13754,6 +13994,9 @@
         },
         "tor": {
             "good": "Allows the Demon to learn who they are. This role can figure out who they are after some time"
+        },
+        "zenomancer": {
+            "good": "Longer games are good for quests"
         }
     },
     "al-hadikhia": {
@@ -13768,6 +14011,10 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests",
+            "good": "Interesting role to give information about"
         }
     },
     "riot": {
@@ -13785,6 +14032,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "leviathan": {
@@ -13832,6 +14082,9 @@
         },
         "stormcatcher": {
             "warning": "Leviathan can't kill"
+        },
+        "zenomancer": {
+            "good": "Longer games are good for quests"
         }
     },
     "lleech": {
@@ -13858,6 +14111,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "legion": {
@@ -13909,6 +14165,9 @@
         },
         "tor": {
             "warning": "This role can easily find out who they are"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "kazali": {
@@ -13949,6 +14208,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "lord_of_typhon": {
@@ -13999,14 +14261,25 @@
             "warning": "Not knowing you're this role makes it very hard to play"
         }
     },
-    "apprentice": {},
-    "barista": {},
+    "apprentice": {
+        "zenomancer": {
+            "good": "Interesting role to give information about"
+        }
+    },
+    "barista": {
+        "zenomancer": {
+            "good": "Interesting role to give information about"
+        }
+    },
     "beggar": {
         "ferryman": {
             "warning": "Ferryman makes the Beggar much stronger"
         },
         "tor": {
             "good": "Can help players figure out who they are"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "bishop": {
@@ -14015,11 +14288,17 @@
         },
         "gnome": {
             "warning": "Only the ST nomintes with a Bishop in play"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "bone_collector": {
         "tor": {
             "good": "Can help players figure out who they are"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "bureaucrat": {
@@ -14030,6 +14309,9 @@
     "butcher": {
         "voudon": {
             "good": "More deaths is good for Voudon"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "deviant": {},
@@ -14039,6 +14321,9 @@
         },
         "tor": {
             "good": "Might get request to die to learn who you are"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "gunslinger": {
@@ -14047,6 +14332,9 @@
         },
         "tor": {
             "good": "Might get request to die to learn who you are"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "harlot": {
@@ -14055,6 +14343,10 @@
         },
         "tor": {
             "good": "Can help players figure out who they are"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests",
+            "good": "Interesting role to give information about"
         }
     },
     "judge": {
@@ -14066,6 +14358,9 @@
     "scapegoat": {
         "tor": {
             "good": "Can help players figure out who they are"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "thief": {},
@@ -14083,6 +14378,9 @@
     "gnome": {
         "tor": {
             "good": "Can help players figure out who they are"
+        },
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
         }
     },
     "cacklejack": {
@@ -14091,6 +14389,9 @@
         },
         "tor": {
             "warning": "Players don't know what they changed into, and lose information about what they were"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "angel": {
@@ -14102,29 +14403,49 @@
     "doomsayer": {
         "tor": {
             "good": "Can help players figure out who they are"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "duchess": {
         "tor": {
             "good": "Can help players figure out who they are"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "ferryman": {},
     "fibbin": {},
-    "fiddler": {},
+    "fiddler": {
+        "zenomancer": {
+            "warning": "Shorter games means less time for quests"
+        }
+    },
     "revolutionary": {
         "spirit_of_ivory": {
-            "warning": "Spirit of Ivory prevents both characters from becoming evil at once"
+            "warning": "Spirit of Ivory prevents both characters from becoming evil at once if one of them would become evil"
         },
         "tor": {
             "good": "Can help players figure out who they are"
+        },
+        "zenomancer": {
+            "good": "Partner can help with the quests"
         }
     },
-    "sentinel": {},
+    "sentinel": {
+        "zenomancer": {
+            "good": "Interesting role to give information about"
+        }
+    },
     "spirit_of_ivory": {},
     "toymaker": {
         "tor": {
             "warning": "Toymaker allows regular Demon and Minion info with Tor"
+        },
+        "zenomancer": {
+            "good": "Longer games are good for quests"
         }
     },
     "big_wig": {},
@@ -14136,7 +14457,15 @@
     "stormcatcher": {
         "tor": {
             "warning": "Stormcaught player doesn't know they're stormcaught, and tells all evil players they are evil"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
-    "tor": {}
+    "tor": {
+        "zenomancer": {
+            "good": "Quests can give information on yourself"
+        }
+    },
+    "zenomancer": {}
 }
