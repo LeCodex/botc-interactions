@@ -150,6 +150,9 @@
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
+        },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
         },
@@ -566,6 +569,9 @@
         },
         "harlot": {
             "great": "Good synergy"
+        },
+        "hindu": {
+            "warning": "Minions becoming Travellers can make Alsaahir guesses very complicated"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play (everyone who didn't wake will try to guess)"
@@ -1505,6 +1511,9 @@
         "cacklejack": {
             "good": "Turning a powerful role into a trap role can be interesting"
         },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
+        },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
         }
@@ -1725,6 +1734,9 @@
         },
         "spirit_of_ivory": {
             "warning": "Bounty Hunter immediately triggers Spirit of Ivory"
+        },
+        "hindu": {
+            "good": "Bounty Hunter can know the alignment of the new Travellers they kill"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -2041,6 +2053,9 @@
         "lord_of_typhon": {
             "info": "LoT doesn't wake on the first night, unlike Kazali"
         },
+        "hindu": {
+            "warning": "Depending on when players are raised, can allow to choose players that died tonight"
+        },
         "tor": {
             "warning": "This role immediately knows who they are",
             "good": "Chambermaid can determine if people are lying about their waking patterns to determine their role"
@@ -2195,6 +2210,9 @@
         },
         "duchess": {
             "great": "Good synergy"
+        },
+        "hindu": {
+            "warning": "Players leaving influences this role"
         }
     },
     "choirboy": {
@@ -2307,6 +2325,9 @@
         },
         "cacklejack": {
             "warning": "Cacklejack creating a Choirboy mid-game can be tough to detect for the evil team"
+        },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
@@ -2458,6 +2479,9 @@
         },
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+        },
+        "hindu": {
+            "warning": "Players leaving influences this role"
         }
     },
     "courtier": {
@@ -2722,6 +2746,9 @@
         "spirit_of_ivory": {
             "warning": "If there's an extra evil player, this role can't change alignment"
         },
+        "hindu": {
+            "warning": "Players leaving influences this role. Hindu-ed players still count as alive neighbors"
+        },
         "stormcatcher": {
             "good": "This role benefits from the extra survivability"
         },
@@ -2979,6 +3006,9 @@
         },
         "duchess": {
             "great": "Good synergy"
+        },
+        "hindu": {
+            "warning": "Players leaving influences this role. Hindu-ed players still count as alive neighbors"
         }
     },
     "engineer": {
@@ -3140,6 +3170,9 @@
         },
         "revolutionary": {
             "good": "Partner can help this role out"
+        },
+        "hindu": {
+            "warning": "Engineer can choose extra roles if Minions have been tranformed into Travellers"
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
@@ -3492,6 +3525,9 @@
         },
         "doomsayer": {
             "warning": "Dying during the day doesn't help trap characters"
+        },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
@@ -3907,6 +3943,9 @@
         "gnome": {
             "good": "This role can survive this Traveler"
         },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
+        },
         "stormcatcher": {
             "warning": "Storm catching protected roles is not a great idea"
         }
@@ -4010,6 +4049,9 @@
         },
         "lord_of_typhon": {
             "good": "Fortune Teller can become more efficient by picking neighbors in a LoT game. Great bluff for Minions"
+        },
+        "hindu": {
+            "warning": "Players leaving influences this role (change of false positive)"
         },
         "tor": {
             "warning": "This role immediately knows who they are"
@@ -4193,6 +4235,9 @@
         },
         "revolutionary": {
             "good": "Partner can help this role out"
+        },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea. Gambler can check if a \"stormcaught\" player is bluffing"
@@ -4432,6 +4477,9 @@
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
+        },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
         }
@@ -4592,6 +4640,9 @@
         },
         "voudon": {
             "good": "More deaths is good for Voudon"
+        },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
         },
         "tor": {
             "warning": "This role immediately knows who they are"
@@ -4991,7 +5042,7 @@
             "good": "Investigator can't confirm one of their picks by having the other die in the night"
         },
         "vortox": {
-            "info": "Investigator only needs the seen role not to be among the targets (can be in or out of game)"
+            "warning": "Vortox makes this info near useless"
         },
         "shabaloth": {
             "good": "Investigator can't confirm one of their picks by having the other die in the night (can get resurrected)",
@@ -5865,6 +5916,9 @@
         "duchess": {
             "good": "Faux Paw registers as evil"
         },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
+        },
         "stormcatcher": {
             "good": "Faux Paw can be Storm Caught (or potentially learn the stormcaught player)"
         },
@@ -6099,6 +6153,9 @@
         },
         "revolutionary": {
             "good": "Partner can help this role out"
+        },
+        "hindu": {
+            "warning": "Players leaving influences this role"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -6539,6 +6596,9 @@
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game",
             "warning": "Confirmed character change"
+        },
+        "hindu": {
+            "warning": "Confirmed good Traveller can be very powerful"
         },
         "stormcatcher": {
             "warning": "Storm catching confirmed roles leads to guaranteed good  on final day"
@@ -7885,6 +7945,9 @@
         "doomsayer": {
             "warning": "Dying during the day doesn't help trap characters"
         },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
+        },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea. Ravenkeeper can check a \"stormcaught\" player"
         }
@@ -8037,6 +8100,9 @@
         "doomsayer": {
             "warning": "Dying during the day doesn't help trap characters"
         },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
+        },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
         }
@@ -8159,6 +8225,9 @@
         },
         "fibbin": {
             "warning": "Beware too much misinformation"
+        },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
         },
         "stormcatcher": {
             "warning": "Storm catching protected roles is not a great idea"
@@ -8447,6 +8516,9 @@
         },
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+        },
+        "hindu": {
+            "warning": "Players leaving influences this role"
         },
         "tor": {
             "warning": "This role immediately knows who they are"
@@ -9022,6 +9094,9 @@
         "revolutionary": {
             "good": "Tea Lady protects their partner"
         },
+        "hindu": {
+            "warning": "Players leaving influences this role. Hindu-ed players still count as alive neighbors"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
         },
@@ -9147,7 +9222,7 @@
     },
     "undertaker": {
         "virgin": {
-            "great": "Good synergy"
+            "good": "Undertaker can help learn the role of the Virgin victim, but it is less valuable information than a \"random\" execution"
         },
         "washerwoman": {
             "good": "Night one roles can be executed to be confirmed. WW is good for role swaps with powerful info roles"
@@ -9636,6 +9711,9 @@
         "revolutionary": {
             "warning": "Double confirmation if in the Rev pair"
         },
+        "hindu": {
+            "warning": "Confirmed good Traveller can be very powerful"
+        },
         "stormcatcher": {
             "warning": "Storm catching confirmed roles leads to guaranteed good  on final day"
         },
@@ -9975,6 +10053,9 @@
         "harlot": {
             "warning": "This role is fine to die to this Traveler"
         },
+        "hindu": {
+            "warning": "This Outsider can be killed to remove its downside"
+        },
         "tor": {
             "conflict": "Might accidentally break the rules"
         }
@@ -10091,6 +10172,9 @@
         },
         "fibbin": {
             "warning": "Beware too much misinformation"
+        },
+        "hindu": {
+            "warning": "This Outsider can be killed to remove its downside"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -10249,6 +10333,9 @@
         "gnome": {
             "good": "Interesting amigo"
         },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
         },
@@ -10361,6 +10448,9 @@
         "fibbin": {
             "warning": "Beware too much misinformation"
         },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
         }
@@ -10421,6 +10511,9 @@
         },
         "revolutionary": {
             "warning": "Can cause lying in the Rev pair"
+        },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
         },
         "stormcatcher": {
             "good": "This role can't announce they're stormcaught"
@@ -10547,6 +10640,9 @@
         },
         "revolutionary": {
             "good": "Partner can help this role out"
+        },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -10776,6 +10872,9 @@
         "revolutionary": {
             "good": "Partner can help this role out"
         },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
         },
@@ -10851,6 +10950,9 @@
         },
         "voudon": {
             "good": "More deaths is good for Voudon"
+        },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
@@ -11236,6 +11338,9 @@
         "spirit_of_ivory": {
             "warning": "If there's an extra evil player, this role can't change alignment"
         },
+        "hindu": {
+            "warning": "This Outsider can be killed to remove its downside"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
         }
@@ -11360,6 +11465,9 @@
         },
         "revolutionary": {
             "good": "Partner can help this role out"
+        },
+        "hindu": {
+            "warning": "This Outsider can be killed to remove its downside"
         },
         "stormcatcher": {
             "good": "This role benefits from the extra survivability"
@@ -11550,6 +11658,9 @@
         "fiddler": {
             "warning": "Heretic doesn't affect Fiddler"
         },
+        "hindu": {
+            "conflict": "Killing this role can remove it from the game"
+        },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
         },
@@ -11675,6 +11786,9 @@
         },
         "gnome": {
             "good": "Interesting amigo"
+        },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -11802,6 +11916,9 @@
         },
         "gnome": {
             "good": "Interesting amigo"
+        },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -12385,7 +12502,7 @@
             "warning": "The Twins are not a good target"
         },
         "vizier": {
-            "conflict": "Vizier can execute the good twin as soon as their nominated and voted on"
+            "conflict": "Vizier can execute the good twin as soon as they're nominated and voted on"
         },
         "summoner": {
             "warning": "Loud Minions can confirm a Summoner not being in-play"
@@ -12475,7 +12592,7 @@
         },
         "mezepheles": {
             "warning": "Beware two extra evil players",
-            "good": "Pit-Hag can turn the eivl player into a Minion or Demon"
+            "good": "Pit-Hag can turn the evil player into a Minion or Demon"
         },
         "psychopath": {
             "warning": "Adding a loud Minion is confirmed"
@@ -12532,7 +12649,7 @@
             "warning": "Changing loud Demons can be confirmed (can be delayed)"
         },
         "leviathan": {
-            "conflict": "Changing to/from a Leviathan mid game is a bad idea"
+            "conflict": "If Leviathan isn't the only Demon, changing to/from a Leviathan mid game is a bad idea"
         },
         "lleech": {
             "good": "Interesting Demon to change into"
@@ -12713,7 +12830,7 @@
             "good": "Vizier can guarantee Outsider executions"
         },
         "harpy": {
-            "great": "Grandmother can confirm a Gambler's origin of death"
+            "great": "Good synergy"
         },
         "summoner": {
             "good": "Extra night deaths can hide Summoner"
@@ -12946,6 +13063,9 @@
         },
         "gnome": {
             "good": "Interesting amigo"
+        },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
         },
         "stormcatcher": {
             "warning": "Boomdandy can't kill through Storm Catcher"
@@ -13221,6 +13341,9 @@
         "revolutionary": {
             "warning": "Outed evils in the pair can be rough"
         },
+        "hindu": {
+            "good": "A Psychopath can kill used evil players to give them new abilities"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play (everyone might try to Psychopath kill)"
         },
@@ -13355,6 +13478,9 @@
         "revolutionary": {
             "warning": "Outed evils in the pair can be rough"
         },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
         },
@@ -13464,6 +13590,9 @@
         },
         "revolutionary": {
             "warning": "Outed evils in the pair can be rough"
+        },
+        "hindu": {
+            "warning": "Unlikely to die"
         },
         "stormcatcher": {
             "warning": "Vizier can force an execution on the stormcaught player"
@@ -13588,7 +13717,7 @@
             "warning": "Summoner cannot summon in the Rev pair without changing both"
         },
         "tor": {
-            "warning": "Not knowing you're this role makes it hard to play"
+            "warning": "This role immediately knows who they are"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -13681,6 +13810,9 @@
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
         },
+        "hindu": {
+            "info": "Changing Outsiders into Travellers doesn't influence the Xaan night"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
         },
@@ -13734,6 +13866,9 @@
         },
         "toymaker": {
             "warning": "Wishes must respect the Toymaker"
+        },
+        "hindu": {
+            "warning": "Wishes might persist through death"
         },
         "stormcatcher": {
             "warning": "Wishes must respect the Stormcatcher"
@@ -13810,6 +13945,9 @@
         "toymaker": {
             "good": "Wraith can help decide the night of no kills"
         },
+        "hindu": {
+            "warning": "Confirmed evil Travellers might not be fun to play as"
+        },
         "tor": {
             "warning": "This role tells ALL evil players they are evil (including themself)"
         },
@@ -13826,6 +13964,9 @@
         },
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+        },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play",
@@ -13860,6 +14001,9 @@
         "spirit_of_ivory": {
             "info": "If there's an extra evil, Fang Gu can't jump (will still kill the outsider targeted)"
         },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance"
+        },
         "tor": {
             "good": "A jump can tell both players their team"
         },
@@ -13885,6 +14029,9 @@
         },
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
+        },
+        "hindu": {
+            "conflict": "Vigormortis ability doees not work with Hindu"
         },
         "tor": {
             "good": "Vigormortis can deal with not knowing their team"
@@ -13992,6 +14139,9 @@
             "warning": "Doomsayer can prevent the Zombuul from attacking",
             "good": "Zombuul can survive the Doomsayer"
         },
+        "hindu": {
+            "conflict": "Zombuul ability doees not work with Hindu"
+        },
         "tor": {
             "good": "Allows the Demon to learn who they are. This role can figure out who they are after some time"
         },
@@ -14008,6 +14158,9 @@
         },
         "toymaker": {
             "warning": "If the Al-Hadikhia doesn't kill, everyone learns this"
+        },
+        "hindu": {
+            "warning": "First choices matter less with Hindu"
         },
         "tor": {
             "warning": "This role immediately knows who they are"
@@ -14135,6 +14288,9 @@
         "fiddler": {
             "conflict": "Legion with a Fiddler is a instant loss for good"
         },
+        "hindu": {
+            "warning": "Many evil Travellers can be imbalanced"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it very hard to play"
         }
@@ -14154,6 +14310,9 @@
         },
         "cacklejack": {
             "warning": "Cannot swap in or out of Lil Monsta"
+        },
+        "hindu": {
+            "good": "Hindu-ed Minions can still hold the baby (even if it's risky)"
         },
         "tor": {
             "warning": "Allows the Minions to immediately know who they are"
@@ -14289,6 +14448,9 @@
         "gnome": {
             "warning": "Only the ST nomintes with a Bishop in play"
         },
+        "hindu": {
+            "warning": "Very influential Traveller to bring mid-game"
+        },
         "zenomancer": {
             "good": "Interesting role to give information about"
         }
@@ -14354,7 +14516,11 @@
             "warning": "Evil Judge can force an execution on the stormcaught player"
         }
     },
-    "matron": {},
+    "matron": {
+        "hindu": {
+            "warning": "Very influential Traveller to bring mid-game"
+        }
+    },
     "scapegoat": {
         "tor": {
             "good": "Can help players figure out who they are"
@@ -14371,6 +14537,9 @@
         "ferryman": {
             "warning": "Voudon makes the Ferryman useless if alive on final day"
         },
+        "hindu": {
+            "warning": "Very influential Traveller to bring mid-game"
+        },
         "tor": {
             "great": "Good synergy"
         }
@@ -14384,6 +14553,9 @@
         }
     },
     "cacklejack": {
+        "hindu": {
+            "warning": "Very influential Traveller to bring mid-game"
+        },
         "stormcatcher": {
             "warning": "Stormcaught player should not change characters"
         },
@@ -14401,6 +14573,9 @@
     },
     "buddhist": {},
     "doomsayer": {
+        "hindu": {
+            "good": "Interesting synergy"
+        },
         "tor": {
             "good": "Can help players figure out who they are"
         },
@@ -14454,6 +14629,7 @@
             "warning": "Redundant"
         }
     },
+    "hindu": {},
     "stormcatcher": {
         "tor": {
             "warning": "Stormcaught player doesn't know they're stormcaught, and tells all evil players they are evil"
