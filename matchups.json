@@ -151,7 +151,10 @@
             "good": "More deaths is good for Voudon"
         },
         "hindu": {
-            "warning": "Dying is part of this character's ability and balance"
+            "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
+        },
+        "pope": {
+            "warning": "Beware too many extra deaths good roles"
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
@@ -264,6 +267,12 @@
         },
         "scapegoat": {
             "warning": "Scapegoat saving an Alchemist is suspicious"
+        },
+        "hindu": {
+            "good": "Travellers' alignments are equally uncertain as Alchemists'"
+        },
+        "pope": {
+            "warning": "Can get very confusing for good, and potentially very confirmable"
         },
         "tor": {
             "warning": "Alchemist doesn't know their ability and so might think they are a Minion"
@@ -723,6 +732,9 @@
         "gardener": {
             "good": "Can give interesting interactions for an Amnesiac ability"
         },
+        "pope": {
+            "warning": "Can make the day phase long through ST consultations"
+        },
         "stormcatcher": {
             "good": "This role benefits from the extra survivability"
         },
@@ -730,7 +742,8 @@
             "warning": "This role immediately knows who they are if they go ask the ST"
         },
         "zenomancer": {
-            "good": "Interesting role to give information about"
+            "good": "Interesting role to give information about",
+            "warning": "Amnesiac might not have time for quests"
         }
     },
     "artist": {
@@ -842,6 +855,9 @@
         },
         "revolutionary": {
             "good": "Partner can help this role out"
+        },
+        "pope": {
+            "good": "Cross-referencing information can be powerful"
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
@@ -1004,10 +1020,22 @@
             "warning": "Fibbin can make ithard to determine an Atheist game"
         },
         "fiddler": {
-            "conflict": "Fiddler can't resolve Atheist games"
+            "warning": "Fiddler needs to be fibbed in an Atheist game"
+        },
+        "revolutionary": {
+            "warning": "Confirming an Atheist with a Revolutionary is a bad idea"
+        },
+        "sentinel": {
+            "warning": "Sentinel makes it hard to use Outsider count to determine Atheist"
         },
         "big_wig": {
             "info": "The ST also gets to choose who defends them"
+        },
+        "hindu": {
+            "conflict": "Killing this role can remove it from the game, ending the game"
+        },
+        "pope": {
+            "warning": "Multiple Atheists will confirm each other more easily"
         },
         "stormcatcher": {
             "warning": "Storm catching Atheist does nothing"
@@ -1273,6 +1301,12 @@
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
         },
+        "hindu": {
+            "warning": "Players can change character types"
+        },
+        "pope": {
+            "good": "Cross-referencing information can be powerful"
+        },
         "stormcatcher": {
             "good": "This role benefits from the extra survivability"
         }
@@ -1514,6 +1548,9 @@
         "hindu": {
             "warning": "Dying is part of this character's ability and balance"
         },
+        "pope": {
+            "warning": "Beware too much confirmation"
+        },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
         }
@@ -1738,6 +1775,9 @@
         "hindu": {
             "good": "Bounty Hunter can know the alignment of the new Travellers they kill"
         },
+        "pope": {
+            "warning": "Beware too many extra evils (Spirit of Ivory recommended)"
+        },
         "zenomancer": {
             "good": "Interesting role to give information about"
         }
@@ -1922,6 +1962,9 @@
         "lord_of_typhon": {
             "warning": "Hard role to bluff for certain Minions, but LoT can more easily share bluffs"
         },
+        "pope": {
+            "warning": "All copies of this role get the same ability"
+        },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used (unique waking pattern)"
         }
@@ -2055,6 +2098,9 @@
         },
         "hindu": {
             "warning": "Depending on when players are raised, can allow to choose players that died tonight"
+        },
+        "pope": {
+            "good": "Cross-referencing information can be powerful"
         },
         "tor": {
             "warning": "This role immediately knows who they are",
@@ -2213,6 +2259,9 @@
         },
         "hindu": {
             "warning": "Players leaving influences this role"
+        },
+        "pope": {
+            "warning": "All copies of this role receive the same info"
         }
     },
     "choirboy": {
@@ -2328,6 +2377,9 @@
         },
         "hindu": {
             "warning": "Dying is part of this character's ability and balance"
+        },
+        "pope": {
+            "warning": "Mutliple Kings means multiple triggers. All copies of this role receive the same info"
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
@@ -2482,6 +2534,9 @@
         },
         "hindu": {
             "warning": "Players leaving influences this role"
+        },
+        "pope": {
+            "warning": "All copies of this role receive the same info"
         }
     },
     "courtier": {
@@ -2640,6 +2695,9 @@
         "revolutionary": {
             "good": "Partner can help this role out"
         },
+        "pope": {
+            "info": "Only one instance of a character is drunk if there are multiple"
+        },
         "zenomancer": {
             "good": "Longer games are good for quests"
         }
@@ -2748,6 +2806,9 @@
         },
         "hindu": {
             "warning": "Players leaving influences this role. Hindu-ed players still count as alive neighbors"
+        },
+        "pope": {
+            "warning": "Beware too many extra evils. Cult Leader alignment can cascade. Multiple instances of this role can make the day long"
         },
         "stormcatcher": {
             "good": "This role benefits from the extra survivability"
@@ -3009,6 +3070,9 @@
         },
         "hindu": {
             "warning": "Players leaving influences this role. Hindu-ed players still count as alive neighbors"
+        },
+        "pope": {
+            "good": "Cross-referencing information can be powerful"
         }
     },
     "engineer": {
@@ -3174,6 +3238,9 @@
         "hindu": {
             "warning": "Engineer can choose extra roles if Minions have been tranformed into Travellers"
         },
+        "pope": {
+            "warning": "Multiple copies of this role can interfere with each other"
+        },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
         },
@@ -3296,6 +3363,9 @@
         },
         "lord_of_typhon": {
             "good": "Great bluff for Minions"
+        },
+        "pope": {
+            "warning": "Beware too much protection"
         },
         "tor": {
             "warning": "Exorcist can let Demon know who they are"
@@ -3528,6 +3598,9 @@
         },
         "hindu": {
             "warning": "Dying is part of this character's ability and balance"
+        },
+        "pope": {
+            "warning": "Beware too much confirmation. Farmers won't know they became Farmers"
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
@@ -3798,6 +3871,9 @@
         },
         "ferryman": {
             "good": "Additional voting is good for Flowegirl"
+        },
+        "pope": {
+            "warning": "All copies of this role receive the same info"
         }
     },
     "fool": {
@@ -3946,6 +4022,9 @@
         "hindu": {
             "warning": "Dying is part of this character's ability and balance"
         },
+        "pope": {
+            "warning": "Beware too much protection"
+        },
         "stormcatcher": {
             "warning": "Storm catching protected roles is not a great idea"
         }
@@ -4052,6 +4131,9 @@
         },
         "hindu": {
             "warning": "Players leaving influences this role (change of false positive)"
+        },
+        "pope": {
+            "good": "Cross-referencing information can be powerful"
         },
         "tor": {
             "warning": "This role immediately knows who they are"
@@ -4237,7 +4319,10 @@
             "good": "Partner can help this role out"
         },
         "hindu": {
-            "warning": "Dying is part of this character's ability and balance"
+            "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
+        },
+        "pope": {
+            "warning": "Beware too many extra deaths good roles"
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea. Gambler can check if a \"stormcaught\" player is bluffing"
@@ -4324,6 +4409,9 @@
         },
         "kazali": {
             "good": "The starting gamestate might not be as clearcut as it usually is"
+        },
+        "pope": {
+            "warning": "All copies of this role receive the same info"
         },
         "tor": {
             "warning": "This role immediately knows who they are"
@@ -4478,7 +4566,10 @@
             "good": "More deaths is good for Voudon"
         },
         "hindu": {
-            "warning": "Dying is part of this character's ability and balance"
+            "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
+        },
+        "pope": {
+            "warning": "Beware too many extra deaths good roles. Multiple Gossips are hard to tell apart"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -4642,7 +4733,10 @@
             "good": "More deaths is good for Voudon"
         },
         "hindu": {
-            "warning": "Dying is part of this character's ability and balance"
+            "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
+        },
+        "pope": {
+            "warning": "Beware too many extra deaths good roles"
         },
         "tor": {
             "warning": "This role immediately knows who they are"
@@ -4805,6 +4899,9 @@
         "revolutionary": {
             "good": "Partner can help this role out"
         },
+        "pope": {
+            "good": "Minions have an easier time claiming Hunstman to find the Damsel, but the Damsel is more likely to be found with multiple Hunstmen"
+        },
         "stormcatcher": {
             "good": "This role benefits from the extra survivability"
         }
@@ -4925,6 +5022,9 @@
         },
         "fibbin": {
             "warning": "Beware too much misinformation"
+        },
+        "pope": {
+            "warning": "Beware too much protection and drunkenness"
         },
         "zenomancer": {
             "good": "Longer games are good for quests"
@@ -5083,6 +5183,9 @@
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
+        "pope": {
+            "warning": "If all copies don't receive the same info, it can be hard for evil to deal with"
+        },
         "tor": {
             "warning": "This role immediately knows who they are"
         }
@@ -5210,6 +5313,9 @@
         },
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+        },
+        "pope": {
+            "good": "Cross-referencing information can be powerful"
         },
         "stormcatcher": {
             "warning": "Juggler can check a \"stormcaught\" player"
@@ -5372,6 +5478,9 @@
         "cacklejack": {
             "warning": "Creating an immediately active King is powerful"
         },
+        "pope": {
+            "good": "A Demon that learns of multiple Kings has a free bluff"
+        },
         "stormcatcher": {
             "warning": "King is already known by the evil team",
             "good": "Stormcaught King can exist on a script without a Choirboy"
@@ -5525,6 +5634,9 @@
         },
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+        },
+        "pope": {
+            "good": "Cross-referencing information can be powerful"
         },
         "tor": {
             "warning": "This role immediately knows who they are"
@@ -5917,7 +6029,10 @@
             "good": "Faux Paw registers as evil"
         },
         "hindu": {
-            "warning": "Dying is part of this character's ability and balance"
+            "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
+        },
+        "pope": {
+            "warning": "Multiple copies of this role can interfere with each other, and are very hard to deal with for evil"
         },
         "stormcatcher": {
             "good": "Faux Paw can be Storm Caught (or potentially learn the stormcaught player)"
@@ -6157,6 +6272,9 @@
         "hindu": {
             "warning": "Players leaving influences this role"
         },
+        "pope": {
+            "warning": "All copies of this role receive the same info"
+        },
         "zenomancer": {
             "good": "Interesting role to give information about"
         }
@@ -6227,7 +6345,7 @@
             "good": "Organ Grinder is almost guaranteed to make it to final 3, and Mayor can really help the good team in this case"
         },
         "vizier": {
-            "conflict": "Vizier can almost always execute on final day"
+            "warning": "Town will require very good coordination for a Mayor win in a Vizier game"
         },
         "harpy": {
             "warning": "Multiple night deaths can cause the 3-player day to be skipped"
@@ -6375,6 +6493,9 @@
         "fibbin": {
             "warning": "Beware too much misinformation"
         },
+        "pope": {
+            "warning": "Multiple copies of this role are redundant"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
         },
@@ -6472,6 +6593,9 @@
         },
         "yaggababble": {
             "good": "Protection with multi-kill Demons works well, but is weaker on Yaggababble games"
+        },
+        "pope": {
+            "warning": "Beware too much protection"
         }
     },
     "nightwatchman": {
@@ -6599,6 +6723,9 @@
         },
         "hindu": {
             "warning": "Confirmed good Traveller can be very powerful"
+        },
+        "pope": {
+            "warning": "Beware too much confirmation"
         },
         "stormcatcher": {
             "warning": "Storm catching confirmed roles leads to guaranteed good  on final day"
@@ -6762,6 +6889,9 @@
         "duchess": {
             "great": "Good synergy"
         },
+        "pope": {
+            "good": "Cross-referencing information can be powerful"
+        },
         "tor": {
             "warning": "This role immediately knows who they are"
         }
@@ -6879,6 +7009,9 @@
         "lord_of_typhon": {
             "good": "Oracle can help narrow down the LoT line. Great bluff for Minions"
         },
+        "pope": {
+            "warning": "All copies of this role receive the same info"
+        },
         "tor": {
             "warning": "This role immediately knows who they are night 2"
         }
@@ -6983,6 +7116,12 @@
         },
         "scapegoat": {
             "good": "Interesting synergy"
+        },
+        "hindu": {
+            "good": "Executed players not saved by the Pacifist are more likely to become evil travelers"
+        },
+        "pope": {
+            "warning": "Multiple copies of this role are redundant"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -7384,6 +7523,9 @@
         "revolutionary": {
             "good": "Partner can help this role out"
         },
+        "pope": {
+            "warning": "All Poppy Growers need to die for evil to learn each other"
+        },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
         },
@@ -7463,6 +7605,9 @@
         },
         "lord_of_typhon": {
             "warning": "Info on the Minions can be powerful in LoT game"
+        },
+        "pope": {
+            "warning": "Preacher choices need to tracked separately. Rough for evil to deal with"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -7706,6 +7851,9 @@
         "toymaker": {
             "info": "Princess night can trigger Toymaker"
         },
+        "pope": {
+            "warning": "Multiple copies of this role are redundant"
+        },
         "tor": {
             "conflict": "Not knowing you're this role makes it very hard to play"
         },
@@ -7783,6 +7931,13 @@
         },
         "revolutionary": {
             "good": "Partner can help this role out. Rev can misregister to get resurrected"
+        },
+        "hindu": {
+            "warning": "Travellers can't be resurrected"
+        },
+        "pope": {
+            "warning": "Beware too much resurrection",
+            "conflict": "Professors can resurrect each other continuously"
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
@@ -7948,6 +8103,9 @@
         "hindu": {
             "warning": "Dying is part of this character's ability and balance"
         },
+        "pope": {
+            "warning": "Beware too many trap characters"
+        },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea. Ravenkeeper can check a \"stormcaught\" player"
         }
@@ -8103,6 +8261,9 @@
         "hindu": {
             "warning": "Dying is part of this character's ability and balance"
         },
+        "pope": {
+            "warning": "All copies of this role receive the same info. Beware too many trap characters"
+        },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
         }
@@ -8229,6 +8390,9 @@
         "hindu": {
             "warning": "Dying is part of this character's ability and balance"
         },
+        "pope": {
+            "warning": "Beware too much protection"
+        },
         "stormcatcher": {
             "warning": "Storm catching protected roles is not a great idea"
         },
@@ -8317,6 +8481,9 @@
         },
         "yaggababble": {
             "good": "This role gives good opportunities for phrases"
+        },
+        "pope": {
+            "warning": "Can make the day phase long through ST consultations and trying to find worlds with all this information. In general, rough to ST"
         },
         "tor": {
             "warning": "This role immediately knows who they are if they ask the ST"
@@ -8410,6 +8577,9 @@
         },
         "duchess": {
             "great": "Good synergy"
+        },
+        "pope": {
+            "good": "Cross-referencing information can be powerful"
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
@@ -8517,8 +8687,8 @@
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
-        "hindu": {
-            "warning": "Players leaving influences this role"
+        "pope": {
+            "good": "Cross-referencing information can be powerful"
         },
         "tor": {
             "warning": "This role immediately knows who they are"
@@ -8814,6 +8984,9 @@
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
+        "pope": {
+            "warning": "Beware too much protection"
+        },
         "stormcatcher": {
             "warning": "Storm catching protected roles is not a great idea"
         },
@@ -9097,6 +9270,9 @@
         "hindu": {
             "warning": "Players leaving influences this role. Hindu-ed players still count as alive neighbors"
         },
+        "pope": {
+            "warning": "Beware too much protection. Tea Ladies can form unkillable chains"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
         },
@@ -9218,11 +9394,14 @@
         },
         "bishop": {
             "warning": "Bishop disables Town Crier"
+        },
+        "pope": {
+            "warning": "All copies of this role receive the same info"
         }
     },
     "undertaker": {
         "virgin": {
-            "good": "Undertaker can help learn the role of the Virgin victim, but it is less valuable information than a \"random\" execution"
+            "good": "Undertaker can help learn the role of the Virgin victim, but it is less valuable information than a \"random\" execution for the info they're the most likely to get"
         },
         "washerwoman": {
             "good": "Night one roles can be executed to be confirmed. WW is good for role swaps with powerful info roles"
@@ -9375,6 +9554,9 @@
         },
         "doomsayer": {
             "warning": "Dying during the day doesn't help the Undertaker"
+        },
+        "pope": {
+            "warning": "All copies of this role receive the same info"
         },
         "tor": {
             "warning": "This role immediately knows who they are night 2 (if there was an execution)"
@@ -9590,6 +9772,12 @@
         "fibbin": {
             "warning": "Beware too much misinformation"
         },
+        "hindu": {
+            "warning": "The drunk Village Idiot might change"
+        },
+        "pope": {
+            "info": "Even with more than 3 Village Idiots, only one is drunk"
+        },
         "stormcatcher": {
             "warning": "Storm Catcher is unclear if it only protects one of them"
         },
@@ -9712,7 +9900,10 @@
             "warning": "Double confirmation if in the Rev pair"
         },
         "hindu": {
-            "warning": "Confirmed good Traveller can be very powerful"
+            "warning": "Confirmed good Traveller can be very powerful. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
+        },
+        "pope": {
+            "warning": "Beware too much confirmation"
         },
         "stormcatcher": {
             "warning": "Storm catching confirmed roles leads to guaranteed good  on final day"
@@ -9867,6 +10058,9 @@
         },
         "sentinel": {
             "warning": "Sentinel adding a Drunk is completely untraceable"
+        },
+        "pope": {
+            "conflict": "Having any number of copies makes this role unsolvable"
         },
         "stormcatcher": {
             "good": "This role can't announce they're stormcaught"
@@ -10333,8 +10527,8 @@
         "gnome": {
             "good": "Interesting amigo"
         },
-        "hindu": {
-            "warning": "Dying is part of this character's ability and balance"
+        "pope": {
+            "warning": "Can be tough for good with multiple copies"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -10450,6 +10644,9 @@
         },
         "hindu": {
             "warning": "Dying is part of this character's ability and balance"
+        },
+        "pope": {
+            "warning": "Can be tough for good with multiple copies"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -10744,6 +10941,9 @@
         "spirit_of_ivory": {
             "warning": "If there's an extra evil player, this role can't change alignment"
         },
+        "pope": {
+            "warning": "Beware too many extra evils"
+        },
         "stormcatcher": {
             "warning": "Knowing who the Goon is can lead to an evil-lock on it"
         },
@@ -10873,7 +11073,10 @@
             "good": "Partner can help this role out"
         },
         "hindu": {
-            "warning": "Dying is part of this character's ability and balance"
+            "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
+        },
+        "pope": {
+            "warning": "Beware too many extra deaths good roles"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -10952,7 +11155,10 @@
             "good": "More deaths is good for Voudon"
         },
         "hindu": {
-            "warning": "Dying is part of this character's ability and balance"
+            "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
+        },
+        "pope": {
+            "warning": "Beware too many extra deaths good roles"
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
@@ -11155,6 +11361,9 @@
         "revolutionary": {
             "good": "Partner can help this role out"
         },
+        "pope": {
+            "warning": "Can be tough for good with multiple copies"
+        },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
         },
@@ -11266,6 +11475,12 @@
         "revolutionary": {
             "warning": "Double confirmation if in the Rev pair"
         },
+        "hindu": {
+            "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
+        },
+        "pope": {
+            "warning": "Beware too much confirmation"
+        },
         "tor": {
             "conflict": "Might accidentally break the rules"
         },
@@ -11340,6 +11555,9 @@
         },
         "hindu": {
             "warning": "This Outsider can be killed to remove its downside"
+        },
+        "pope": {
+            "warning": "Beware too many extra evils"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -11661,6 +11879,9 @@
         "hindu": {
             "conflict": "Killing this role can remove it from the game"
         },
+        "pope": {
+            "warning": "Multiple copies of Heretic work weirdly. If there's an even amount, they cancel each other out"
+        },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
         },
@@ -11787,8 +12008,8 @@
         "gnome": {
             "good": "Interesting amigo"
         },
-        "hindu": {
-            "warning": "Dying is part of this character's ability and balance"
+        "pope": {
+            "warning": "Can be tough for good with multiple copies"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -11917,8 +12138,8 @@
         "gnome": {
             "good": "Interesting amigo"
         },
-        "hindu": {
-            "warning": "Dying is part of this character's ability and balance"
+        "pope": {
+            "warning": "Can be tough for good with multiple copies"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -12007,6 +12228,9 @@
         },
         "spirit_of_ivory": {
             "warning": "Ogre can easily trigger the Spirit of Ivory. If there are other sources of alignment change on night 1, the Ogre ability can fail"
+        },
+        "pope": {
+            "warning": "Beware too many extra evils"
         },
         "tor": {
             "warning": "This role immediately knows who they are night 2"
@@ -12150,6 +12374,9 @@
         "spirit_of_ivory": {
             "good": "SoI can prevent double evils with the duplicated abilities"
         },
+        "pope": {
+            "warning": "Can be tough for good with multiple copies"
+        },
         "zenomancer": {
             "good": "Interesting role to give information about"
         }
@@ -12218,6 +12445,9 @@
         },
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
+        },
+        "pope": {
+            "warning": "Can add more than 2 Outsiders with the duplicates"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -12689,6 +12919,9 @@
         "toymaker": {
             "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
+        "pope": {
+            "info": "Pit-Hag cannot create duplicates, only remove them"
+        },
         "stormcatcher": {
             "conflict": "Pit-Hag can change the stormcaught role"
         }
@@ -12887,6 +13120,9 @@
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
         },
+        "pope": {
+            "warning": "Godfather cannot know the exact Outsider count since they might be duplicated. Can add more than 1 Outsider with the duplicates"
+        },
         "tor": {
             "warning": "This role immediately knows who they are"
         },
@@ -13065,7 +13301,7 @@
             "good": "Interesting amigo"
         },
         "hindu": {
-            "warning": "Dying is part of this character's ability and balance"
+            "warning": "If there are Hindu deaths left when the Boomdandy explodes, the ST chooses the remaining Travellers, who stay alive during the countdown"
         },
         "stormcatcher": {
             "warning": "Boomdandy can't kill through Storm Catcher"
@@ -13209,6 +13445,9 @@
         },
         "gardener": {
             "good": "Garderner is one way to let you choose which character is the Marionette"
+        },
+        "pope": {
+            "good": "Marionette can duplicate a good character"
         },
         "tor": {
             "warning": "A Marionette tells the Demon they are the Demon"
@@ -13746,7 +13985,8 @@
             "good": "If a good/Traveller Boffin is in-play, Legion can register as a Minion to pass the abiltiy around"
         },
         "lil_monsta": {
-            "good": "Boffin ability moves with Lil Monsta (but isn't reset)"
+            "good": "Boffin ability moves with Lil Monsta and is reset each time it changes",
+            "warning": "Beware giving multiple once per game abilities to the evil team"
         },
         "ojo": {
             "good": "Boffin info abilities can help the Ojo make informed decisions"
@@ -13762,6 +14002,9 @@
         },
         "gnome": {
             "good": "Interesting amigo"
+        },
+        "pope": {
+            "info": "Boffin ability still cannot be an in-play ability"
         },
         "tor": {
             "warning": "This role tells the Demon they are the Demon"
@@ -13812,6 +14055,9 @@
         },
         "hindu": {
             "info": "Changing Outsiders into Travellers doesn't influence the Xaan night"
+        },
+        "pope": {
+            "warning": "This role can bring more Outsiders into play than there are on the script"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -14003,6 +14249,9 @@
         },
         "hindu": {
             "warning": "Dying is part of this character's ability and balance"
+        },
+        "pope": {
+            "warning": "Can add more than 1 Outsider with the duplicates"
         },
         "tor": {
             "good": "A jump can tell both players their team"
@@ -14291,6 +14540,9 @@
         "hindu": {
             "warning": "Many evil Travellers can be imbalanced"
         },
+        "pope": {
+            "good": "Legion tends to double claim itself"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it very hard to play"
         }
@@ -14314,6 +14566,9 @@
         "hindu": {
             "good": "Hindu-ed Minions can still hold the baby (even if it's risky)"
         },
+        "pope": {
+            "good": "Pope helps Minions who don't have bluffs"
+        },
         "tor": {
             "warning": "Allows the Minions to immediately know who they are"
         }
@@ -14321,6 +14576,9 @@
     "ojo": {
         "voudon": {
             "good": "More deaths is good for Voudon"
+        },
+        "pope": {
+            "warning": "Duplicate characters make Ojo kills more arbitrary"
         },
         "tor": {
             "warning": "This role can easily find out who they are"
@@ -14344,6 +14602,9 @@
         },
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
+        },
+        "pope": {
+            "warning": "This role can bring more Outsiders into play than there are on the script"
         },
         "tor": {
             "warning": "This role immediately knows who they are, and allows all Minions to know they're evil"
@@ -14416,6 +14677,9 @@
         "toymaker": {
             "great": "Very recommended"
         },
+        "pope": {
+            "warning": "This role can bring more Outsiders into play than there are on the script"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it very hard to play"
         }
@@ -14456,6 +14720,9 @@
         }
     },
     "bone_collector": {
+        "hindu": {
+            "warning": "Requires dead players to work"
+        },
         "tor": {
             "good": "Can help players figure out who they are"
         },
@@ -14503,6 +14770,9 @@
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
+        "hindu": {
+            "warning": "Can die and be resurrected (might be silent if resurrected as Harlot, but hard to tell until all Hindu deaths are used)"
+        },
         "tor": {
             "good": "Can help players figure out who they are"
         },
@@ -14522,6 +14792,9 @@
         }
     },
     "scapegoat": {
+        "hindu": {
+            "warning": "Can be executed and resurrected"
+        },
         "tor": {
             "good": "Can help players figure out who they are"
         },
@@ -14538,7 +14811,8 @@
             "warning": "Voudon makes the Ferryman useless if alive on final day"
         },
         "hindu": {
-            "warning": "Very influential Traveller to bring mid-game"
+            "warning": "Very influential Traveller to bring mid-game",
+            "conflict": "Has a monopoly of votes until Hindu is disabled"
         },
         "tor": {
             "great": "Good synergy"
@@ -14614,7 +14888,11 @@
             "good": "Interesting role to give information about"
         }
     },
-    "spirit_of_ivory": {},
+    "spirit_of_ivory": {
+        "pope": {
+            "great": "Spirit of Ivory is good to control multiple alignment changers"
+        }
+    },
     "toymaker": {
         "tor": {
             "warning": "Toymaker allows regular Demon and Minion info with Tor"
@@ -14625,11 +14903,22 @@
     },
     "big_wig": {},
     "gardener": {
+        "pope": {
+            "great": "Interesting synergy"
+        },
         "tor": {
-            "warning": "Redundant"
+            "great": "Interesting synergy"
         }
     },
     "hindu": {},
+    "pope": {
+        "stormcatcher": {
+            "warning": "Only one copy might be stormcaught (no official ruling, ST-dependent)"
+        },
+        "tor": {
+            "warning": "Good can't solve their ability by process of elimination"
+        }
+    },
     "stormcatcher": {
         "tor": {
             "warning": "Stormcaught player doesn't know they're stormcaught, and tells all evil players they are evil"
