@@ -157,7 +157,7 @@
             "warning": "Beware too many extra deaths good roles"
         },
         "stormcatcher": {
-            "warning": "Storm catching this role is a bad idea"
+            "warning": "Storm catching this role disables it"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -2811,7 +2811,8 @@
             "warning": "Beware too many extra evils. Cult Leader alignment can cascade. Multiple instances of this role can make the day long"
         },
         "stormcatcher": {
-            "good": "This role benefits from the extra survivability"
+            "good": "This role benefits from the extra survivability",
+            "warning": "Evil knowing who the Cult Leader is can more easily control its alignment"
         },
         "tor": {
             "warning": "This role can immediately know who they are"
@@ -4410,6 +4411,9 @@
         "kazali": {
             "good": "The starting gamestate might not be as clearcut as it usually is"
         },
+        "hindu": {
+            "warning": "Travellers are swingy"
+        },
         "pope": {
             "warning": "All copies of this role receive the same info"
         },
@@ -4566,7 +4570,7 @@
             "good": "More deaths is good for Voudon"
         },
         "hindu": {
-            "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
+            "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation (though the ST can decide to force an evil reincarnation)"
         },
         "pope": {
             "warning": "Beware too many extra deaths good roles. Multiple Gossips are hard to tell apart"
@@ -4733,7 +4737,7 @@
             "good": "More deaths is good for Voudon"
         },
         "hindu": {
-            "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
+            "warning": "Dying is part of this character's ability and balance"
         },
         "pope": {
             "warning": "Beware too many extra deaths good roles"
@@ -4898,6 +4902,9 @@
         },
         "revolutionary": {
             "good": "Partner can help this role out"
+        },
+        "hindu": {
+            "warning": "The Damsel is likely to prefer becoming a Traveller"
         },
         "pope": {
             "good": "Minions have an easier time claiming Hunstman to find the Damsel, but the Damsel is more likely to be found with multiple Hunstmen"
@@ -7009,6 +7016,9 @@
         "lord_of_typhon": {
             "good": "Oracle can help narrow down the LoT line. Great bluff for Minions"
         },
+        "hindu": {
+            "warning": "Oracle doesn't work without dead players. Can cause issues with misinformation"
+        },
         "pope": {
             "warning": "All copies of this role receive the same info"
         },
@@ -7203,6 +7213,9 @@
         },
         "revolutionary": {
             "good": "Partner can help this role out"
+        },
+        "pope": {
+            "info": "Philosopher only drunks one copy of the role it chooses, and multiple Philosophers may overlap their drunkeness"
         }
     },
     "pixie": {
