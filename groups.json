@@ -86,7 +86,7 @@
         ]
     },
     {
-        "name": "Explains evil night deaths (not extra evil)",
+        "name": "Explains evil night deaths (ignoring extra evil)",
         "recommended": true,
         "multiple": false,
         "evil_or_fabled": false,

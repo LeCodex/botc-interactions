@@ -84,8 +84,11 @@
         "pit-hag": {
             "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
+        "assassin": {
+            "good": "This role can bluff Acrobat"
+        },
         "godfather": {
-            "warning": "Acrobat is more likely to die at night"
+            "good": "This role can bluff Acrobat"
         },
         "mastermind": {
             "good": "Acrobat can hide a Mastermind day"
@@ -165,7 +168,7 @@
     },
     "alchemist": {
         "bounty_hunter": {
-            "info": "Evil Alchemist is effectively another Minion"
+            "warning": "Evil Alchemist is effectively another Minion"
         },
         "cannibal": {
             "good": "Cannibal can confirm this ability"
@@ -585,6 +588,9 @@
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play (everyone who didn't wake will try to guess)"
         },
+        "ventriloquist": {
+            "good": "Alsaahir benefits from longer games"
+        },
         "zenomancer": {
             "good": "Interesting role to give information about"
         }
@@ -740,6 +746,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are if they go ask the ST"
+        },
+        "ventriloquist": {
+            "good": "Amnesiac benefits from longer games"
         },
         "zenomancer": {
             "good": "Interesting role to give information about",
@@ -1043,6 +1052,9 @@
         "tor": {
             "warning": "Atheist can fake anything"
         },
+        "ventriloquist": {
+            "good": "Misinformation can make pivots more convincing"
+        },
         "zenomancer": {
             "good": "Interesting role to give information about"
         }
@@ -1309,6 +1321,9 @@
         },
         "stormcatcher": {
             "good": "This role benefits from the extra survivability"
+        },
+        "ventriloquist": {
+            "good": "Baloonist benefits from longer games"
         }
     },
     "banshee": {
@@ -1552,7 +1567,7 @@
             "warning": "Beware too much confirmation"
         },
         "stormcatcher": {
-            "warning": "Storm catching this role is a bad idea"
+            "warning": "Storm catching this role disables it"
         }
     },
     "bounty_hunter": {
@@ -1763,6 +1778,9 @@
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
         },
+        "butcher": {
+            "good": "Extra executions gives more chances for this role to do something"
+        },
         "gnome": {
             "good": "Evil Gnome can introduce the evil Townsfolk to the rest of the evil team"
         },
@@ -1967,6 +1985,9 @@
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used (unique waking pattern)"
+        },
+        "ventriloquist": {
+            "warning": "This role can make executions survivable"
         }
     },
     "chambermaid": {
@@ -3604,7 +3625,7 @@
             "warning": "Beware too much confirmation. Farmers won't know they became Farmers"
         },
         "stormcatcher": {
-            "warning": "Storm catching this role is a bad idea"
+            "warning": "Storm catching this role disables it"
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
@@ -4235,6 +4256,12 @@
         "cerenovus": {
             "good": "Cerenovus can get the Gambler killed with false claims"
         },
+        "assassin": {
+            "good": "This role can bluff Gambler"
+        },
+        "godfather": {
+            "good": "This role can bluff Gambler"
+        },
         "mastermind": {
             "good": "Gambler can hide a Mastermind day"
         },
@@ -4326,7 +4353,8 @@
             "warning": "Beware too many extra deaths good roles"
         },
         "stormcatcher": {
-            "warning": "Storm catching this role is a bad idea. Gambler can check if a \"stormcaught\" player is bluffing"
+            "warning": "Storm catching this role disables it",
+            "good": "This role can check a \"stormcaught\" player"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -4742,6 +4770,9 @@
         "pope": {
             "warning": "Beware too many extra deaths good roles"
         },
+        "stormcatcher": {
+            "warning": "Storm catching this role removes its downside"
+        },
         "tor": {
             "warning": "This role immediately knows who they are"
         },
@@ -5032,6 +5063,9 @@
         },
         "pope": {
             "warning": "Beware too much protection and drunkenness"
+        },
+        "ventriloquist": {
+            "good": "Misinformation can make pivots more convincing"
         },
         "zenomancer": {
             "good": "Longer games are good for quests"
@@ -5325,7 +5359,7 @@
             "good": "Cross-referencing information can be powerful"
         },
         "stormcatcher": {
-            "warning": "Juggler can check a \"stormcaught\" player"
+            "good": "This role can check a \"stormcaught\" player"
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
@@ -6205,6 +6239,9 @@
         "revolutionary": {
             "warning": "Magician is impossible in the pair"
         },
+        "stormcatcher": {
+            "warning": "Storm catching this role disables it"
+        },
         "tor": {
             "conflict": "Useless in Tor games"
         },
@@ -6497,6 +6534,9 @@
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
+        "butcher": {
+            "good": "Extra executions gives more chances for this role to do something"
+        },
         "fibbin": {
             "warning": "Beware too much misinformation"
         },
@@ -6505,6 +6545,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "ventriloquist": {
+            "good": "Misinformation can make pivots more convincing"
         },
         "zenomancer": {
             "good": "Longer games are good for quests"
@@ -6735,7 +6778,7 @@
             "warning": "Beware too much confirmation"
         },
         "stormcatcher": {
-            "warning": "Storm catching confirmed roles leads to guaranteed good  on final day"
+            "warning": "Storm catching confirmed roles leads to guaranteed good on final day"
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
@@ -7024,6 +7067,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are night 2"
+        },
+        "ventriloquist": {
+            "warning": "Less deaths make the Oracle's job easier"
         }
     },
     "pacifist": {
@@ -7124,6 +7170,9 @@
         "lord_of_typhon": {
             "good": "Pacifist can help narrow down the LoT line"
         },
+        "butcher": {
+            "good": "Extra executions gives more chances for this role to do something"
+        },
         "scapegoat": {
             "good": "Interesting synergy"
         },
@@ -7135,6 +7184,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "ventriloquist": {
+            "warning": "Ventriloquist makes Pacifist hard to trust"
         },
         "zenomancer": {
             "good": "Longer games are good for quests"
@@ -7358,6 +7410,9 @@
         "stormcatcher": {
             "good": "This role can't announce they're stormcaught"
         },
+        "ventriloquist": {
+            "good": "Misinformation can make pivots more convincing"
+        },
         "zenomancer": {
             "good": "Interesting role to give information about"
         }
@@ -7540,7 +7595,7 @@
             "warning": "All Poppy Growers need to die for evil to learn each other"
         },
         "stormcatcher": {
-            "warning": "Storm catching this role is a bad idea"
+            "warning": "Storm catching this role removes its downside"
         },
         "tor": {
             "conflict": "An active detriment in Tor games"
@@ -7621,6 +7676,9 @@
         },
         "pope": {
             "warning": "Preacher choices need to tracked separately. Rough for evil to deal with"
+        },
+        "stormcatcher": {
+            "warning": "Storm catching this role removes its downside"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -7869,6 +7927,9 @@
         },
         "tor": {
             "conflict": "Not knowing you're this role makes it very hard to play"
+        },
+        "ventriloquist": {
+            "good": "Surviving execution still triggers the Princess"
         },
         "zenomancer": {
             "good": "Longer games are good for quests"
@@ -8120,7 +8181,8 @@
             "warning": "Beware too many trap characters"
         },
         "stormcatcher": {
-            "warning": "Storm catching this role is a bad idea. Ravenkeeper can check a \"stormcaught\" player"
+            "warning": "Storm catching this role disables it",
+            "good": "This role can check a \"stormcaught\" player"
         }
     },
     "sage": {
@@ -8278,7 +8340,7 @@
             "warning": "All copies of this role receive the same info. Beware too many trap characters"
         },
         "stormcatcher": {
-            "warning": "Storm catching this role is a bad idea"
+            "warning": "Storm catching this role disables it"
         }
     },
     "sailor": {
@@ -8385,6 +8447,9 @@
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
+        "butcher": {
+            "good": "Extra executions gives more chances for this role to do something"
+        },
         "gangster": {
             "good": "This role can survive this Traveler"
         },
@@ -8408,6 +8473,9 @@
         },
         "stormcatcher": {
             "warning": "Storm catching protected roles is not a great idea"
+        },
+        "ventriloquist": {
+            "good": "Misinformation can make pivots more convincing"
         },
         "zenomancer": {
             "good": "Longer games are good for quests. Interesting role to give information about"
@@ -8500,6 +8568,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are if they ask the ST"
+        },
+        "ventriloquist": {
+            "good": "Savant benefits from longer games"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -9259,6 +9330,9 @@
         "lord_of_typhon": {
             "good": "Good players don't neighbor the Demon in LoT games. Tea Lady can help narrow down the LoT line"
         },
+        "butcher": {
+            "good": "Extra executions gives more chances for this role to do something"
+        },
         "gangster": {
             "good": "This role can protect from this Traveler"
         },
@@ -9286,8 +9360,14 @@
         "pope": {
             "warning": "Beware too much protection. Tea Ladies can form unkillable chains"
         },
+        "stormcatcher": {
+            "warning": "Storm catching this role is not a good idea (potential infinit protection)"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "ventriloquist": {
+            "warning": "Ventriloquist makes Tea Lady harder to trust"
         },
         "zenomancer": {
             "good": "Longer games are good for quests"
@@ -9410,6 +9490,9 @@
         },
         "pope": {
             "warning": "All copies of this role receive the same info"
+        },
+        "ventriloquist": {
+            "good": "Town Crier benefits from longer games"
         }
     },
     "undertaker": {
@@ -9573,6 +9656,10 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are night 2 (if there was an execution)"
+        },
+        "ventriloquist": {
+            "warning": "This role can make executions survivable",
+            "good": "Undertaker benefits from longer games"
         }
     },
     "village_idiot": {
@@ -9676,7 +9763,7 @@
             "good": "Safety nets for the Demon are good with Village Idiots. This Minion can use the free bluff"
         },
         "devils_advocate": {
-            "good": "This Minion can use the free bluff. Village Idiot benefits from long games to find the drunk one ? This Minion can use the free bluff"
+            "good": "This Minion can use the free bluff. Village Idiot benefits from long games to find the drunk one. This Minion can use the free bluff"
         },
         "boomdandy": {
             "great": "Boomdandy prevents immediate executions of Village Idiot-found evils"
@@ -9796,6 +9883,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are"
+        },
+        "ventriloquist": {
+            "good": "Village Idiot benefits from long games to find the drunk one. Makes for an easy pivot"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -9923,6 +10013,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "ventriloquist": {
+            "warning": "This role can make executions survivable. Confirmed roles can't convincingly pivot"
         }
     },
     "washerwoman": {
@@ -10078,6 +10171,9 @@
         "stormcatcher": {
             "good": "This role can't announce they're stormcaught"
         },
+        "ventriloquist": {
+            "good": "Claiming to the Drunk can count as a pivot. Misinformation can make pivots more convincing"
+        },
         "zenomancer": {
             "good": "Interesting role to give information about"
         }
@@ -10207,8 +10303,14 @@
         "revolutionary": {
             "good": "Partner can help this role out"
         },
+        "stormcatcher": {
+            "warning": "If stormcaught, Saint can't die without ending the game"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "ventriloquist": {
+            "good": "A sudden Saint claim can be kept alive for extra tension"
         }
     },
     "butler": {
@@ -10264,7 +10366,7 @@
             "warning": "This Outsider can be killed to remove its downside"
         },
         "tor": {
-            "conflict": "Might accidentally break the rules"
+            "warning": "Might accidentally break the rules (can be mitigated by playing as a Butler if you could be the Butler)"
         }
     },
     "recluse": {
@@ -10385,6 +10487,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "ventriloquist": {
+            "good": "A sudden Recluse claim can be kept alive for extra tension"
         }
     },
     "barber": {
@@ -10543,8 +10648,14 @@
         "pope": {
             "warning": "Can be tough for good with multiple copies"
         },
+        "stormcatcher": {
+            "warning": "Storm catching this role effectively disables it"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "ventriloquist": {
+            "good": "Gives a good reason for a role change"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -10661,8 +10772,14 @@
         "pope": {
             "warning": "Can be tough for good with multiple copies"
         },
+        "stormcatcher": {
+            "warning": "Storm catching this role effectively disables it"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "ventriloquist": {
+            "good": "Misinformation can make pivots more convincing"
         }
     },
     "mutant": {
@@ -10854,6 +10971,9 @@
         "hindu": {
             "warning": "Dying is part of this character's ability and balance"
         },
+        "stormcatcher": {
+            "warning": "Storm catching this role effectively disables it"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
         }
@@ -10962,6 +11082,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are if their ability triggers"
+        },
+        "ventriloquist": {
+            "good": "Misinformation can make pivots more convincing"
         }
     },
     "moonchild": {
@@ -11090,6 +11213,9 @@
         },
         "pope": {
             "warning": "Beware too many extra deaths good roles"
+        },
+        "stormcatcher": {
+            "warning": "Storm catching this role effectively disables it"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -11284,6 +11410,9 @@
         "tor": {
             "great": "Good synergy",
             "warning": "This role immediately tells the Demon they are the Demon"
+        },
+        "ventriloquist": {
+            "good": "Misinformation can make pivots more convincing"
         }
     },
     "damsel": {
@@ -11497,6 +11626,9 @@
         "tor": {
             "conflict": "Might accidentally break the rules"
         },
+        "ventriloquist": {
+            "warning": "Confirmed roles can't convincingly pivot"
+        },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
         }
@@ -11574,6 +11706,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "ventriloquist": {
+            "good": "Misinformation can make pivots more convincing"
         }
     },
     "puzzlemaster": {
@@ -11706,6 +11841,9 @@
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
         },
+        "ventriloquist": {
+            "good": "Puzzlemaster benefits from long games. Misinformation can make pivots more convincing"
+        },
         "zenomancer": {
             "good": "Interesting role to give information about"
         }
@@ -11817,6 +11955,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "ventriloquist": {
+            "good": "Extra bluffs can make for more convincing pivots"
         }
     },
     "heretic": {
@@ -12024,6 +12165,9 @@
         "pope": {
             "warning": "Can be tough for good with multiple copies"
         },
+        "stormcatcher": {
+            "warning": "Storm catching this role effectively disables it"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
         },
@@ -12153,6 +12297,9 @@
         },
         "pope": {
             "warning": "Can be tough for good with multiple copies"
+        },
+        "stormcatcher": {
+            "warning": "Storm catching this role effectively disables it"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -12347,7 +12494,10 @@
             "warning": "If Voudon is in-play, the Zealot cannot vote"
         },
         "tor": {
-            "conflict": "Might accidentally break the rules"
+            "warning": "Might accidentally break the rules (can be mitigated by playing as the Zeloat if you could be the Zealot, though this is likely to have a first day where a lot of people must vote)"
+        },
+        "ventriloquist": {
+            "good": "Zealot helps with executions"
         }
     },
     "hermit": {
@@ -12502,6 +12652,9 @@
         },
         "revolutionary": {
             "good": "Partner can help this role out"
+        },
+        "ventriloquist": {
+            "good": "Misinformation can make pivots more convincing"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -12675,6 +12828,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are"
+        },
+        "ventriloquist": {
+            "good": "Knowing the Grimoire can make a convincing pivot. Misinformation can make pivots more convincing"
         }
     },
     "witch": {
@@ -12797,6 +12953,9 @@
         },
         "bureaucrat": {
             "good": "Helps with execution"
+        },
+        "butcher": {
+            "good": "Extra executions gives more chances for this role to do something"
         },
         "judge": {
             "warning": "Evil Judge can force an execution on the good twin"
@@ -12937,6 +13096,9 @@
         },
         "stormcatcher": {
             "conflict": "Pit-Hag can change the stormcaught role"
+        },
+        "ventriloquist": {
+            "good": "Gives a good reason for a role change"
         }
     },
     "cerenovus": {
@@ -12989,6 +13151,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are"
+        },
+        "ventriloquist": {
+            "good": "Cerenovus can force players into saying certain roles, removing the freshness"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -13124,6 +13289,9 @@
         "bureaucrat": {
             "good": "Helps with execution"
         },
+        "butcher": {
+            "good": "Extra executions gives more chances for this role to do something"
+        },
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
@@ -13138,6 +13306,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are"
+        },
+        "ventriloquist": {
+            "warning": "This role can make executions survivable"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -13193,6 +13364,9 @@
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
+        "butcher": {
+            "good": "Extra executions gives more chances for this role to do something"
+        },
         "gnome": {
             "good": "Interesting amigo"
         },
@@ -13235,6 +13409,9 @@
         "bureaucrat": {
             "good": "Helps with execution"
         },
+        "butcher": {
+            "good": "Extra executions gives more chances for this role to do something"
+        },
         "scapegoat": {
             "good": "Interesting synergy"
         },
@@ -13243,6 +13420,9 @@
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
+        },
+        "ventriloquist": {
+            "good": "DA can obfuscate a Ventriloquist"
         }
     },
     "boomdandy": {
@@ -13309,6 +13489,9 @@
         },
         "bureaucrat": {
             "good": "Helps with execution"
+        },
+        "butcher": {
+            "good": "Extra executions gives more chances for this role to do something"
         },
         "gnome": {
             "good": "Interesting amigo"
@@ -13379,6 +13562,9 @@
         },
         "bureaucrat": {
             "good": "Helps with execution"
+        },
+        "butcher": {
+            "warning": "Extra executions can't ever trigger the Fearmonger"
         },
         "gnome": {
             "good": "Gnome can protect from a Fearmonger nomination"
@@ -13464,6 +13650,9 @@
         },
         "tor": {
             "warning": "A Marionette tells the Demon they are the Demon"
+        },
+        "ventriloquist": {
+            "good": "Misinformation can make pivots more convincing"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -13599,6 +13788,9 @@
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play (everyone might try to Psychopath kill)"
         },
+        "ventriloquist": {
+            "warning": "Confirmed roles can't convincingly pivot"
+        },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
         }
@@ -13667,6 +13859,9 @@
         "tor": {
             "warning": "This role immediately knows who they are"
         },
+        "ventriloquist": {
+            "good": "Knowing the Grimoire can make a convincing pivot. Misinformation can make pivots more convincing"
+        },
         "zenomancer": {
             "good": "Interesting role to give information about"
         }
@@ -13724,6 +13919,9 @@
         "bureaucrat": {
             "good": "Helps with execution"
         },
+        "butcher": {
+            "good": "Extra executions gives more chances for this role to do something"
+        },
         "judge": {
             "warning": "Evil Judge can force an execution of a Goblin"
         },
@@ -13778,6 +13976,12 @@
         "bureaucrat": {
             "good": "Bureaucrat's effect is not announced"
         },
+        "butcher": {
+            "good": "Extra executions gives more chances for this role to do something"
+        },
+        "gunslinger": {
+            "conflict": "Gunslinger can't shoot properly if they don't know who voted"
+        },
         "thief": {
             "good": "Thief's effect is not announced"
         },
@@ -13828,6 +14032,9 @@
         "bureaucrat": {
             "warning": "This Traveller's abilit might not matter with a Vizier"
         },
+        "butcher": {
+            "good": "Extra executions gives more chances for this role to do something"
+        },
         "thief": {
             "warning": "This Traveller's abilit might not matter with a Vizier"
         },
@@ -13851,6 +14058,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are"
+        },
+        "ventriloquist": {
+            "warning": "Confirmed roles can't convincingly pivot"
         }
     },
     "harpy": {
@@ -13877,7 +14087,7 @@
             "great": "This Minion can explain non-picked deaths"
         },
         "leviathan": {
-            "warning": "Killing roles in a Riot game are confirmed if alone"
+            "warning": "Killing roles in a Leviathan game are confirmed if alone"
         },
         "lleech": {
             "warning": "Can kill the Lleech host"
@@ -14074,6 +14284,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "ventriloquist": {
+            "good": "Misinformation can make pivots more convincing"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -14297,6 +14510,9 @@
         },
         "tor": {
             "good": "Vigormortis can deal with not knowing their team"
+        },
+        "ventriloquist": {
+            "good": "Misinformation can make pivots more convincing"
         }
     },
     "no_dashii": {
@@ -14305,6 +14521,9 @@
         },
         "cacklejack": {
             "good": "Swapping into ths role is interesting"
+        },
+        "ventriloquist": {
+            "good": "Misinformation can make pivots more convincing"
         }
     },
     "vortox": {
@@ -14328,6 +14547,9 @@
         },
         "fibbin": {
             "info": "Fibbin can give true info with Vortox"
+        },
+        "ventriloquist": {
+            "good": "Misinformation can make pivots more convincing"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -14365,6 +14587,9 @@
         },
         "tor": {
             "warning": "Harder to identify as the Demon"
+        },
+        "ventriloquist": {
+            "good": "Misinformation can make pivots more convincing"
         },
         "zenomancer": {
             "good": "Longer games are good for quests"
@@ -14448,6 +14673,9 @@
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
         },
+        "ventriloquist": {
+            "warning": "Limited executions can make Ventriloquist less interesting"
+        },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
         }
@@ -14461,6 +14689,9 @@
         },
         "bureaucrat": {
             "good": "Helps with execution"
+        },
+        "butcher": {
+            "warning": "Extra executions are risky in Leviathan, but can allow more good wins"
         },
         "gangster": {
             "good": "Day kills aren't executions"
@@ -14498,6 +14729,9 @@
         "stormcatcher": {
             "warning": "Leviathan can't kill"
         },
+        "ventriloquist": {
+            "warning": "Limited executions can make Ventriloquist less interesting"
+        },
         "zenomancer": {
             "good": "Longer games are good for quests"
         }
@@ -14526,6 +14760,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "ventriloquist": {
+            "good": "Misinformation can make pivots more convincing. Lleech surviving can muddle Ventriloquist"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -14558,6 +14795,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it very hard to play"
+        },
+        "ventriloquist": {
+            "good": "Misinformation can make pivots more convincing"
         }
     },
     "lil_monsta": {
@@ -14595,6 +14835,9 @@
         },
         "tor": {
             "warning": "This role can easily find out who they are"
+        },
+        "ventriloquist": {
+            "warning": "Frequent pivots can make Ojo harder to play"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -14641,6 +14884,9 @@
         },
         "tor": {
             "warning": "This role immediately knows who they are"
+        },
+        "ventriloquist": {
+            "good": "This role gives good opportunities for phrases"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -14744,13 +14990,25 @@
         }
     },
     "bureaucrat": {
+        "butcher": {
+            "good": "Extra executions gives more chances for this role to do something"
+        },
         "thief": {
             "good": "If both choose the same player, that player has -3 votes"
         }
     },
     "butcher": {
+        "scapegoat": {
+            "good": "Extra executions gives more chances for this role to do something"
+        },
+        "thief": {
+            "good": "Extra executions gives more chances for this role to do something"
+        },
         "voudon": {
             "good": "More deaths is good for Voudon"
+        },
+        "ventriloquist": {
+            "good": "Extra executions gives more chances for this role to do something"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -14835,6 +15093,9 @@
         "tor": {
             "good": "Can help players figure out who they are"
         },
+        "ventriloquist": {
+            "warning": "Discourages specific nominations"
+        },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
         }
@@ -14849,6 +15110,9 @@
         "tor": {
             "warning": "Players don't know what they changed into, and lose information about what they were"
         },
+        "ventriloquist": {
+            "good": "Gives a good reason for a role change"
+        },
         "zenomancer": {
             "good": "Interesting role to give information about"
         }
@@ -14856,6 +15120,9 @@
     "angel": {
         "tor": {
             "warning": "Tor is not beginner-friendly"
+        },
+        "ventriloquist": {
+            "warning": "Discourages specific nominations"
         }
     },
     "buddhist": {},
@@ -14914,7 +15181,11 @@
             "good": "Longer games are good for quests"
         }
     },
-    "big_wig": {},
+    "big_wig": {
+        "ventriloquist": {
+            "warning": "Ventriloquist is harder to trigger when you can't defend yourself"
+        }
+    },
     "gardener": {
         "pope": {
             "great": "Interesting synergy"
@@ -14930,6 +15201,9 @@
         },
         "tor": {
             "warning": "Good can't solve their ability by process of elimination"
+        },
+        "ventriloquist": {
+            "good": "Explains multiple claims of the same role"
         }
     },
     "stormcatcher": {
@@ -14941,9 +15215,13 @@
         }
     },
     "tor": {
+        "ventriloquist": {
+            "conflict": "Don't work together"
+        },
         "zenomancer": {
             "good": "Quests can give information on yourself"
         }
     },
+    "ventriloquist": {},
     "zenomancer": {}
 }
