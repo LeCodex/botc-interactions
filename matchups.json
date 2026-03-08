@@ -117,6 +117,9 @@
         "no_dashii": {
             "good": "Acrobat can help find the No Dashii"
         },
+        "vortox": {
+            "good": "Acrobat gives drunkeness mechanical value in Vortox games"
+        },
         "pukka": {
             "good": "Acrobat can narrow down incidental droison"
         },
@@ -145,7 +148,7 @@
             "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
         "barista": {
-            "warning": "Doubling obscures how the Acrobat died"
+            "warning": "Doubling this ability obscures how they died"
         },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
@@ -161,6 +164,9 @@
         },
         "stormcatcher": {
             "warning": "Storm catching this role disables it"
+        },
+        "ventriloquist": {
+            "warning": "Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -267,6 +273,9 @@
         },
         "lleech": {
             "good": "Alchemist can be fooled into having another ability if Lleech host"
+        },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
         },
         "scapegoat": {
             "warning": "Scapegoat saving an Alchemist is suspicious"
@@ -576,6 +585,9 @@
         "lord_of_typhon": {
             "warning": "Evil players being sat next to each other makes the Alsaahir's work easier. But also, the possible extra Minion makes its work harder"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
         "beggar": {
             "great": "Good synergy"
         },
@@ -589,7 +601,7 @@
             "warning": "Not knowing you're this role makes it hard to play (everyone who didn't wake will try to guess)"
         },
         "ventriloquist": {
-            "good": "Alsaahir benefits from longer games"
+            "good": "Alsaahir benefits from longer games. Public roles are nice for early ventriloquisms (allowing you to pivot later)"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -732,6 +744,9 @@
             "good": "This role gives good opportunities for phrases",
             "warning": "Amnesiac benefits from longer games"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
         "revolutionary": {
             "good": "Partner can help this role out"
         },
@@ -847,6 +862,9 @@
         "apprentice": {
             "good": "Once per game abilities are good for arriving late or leaving early"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
         "bone_collector": {
             "good": "Once per game abilities are good to bone collect"
         },
@@ -905,7 +923,7 @@
             "good": "Protected players dying can be an indicator"
         },
         "philosopher": {
-            "warning": "Philosopher shouldn't be allowed to gain the Atheist ability"
+            "warning": "Philosopher that gains the Atheist ability is effectively an Outsider"
         },
         "pixie": {
             "warning": "Confirming an Atheist is powerful"
@@ -1017,7 +1035,7 @@
             "good": "This role gives good opportunities for phrases"
         },
         "apprentice": {
-            "warning": "Apprentice can't have this ability"
+            "warning": "Bad Apprentice ability"
         },
         "bishop": {
             "warning": "ST must choose themself at some point"
@@ -1026,7 +1044,7 @@
             "warning": "Bone Collector is useless on this role"
         },
         "fibbin": {
-            "warning": "Fibbin can make ithard to determine an Atheist game"
+            "warning": "Fibbin can make it hard to determine an Atheist game"
         },
         "fiddler": {
             "warning": "Fiddler needs to be fibbed in an Atheist game"
@@ -1531,6 +1549,9 @@
         "lord_of_typhon": {
             "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
+        "barista": {
+            "warning": "Trap characters will generally not be doubled, unless the ST decides after the Demon choice"
+        },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
@@ -1568,6 +1589,9 @@
         },
         "stormcatcher": {
             "warning": "Storm catching this role disables it"
+        },
+        "ventriloquist": {
+            "good": "Trap characters prefer to die at night"
         }
     },
     "bounty_hunter": {
@@ -1775,6 +1799,9 @@
             "warning": "Evil TF must be in the line",
             "good": "Great bluff for Minions"
         },
+        "barista": {
+            "warning": "Useless to double"
+        },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
         },
@@ -1980,6 +2007,9 @@
         "lord_of_typhon": {
             "warning": "Hard role to bluff for certain Minions, but LoT can more easily share bluffs"
         },
+        "scapegoat": {
+            "warning": "Cannibal using the Scapegoat ability (once it's executed) confirms the Scapegoat and both saved players"
+        },
         "pope": {
             "warning": "All copies of this role get the same ability"
         },
@@ -2078,7 +2108,7 @@
             "good": "Interesting Boffin ability"
         },
         "wraith": {
-            "good": "Potentially unusual waking pattern",
+            "good": "Potentially unusual waking pattern. Good bluff for a Wraith",
             "warning": "Wraith could be an outed Minion"
         },
         "imp": {
@@ -2116,6 +2146,9 @@
         },
         "lord_of_typhon": {
             "info": "LoT doesn't wake on the first night, unlike Kazali"
+        },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
         },
         "hindu": {
             "warning": "Depending on when players are raised, can allow to choose players that died tonight"
@@ -2253,6 +2286,9 @@
         },
         "apprentice": {
             "good": "Once per game abilities are good for arriving late or leaving early"
+        },
+        "barista": {
+            "warning": "Useless to double"
         },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
@@ -2393,6 +2429,9 @@
         "apprentice": {
             "warning": "Apprentice can't have this ability, unless a King is already in-play (not a good idea if they leave)"
         },
+        "barista": {
+            "warning": "Useless to double"
+        },
         "cacklejack": {
             "warning": "Cacklejack creating a Choirboy mid-game can be tough to detect for the evil team"
         },
@@ -2407,6 +2446,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "ventriloquist": {
+            "good": "Hidden roles are easier to pivot to for Ventriloquist"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -2532,6 +2574,9 @@
         "apprentice": {
             "good": "Once per game abilities are good for arriving late or leaving early"
         },
+        "barista": {
+            "warning": "Useless to double"
+        },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
         },
@@ -2586,7 +2631,7 @@
             "good": "Confirming no evil execution survival role is active is good"
         },
         "poppygrower": {
-            "warning": "Courtier drunking Poppy Grower and then killing them is very powerful"
+            "warning": "Courtier drunking Poppy Grower and then killing them is very powerful (can be fixed with the optional rule)"
         },
         "professor": {
             "good": "When resurrected, it gets another use of its ability"
@@ -2704,6 +2749,12 @@
         "apprentice": {
             "good": "Once per game abilities are good for arriving late or leaving early"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
+        "deviant": {
+            "warning": "Don't drunk the Deviant, it's rude"
+        },
         "gangster": {
             "good": "Used abilities are safe to die"
         },
@@ -2810,6 +2861,9 @@
         "lord_of_typhon": {
             "good": "Cult Leader voting pattern can reval a LoT. Less likely for the Cult Leader to be stuck within evil players"
         },
+        "barista": {
+            "warning": "Useless to double"
+        },
         "matron": {
             "good": "Matron can change the CL's neighbors"
         },
@@ -2837,6 +2891,9 @@
         },
         "tor": {
             "warning": "This role can immediately know who they are"
+        },
+        "ventriloquist": {
+            "good": "Public roles are nice for early ventriloquisms (allowing you to pivot later)"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -2992,6 +3049,9 @@
         "lord_of_typhon": {
             "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
         "gnome": {
             "good": "Dreamer can check the amigo"
         },
@@ -3083,6 +3143,9 @@
         "lord_of_typhon": {
             "warning": "Impossible Empath 2 in LoT games, except with very few alive players",
             "good": "Great bluff for Minions"
+        },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
         },
         "matron": {
             "good": "Matron can change the Empath's living neighbors"
@@ -3242,6 +3305,9 @@
         "apprentice": {
             "good": "Once per game abilities are good for arriving late or leaving early"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
         "gangster": {
             "good": "Used abilities are safe to die"
         },
@@ -3386,6 +3452,9 @@
         "lord_of_typhon": {
             "good": "Great bluff for Minions"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
         "pope": {
             "warning": "Beware too much protection"
         },
@@ -3450,7 +3519,7 @@
             "warning": "Pixie seeing hidden characters is complicated"
         },
         "poppygrower": {
-            "warning": "Bad target for Farmer, fully keeps the evil team in the dark"
+            "warning": "Bad target for Farmer, fully keeps the evil team in the dark (can be fixed with the optional rule)"
         },
         "princess": {
             "warning": "Princess can prevent trap characters from triggering"
@@ -3595,7 +3664,10 @@
             "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
         "apprentice": {
-            "warning": "Apprentice can't have this ability"
+            "warning": "Bad Apprentice ability"
+        },
+        "barista": {
+            "warning": "Trap characters will generally not be doubled, unless the ST decides after the Demon choice"
         },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
@@ -3629,6 +3701,9 @@
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
+        },
+        "ventriloquist": {
+            "good": "Trap characters prefer to die at night"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -3694,6 +3769,9 @@
         },
         "apprentice": {
             "good": "Once per game abilities are good for arriving late or leaving early"
+        },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
         },
         "bone_collector": {
             "good": "Once per game abilities are good to bone collect"
@@ -3888,6 +3966,9 @@
         "lord_of_typhon": {
             "good": "Great bluff for Minions"
         },
+        "barista": {
+            "warning": "Useless to double"
+        },
         "voudon": {
             "warning": "Voudon makes Flowergirl information useless"
         },
@@ -4006,6 +4087,9 @@
         "shabaloth": {
             "good": "Protection with multi-kill Demons works well",
             "warning": "When resurrected, this gets another use of its ability"
+        },
+        "zombuul": {
+            "good": "Execution protection can allow the Zombuul to kill"
         },
         "al-hadikhia": {
             "warning": "Protected players choices don't matter. Fools that choose die might die a second time if all other pllayers live"
@@ -4150,6 +4234,9 @@
         },
         "lord_of_typhon": {
             "good": "Fortune Teller can become more efficient by picking neighbors in a LoT game. Great bluff for Minions"
+        },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
         },
         "hindu": {
             "warning": "Players leaving influences this role (change of false positive)"
@@ -4337,6 +4424,9 @@
         "lord_of_typhon": {
             "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
+        "barista": {
+            "warning": "Doubling this ability obscures how they died"
+        },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
@@ -4355,6 +4445,9 @@
         "stormcatcher": {
             "warning": "Storm catching this role disables it",
             "good": "This role can check a \"stormcaught\" player"
+        },
+        "ventriloquist": {
+            "warning": "Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -4438,6 +4531,9 @@
         },
         "kazali": {
             "good": "The starting gamestate might not be as clearcut as it usually is"
+        },
+        "barista": {
+            "warning": "Useless to double"
         },
         "hindu": {
             "warning": "Travellers are swingy"
@@ -4594,6 +4690,9 @@
             "good": "This role gives good opportunities for phrases. Extra deaths can hide nights with no kills",
             "warning": "Multiple ST-chosen deaths can muddle this role's info"
         },
+        "barista": {
+            "warning": "Double Gossip obscures which one(s) were true"
+        },
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
@@ -4602,6 +4701,10 @@
         },
         "pope": {
             "warning": "Beware too many extra deaths good roles. Multiple Gossips are hard to tell apart"
+        },
+        "ventriloquist": {
+            "warning": "Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced",
+            "good": "Public roles are nice for early ventriloquisms (allowing you to pivot later)"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -4776,6 +4879,9 @@
         "tor": {
             "warning": "This role immediately knows who they are"
         },
+        "ventriloquist": {
+            "warning": "Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
+        },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
         }
@@ -4864,6 +4970,9 @@
         },
         "legion": {
             "good": "High Priestess will most likely learn the few good players"
+        },
+        "barista": {
+            "warning": "Useless to double"
         }
     },
     "huntsman": {
@@ -4961,7 +5070,7 @@
             "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
         "poppygrower": {
-            "conflict": "Poppy Grower should not be drunk when it dies",
+            "conflict": "Poppy Grower should not be drunk when it dies (can be fixed with the optional rule)",
             "good": "Protection works well with PG"
         },
         "princess": {
@@ -5057,6 +5166,9 @@
         },
         "yaggababble": {
             "good": "Protection with multi-kill Demons works well, but is weaker on Yaggababble games"
+        },
+        "deviant": {
+            "warning": "Don't drunk the Deviant, it's rude"
         },
         "fibbin": {
             "warning": "Beware too much misinformation"
@@ -5209,6 +5321,9 @@
         "apprentice": {
             "good": "Once per game abilities are good for arriving late or leaving early"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
         },
@@ -5340,6 +5455,9 @@
         "apprentice": {
             "good": "Once per game abilities are good for arriving late or leaving early"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
@@ -5363,6 +5481,9 @@
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
+        },
+        "ventriloquist": {
+            "good": "Public roles are nice for early ventriloquisms (allowing you to pivot later)"
         }
     },
     "king": {
@@ -5529,6 +5650,9 @@
         "tor": {
             "warning": "A King immediately tells the Demon they are the Demon"
         },
+        "ventriloquist": {
+            "warning": "A King that wants to pivot can't claim immediately, or risk having to claim something else when nominated"
+        },
         "zenomancer": {
             "good": "Interesting role to give information about"
         }
@@ -5657,6 +5781,9 @@
         },
         "apprentice": {
             "good": "Once per game abilities are good for arriving late or leaving early"
+        },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
         },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
@@ -6051,6 +6178,9 @@
         "lord_of_typhon": {
             "good": "Lycanthrope can narrow down the LoT line"
         },
+        "barista": {
+            "warning": "Loud double"
+        },
         "beggar": {
             "good": "Faux Paw registers as evil"
         },
@@ -6094,6 +6224,9 @@
         },
         "pacifist": {
             "warning": "Pacifist shouldn't save a Magician"
+        },
+        "philosopher": {
+            "warning": "Magician is a bad choice after N1"
         },
         "pixie": {
             "warning": "Pixie gets no use from learning Magician"
@@ -6150,7 +6283,7 @@
             "good": "Spy doesn't know who the Magician is"
         },
         "evil_twin": {
-            "warning": "Magician can't fake this Minion"
+            "warning": "Magician can't fake this Minion. Bad choice for a Twin"
         },
         "pit-hag": {
             "good": "Pit Hag can make the Magician into a Demon"
@@ -6227,6 +6360,9 @@
         "apprentice": {
             "warning": "Apprentice having this ability only confirms they're good"
         },
+        "barista": {
+            "warning": "Cannot be doubled"
+        },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
@@ -6244,6 +6380,9 @@
         },
         "tor": {
             "conflict": "Useless in Tor games"
+        },
+        "ventriloquist": {
+            "good": "Hidden roles are easier to pivot to for Ventriloquist"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -6309,6 +6448,9 @@
         },
         "vortox": {
             "warning": "Vortox makes this info near useless"
+        },
+        "barista": {
+            "great": "Good synergy"
         },
         "revolutionary": {
             "good": "Partner can help this role out"
@@ -6442,6 +6584,9 @@
         "apprentice": {
             "warning": "Apprentice needs to stay in-game until the end"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
         "doomsayer": {
             "warning": "Mayor can't protect from day death"
         },
@@ -6530,6 +6675,9 @@
         },
         "lil_monsta": {
             "warning": "Lil Monsta is immune to Minstrel drunkeness"
+        },
+        "barista": {
+            "good": "Can allow a player to work through Minstrel party"
         },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
@@ -6644,6 +6792,9 @@
         "yaggababble": {
             "good": "Protection with multi-kill Demons works well, but is weaker on Yaggababble games"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
         "pope": {
             "warning": "Beware too much protection"
         }
@@ -6751,6 +6902,9 @@
         "apprentice": {
             "warning": "Apprentice having this ability only confirms they're good",
             "good": "Once per game abilities are good for arriving late or leaving early"
+        },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
         },
         "bone_collector": {
             "warning": "Nightwatchman getting double confirmation is powerful"
@@ -6918,6 +7072,9 @@
         "apprentice": {
             "good": "Once per game abilities are good for arriving late or leaving early"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
         },
@@ -7059,6 +7216,9 @@
         "lord_of_typhon": {
             "good": "Oracle can help narrow down the LoT line. Great bluff for Minions"
         },
+        "barista": {
+            "warning": "Useless to double"
+        },
         "hindu": {
             "warning": "Oracle doesn't work without dead players. Can cause issues with misinformation"
         },
@@ -7153,7 +7313,7 @@
             "good": "Forcing executions works well with this role. This role's info is immune to Vortox"
         },
         "zombuul": {
-            "good": "Pacifist protection can allow the Zombuul to kill"
+            "good": "Execution protection can allow the Zombuul to kill"
         },
         "riot": {
             "warning": "Hard to manage in a Riot game"
@@ -7169,6 +7329,9 @@
         },
         "lord_of_typhon": {
             "good": "Pacifist can help narrow down the LoT line"
+        },
+        "barista": {
+            "warning": "Cannot be doubled"
         },
         "butcher": {
             "good": "Extra executions gives more chances for this role to do something"
@@ -7263,11 +7426,17 @@
         "lord_of_typhon": {
             "good": "Great bluff for Minions"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
         "revolutionary": {
             "good": "Partner can help this role out"
         },
         "pope": {
             "info": "Philosopher only drunks one copy of the role it chooses, and multiple Philosophers may overlap their drunkeness"
+        },
+        "ventriloquist": {
+            "good": "Easy role to pivot into"
         }
     },
     "pixie": {
@@ -7386,9 +7555,6 @@
         "lord_of_typhon": {
             "good": "Great bluff for Minions"
         },
-        "apprentice": {
-            "warning": "Apprentice can't have this ability"
-        },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
         },
@@ -7411,7 +7577,7 @@
             "good": "This role can't announce they're stormcaught"
         },
         "ventriloquist": {
-            "good": "Misinformation can make pivots more convincing"
+            "good": "Misinformation can make pivots more convincing. Hidden roles are easier to pivot to for Ventriloquist"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -7428,7 +7594,7 @@
             "good": "Confirming this role is in-play is good"
         },
         "sailor": {
-            "conflict": "Poppy Grower should not be drunk when it dies"
+            "conflict": "Poppy Grower should not be drunk when it dies (can be fixed with the optional rule)"
         },
         "seamstress": {
             "good": "Public info can help evil find each other"
@@ -7467,7 +7633,7 @@
             "info": "Recluse can learn the evil team on PG death (don't)"
         },
         "sweetheart": {
-            "info": "Poppy Grower should not be drunk when it dies"
+            "info": "Poppy Grower should not be drunk when it dies (can be fixed with the optional rule)"
         },
         "lunatic": {
             "good": "Poppy Grower can prevent the Lunatic from talkig with their \"Minions\""
@@ -7479,7 +7645,7 @@
             "good": "This role doesn't need to know his evil team to work"
         },
         "poisoner": {
-            "conflict": "Poppy Grower should not be poisoned when it dies"
+            "conflict": "Poppy Grower should not be poisoned when it dies (can be fixed with the optional rule)"
         },
         "scarlet_woman": {
             "good": "This role doesn't need to know his evil team to work"
@@ -7491,7 +7657,7 @@
             "warning": "Killing Minions are dangerous with Poppy Grower"
         },
         "evil_twin": {
-            "warning": "Poppy Grower can't have a Twin"
+            "warning": "Bad choice for a Twin"
         },
         "pit-hag": {
             "warning": "Pit-Hag becomes very risky if it doesn't know the evil team"
@@ -7531,7 +7697,7 @@
             "good": "A Boffin ability can help the Demon scout its Minions"
         },
         "xaan": {
-            "conflict": "Poppy Grower should not be poisoned when it dies"
+            "conflict": "Poppy Grower should not be poisoned when it dies (can be fixed with the optional rule)"
         },
         "wraith": {
             "warning": "Wraith can ignore Poppy Grower"
@@ -7549,7 +7715,7 @@
             "conflict": "When the PG dies, Vortox makes the evil team information false"
         },
         "pukka": {
-            "conflict": "Pukka disables the PG death ability"
+            "conflict": "Pukka disables the PG death ability (can be fixed with the optional rule)"
         },
         "shabaloth": {
             "good": "This role doesn't need to know his evil team to work",
@@ -7562,7 +7728,7 @@
             "good": "Minions can choose to live"
         },
         "lleech": {
-            "warning": "if the PG is the Lleech host, they will never die without the game ending"
+            "warning": "If the PG is the Lleech host, they will never die without the game ending (can be fixed with the optional rule)"
         },
         "ojo": {
             "warning": "Ojo can kill Poppy Grower immediately, but this outs it being in-play"
@@ -7578,6 +7744,9 @@
         },
         "apprentice": {
             "warning": "Apprentice can't have this ability if they joined late"
+        },
+        "barista": {
+            "warning": "Cannot be doubled"
         },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
@@ -7599,6 +7768,9 @@
         },
         "tor": {
             "conflict": "An active detriment in Tor games"
+        },
+        "ventriloquist": {
+            "good": "Hidden roles are easier to pivot to for Ventriloquist"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -7673,6 +7845,9 @@
         },
         "lord_of_typhon": {
             "warning": "Info on the Minions can be powerful in LoT game"
+        },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
         },
         "pope": {
             "warning": "Preacher choices need to tracked separately. Rough for evil to deal with"
@@ -7920,7 +8095,7 @@
             "good": "Partner can help this role out"
         },
         "toymaker": {
-            "info": "Princess night can trigger Toymaker"
+            "warning": "Demon can freely trigger Toymaker on Princess night"
         },
         "pope": {
             "warning": "Multiple copies of this role are redundant"
@@ -7999,6 +8174,9 @@
         },
         "lord_of_typhon": {
             "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
+        },
+        "barista": {
+            "warning": "Loud double"
         },
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
@@ -8151,7 +8329,10 @@
             "warning": "Info on the Minions can be powerful in LoT game. Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
         "apprentice": {
-            "warning": "Apprentice can't have this ability"
+            "warning": "Bad Apprentice ability"
+        },
+        "barista": {
+            "warning": "Trap characters will generally not be doubled, unless the ST decides after the Demon choice"
         },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
@@ -8183,6 +8364,9 @@
         "stormcatcher": {
             "warning": "Storm catching this role disables it",
             "good": "This role can check a \"stormcaught\" player"
+        },
+        "ventriloquist": {
+            "good": "Trap characters prefer to die at night"
         }
     },
     "sage": {
@@ -8310,7 +8494,10 @@
             "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
         "apprentice": {
-            "warning": "Apprentice can't have this ability"
+            "warning": "Bad Apprentice ability"
+        },
+        "barista": {
+            "warning": "Trap characters will generally not be doubled, unless the ST decides after the Demon choice"
         },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
@@ -8341,6 +8528,9 @@
         },
         "stormcatcher": {
             "warning": "Storm catching this role disables it"
+        },
+        "ventriloquist": {
+            "good": "Trap characters prefer to die at night"
         }
     },
     "sailor": {
@@ -8432,6 +8622,9 @@
         "pukka": {
             "good": "Pukka disables self protected characters"
         },
+        "zombuul": {
+            "good": "Execution protection can allow the Zombuul to kill"
+        },
         "al-hadikhia": {
             "warning": "Protected players choices don't matter"
         },
@@ -8444,11 +8637,17 @@
         "yaggababble": {
             "warning": "Yaggababble targets are chosen by the ST"
         },
+        "barista": {
+            "warning": "Useless to double (unless evil)"
+        },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
         "butcher": {
             "good": "Extra executions gives more chances for this role to do something"
+        },
+        "deviant": {
+            "warning": "Don't drunk the Deviant, it's rude"
         },
         "gangster": {
             "good": "This role can survive this Traveler"
@@ -8563,6 +8762,9 @@
         "yaggababble": {
             "good": "This role gives good opportunities for phrases"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
         "pope": {
             "warning": "Can make the day phase long through ST consultations and trying to find worlds with all this information. In general, rough to ST"
         },
@@ -8640,6 +8842,9 @@
         },
         "apprentice": {
             "good": "Once per game abilities are good for arriving late or leaving early"
+        },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
         },
         "bone_collector": {
             "good": "Once per game abilities are good to bone collect"
@@ -8749,6 +8954,9 @@
         },
         "apprentice": {
             "good": "Once per game abilities are good for arriving late or leaving early"
+        },
+        "barista": {
+            "warning": "Useless to double"
         },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
@@ -8869,6 +9077,9 @@
         "apprentice": {
             "good": "Once per game abilities are good for arriving late or leaving early"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
         "bone_collector": {
             "good": "Once per game abilities are good to bone collect"
         },
@@ -8879,6 +9090,9 @@
             "good": "Used abilities are safe to die"
         },
         "harlot": {
+            "good": "Used abilities are safe to die"
+        },
+        "gnome": {
             "good": "Used abilities are safe to die"
         },
         "cacklejack": {
@@ -8978,13 +9192,22 @@
             "warning": "The Demon can move"
         },
         "apprentice": {
-            "warning": "Apprentice can't have this ability"
+            "conflict": "Bad Apprentice ability"
         },
         "bone_collector": {
             "warning": "Snake Charmer is a bad target for Bone Collector (if they become the Demon, they lose instantly)"
         },
+        "gangster": {
+            "warning": "Snake charmed Demons would be safe to die, making the bluff harder"
+        },
+        "gunslinger": {
+            "warning": "Snake charmed Demons would be safe to die, making the bluff harder"
+        },
+        "harlot": {
+            "warning": "Snake charmed Demons would be safe to die, making the bluff harder"
+        },
         "gnome": {
-            "warning": "This amigo can change alignment"
+            "warning": "This amigo can change alignment. Snake charmed Demons would be safe to die, making the bluff harder"
         },
         "revolutionary": {
             "conflict": "Snake Charmer is either disabled or turns their partner"
@@ -9064,6 +9287,9 @@
         },
         "yaggababble": {
             "warning": "Yaggababble targets are chosen by the ST"
+        },
+        "barista": {
+            "warning": "Useless to double"
         },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
@@ -9318,6 +9544,9 @@
         "shabaloth": {
             "good": "Protection with multi-kill Demons works well"
         },
+        "zombuul": {
+            "good": "Execution protection can allow the Zombuul to kill"
+        },
         "al-hadikhia": {
             "warning": "Protected players choices don't matter"
         },
@@ -9329,6 +9558,9 @@
         },
         "lord_of_typhon": {
             "good": "Good players don't neighbor the Demon in LoT games. Tea Lady can help narrow down the LoT line"
+        },
+        "barista": {
+            "warning": "Useless to double"
         },
         "butcher": {
             "good": "Extra executions gives more chances for this role to do something"
@@ -9484,6 +9716,9 @@
         "lord_of_typhon": {
             "warning": "Info on the Minions can be powerful in LoT game",
             "good": "Great bluff for Minions"
+        },
+        "barista": {
+            "warning": "Useless to double"
         },
         "bishop": {
             "warning": "Bishop disables Town Crier"
@@ -9644,6 +9879,9 @@
         },
         "lord_of_typhon": {
             "warning": "Info on the Minions can be powerful in LoT game. Hard role to bluff for Minions, but LoT can more easily share bluffs"
+        },
+        "barista": {
+            "warning": "Useless to double"
         },
         "scapegoat": {
             "warning": "If Scapegoat is executed, it's guaranteed Undertaker information"
@@ -9988,7 +10226,13 @@
             "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
         "apprentice": {
-            "warning": "Apprentice can't have this ability"
+            "warning": "Bad Apprentice ability (they can't be nominated)"
+        },
+        "barista": {
+            "warning": "Cannot be doubled"
+        },
+        "bishop": {
+            "conflict": "Virgin cannot trigger in a Bishop game (only the ST nominates)"
         },
         "bone_collector": {
             "warning": "Bone collected Virgin can confirm a second player"
@@ -10082,6 +10326,9 @@
         "lord_of_typhon": {
             "good": "Great bluff for Minions"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
         },
@@ -10113,6 +10360,9 @@
         },
         "spy": {
             "good": "Spy knows who the Drunk is"
+        },
+        "evil_twin": {
+            "good": "Drunk can explain Twins claiming different roles"
         },
         "pit-hag": {
             "good": "Creating this Outsider can be silent"
@@ -10282,6 +10532,9 @@
         "lord_of_typhon": {
             "good": "Great bluff for Minions"
         },
+        "barista": {
+            "warning": "Cannot be doubled"
+        },
         "gangster": {
             "warning": "This role is fine to die to this Traveler"
         },
@@ -10298,7 +10551,8 @@
             "good": "Good target to use a Scapegoat on"
         },
         "gnome": {
-            "good": "Interesting amigo"
+            "good": "Interesting amigo",
+            "warning": "This role is fine to die to this Traveler"
         },
         "revolutionary": {
             "good": "Partner can help this role out"
@@ -10310,7 +10564,7 @@
             "warning": "Not knowing you're this role makes it hard to play"
         },
         "ventriloquist": {
-            "good": "A sudden Saint claim can be kept alive for extra tension"
+            "warning": "Ventriloquist can't prevent this role from triggering"
         }
     },
     "butler": {
@@ -10353,6 +10607,9 @@
         "lleech": {
             "warning": "Butler might want to be executed"
         },
+        "barista": {
+            "warning": "Useless to double"
+        },
         "gangster": {
             "warning": "This role is fine to die to this Traveler"
         },
@@ -10360,6 +10617,9 @@
             "warning": "This role is fine to die to this Traveler"
         },
         "harlot": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "gnome": {
             "warning": "This role is fine to die to this Traveler"
         },
         "hindu": {
@@ -10458,6 +10718,12 @@
         "lord_of_typhon": {
             "good": "Great bluff for Minions"
         },
+        "barista": {
+            "warning": "Cannot be doubled"
+        },
+        "beggar": {
+            "good": "Gives another reason for evil players to give a vote token"
+        },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
@@ -10471,7 +10737,7 @@
             "warning": "This role is fine to die to this Traveler"
         },
         "gnome": {
-            "info": "The Recluse can register as evil (don't)"
+            "warning": "This role is fine to die to this Traveler"
         },
         "doomsayer": {
             "good": "Recluse can appear as evil"
@@ -10760,6 +11026,9 @@
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
+        "deviant": {
+            "info": "Don't drunk the Deviant, it's rude"
+        },
         "gnome": {
             "good": "Interesting amigo"
         },
@@ -10791,6 +11060,9 @@
         },
         "baron": {
             "good": "Baron works better with hidden Outsiders"
+        },
+        "evil_twin": {
+            "good": "Mutant can explain Twins claiming different roles"
         },
         "pit-hag": {
             "good": "Creating this Outsider can be silent. Mad players can claim to be pit-hagged"
@@ -10827,6 +11099,9 @@
         "lord_of_typhon": {
             "good": "Hidden Outsiders work well with LoT, unless they become Minions"
         },
+        "barista": {
+            "warning": "Cannot be doubled"
+        },
         "gangster": {
             "warning": "This role is fine to die to this Traveler"
         },
@@ -10834,6 +11109,9 @@
             "warning": "This role is fine to die to this Traveler"
         },
         "harlot": {
+            "warning": "This role is fine to die to this Traveler"
+        },
+        "gnome": {
             "warning": "This role is fine to die to this Traveler"
         },
         "revolutionary": {
@@ -10847,6 +11125,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "ventriloquist": {
+            "good": "Hidden roles are easier to pivot to for Ventriloquist (though Mutant can be unconvincing)"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -11062,6 +11343,9 @@
         "yaggababble": {
             "warning": "Yaggababble targets are chosen by the ST, so Goon can't turn evil"
         },
+        "barista": {
+            "warning": "Useless to double"
+        },
         "gnome": {
             "warning": "This amigo can change alignment"
         },
@@ -11220,6 +11504,9 @@
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
         },
+        "ventriloquist": {
+            "warning": "Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
+        },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
         }
@@ -11290,6 +11577,9 @@
         "lord_of_typhon": {
             "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
+        "barista": {
+            "warning": "Cannot be doubled"
+        },
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
@@ -11301,6 +11591,9 @@
         },
         "stormcatcher": {
             "warning": "Storm catching this role is a bad idea"
+        },
+        "ventriloquist": {
+            "warning": "Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -11401,6 +11694,9 @@
         "lord_of_typhon": {
             "warning": "Lunatic LoT is hard to make believable"
         },
+        "barista": {
+            "warning": "A doubled Lunatic prevents the Demon from keeping up the illusion"
+        },
         "revolutionary": {
             "conflict": "Lunatic in the pair prevents the Revolutionary from being used an accessibility tool"
         },
@@ -11500,6 +11796,9 @@
         "harlot": {
             "warning": "This role is fine to die to this Traveler"
         },
+        "gnome": {
+            "warning": "This role is fine to die to this Traveler"
+        },
         "revolutionary": {
             "good": "Partner can help this role out"
         },
@@ -11511,6 +11810,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "ventriloquist": {
+            "good": "Hidden roles are easier to pivot to for Ventriloquist"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -11596,6 +11898,9 @@
         "lord_of_typhon": {
             "warning": "Good players can't neighbor the Demon in LoT games. Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
+        "barista": {
+            "warning": "Useless to double"
+        },
         "gangster": {
             "warning": "This role is fine to die to this Traveler once used"
         },
@@ -11609,7 +11914,7 @@
             "good": "More deaths is good for Voudon"
         },
         "gnome": {
-            "warning": "Confirmable amigo"
+            "warning": "Confirmable amigo. This role is fine to die to this Traveler"
         },
         "cacklejack": {
             "warning": "Confirmed character change"
@@ -11627,7 +11932,7 @@
             "conflict": "Might accidentally break the rules"
         },
         "ventriloquist": {
-            "warning": "Confirmed roles can't convincingly pivot"
+            "warning": "Confirmed roles can't convincingly pivot. Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -11685,6 +11990,9 @@
         },
         "lord_of_typhon": {
             "good": "Hidden Outsiders work well with LoT, unless they become Minions"
+        },
+        "barista": {
+            "warning": "Cannot be doubled"
         },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
@@ -11826,6 +12134,9 @@
         "lord_of_typhon": {
             "good": "Great bluff for Minions"
         },
+        "deviant": {
+            "info": "Don't drunk the Deviant, it's rude"
+        },
         "gnome": {
             "good": "Interesting amigo"
         },
@@ -11953,6 +12264,9 @@
         "harlot": {
             "warning": "This role is fine to die to this Traveler"
         },
+        "gnome": {
+            "warning": "This role is fine to die to this Traveler"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
         },
@@ -12024,6 +12338,9 @@
             "good": "Hidden Outsiders work well with LoT, unless they become Minions",
             "warning": "If Heretic becomes a Minion, it can confirm that no Heretic is in-play"
         },
+        "barista": {
+            "warning": "Shouldn't be doubled"
+        },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
@@ -12041,6 +12358,10 @@
         },
         "tor": {
             "conflict": "Unknown Heretic can lead to unfun games"
+        },
+        "ventriloquist": {
+            "good": "Hidden roles are easier to pivot to for Ventriloquist",
+            "warning": "Pivoting to Heretic is a double-edged sword"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -12374,6 +12695,9 @@
         "yaggababble": {
             "good": "This role gives good opportunities for phrases"
         },
+        "barista": {
+            "warning": "Useless to double"
+        },
         "beggar": {
             "good": "This role can determine the (dead) Ogre's alignment"
         },
@@ -12460,6 +12784,9 @@
         "lord_of_typhon": {
             "good": "Great bluff for Minions"
         },
+        "barista": {
+            "warning": "Useless to double"
+        },
         "bishop": {
             "warning": "Zealot will vote on every nomination"
         },
@@ -12492,6 +12819,9 @@
         },
         "voudon": {
             "warning": "If Voudon is in-play, the Zealot cannot vote"
+        },
+        "gnome": {
+            "warning": "This role is fine to die to this Traveler"
         },
         "tor": {
             "warning": "Might accidentally break the rules (can be mitigated by playing as the Zeloat if you could be the Zealot, though this is likely to have a first day where a lot of people must vote)"
@@ -12593,6 +12923,9 @@
         "apprentice": {
             "warning": "Apprentice can't have this ability if they joined late"
         },
+        "barista": {
+            "warning": "Cannot be doubled"
+        },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
@@ -12646,6 +12979,12 @@
         },
         "yaggababble": {
             "good": "This role gives good opportunities for phrases"
+        },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
+        "deviant": {
+            "warning": "Don't poison the Deviant, it's rude"
         },
         "fibbin": {
             "warning": "Beware too much misinformation"
@@ -12714,6 +13053,9 @@
         },
         "apprentice": {
             "warning": "Apprentice can't have this ability"
+        },
+        "barista": {
+            "warning": "Useless to double"
         },
         "bone_collector": {
             "good": "Bone Collector can give a kill to the dead demon if Scarlet caught the pass"
@@ -12811,6 +13153,9 @@
         "lord_of_typhon": {
             "warning": "Spy is very powerful at muddling the LoT line"
         },
+        "barista": {
+            "warning": "Useless to double"
+        },
         "gnome": {
             "info": "The Spy can register as good (don't)"
         },
@@ -12877,11 +13222,20 @@
         "lord_of_typhon": {
             "warning": "Loud Minions might give out the extra one added by LoT"
         },
+        "barista": {
+            "warning": "Potentially loud double"
+        },
+        "bishop": {
+            "conflict": "Witch doesn't work until the Bishop dies"
+        },
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
         "revolutionary": {
             "good": "Partner can help this role out"
+        },
+        "ventriloquist": {
+            "warning": "Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -12948,6 +13302,9 @@
         "apprentice": {
             "warning": "Apprentice can't have this ability"
         },
+        "barista": {
+            "warning": "Cannot be doubled"
+        },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
@@ -12963,11 +13320,17 @@
         "gnome": {
             "great": "Very interesting amigo"
         },
+        "fiddler": {
+            "good": "Allows a fiddle between an alive and dead player (though hard to convinvingly orchestrate)"
+        },
         "revolutionary": {
             "warning": "Outed evils in the pair can be rough"
         },
         "tor": {
             "warning": "This role immediately knows who they are, but their target doesn't know what role they have"
+        },
+        "ventriloquist": {
+            "warning": "Ventriloquist can't prevent this role from triggering. Confirmed roles can't convincingly pivot"
         },
         "zenomancer": {
             "good": "Longer games are good for quests"
@@ -13077,7 +13440,7 @@
             "good": "LoT can become a Demon with ongoing benefits if they make a Pit-Hag"
         },
         "barista": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track. Loud double"
         },
         "cacklejack": {
             "warning": "Cacklejack makes it harder to know if a Pit-Hag is in-play"
@@ -13142,6 +13505,9 @@
         "yaggababble": {
             "good": "Madness works well for Yaggabbable phrases"
         },
+        "barista": {
+            "warning": "Loud double"
+        },
         "revolutionary": {
             "warning": "Can cause lying in the Rev pair",
             "good": "Partner can help this role out"
@@ -13193,6 +13559,9 @@
         "apprentice": {
             "good": "Once per game abilities are good for arriving late or leaving early"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
         "gangster": {
             "good": "Used abilities are safe to die"
         },
@@ -13213,6 +13582,9 @@
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
+        },
+        "ventriloquist": {
+            "warning": "Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -13286,6 +13658,9 @@
         "lord_of_typhon": {
             "warning": "Outsider modification might not apply. LoT makes this character harder to solve for"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
         "bureaucrat": {
             "good": "Helps with execution"
         },
@@ -13308,7 +13683,7 @@
             "warning": "This role immediately knows who they are"
         },
         "ventriloquist": {
-            "warning": "This role can make executions survivable"
+            "warning": "This role can make executions survivable. Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -13361,6 +13736,9 @@
         "apprentice": {
             "warning": "Apprentice needs to stay in-game until the end"
         },
+        "barista": {
+            "warning": "Cannot be doubled"
+        },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
@@ -13373,9 +13751,15 @@
         "cacklejack": {
             "good": "Swapping into ths role is interesting"
         },
+        "fiddler": {
+            "good": "Allows a fiddle between an alive and dead player (though hard to convinvingly orchestrate)"
+        },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play",
             "good": "This role can allow the Demon to learn who they are"
+        },
+        "ventriloquist": {
+            "info": "Ventriquolism doesn't matter on Mastermind day"
         },
         "zenomancer": {
             "good": "Longer games are good for quests"
@@ -13392,7 +13776,8 @@
             "great": "Good synergy"
         },
         "zombuul": {
-            "warning": "DA can't protect the Zombuul while it's dead"
+            "warning": "DA can't protect the Zombuul while it's dead",
+            "good": "Execution protection can allow the Zombuul to kill"
         },
         "riot": {
             "good": "An Alchemist with this ability is interesting for a Riot game"
@@ -13405,6 +13790,9 @@
         },
         "lil_monsta": {
             "warning": "DA can constantly protect the new babysitter"
+        },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
         },
         "bureaucrat": {
             "good": "Helps with execution"
@@ -13484,6 +13872,9 @@
         "apprentice": {
             "warning": "Apprentice can't have this ability"
         },
+        "barista": {
+            "warning": "Cannot be doubled"
+        },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
@@ -13504,6 +13895,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "ventriloquist": {
+            "good": "Pivoting to this role as a ventriloquism is interesting"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -13559,6 +13953,9 @@
         },
         "apprentice": {
             "warning": "Apprentice Fearmonger is outed immediately if they joined late"
+        },
+        "bishop": {
+            "conflict": "Fearmonger doesn't work until the Bishop dies"
         },
         "bureaucrat": {
             "good": "Helps with execution"
@@ -13629,6 +14026,9 @@
         },
         "apprentice": {
             "warning": "Apprentice can't have this ability"
+        },
+        "beggar": {
+            "good": "Gives another reason for evil players to give a vote token"
         },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role (though the bluff might be interesting)"
@@ -13703,6 +14103,9 @@
             "warning": "Beware two extra evils if Apprentice joined late",
             "good": "Once per game abilities are good for arriving late or leaving early"
         },
+        "barista": {
+            "warning": "Beware two extra evils if doubled"
+        },
         "gnome": {
             "warning": "The amigo/Traveller can change alignment"
         },
@@ -13770,6 +14173,9 @@
         "apprentice": {
             "warning": "Apprentice Psychopath is outed immediately and has no protection"
         },
+        "barista": {
+            "warning": "Loud double"
+        },
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
@@ -13789,7 +14195,7 @@
             "warning": "Not knowing you're this role makes it hard to play (everyone might try to Psychopath kill)"
         },
         "ventriloquist": {
-            "warning": "Confirmed roles can't convincingly pivot"
+            "warning": "Confirmed roles can't convincingly pivot. Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -13853,6 +14259,12 @@
         "apprentice": {
             "warning": "Apprentice Widow is outed immediately if they joined late"
         },
+        "barista": {
+            "warning": "Loud double"
+        },
+        "deviant": {
+            "warning": "Don't poison the Deviant, it's rude"
+        },
         "fibbin": {
             "warning": "Beware too much misinformation"
         },
@@ -13913,6 +14325,9 @@
         "apprentice": {
             "warning": "Apprentice can't have this ability"
         },
+        "barista": {
+            "warning": "Cannot be doubled"
+        },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
@@ -13933,6 +14348,9 @@
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "ventriloquist": {
+            "good": "Pivoting to this role as a ventriloquism is interesting"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -13972,6 +14390,9 @@
         },
         "apprentice": {
             "warning": "Apprentice Organ Grinder is outed immediately if they joined late, and has no protection"
+        },
+        "barista": {
+            "warning": "Useless to double"
         },
         "bureaucrat": {
             "good": "Bureaucrat's effect is not announced"
@@ -14029,6 +14450,9 @@
         "apprentice": {
             "warning": "Apprentice Vizier is outed immediately"
         },
+        "barista": {
+            "warning": "Useless to double"
+        },
         "bureaucrat": {
             "warning": "This Traveller's abilit might not matter with a Vizier"
         },
@@ -14036,7 +14460,7 @@
             "good": "Extra executions gives more chances for this role to do something"
         },
         "thief": {
-            "warning": "This Traveller's abilit might not matter with a Vizier"
+            "warning": "This Traveller's ability might not matter with a Vizier"
         },
         "gnome": {
             "warning": "Confirmed amigo"
@@ -14098,6 +14522,9 @@
         "yaggababble": {
             "good": "Madness works well for Yaggabbable phrases. Both can simulate day deaths"
         },
+        "barista": {
+            "warning": "Loud double"
+        },
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
@@ -14113,6 +14540,9 @@
         },
         "stormcatcher": {
             "warning": "Harpy madness has no consequences on the stormcaught role"
+        },
+        "ventriloquist": {
+            "warning": "Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -14167,6 +14597,9 @@
         },
         "apprentice": {
             "warning": "Apprentice can't have this ability if joining late/leaving quite early"
+        },
+        "barista": {
+            "warning": "Shouldn't be doubled"
         },
         "bishop": {
             "warning": "In 1 Minion games, a good Bishop will always nominate the Summoner on both day 1 and 2"
@@ -14223,6 +14656,9 @@
         "apprentice": {
             "good": "Apprentice-Boffin reveals its alignment to the Demon"
         },
+        "barista": {
+            "good": "Powerful role to double or guarantee"
+        },
         "gnome": {
             "good": "Interesting amigo"
         },
@@ -14266,6 +14702,9 @@
         },
         "apprentice": {
             "info": "Creating a Xaan midgame uses the setup's outsider count. Changing the number of Outsiders midgame doesn't affect when the Xaan night is"
+        },
+        "barista": {
+            "warning": "Useless to double"
         },
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
@@ -14318,7 +14757,7 @@
             "good": "The wish stays after the exile. Once per game abilities are good for arriving late or leaving early"
         },
         "barista": {
-            "warning": "Beware multiple wishes"
+            "warning": "Beware multiple wishes if doubled"
         },
         "bone_collector": {
             "warning": "Beware multiple wishes"
@@ -14327,7 +14766,8 @@
             "good": "Interesting amigo"
         },
         "cacklejack": {
-            "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+            "good": "Cacklejack can either replace this ability once used or give a use mid-game",
+            "warning": "Beware multiple wishes"
         },
         "revolutionary": {
             "warning": "Be careful of wishes that break the pair",
@@ -14423,13 +14863,17 @@
         "tor": {
             "warning": "This role tells ALL evil players they are evil (including themself)"
         },
+        "ventriloquist": {
+            "warning": "Confirmed roles can't convincingly pivot"
+        },
         "zenomancer": {
             "good": "Interesting role to give information about"
         }
     },
     "imp": {
         "barista": {
-            "good": "Single kill Demons can kill twice with a Barista"
+            "good": "Single kill Demons can kill twice with a Barista",
+            "warning": "Potentially loud double"
         },
         "bone_collector": {
             "good": "Bone Collector can give a kill to the dead Imp"
@@ -14444,6 +14888,9 @@
             "warning": "Not knowing you're this role makes it hard to play",
             "good": "A jump can tell both players their team"
         },
+        "ventriloquist": {
+            "good": "Imp can claim truthfully to survive before starpassing"
+        },
         "zenomancer": {
             "good": "Interesting role to give information about"
         }
@@ -14453,7 +14900,8 @@
             "warning": "Kazali makes this character hard to solve for"
         },
         "barista": {
-            "good": "Single kill Demons can kill twice with a Barista"
+            "good": "Single kill Demons can kill twice with a Barista",
+            "warning": "Potentially loud double"
         },
         "bone_collector": {
             "good": "Bone Collector can give a kill to the dead Fang Gu"
@@ -14491,7 +14939,8 @@
             "warning": "Kazali makes this character hard to solve for"
         },
         "barista": {
-            "good": "Single kill Demons can kill twice with a Barista"
+            "good": "Single kill Demons can kill twice with a Barista",
+            "warning": "Potentially loud double"
         },
         "cacklejack": {
             "warning": "If swapped, Minions lose their ability"
@@ -14506,7 +14955,7 @@
             "warning": "Sentinel can obfuscate the presence of this role"
         },
         "hindu": {
-            "conflict": "Vigormortis ability doees not work with Hindu"
+            "conflict": "Vigormortis ability does not work with Hindu"
         },
         "tor": {
             "good": "Vigormortis can deal with not knowing their team"
@@ -14517,7 +14966,8 @@
     },
     "no_dashii": {
         "barista": {
-            "good": "Single kill Demons can kill twice with a Barista"
+            "good": "Single kill Demons can kill twice with a Barista",
+            "warning": "Potentially loud double"
         },
         "cacklejack": {
             "good": "Swapping into ths role is interesting"
@@ -14531,7 +14981,8 @@
             "good": "Legion can easily fake a Vortox"
         },
         "barista": {
-            "good": "Single kill Demons can kill twice with a Barista"
+            "good": "Single kill Demons can kill twice with a Barista",
+            "warning": "Potentially loud double"
         },
         "bureaucrat": {
             "good": "Helps with execution"
@@ -14559,11 +15010,20 @@
         "al-hadikhia": {
             "good": "Al-had hiding on night 2 can fake a Po charge"
         },
+        "barista": {
+            "warning": "Potentially loud double"
+        },
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
+        "toymaker": {
+            "warning": "Po ignores the Toymaker by charging"
+        },
         "tor": {
             "warning": "This role can easily find out who they are"
+        },
+        "ventriloquist": {
+            "warning": "Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -14571,7 +15031,11 @@
     },
     "pukka": {
         "barista": {
-            "good": "Single kill Demons can kill twice with a Barista"
+            "good": "Single kill Demons can kill twice with a Barista",
+            "warning": "Potentially loud double"
+        },
+        "deviant": {
+            "warning": "Don't poison the Deviant, it's rude"
         },
         "gangster": {
             "warning": "Extra day deaths can kill the Pukka target"
@@ -14596,11 +15060,17 @@
         }
     },
     "shabaloth": {
+        "barista": {
+            "warning": "Potentially loud double"
+        },
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
         "tor": {
             "warning": "This role can easily find out who they are"
+        },
+        "ventriloquist": {
+            "warning": "Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -14608,7 +15078,8 @@
     },
     "zombuul": {
         "barista": {
-            "good": "Single kill Demons can kill twice with a Barista"
+            "good": "Single kill Demons can kill twice with a Barista",
+            "warning": "Potentially loud double"
         },
         "gangster": {
             "warning": "Gangster can't fully kill a Zombuul. Gunslinger kill prevents a Zombuul kill"
@@ -14626,31 +15097,40 @@
             "warning": "Doomsayer can prevent the Zombuul from attacking",
             "good": "Zombuul can survive the Doomsayer"
         },
+        "fiddler": {
+            "good": "Allows a fiddle between an alive and dead player (though hard to convinvingly orchestrate)"
+        },
         "hindu": {
             "conflict": "Zombuul ability doees not work with Hindu"
         },
         "tor": {
             "good": "Allows the Demon to learn who they are. This role can figure out who they are after some time"
         },
+        "ventriloquist": {
+            "great": "Ventriloquist eliminates need for other day surviving roles"
+        },
         "zenomancer": {
             "good": "Longer games are good for quests"
         }
     },
     "al-hadikhia": {
+        "barista": {
+            "warning": "Loud double"
+        },
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
         "cacklejack": {
             "warning": "Confirmed character change"
         },
-        "toymaker": {
-            "warning": "If the Al-Hadikhia doesn't kill, everyone learns this"
-        },
         "hindu": {
             "warning": "First choices matter less with Hindu"
         },
         "tor": {
             "warning": "This role immediately knows who they are"
+        },
+        "ventriloquist": {
+            "warning": "Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests",
@@ -14660,6 +15140,9 @@
     "riot": {
         "apprentice": {
             "warning": "Apprentice retains its Minion ability during Rot day"
+        },
+        "barista": {
+            "warning": "Useless to double"
         },
         "voudon": {
             "warning": "Few dead players means Voudon has a lot of power. Dead players are more often evil in a Riot game"
@@ -14730,7 +15213,7 @@
             "warning": "Leviathan can't kill"
         },
         "ventriloquist": {
-            "warning": "Limited executions can make Ventriloquist less interesting"
+            "warning": "Ventriloquist can't prevent this role from triggering"
         },
         "zenomancer": {
             "good": "Longer games are good for quests"
@@ -14738,7 +15221,8 @@
     },
     "lleech": {
         "barista": {
-            "good": "Single kill Demons can kill twice with a Barista"
+            "good": "Single kill Demons can kill twice with a Barista",
+            "warning": "Potentially loud double"
         },
         "gangster": {
             "warning": "Can kill the Lleech host"
@@ -14771,6 +15255,9 @@
     "legion": {
         "apprentice": {
             "good": "Apprentice can bring Minions to a Legion game"
+        },
+        "barista": {
+            "warning": "Useless to double"
         },
         "voudon": {
             "conflict": "Dead players will often be evil and it might not be possible to have good votes"
@@ -14808,7 +15295,8 @@
             "info": "Both add an extra Minion, so 5 Minions might be needed on the script"
         },
         "barista": {
-            "good": "Single kill Demons can kill twice with a Barista"
+            "good": "Single kill Demons can kill twice with a Barista",
+            "warning": "Potentially loud double"
         },
         "deviant": {
             "warning": "Evil Deviant can keep Lil Monsta theoretically forever"
@@ -14827,6 +15315,10 @@
         }
     },
     "ojo": {
+        "barista": {
+            "good": "Single kill Demons can kill twice with a Barista",
+            "warning": "Potentially loud double"
+        },
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
@@ -14848,7 +15340,8 @@
             "info": "If a player changes into an evil Minion, they won't know if it's Kazali or LoT"
         },
         "barista": {
-            "good": "Single kill Demons can kill twice with a Barista"
+            "good": "Single kill Demons can kill twice with a Barista",
+            "warning": "Potentially loud double"
         },
         "cacklejack": {
             "warning": "Useless ability mid-game"
@@ -14869,6 +15362,9 @@
     "yaggababble": {
         "lord_of_typhon": {
             "good": "Yaggababble can fake extra minions"
+        },
+        "deviant": {
+            "good": "This role gives good opportunities for phrases"
         },
         "voudon": {
             "good": "More deaths is good for Voudon"
@@ -14894,7 +15390,8 @@
     },
     "lord_of_typhon": {
         "barista": {
-            "good": "Single kill Demons can kill twice with a Barista"
+            "good": "Single kill Demons can kill twice with a Barista",
+            "warning": "Potentially loud double"
         },
         "beggar": {
             "warning": "Beggar can find out the LoT line"
@@ -14949,11 +15446,59 @@
         }
     },
     "barista": {
+        "beggar": {
+            "warning": "Useless to double"
+        },
+        "bishop": {
+            "warning": "Useless to double"
+        },
+        "bone_collector": {
+            "good": "Powerful role to double or guarantee"
+        },
+        "bureaucrat": {
+            "warning": "Loud double"
+        },
+        "butcher": {
+            "warning": "Loud double"
+        },
+        "deviant": {
+            "warning": "Useless to double"
+        },
+        "gangster": {
+            "warning": "Loud double"
+        },
+        "gunslinger": {
+            "warning": "Loud double"
+        },
+        "harlot": {
+            "warning": "Loud double"
+        },
+        "judge": {
+            "warning": "Loud double"
+        },
+        "matron": {
+            "warning": "Potentially loud double"
+        },
+        "scapegoat": {
+            "warning": "Cannot be doubled"
+        },
+        "thief": {
+            "warning": "Loud double"
+        },
+        "voudon": {
+            "warning": "Useless to double"
+        },
+        "cacklejack": {
+            "warning": "Loud double"
+        },
         "zenomancer": {
             "good": "Interesting role to give information about"
         }
     },
     "beggar": {
+        "voudon": {
+            "good": "Giving a dead vote has no consequence until the Voudon is exiled"
+        },
         "ferryman": {
             "warning": "Ferryman makes the Beggar much stronger"
         },
@@ -14969,7 +15514,7 @@
             "warning": "Both of these being in-play at once removes all vote control from alive players"
         },
         "gnome": {
-            "warning": "Only the ST nomintes with a Bishop in play"
+            "warning": "Only the ST nominates with a Bishop in play"
         },
         "hindu": {
             "warning": "Very influential Traveller to bring mid-game"
@@ -15008,19 +15553,30 @@
             "good": "More deaths is good for Voudon"
         },
         "ventriloquist": {
-            "good": "Extra executions gives more chances for this role to do something"
+            "good": "Extra executions gives more chances for this role to do something",
+            "warning": "Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
         }
     },
-    "deviant": {},
+    "deviant": {
+        "big_wig": {
+            "good": "Opens good opportunities to be funny"
+        },
+        "ventriloquist": {
+            "good": "Opens good opportunities to be funny"
+        }
+    },
     "gangster": {
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
         "tor": {
             "good": "Might get request to die to learn who you are"
+        },
+        "ventriloquist": {
+            "warning": "Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -15032,6 +15588,9 @@
         },
         "tor": {
             "good": "Might get request to die to learn who you are"
+        },
+        "ventriloquist": {
+            "warning": "Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -15046,6 +15605,9 @@
         },
         "tor": {
             "good": "Can help players figure out who they are"
+        },
+        "ventriloquist": {
+            "warning": "Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests",
@@ -15068,6 +15630,9 @@
         },
         "tor": {
             "good": "Can help players figure out who they are"
+        },
+        "ventriloquist": {
+            "warning": "Scapegoat is less useful when players can be saved by the Ventriloquist"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -15094,7 +15659,7 @@
             "good": "Can help players figure out who they are"
         },
         "ventriloquist": {
-            "warning": "Discourages specific nominations"
+            "warning": "Discourages specific nominations. Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
         "zenomancer": {
             "warning": "Shorter games means less time for quests"
@@ -15127,11 +15692,17 @@
     },
     "buddhist": {},
     "doomsayer": {
+        "ferryman": {
+            "great": "Interesting synergy"
+        },
         "hindu": {
             "good": "Interesting synergy"
         },
         "tor": {
             "good": "Can help players figure out who they are"
+        },
+        "ventriloquist": {
+            "warning": "Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
