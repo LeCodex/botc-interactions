@@ -47,7 +47,7 @@ fetch("./hermit.json")
   .then((x) => (hermit = x));
 
 const matchups_messages = [];
-const evilOrFabledTypes = ["minion", "demon", "fabled"];
+const evilFabledOrLoricTypes = ["minion", "demon", "fabled", "loric"];
 
 const hiddenMessages = [];
 
@@ -92,8 +92,8 @@ input.onchange = (evt) => {
       if (group.multiple && nonTravellers.length === 1 && nonTravellers[0] !== "atheist") {
         matchups_messages.push(["warning", ["global"], `Only one non-Traveller character that ${descriptor} (${formatCharacterName(nonTravellers[0])})`]);
       }
-      if (group.evil_or_fabled && inGroup.filter((e) => evilOrFabledTypes.includes(getCharacterType(e))) === 0) {
-        matchups_messages.push(["warning", ["global"], `No evil or Fabled character that ${descriptor}`]);
+      if (group.evil_or_fabled && inGroup.filter((e) => evilFabledOrLoricTypes.includes(getCharacterType(e))).length === 0) {
+        matchups_messages.push(["warning", ["global"], `No evil, Fabled, or Loric character that ${descriptor}`]);
       }
       if (inGroup.length > 1) {
         matchups_messages.push(["group", inGroup, group.name]);
