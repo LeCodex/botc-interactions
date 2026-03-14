@@ -29,6 +29,10 @@ a.bland {
   text-decoration: none;
 }
 
+a.bland:hover {
+  text-decoration: underline;
+}
+
 a:not(.bland) {
   color: deepskyblue
 }

@@ -5979,7 +5979,7 @@
             "good": "Hatter is a hidden Outsider"
         },
         "spy": {
-            "good": "Spy can appear as any Outsider (works best with hidden Outsiders). Spy can simulate this role"
+            "good": "Spy can appear as any Outsider (and can be shown what they were seen as. Works best with hidden Outsiders). Spy can simulate this role"
         },
         "evil_twin": {
             "warning": "Librarian Twin will have to invent targets"
@@ -9251,7 +9251,8 @@
             "warning": "Learning who the SC is makes the penalty even harsher"
         },
         "virgin": {
-            "good": "Outed characters are safe picks"
+            "good": "Outed characters are safe picks",
+            "warning": "Snake charmed Demon can confirm themself with the Virgin (very unlikely though)"
         },
         "washerwoman": {
             "warning": "Learning who the SC is makes the penalty even harsher"
@@ -10438,7 +10439,7 @@
             "warning": "In Teensyville, WW can be the only Townsfolk"
         },
         "spy": {
-            "good": "Spy can appear as any Townsfolk. Spy can simulate this role"
+            "good": "Spy can appear as any Townsfolk (and be shown what they got seen as). Spy can simulate this role"
         },
         "evil_twin": {
             "warning": "If WW sees one of the twins, it must see the other (not a good idea). WW twin will have to invent targets"
@@ -10935,7 +10936,7 @@
             "warning": "Recluse can appear evil, but is nearly untraceable"
         },
         "revolutionary": {
-            "info": "Recluse can register as evil (don't)"
+            "info": "Recluse can't register as evil for Revolutionary. If you want it to, make sure there's a good reason for it"
         },
         "spirit_of_ivory": {
             "info": "Recluse can register as evil (don't)"
