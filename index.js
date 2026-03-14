@@ -293,5 +293,6 @@ function formatCharacterName(name) {
 }
 
 function linkify(name) {
+  if (name.toLowerCase() == "global") return name;
   return `<a class="bland" href="https://wiki.bloodontheclocktower.com/${name.replace(/ /g, "_")}" target="_blank">${name}</a>`;
 }
