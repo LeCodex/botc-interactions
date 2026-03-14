@@ -156,6 +156,9 @@
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
+        },
         "hindu": {
             "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
         },
@@ -449,6 +452,9 @@
         "washerwoman": {
             "good": "Washerwoman can help eliminate Alsaahir candidates"
         },
+        "drunk": {
+            "warning": "Hard to tell if this role is drunk"
+        },
         "recluse": {
             "info": "Recluse can appear as a Minion or Demon (don't)"
         },
@@ -594,6 +600,9 @@
         "harlot": {
             "great": "Good synergy"
         },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
+        },
         "hindu": {
             "warning": "Minions becoming Travellers can make Alsaahir guesses very complicated"
         },
@@ -669,6 +678,9 @@
         },
         "tea_lady": {
             "good": "No/less night deaths can allow the Amnesiac to get more guesses"
+        },
+        "drunk": {
+            "warning": "Hard to tell if this role is drunk"
         },
         "sweetheart": {
             "warning": "Amnesiac works best with static droison, rather than new/moving one"
@@ -746,6 +758,10 @@
         },
         "barista": {
             "good": "Powerful role to double or guarantee"
+        },
+        "angel": {
+            "good": "Gives time to figure out their ability",
+            "warning": "Less beginner-friendly"
         },
         "revolutionary": {
             "good": "Partner can help this role out"
@@ -943,8 +959,11 @@
         "washerwoman": {
             "warning": "Confirmation of Atheist is unwise most of the time"
         },
+        "drunk": {
+            "good": "Can help fake Atheist"
+        },
         "recluse": {
-            "good": "Recluse is useful to create situations to fake Atheist"
+            "good": "Can help fake Atheist"
         },
         "sweetheart": {
             "warning": "Drunking Atheist mid-game is a bad idea (can be prevented)"
@@ -953,7 +972,7 @@
             "warning": "Evil players with Atheist is a bad idea"
         },
         "tinker": {
-            "good": "Tinker is useful to create situations to fake Atheist"
+            "good": "Can help fake Atheist"
         },
         "golem": {
             "good": "Golem miss can be an indicator"
@@ -1042,6 +1061,12 @@
         },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
+        },
+        "deviant": {
+            "good": "Good opportunities to be funny"
+        },
+        "angel": {
+            "warning": "Angel doesn't work with ST-controlled deaths. Not beginner-friendly"
         },
         "fibbin": {
             "warning": "Fibbin can make it hard to determine an Atheist game"
@@ -1169,7 +1194,7 @@
         },
         "drunk": {
             "good": "Drunk is a hidden Outsider",
-            "warning": "Balloonist adding a Drunk is untraceable"
+            "warning": "Balloonist adding a Drunk is untraceable. Hard to tell if this role is drunk"
         },
         "recluse": {
             "good": "Recluse can appear as any Minion or Demon"
@@ -1563,7 +1588,7 @@
         },
         "gunslinger": {
             "warning": "Dying during the day doesn't help trap characters",
-            "good": "A dead Banshee doesn't fear this Traveler"
+            "good": "A dead Banshee doesn't fear this Traveller"
         },
         "harlot": {
             "good": "Harlot can help kill trap charaters"
@@ -1576,10 +1601,13 @@
         },
         "gnome": {
             "warning": "Dying during the day doesn't help trap characters",
-            "good": "A dead Banshee doesn't fear this Traveler"
+            "good": "A dead Banshee doesn't fear this Traveller"
         },
         "cacklejack": {
             "good": "Turning a powerful role into a trap role can be interesting"
+        },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
         },
         "hindu": {
             "warning": "Dying is part of this character's ability and balance"
@@ -1650,7 +1678,7 @@
         "philosopher": {
             "good": "Evil Bounty Hunter can more easily find the evil team"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "warning": "This role as evil can't do much for the evil team"
         },
         "preacher": {
@@ -1901,7 +1929,7 @@
             "good": "Cannibal can get a second use of the ability"
         },
         "snake_charmer": {
-            "info": "Demon becomes a good poisoned Cannibal is snake charmed"
+            "info": "Demon becomes a good poisoned Cannibal if snake charmed"
         },
         "steward": {
             "good": "Cannibal can get a second round of first night info"
@@ -2193,7 +2221,7 @@
         "pixie": {
             "warning": "Pixie can only confirm this info"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "good": "Public info can help evil find each other"
         },
         "princess": {
@@ -2290,23 +2318,26 @@
         "barista": {
             "warning": "Useless to double"
         },
+        "beggar": {
+            "great": "Good synergy"
+        },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
         },
         "gangster": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "gunslinger": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "harlot": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "matron": {
             "warning": "Matron can make Chef information harder to parse"
         },
         "gnome": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
@@ -2367,7 +2398,7 @@
             "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
         "snake_charmer": {
-            "good": "Snake charmer can move the Demon"
+            "warning": "Snake Charmer can move the Demon"
         },
         "steward": {
             "good": "Steward can allow trust of hidden Townsfolk"
@@ -2483,7 +2514,7 @@
         "pixie": {
             "warning": "Pixie can only confirm this info"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "good": "Public info can help evil find each other"
         },
         "princess": {
@@ -2494,6 +2525,9 @@
         },
         "shugenja": {
             "warning": "Powerful synergy"
+        },
+        "snake_charmer": {
+            "warning": "Snake Charmer can move the Demon"
         },
         "town_crier": {
             "great": "Good synergy"
@@ -2577,23 +2611,26 @@
         "barista": {
             "warning": "Useless to double"
         },
+        "beggar": {
+            "great": "Good synergy"
+        },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
         },
         "gangster": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "gunslinger": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "harlot": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "matron": {
             "warning": "Matron can make Clockmaker information harder to parse"
         },
         "gnome": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
@@ -2624,13 +2661,16 @@
         "grandmother": {
             "good": "Courtier can drunk Grandmother to keep it alive"
         },
+        "librarian": {
+            "good": "Courtier can drunk the learned Outsiders"
+        },
         "lycanthrope": {
             "good": "Used once per game roles are good target for Lycanthrope kills"
         },
         "pacifist": {
             "good": "Confirming no evil execution survival role is active is good"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "warning": "Courtier drunking Poppy Grower and then killing them is very powerful (can be fixed with the optional rule)"
         },
         "professor": {
@@ -2647,6 +2687,9 @@
         },
         "village_idiot": {
             "good": "No/less night deaths can allow the Village Idiot to get more info"
+        },
+        "drunk": {
+            "warning": "Hard to tell if this role is drunk"
         },
         "saint": {
             "good": "Droison can cause a safe Saint execution"
@@ -2873,6 +2916,9 @@
         "duchess": {
             "great": "Good synergy"
         },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
+        },
         "revolutionary": {
             "conflict": "Cult Leader is either disabled or turns their partner"
         },
@@ -2930,8 +2976,11 @@
         "pacifist": {
             "good": "Confirming this role is in-play is good"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "good": "Confirming this role is in-play is good"
+        },
+        "snake_charmer": {
+            "good": "Can help figure out if a Snake Charm happened"
         },
         "soldier": {
             "good": "Confirming this role is in-play is good"
@@ -3069,7 +3118,7 @@
         "nightwatchman": {
             "great": "Good synergy"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "good": "Public info can help evil find each other"
         },
         "village_idiot": {
@@ -3200,6 +3249,9 @@
         "virgin": {
             "good": "Used once per game roles can be executed to be confirmed"
         },
+        "drunk": {
+            "warning": "Hard to tell if this role is drunk if there aren't loud evil characters"
+        },
         "recluse": {
             "info": "Recluse can be affected by Engineer (don't)"
         },
@@ -3270,7 +3322,7 @@
             "warning": "Adding a potentially loud Minion is confirmed"
         },
         "vigormortis": {
-            "warning": "Engineer can « kill » Minions"
+            "warning": "Engineer can ï¿½ï¿½killï¿½ï¿½ Minions"
         },
         "vortox": {
             "good": "Engineer can confirm this role isn't active"
@@ -3355,7 +3407,7 @@
         "monk": {
             "warning": "Beware too much protection without multiple sources of death"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "good": "Protection works well with PG"
         },
         "princess": {
@@ -3368,7 +3420,7 @@
             "good": "No/less night deaths can allow the Savant to get more info"
         },
         "snake_charmer": {
-            "good": "Snake Charmer can move the Demon"
+            "warning": "Snake Charmer can move the Demon"
         },
         "soldier": {
             "warning": "Beware too much protection without multiple sources of death"
@@ -3384,6 +3436,9 @@
         },
         "village_idiot": {
             "good": "No/less night deaths can allow the Village Idiot to get more info"
+        },
+        "drunk": {
+            "warning": "Hard to tell if this role is drunk"
         },
         "recluse": {
             "info": "Recluse can be affected by Exorcist (don't)"
@@ -3455,6 +3510,9 @@
         "barista": {
             "good": "Powerful role to double or guarantee"
         },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
+        },
         "pope": {
             "warning": "Beware too much protection"
         },
@@ -3518,7 +3576,7 @@
         "pixie": {
             "warning": "Pixie seeing hidden characters is complicated"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "warning": "Bad target for Farmer, fully keeps the evil team in the dark (can be fixed with the optional rule)"
         },
         "princess": {
@@ -3690,6 +3748,9 @@
         "doomsayer": {
             "warning": "Dying during the day doesn't help trap characters"
         },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
+        },
         "hindu": {
             "warning": "Dying is part of this character's ability and balance"
         },
@@ -3788,8 +3849,14 @@
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
+        "angel": {
+            "good": "Could receive advice on the punishment"
+        },
         "revolutionary": {
             "good": "Partner can help this role out"
+        },
+        "gardener": {
+            "good": "Advice can relate to the setup"
         },
         "tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
@@ -3826,7 +3893,7 @@
         "pacifist": {
             "good": "Flowergirl benefits from longer games"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "good": "Public info can help evil find each other"
         },
         "princess": {
@@ -4033,6 +4100,9 @@
         "virgin": {
             "warning": "Surviving the Virgin nomination is powerful"
         },
+        "drunk": {
+            "warning": "Hard to tell if this role is drunk"
+        },
         "moonchild": {
             "good": "This role can appear evil if picked by Moonchild"
         },
@@ -4114,16 +4184,16 @@
             "warning": "Bone Collector is useless on this role"
         },
         "gangster": {
-            "good": "This role can survive this Traveler"
+            "good": "This role can survive this Traveller"
         },
         "gunslinger": {
-            "good": "This role can survive this Traveler"
+            "good": "This role can survive this Traveller"
         },
         "harlot": {
-            "good": "This role can survive this Traveler"
+            "good": "This role can survive this Traveller"
         },
         "gnome": {
-            "good": "This role can survive this Traveler"
+            "good": "This role can survive this Traveller"
         },
         "hindu": {
             "warning": "Dying is part of this character's ability and balance"
@@ -4148,7 +4218,7 @@
         "magician": {
             "good": "Public info can help evil find each other"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "good": "Public info can help evil find each other"
         },
         "slayer": {
@@ -4238,6 +4308,9 @@
         "barista": {
             "good": "Powerful role to double or guarantee"
         },
+        "beggar": {
+            "great": "Good synergy"
+        },
         "hindu": {
             "warning": "Players leaving influences this role (change of false positive)"
         },
@@ -4277,7 +4350,7 @@
         "pixie": {
             "good": "Multiple deaths work well with Pixie"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "good": "Confirming this role is in-play is good"
         },
         "princess": {
@@ -4433,6 +4506,9 @@
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
+        },
         "revolutionary": {
             "good": "Partner can help this role out"
         },
@@ -4466,7 +4542,7 @@
         "pacifist": {
             "info": "Pacifist can act as  a pseudo-General"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "good": "General can detect a Poppygrower dying"
         },
         "preacher": {
@@ -4534,6 +4610,9 @@
         },
         "barista": {
             "warning": "Useless to double"
+        },
+        "angel": {
+            "good": "Can detect the weight of the punishment"
         },
         "hindu": {
             "warning": "Travellers are swingy"
@@ -4696,6 +4775,12 @@
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
+        "angel": {
+            "warning": "Angel doesn't work with ST-controlled deaths"
+        },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
+        },
         "hindu": {
             "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation (though the ST can decide to force an evil reincarnation)"
         },
@@ -4736,7 +4821,7 @@
         "pixie": {
             "good": "Pixie can get a second round of first night info"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "good": "Confirming this role is in-play is good"
         },
         "professor": {
@@ -4917,7 +5002,7 @@
         "pixie": {
             "warning": "Mad players are generally not a great target for High Priestess"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "good": "Confirming this role is in-play is good"
         },
         "ravenkeeper": {
@@ -4986,7 +5071,7 @@
             "warning": "Librarian seeing Damsel potentially makes Huntsman's job very easy, if they find them",
             "good": "Librarian is a great bluff for Minions to get the Damsel to out/find them"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "warning": "This role is useless to give as a new role to Damsel"
         },
         "professor": {
@@ -5000,6 +5085,9 @@
         },
         "hermit": {
             "warning": "Huntsman cannot neutralize Hermit"
+        },
+        "spy": {
+            "info": "Spy can appear as the Damsel and change characters"
         },
         "pit-hag": {
             "warning": "Pit-Hag can bring a new Damsel in-game"
@@ -5069,7 +5157,7 @@
         "nightwatchman": {
             "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "conflict": "Poppy Grower should not be drunk when it dies (can be fixed with the optional rule)",
             "good": "Protection works well with PG"
         },
@@ -5142,9 +5230,6 @@
         "boffin": {
             "good": "Good Boffin ability"
         },
-        "xaan": {
-            "warning": "Beware too much misinformation"
-        },
         "po": {
             "good": "Protection with multi-kill Demons works well"
         },
@@ -5169,9 +5254,6 @@
         },
         "deviant": {
             "warning": "Don't drunk the Deviant, it's rude"
-        },
-        "fibbin": {
-            "warning": "Beware too much misinformation"
         },
         "pope": {
             "warning": "Beware too much protection and drunkenness"
@@ -5202,7 +5284,7 @@
         "pixie": {
             "good": "Pixie can get a second round of first night info"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "good": "Public info can help evil find each other"
         },
         "preacher": {
@@ -5213,6 +5295,9 @@
         },
         "professor": {
             "good": "When resurrected, it gets new first night info (or same)"
+        },
+        "snake_charmer": {
+            "good": "Characters that hide can be good second Investigator pings"
         },
         "undertaker": {
             "great": "Good synergy",
@@ -5324,17 +5409,20 @@
         "barista": {
             "good": "Powerful role to double or guarantee"
         },
+        "beggar": {
+            "great": "Good synergy"
+        },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
         },
         "gangster": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "gunslinger": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "harlot": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
@@ -5368,7 +5456,7 @@
         "pacifist": {
             "good": "Confirming this role is in-play is good"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "good": "Public info can help evil find each other. Confirming this role is in-play is good"
         },
         "princess": {
@@ -5515,7 +5603,7 @@
         "pixie": {
             "great": "Good synergy"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "good": "Public info can help evil find each other. Confirming this role is in-play is good"
         },
         "soldier": {
@@ -5532,6 +5620,9 @@
         },
         "virgin": {
             "warning": "Virgin can kill King"
+        },
+        "drunk": {
+            "warning": "May be hard to tell if drunk"
         },
         "butler": {
             "warning": "Obvious master"
@@ -5635,7 +5726,7 @@
         },
         "apprentice": {
             "great": "Can explain an Apprentice dying in the night",
-            "warning": "Apprentice can't have this ability if they joined late"
+            "warning": "Apprentice shouldn't have this ability if they joined late"
         },
         "cacklejack": {
             "warning": "Creating an immediately active King is powerful"
@@ -5673,7 +5764,7 @@
         "pixie": {
             "good": "Pixie can get a second round of first night info"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "good": "Public info can help evil find each other"
         },
         "princess": {
@@ -5789,16 +5880,16 @@
             "good": "Start knowing roles are good to bone collect"
         },
         "gangster": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "gunslinger": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "harlot": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "gnome": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
@@ -5840,7 +5931,7 @@
             "good": "Can be faked on any player, since Drunk is a hidden Outsider"
         },
         "butler": {
-            "good": "Butler is given a player they can trsut"
+            "good": "Butler is given a player they can trust"
         },
         "recluse": {
             "good": "Recluse can hide from Librarian"
@@ -5879,7 +5970,7 @@
             "good": "Politician is a hidden Outsider"
         },
         "heretic": {
-            "warning": "Evil Librarian should not see Heretic. Also, confirmed Heretic is powerful"
+            "warning": "Confirmed Heretic is powerful"
         },
         "plague_doctor": {
             "good": "Plague Doctor is a hidden Outsider"
@@ -5895,6 +5986,9 @@
         },
         "cerenovus": {
             "good": "Cerenovus can hide the Librarian target"
+        },
+        "godfather": {
+            "good": "More likely to be able to pull off a successful Librarian bluff. More reason for a Librarian 0"
         },
         "fearmonger": {
             "good": "First night roles are good targets for Fearmonger"
@@ -5915,7 +6009,7 @@
             "good": "Fang Gu can turn the Librarian target into the Demon"
         },
         "vigormortis": {
-            "warning": "First night info is immune to Vigormortis poison"
+            "warning": "First night info is immune to Vigormortis poison. More reason for a Librarian 0"
         },
         "vortox": {
             "info": "Librarian only needs the seen role not to be among the targets (can be in or out of game)"
@@ -5929,6 +6023,9 @@
         "lleech": {
             "warning": "First night info must be false if Lleech host"
         },
+        "legion": {
+            "good": "More reason for a Librarian 0"
+        },
         "lil_monsta": {
             "good": "Great bluff for Minions"
         },
@@ -5936,10 +6033,10 @@
             "good": "Outing certain roles can get them killed"
         },
         "kazali": {
-            "good": "Great bluff for Minions"
+            "good": "Great bluff for Minions. More reason for a Librarian 0"
         },
         "lord_of_typhon": {
-            "good": "Great bluff for Minions"
+            "good": "Great bluff for Minions. More reason for a Librarian 0"
         },
         "apprentice": {
             "good": "Once per game abilities are good for arriving late or leaving early"
@@ -5948,19 +6045,22 @@
             "good": "Start knowing roles are good to bone collect"
         },
         "gangster": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "gunslinger": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "harlot": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "gnome": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+        },
+        "sentinel": {
+            "good": "More reason for a Librarion 0"
         },
         "tor": {
             "warning": "This role immediately knows who they are"
@@ -5990,7 +6090,7 @@
         "pixie": {
             "good": "Obvious faux paw"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "warning": "Lycanthrope can kill Poppy Grower",
             "good": "Protection works well with PG"
         },
@@ -6193,11 +6293,17 @@
         "gnome": {
             "info": "An evil Gnome can get the Faux Paw in a Lycanthrope game (don't)"
         },
+        "angel": {
+            "info": "Lycanthrope is a reason for a good player to be the most reponsible cause of death at night"
+        },
         "doomsayer": {
             "good": "Faux Paw registers as evil"
         },
         "duchess": {
             "good": "Faux Paw registers as evil"
+        },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
         },
         "hindu": {
             "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
@@ -6231,7 +6337,7 @@
         "pixie": {
             "warning": "Pixie gets no use from learning Magician"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "warning": "Magician only becomes useful if still alive when PG dies"
         },
         "preacher": {
@@ -6366,6 +6472,13 @@
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
         },
+        "matron": {
+            "good": "Makes the Magician harder to figure out if evil can't talk together",
+            "warning": "Makes the Magician harder to trick evil players"
+        },
+        "gnome": {
+            "warning": "A Magician amigo is likely to rat both of them out"
+        },
         "cacklejack": {
             "warning": "Useless ability mid-game"
         },
@@ -6434,11 +6547,23 @@
         "washerwoman": {
             "good": "Mathematician can help first night info"
         },
+        "drunk": {
+            "good": "Good source of malfunction (with the optional jinx)"
+        },
         "recluse": {
+            "good": "Good source of malfunction"
+        },
+        "lunatic": {
             "good": "Good source of malfunction"
         },
         "spy": {
             "good": "Good source of malfunction"
+        },
+        "evil_twin": {
+            "good": "Can help figure out the twins if one of them would be a malfunction"
+        },
+        "marionette": {
+            "good": "Good source of malfunction (if using the optional jinx)"
         },
         "xaan": {
             "good": "Mathematician can detect day characters that were poisoned the day afterward"
@@ -6585,7 +6710,7 @@
             "warning": "Apprentice needs to stay in-game until the end"
         },
         "barista": {
-            "good": "Powerful role to double or guarantee"
+            "good": "Powerful role to guarantee"
         },
         "doomsayer": {
             "warning": "Mayor can't protect from day death"
@@ -6617,7 +6742,7 @@
             "good": "This role doesn't have many ways to know if they're the Drunk"
         },
         "recluse": {
-            "good": "Recluse can appear as a Minion"
+            "good": "Recluse can appear as aï¿½Minion"
         },
         "moonchild": {
             "good": "If Moonchild is droisoned in the night after their choice, the target can appear evil"
@@ -6677,7 +6802,8 @@
             "warning": "Lil Monsta is immune to Minstrel drunkeness"
         },
         "barista": {
-            "good": "Can allow a player to work through Minstrel party"
+            "good": "Can allow a player to work through Minstrel party",
+            "warning": "Useless to double"
         },
         "bone_collector": {
             "warning": "Bone Collector is useless on this role"
@@ -6686,7 +6812,7 @@
             "good": "Extra executions gives more chances for this role to do something"
         },
         "fibbin": {
-            "warning": "Beware too much misinformation"
+            "info": "Mechanical info is immune to Fibbin"
         },
         "pope": {
             "warning": "Multiple copies of this role are redundant"
@@ -6702,7 +6828,7 @@
         }
     },
     "monk": {
-        "poppygrower": {
+        "poppy_grower": {
             "good": "Protection works well with PG"
         },
         "princess": {
@@ -6925,6 +7051,9 @@
             "good": "Cacklejack can either replace this ability once used or give a use mid-game",
             "warning": "Confirmed character change"
         },
+        "fibbin": {
+            "warning": "Hard to fib convincingly"
+        },
         "hindu": {
             "warning": "Confirmed good Traveller can be very powerful"
         },
@@ -6948,7 +7077,7 @@
         "pixie": {
             "good": "Pixie can get a second round of first night info"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "good": "Public info can help evil find each other"
         },
         "preacher": {
@@ -7079,16 +7208,16 @@
             "good": "Start knowing roles are good to bone collect"
         },
         "gangster": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "gunslinger": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "harlot": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "gnome": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
@@ -7104,7 +7233,7 @@
         }
     },
     "oracle": {
-        "poppygrower": {
+        "poppy_grower": {
             "good": "Public info can help evil find each other"
         },
         "professor": {
@@ -7339,8 +7468,11 @@
         "scapegoat": {
             "good": "Interesting synergy"
         },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
+        },
         "hindu": {
-            "good": "Executed players not saved by the Pacifist are more likely to become evil travelers"
+            "good": "Executed players not saved by the Pacifist are more likely to become evil Travellers"
         },
         "pope": {
             "warning": "Multiple copies of this role are redundant"
@@ -7359,7 +7491,7 @@
         "pixie": {
             "warning": "Pixie seeing Philo is somewhat redundant"
         },
-        "poppygrower": {
+        "poppy_grower": {
             "warning": "Philosopher choosing PG only moves who needs to be killed (if it's already in-play)"
         },
         "princess": {
@@ -7405,9 +7537,6 @@
         "boffin": {
             "good": "Good Boffin ability"
         },
-        "xaan": {
-            "warning": "Beware too much misinformation"
-        },
         "shabaloth": {
             "warning": "When resurrected, this gets another use of its ability"
         },
@@ -7440,7 +7569,7 @@
         }
     },
     "pixie": {
-        "poppygrower": {
+        "poppy_grower": {
             "good": "Confirming this role is in-play is good",
             "warning": "Pixie seeing hidden characters is complicated"
         },
@@ -7583,7 +7712,7 @@
             "good": "Interesting role to give information about"
         }
     },
-    "poppygrower": {
+    "poppy_grower": {
         "preacher": {
             "warning": "Both PG and Preacher can be rough on the evil team"
         },
@@ -8091,6 +8220,9 @@
         "doomsayer": {
             "good": "Princess can nominate the Doomsayer killed player"
         },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
+        },
         "revolutionary": {
             "good": "Partner can help this role out"
         },
@@ -8180,6 +8312,9 @@
         },
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+        },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
         },
         "revolutionary": {
             "good": "Partner can help this role out. Rev can misregister to get resurrected"
@@ -8610,9 +8745,6 @@
         "boffin": {
             "good": "Good Boffin ability (self-drunking only affects the Sailor ability)"
         },
-        "xaan": {
-            "warning": "Beware too much misinformation"
-        },
         "wraith": {
             "good": "This role can survive the Wraith's optional rule"
         },
@@ -8650,19 +8782,16 @@
             "warning": "Don't drunk the Deviant, it's rude"
         },
         "gangster": {
-            "good": "This role can survive this Traveler"
+            "good": "This role can survive this Traveller"
         },
         "gunslinger": {
-            "good": "This role can survive this Traveler"
+            "good": "This role can survive this Traveller"
         },
         "harlot": {
-            "good": "This role can survive this Traveler"
+            "good": "This role can survive this Traveller"
         },
         "gnome": {
-            "good": "This role can survive this Traveler"
-        },
-        "fibbin": {
-            "warning": "Beware too much misinformation"
+            "good": "This role can survive this Traveller"
         },
         "hindu": {
             "warning": "Dying is part of this character's ability and balance"
@@ -8846,6 +8975,9 @@
         "barista": {
             "good": "Powerful role to double or guarantee"
         },
+        "beggar": {
+            "great": "Good synergy"
+        },
         "bone_collector": {
             "good": "Once per game abilities are good to bone collect"
         },
@@ -8958,23 +9090,26 @@
         "barista": {
             "warning": "Useless to double"
         },
+        "beggar": {
+            "great": "Good synergy"
+        },
         "bone_collector": {
             "good": "Start knowing roles are good to bone collect"
         },
         "gangster": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "gunslinger": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "harlot": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "matron": {
-            "warning": "Matron can make Shugenja info obsolete"
+            "warning": "Matron can make Shugenja info hard to remember and follow"
         },
         "gnome": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
@@ -9098,6 +9233,9 @@
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
+        },
         "revolutionary": {
             "good": "Partner can help this role out. Rev can misregister and be killed"
         },
@@ -9118,11 +9256,14 @@
         "washerwoman": {
             "warning": "Learning who the SC is makes the penalty even harsher"
         },
+        "drunk": {
+            "warning": "Hard to tell if this role is drunk"
+        },
         "recluse": {
             "info": "Recluse can trigger Snake Charmer (don't)"
         },
         "barber": {
-            "warning": "The Demon can move around",
+            "warning": "The Demon can move around. A Barber swap removes the self-poison",
             "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
         "lunatic": {
@@ -9134,6 +9275,9 @@
         "puzzlemaster": {
             "warning": "Demon can move"
         },
+        "ogre": {
+            "warning": "If playing with the Friend rule, a Snake Charm creates an extra evil player"
+        },
         "scarlet_woman": {
             "warning": "Demon can move"
         },
@@ -9144,7 +9288,7 @@
             "warning": "Snake Charmer with an evil Twin can cause a twin change"
         },
         "pit-hag": {
-            "warning": "Demon can move",
+            "warning": "Demon can move (and be accidentally removed)",
             "good": "Pit-Hagging an evil player into a Snake Charmer is a way of moving the Demon"
         },
         "mezepheles": {
@@ -9167,7 +9311,7 @@
             "warning": "This ability is useless to the Demon"
         },
         "wraith": {
-            "good": "Outed characters are safe picks"
+            "good": "Outed characters are safe picks. Wraith learns about the Demon change and can help them coordinate"
         },
         "imp": {
             "warning": "Demon can move"
@@ -9181,6 +9325,12 @@
         "vortox": {
             "warning": "This role's info is immune to Vortox"
         },
+        "zombuul": {
+            "warning": "Snake Charmer cannot choose a \"dead\" Zombuul"
+        },
+        "riot": {
+            "warning": "A snake charmed Riot is a likely instant loss for evil on day 3"
+        },
         "legion": {
             "conflict": "Snake Charmer in a Legion game is very likely to \"succeed\", causing Legion to be outed"
         },
@@ -9193,6 +9343,9 @@
         },
         "apprentice": {
             "conflict": "Bad Apprentice ability"
+        },
+        "barista": {
+            "info": "Can remove snake charmer's self poisoning (don't)"
         },
         "bone_collector": {
             "warning": "Snake Charmer is a bad target for Bone Collector (if they become the Demon, they lose instantly)"
@@ -9209,8 +9362,14 @@
         "gnome": {
             "warning": "This amigo can change alignment. Snake charmed Demons would be safe to die, making the bluff harder"
         },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
+        },
         "revolutionary": {
             "conflict": "Snake Charmer is either disabled or turns their partner"
+        },
+        "zenomancer": {
+            "good": "Interesting role to give information about"
         }
     },
     "soldier": {
@@ -9420,19 +9579,19 @@
             "good": "Start knowing roles are good to bone collect"
         },
         "gangster": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "gunslinger": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "harlot": {
-            "good": "Checking this Traveller's alignment is powerful. This role is fine to die to this Traveler"
+            "good": "Checking this Traveller's alignment is powerful. This role is fine to die to this Traveller"
         },
         "scapegoat": {
             "good": "Checking this Traveller's alignment is powerful"
         },
         "gnome": {
-            "good": "This role is fine to die to this Traveler. Checking this Traveller's alignment is powerful"
+            "good": "This role is fine to die to this Traveller. Checking this Traveller's alignment is powerful"
         },
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
@@ -9566,13 +9725,13 @@
             "good": "Extra executions gives more chances for this role to do something"
         },
         "gangster": {
-            "good": "This role can protect from this Traveler"
+            "good": "This role can protect from this Traveller"
         },
         "gunslinger": {
-            "good": "This role can protect from this Traveler"
+            "good": "This role can protect from this Traveller"
         },
         "harlot": {
-            "good": "This role can protect from this Traveler"
+            "good": "This role can protect from this Traveller"
         },
         "matron": {
             "good": "Matron can change the Tea Lady's living neighbors"
@@ -9581,7 +9740,10 @@
             "good": "Interesting synergy"
         },
         "gnome": {
-            "good": "This role can protect from this Traveler"
+            "good": "This role can protect from this Traveller. An amigo saved by the Tea Lady extends the confirmation to the Gnome"
+        },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
         },
         "revolutionary": {
             "good": "Tea Lady protects their partner"
@@ -10107,9 +10269,6 @@
         "duchess": {
             "great": "Good synergy"
         },
-        "fibbin": {
-            "warning": "Beware too much misinformation"
-        },
         "hindu": {
             "warning": "The drunk Village Idiot might change"
         },
@@ -10231,6 +10390,9 @@
         "barista": {
             "warning": "Cannot be doubled"
         },
+        "beggar": {
+            "warning": "The Virgin-executed player probably doesn't have a reason to give their vote to the Beggar"
+        },
         "bishop": {
             "conflict": "Virgin cannot trigger in a Bishop game (only the ST nominates)"
         },
@@ -10242,6 +10404,9 @@
         },
         "cacklejack": {
             "warning": "Confirmed character change"
+        },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
         },
         "revolutionary": {
             "warning": "Double confirmation if in the Rev pair"
@@ -10333,16 +10498,16 @@
             "good": "Start knowing roles are good to bone collect"
         },
         "gangster": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "gunslinger": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "harlot": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "gnome": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "tor": {
             "warning": "This role immediately knows who they are"
@@ -10367,6 +10532,9 @@
         "pit-hag": {
             "good": "Creating this Outsider can be silent"
         },
+        "cerenovus": {
+            "good": "Can force players to build worlds that their information is wrong by making them mad as the drunk"
+        },
         "godfather": {
             "good": "Godfather can trigger off an Outsider that doesn't know it"
         },
@@ -10380,7 +10548,7 @@
             "good": "Widow knows who the Drunk is"
         },
         "xaan": {
-            "warning": "Hidden Outsiders make Xaan hard to solve for. Beware too much misinformation",
+            "warning": "Hidden Outsiders make Xaan hard to solve for",
             "good": "Xaan night can hint at the presence of a Drunk"
         },
         "fang_gu": {
@@ -10411,6 +10579,18 @@
         "lord_of_typhon": {
             "good": "Drunk can always be (re)assigned after ST assigns the Minions",
             "warning": "LoT adding a Drunk is untraceable"
+        },
+        "barista": {
+            "warning": "A Barista-sobered Drunk gets true info but still cannot mechanically affect the game"
+        },
+        "gnome": {
+            "good": "Interesting amigo"
+        },
+        "cacklejack": {
+            "warning": "Creating a Drunk is untraceable"
+        },
+        "fibbin": {
+            "good": "Can cause a Drunk to get good information"
         },
         "sentinel": {
             "warning": "Sentinel adding a Drunk is completely untraceable"
@@ -10536,13 +10716,13 @@
             "warning": "Cannot be doubled"
         },
         "gangster": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "gunslinger": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "harlot": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "judge": {
             "warning": "Evil Judge can end the game easily"
@@ -10552,7 +10732,7 @@
         },
         "gnome": {
             "good": "Interesting amigo",
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "revolutionary": {
             "good": "Partner can help this role out"
@@ -10611,16 +10791,16 @@
             "warning": "Useless to double"
         },
         "gangster": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "gunslinger": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "harlot": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "gnome": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "hindu": {
             "warning": "This Outsider can be killed to remove its downside"
@@ -10646,6 +10826,9 @@
         "golem": {
             "good": "Recluse can appear as a Demon (only use if it makes sense)"
         },
+        "snitch": {
+            "info": "Recluse can appear as a Minion (don't)"
+        },
         "spy": {
             "info": "Recluse can appear as any Minion or Demon on the Grimoire (don't)"
         },
@@ -10658,11 +10841,11 @@
         "godfather": {
             "info": "Recluse can appear as a Minion or Demon (don't)"
         },
-        "mastermind": {
-            "info": "Recluse can appear as a Demon (don't)"
-        },
         "fearmonger": {
             "info": "Recluse can appear as evil (don't)"
+        },
+        "marionette": {
+            "good": "The Marionette can be placed next to the Recluse"
         },
         "mezepheles": {
             "good": "Recluse can appear as evil and save a use of the ability"
@@ -10706,6 +10889,9 @@
         "leviathan": {
             "info": "Recluse can appear as evil (don't)"
         },
+        "legion": {
+            "info": "Recluse could appear as a Demon (dont)"
+        },
         "lil_monsta": {
             "good": "Great bluff for Minions"
         },
@@ -10728,16 +10914,19 @@
             "warning": "Bone Collector is useless on this role"
         },
         "gangster": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "gunslinger": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "harlot": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
+        },
+        "scapegoat": {
+            "info": "Recluse can appear as evil (probably don't)"
         },
         "gnome": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "doomsayer": {
             "good": "Recluse can appear as evil"
@@ -10745,11 +10934,14 @@
         "duchess": {
             "warning": "Recluse can appear evil, but is nearly untraceable"
         },
-        "fibbin": {
-            "warning": "Beware too much misinformation"
+        "revolutionary": {
+            "info": "Recluse can register as evil (don't)"
+        },
+        "spirit_of_ivory": {
+            "info": "Recluse can register as evil (don't)"
         },
         "hindu": {
-            "warning": "This Outsider can be killed to remove its downside"
+            "warning": "This Outsider can be killed to remove its downside. Recluse can turn into an evil Traveller (but probably don't"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -11032,9 +11224,6 @@
         "gnome": {
             "good": "Interesting amigo"
         },
-        "fibbin": {
-            "warning": "Beware too much misinformation"
-        },
         "hindu": {
             "warning": "Dying is part of this character's ability and balance"
         },
@@ -11103,16 +11292,19 @@
             "warning": "Cannot be doubled"
         },
         "gangster": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "gunslinger": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "harlot": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "gnome": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
+        },
+        "angel": {
+            "warning": "Madness breaks might be most reponsible for their own deaths"
         },
         "revolutionary": {
             "warning": "Can cause lying in the Rev pair"
@@ -11246,6 +11438,9 @@
         "gnome": {
             "good": "Interesting amigo"
         },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
+        },
         "revolutionary": {
             "good": "Partner can help this role out"
         },
@@ -11310,9 +11505,6 @@
         "boffin": {
             "good": "Good Boffin ability"
         },
-        "xaan": {
-            "warning": "Beware too much misinformation"
-        },
         "wraith": {
             "good": "Wraith knows when the Goon becomes evil"
         },
@@ -11348,9 +11540,6 @@
         },
         "gnome": {
             "warning": "This amigo can change alignment"
-        },
-        "fibbin": {
-            "warning": "Beware too much misinformation"
         },
         "revolutionary": {
             "conflict": "Goon is either disabled or turns their partner (still drunks people who chooses them)"
@@ -11489,6 +11678,9 @@
         "gnome": {
             "good": "Interesting amigo"
         },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
+        },
         "revolutionary": {
             "good": "Partner can help this role out"
         },
@@ -11582,6 +11774,9 @@
         },
         "voudon": {
             "good": "More deaths is good for Voudon"
+        },
+        "angel": {
+            "warning": "Angel doesn't work with ST-controlled deaths"
         },
         "hindu": {
             "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
@@ -11697,6 +11892,9 @@
         "barista": {
             "warning": "A doubled Lunatic prevents the Demon from keeping up the illusion"
         },
+        "angel": {
+            "info": "Lunatic is responsible for the deaths if they chose them"
+        },
         "revolutionary": {
             "conflict": "Lunatic in the pair prevents the Revolutionary from being used an accessibility tool"
         },
@@ -11788,16 +11986,16 @@
             "good": "Hidden Outsiders work well with LoT, unless they become Minions"
         },
         "gangster": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "gunslinger": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "harlot": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "gnome": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "revolutionary": {
             "good": "Partner can help this role out"
@@ -11902,22 +12100,25 @@
             "warning": "Useless to double"
         },
         "gangster": {
-            "warning": "This role is fine to die to this Traveler once used"
+            "warning": "This role is fine to die to this Traveller once used"
         },
         "gunslinger": {
-            "warning": "This role is fine to die to this Traveler once used"
+            "warning": "This role is fine to die to this Traveller once used"
         },
         "harlot": {
-            "warning": "This role is fine to die to this Traveler once used"
+            "warning": "This role is fine to die to this Traveller once used"
         },
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
         "gnome": {
-            "warning": "Confirmable amigo. This role is fine to die to this Traveler"
+            "warning": "Confirmable amigo. This role is fine to die to this Traveller"
         },
         "cacklejack": {
             "warning": "Confirmed character change"
+        },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
         },
         "revolutionary": {
             "warning": "Double confirmation if in the Rev pair"
@@ -12256,16 +12457,16 @@
             "good": "Bone collecting this role is interesting"
         },
         "gangster": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "gunslinger": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "harlot": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "gnome": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -12702,7 +12903,7 @@
             "good": "This role can determine the (dead) Ogre's alignment"
         },
         "gnome": {
-            "warning": "This amigo can change alignment"
+            "warning": "This amigo can change alignment. Ogre picking Gnome creates a confirmation chain"
         },
         "duchess": {
             "good": "Ogre can use the Duchess to find its alignment"
@@ -12800,13 +13001,13 @@
             "good": "Zealot helps with executions"
         },
         "gangster": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "gunslinger": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "harlot": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "judge": {
             "warning": "Judge will always be able to execute with a Zealot"
@@ -12821,7 +13022,7 @@
             "warning": "If Voudon is in-play, the Zealot cannot vote"
         },
         "gnome": {
-            "warning": "This role is fine to die to this Traveler"
+            "warning": "This role is fine to die to this Traveller"
         },
         "tor": {
             "warning": "Might accidentally break the rules (can be mitigated by playing as the Zeloat if you could be the Zealot, though this is likely to have a first day where a lot of people must vote)"
@@ -12930,10 +13131,10 @@
             "warning": "Bone Collector is useless on this role"
         },
         "gangster": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "gunslinger": {
-            "good": "This role is fine to die to this Traveler"
+            "good": "This role is fine to die to this Traveller"
         },
         "cacklejack": {
             "good": "Cacklejack can replace this Minion",
@@ -12959,9 +13160,6 @@
         "summoner": {
             "good": "Poisoner can simulate Summoner by poisoning the Demon"
         },
-        "xaan": {
-            "warning": "Beware too much misinformation"
-        },
         "wraith": {
             "good": "Wraith can guide this role"
         },
@@ -12985,9 +13183,6 @@
         },
         "deviant": {
             "warning": "Don't poison the Deviant, it's rude"
-        },
-        "fibbin": {
-            "warning": "Beware too much misinformation"
         },
         "revolutionary": {
             "good": "Partner can help this role out"
@@ -13118,12 +13313,15 @@
             "good": "This Minion is a good target for a starpass"
         },
         "fang_gu": {
-            "good": "Spy can appear as an Outsider. Knowing where the Outsiders are is useful"
+            "good": "Spy can appear as an Outsider so Fang Gu can jump to them. Knowing where the Outsiders are is useful"
         },
         "vigormortis": {
             "good": "Spy can appear as not a Minion to disable the poison"
         },
         "no_dashii": {
+            "info": "Spy can appear as a Townsfolk (not a good idea)"
+        },
+        "vortox": {
             "info": "Spy can appear as a Townsfolk (not a good idea)"
         },
         "shabaloth": {
@@ -13156,8 +13354,11 @@
         "barista": {
             "warning": "Useless to double"
         },
+        "scapegoat": {
+            "info": "Spy can appear as good"
+        },
         "gnome": {
-            "info": "The Spy can register as good (don't)"
+            "info": "Spy can register as good (don't)"
         },
         "doomsayer": {
             "good": "Spy can appear as good"
@@ -13166,10 +13367,13 @@
             "warning": "Spy can appear good, but is nearly untraceable"
         },
         "fibbin": {
-            "warning": "Beware too much misinformation"
+            "info": "Spy can register as good (don't)"
         },
         "revolutionary": {
             "good": "Good partner role"
+        },
+        "hindu": {
+            "info": "Can become a good Traveller (dont)"
         },
         "tor": {
             "warning": "This role immediately knows who they are"
@@ -13445,6 +13649,9 @@
         "cacklejack": {
             "warning": "Cacklejack makes it harder to know if a Pit-Hag is in-play"
         },
+        "angel": {
+            "warning": "Angel doesn't work with ST-controlled deaths"
+        },
         "revolutionary": {
             "good": "Partner can help this role out"
         },
@@ -13507,6 +13714,9 @@
         },
         "barista": {
             "warning": "Loud double"
+        },
+        "angel": {
+            "warning": "Madness breaks might be most reponsible for their own deaths"
         },
         "revolutionary": {
             "warning": "Can cause lying in the Rev pair",
@@ -13655,6 +13865,9 @@
         "kazali": {
             "warning": "There might be no Outsiders. Kazali makes this character hard to solve for"
         },
+        "yaggababble": {
+            "great": "Good synergy"
+        },
         "lord_of_typhon": {
             "warning": "Outsider modification might not apply. LoT makes this character harder to solve for"
         },
@@ -13667,8 +13880,17 @@
         "butcher": {
             "good": "Extra executions gives more chances for this role to do something"
         },
+        "gangster": {
+            "great": "Good synergy"
+        },
+        "gunslinger": {
+            "great": "Good synergy"
+        },
         "voudon": {
             "good": "More deaths is good for Voudon"
+        },
+        "gnome": {
+            "great": "Good synergy"
         },
         "revolutionary": {
             "good": "Partner can help this role out"
@@ -13887,6 +14109,9 @@
         "gnome": {
             "good": "Interesting amigo"
         },
+        "angel": {
+            "warning": "Angel doesn't work with ST-controlled deaths. Also Boomdandy doesn't give time for something bad to happen"
+        },
         "hindu": {
             "warning": "If there are Hindu deaths left when the Boomdandy explodes, the ST chooses the remaining Travellers, who stay alive during the countdown"
         },
@@ -13991,8 +14216,7 @@
             "warning": "Solo evil on 10-12 players is rough"
         },
         "xaan": {
-            "good": "Marionette Outsider doesn't count for Xaan, and can be useful to throw off the Xaan night",
-            "warning": "Beware too much misinformation"
+            "good": "Marionette Outsider doesn't count for Xaan, and can be useful to throw off the Xaan night"
         },
         "imp": {
             "good": "This Minion is a good target for a starpass. A dead Demon has no reason to hide to a Marionette"
@@ -14210,8 +14434,7 @@
             "warning": "Loud Minions can confirm a Summoner not being in-play"
         },
         "xaan": {
-            "great": "Good synergy (knows the number of Outsiders)",
-            "warning": "Beware too much misinformation"
+            "great": "Good synergy (knows the number of Outsiders)"
         },
         "wizard": {
             "good": "More information can help the Wizard choose its wish"
@@ -14265,8 +14488,8 @@
         "deviant": {
             "warning": "Don't poison the Deviant, it's rude"
         },
-        "fibbin": {
-            "warning": "Beware too much misinformation"
+        "matron": {
+            "warning": "Moving everyone around might make it hard to remember the Grimoire"
         },
         "tor": {
             "warning": "This role immediately knows who they are"
@@ -14528,6 +14751,9 @@
         "voudon": {
             "good": "More deaths is good for Voudon"
         },
+        "angel": {
+            "warning": "Madness breaks might be most reponsible for their own deaths"
+        },
         "duchess": {
             "good": "Harpy could cause people to lie about Duchess info"
         },
@@ -14676,23 +14902,11 @@
         "fang_gu": {
             "warning": "Avoid high Outsider count with Xaan. Xaan overrides Outsider modification"
         },
-        "vigormortis": {
-            "warning": "Beware too much misinformation"
-        },
-        "no_dashii": {
-            "warning": "Beware too much misinformation"
-        },
         "vortox": {
             "warning": "Xaan only affects mechanical roles with Vortox"
         },
-        "pukka": {
-            "warning": "Beware too much misinformation"
-        },
         "riot": {
             "warning": "Riot means Xaan must be a 1 or 2"
-        },
-        "lleech": {
-            "warning": "Beware too much misinformation"
         },
         "kazali": {
             "info": "Xaan does not override Kazali's outsider mod"
@@ -14708,9 +14922,6 @@
         },
         "cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
-        },
-        "fibbin": {
-            "warning": "Beware too much misinformation"
         },
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
@@ -14945,9 +15156,6 @@
         "cacklejack": {
             "warning": "If swapped, Minions lose their ability"
         },
-        "fibbin": {
-            "warning": "Beware too much misinformation"
-        },
         "revolutionary": {
             "good": "Rev can misregister to have the poison be placed further away"
         },
@@ -14968,6 +15176,9 @@
         "barista": {
             "good": "Single kill Demons can kill twice with a Barista",
             "warning": "Potentially loud double"
+        },
+        "matron": {
+            "warning": "Matron can make it hard to track what abilities were poisoned when"
         },
         "cacklejack": {
             "good": "Swapping into ths role is interesting"
@@ -15046,9 +15257,6 @@
         "gnome": {
             "warning": "Extra day deaths can kill the Pukka target"
         },
-        "fibbin": {
-            "warning": "Beware too much misinformation"
-        },
         "tor": {
             "warning": "Harder to identify as the Demon"
         },
@@ -15123,6 +15331,9 @@
         "cacklejack": {
             "warning": "Confirmed character change"
         },
+        "angel": {
+            "warning": "Al-Had deaths might have shared responsibility"
+        },
         "hindu": {
             "warning": "First choices matter less with Hindu"
         },
@@ -15149,6 +15360,9 @@
         },
         "gnome": {
             "warning": "Reduced number of nominations, hard to use on day 3"
+        },
+        "angel": {
+            "warning": "Riot doesn't give time for punishments"
         },
         "ferryman": {
             "warning": "Ferryman is useless with Riot"
@@ -15236,9 +15450,6 @@
         "cacklejack": {
             "good": "Swapping into ths role is interesting"
         },
-        "fibbin": {
-            "warning": "Beware too much misinformation"
-        },
         "fiddler": {
             "warning": "Outed Lleech can't win a Fiddler contest"
         },
@@ -15259,6 +15470,9 @@
         "barista": {
             "warning": "Useless to double"
         },
+        "matron": {
+            "warning": "Matron doesn't matter much on a Legion game, but makes it very unlikely for the good team to effectively coordinate"
+        },
         "voudon": {
             "conflict": "Dead players will often be evil and it might not be possible to have good votes"
         },
@@ -15268,8 +15482,14 @@
         "cacklejack": {
             "warning": "Swapping into this role is a detriment. Swapping out of Legion will probably give a massive advantage to the evil team"
         },
+        "angel": {
+            "warning": "Angel doesn't work with ST-controlled deaths"
+        },
         "ferryman": {
             "warning": "Legion benefits a lot from Ferryman"
+        },
+        "fibbin": {
+            "warning": "Legion already limits the info a lot, Fibbin is overkill"
         },
         "fiddler": {
             "conflict": "Legion with a Fiddler is a instant loss for good"
@@ -15304,6 +15524,9 @@
         "cacklejack": {
             "warning": "Cannot swap in or out of Lil Monsta"
         },
+        "angel": {
+            "warning": "Angel doesn't work with ST-controlled deaths"
+        },
         "hindu": {
             "good": "Hindu-ed Minions can still hold the baby (even if it's risky)"
         },
@@ -15321,6 +15544,9 @@
         },
         "voudon": {
             "good": "More deaths is good for Voudon"
+        },
+        "angel": {
+            "warning": "Angel doesn't work with ST-controlled deaths"
         },
         "pope": {
             "warning": "Duplicate characters make Ojo kills more arbitrary"
@@ -15352,6 +15578,9 @@
         "sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
         },
+        "gardener": {
+            "warning": "Kazali picking Minions may mess with a gardening"
+        },
         "pope": {
             "warning": "This role can bring more Outsiders into play than there are on the script"
         },
@@ -15370,7 +15599,10 @@
             "good": "More deaths is good for Voudon"
         },
         "gnome": {
-            "good": "Yaggababble could allow an evil Gnome to ake their amigo"
+            "good": "Yaggababble could allow an evil Gnome to fake their amigo"
+        },
+        "angel": {
+            "warning": "Angel doesn't work with ST-controlled deaths"
         },
         "buddhist": {
             "warning": "If Yaggababble is a Buddhist, it can't kill as effectively"
@@ -15447,7 +15679,7 @@
     },
     "barista": {
         "beggar": {
-            "warning": "Useless to double"
+            "warning": "Useless to double or sober"
         },
         "bishop": {
             "warning": "Useless to double"
@@ -15491,6 +15723,9 @@
         "cacklejack": {
             "warning": "Loud double"
         },
+        "fibbin": {
+            "info": "Fibbin can only affect one instance of a doubled ability"
+        },
         "zenomancer": {
             "good": "Interesting role to give information about"
         }
@@ -15499,11 +15734,14 @@
         "voudon": {
             "good": "Giving a dead vote has no consequence until the Voudon is exiled"
         },
+        "doomsayer": {
+            "good": "Lots of deaths and less nominations means Beggar can be more frivolous with their votes"
+        },
         "ferryman": {
             "warning": "Ferryman makes the Beggar much stronger"
         },
-        "tor": {
-            "good": "Can help players figure out who they are"
+        "fibbin": {
+            "warning": "Can cause the Beggar to receive false information"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -15516,6 +15754,9 @@
         "gnome": {
             "warning": "Only the ST nominates with a Bishop in play"
         },
+        "angel": {
+            "warning": "Bishop nominations are tough to determine \"most reponsible\""
+        },
         "hindu": {
             "warning": "Very influential Traveller to bring mid-game"
         },
@@ -15526,9 +15767,6 @@
     "bone_collector": {
         "hindu": {
             "warning": "Requires dead players to work"
-        },
-        "tor": {
-            "good": "Can help players figure out who they are"
         },
         "zenomancer": {
             "good": "Interesting role to give information about"
@@ -15561,10 +15799,20 @@
         }
     },
     "deviant": {
-        "big_wig": {
+        "matron": {
             "good": "Opens good opportunities to be funny"
         },
+        "buddhist": {
+            "warning": "Cannot joke while silent"
+        },
+        "big_wig": {
+            "good": "Opens good opportunities to be funny",
+            "warning": "Silence means less time to be funny"
+        },
         "ventriloquist": {
+            "good": "Opens good opportunities to be funny"
+        },
+        "zenomancer": {
             "good": "Opens good opportunities to be funny"
         }
     },
@@ -15620,11 +15868,23 @@
         }
     },
     "matron": {
+        "revolutionary": {
+            "warning": "The Revolutionary pair must be moved together"
+        },
+        "gardener": {
+            "conflict": "Matron messes with the gardening"
+        },
         "hindu": {
             "warning": "Very influential Traveller to bring mid-game"
         }
     },
     "scapegoat": {
+        "angel": {
+            "warning": "Angel doesn't work with ST-controlled deaths"
+        },
+        "fibbin": {
+            "warning": "Mechanical info is immune to Fibbin"
+        },
         "hindu": {
             "warning": "Can be executed and resurrected"
         },
@@ -15683,6 +15943,9 @@
         }
     },
     "angel": {
+        "doomsayer": {
+            "warning": "Angel doesn't work with ST-controlled deaths"
+        },
         "tor": {
             "warning": "Tor is not beginner-friendly"
         },
@@ -15690,7 +15953,17 @@
             "warning": "Discourages specific nominations"
         }
     },
-    "buddhist": {},
+    "buddhist": {
+        "doomsayer": {
+            "warning": "Cannot doomsay while silent"
+        },
+        "big_wig": {
+            "info": "Both interact with silence"
+        },
+        "tor": {
+            "warning": "Tor is not beginner-friendly"
+        }
+    },
     "doomsayer": {
         "ferryman": {
             "great": "Interesting synergy"
@@ -15717,7 +15990,11 @@
         }
     },
     "ferryman": {},
-    "fibbin": {},
+    "fibbin": {
+        "tor": {
+            "info": "Can give players incorrect info from a different role (dont)"
+        }
+    },
     "fiddler": {
         "zenomancer": {
             "warning": "Shorter games means less time for quests"

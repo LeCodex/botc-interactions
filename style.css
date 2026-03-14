@@ -24,11 +24,16 @@ h1, h2, h3 {
   text-align: center;
 }
 
-a {
+a.bland {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not(.bland) {
   color: deepskyblue
 }
 
-a:visited {
+a:visited:not(.bland) {
   color: darkorchid
 }
 

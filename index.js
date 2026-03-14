@@ -261,7 +261,7 @@ function printMessagesPerCharacter() {
           const names = document.createElement("span");
           const message = document.createElement("span");
           const deleteBtn = createDeleteButton(msg);
-          names.innerHTML = chars.map(formatCharacterName).join(' + ') + ': ';
+          names.innerHTML = chars.map(formatCharacterName).map(e => `<a class="bland" href="https://wiki.bloodontheclocktower.com/${e.replace(/ /g, "_")}" target="_blank">${e}</a>`).join(' + ') + ': ';
           names.style.color = color_per_message_type[type];
           message.innerHTML = msg;
 
