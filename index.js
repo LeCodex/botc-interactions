@@ -92,7 +92,7 @@ input.onchange = (evt) => {
       if (group.multiple && nonTravellers.length === 1 && nonTravellers[0] !== "atheist") {
         matchups_messages.push(["warning", ["global"], `Only one non-Traveller character that ${descriptor} (${formatCharacterName(nonTravellers[0])})`]);
       }
-      if (group.evil_or_fabled && inGroup.filter((e) => evilFabledOrLoricTypes.includes(getCharacterType(e))).length === 0) {
+      if (group.evil_or_fabled && inGroup.length > 0 && inGroup.filter((e) => evilFabledOrLoricTypes.includes(getCharacterType(e))).length === 0) {
         matchups_messages.push(["warning", ["global"], `No evil, Fabled, or Loric character that ${descriptor}`]);
       }
       if (inGroup.length > 1) {
@@ -134,7 +134,7 @@ function getFormattedCharacterKey(char) {
 function createDeleteButton(msg) {
   const deleteBtn = document.createElement("b");
   deleteBtn.innerHTML = "X ";
-  deleteBtn.style["cursor"] = "pointer";
+  deleteBtn.style.cursor = "pointer";
   deleteBtn.addEventListener("click", () => {
     hiddenMessages.push(msg);
     printMessages();
