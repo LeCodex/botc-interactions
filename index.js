@@ -189,12 +189,12 @@ function printMessagesPerType() {
       if (t === "group") {
         message.innerHTML = msg + ": ";
         message.style.color = color_per_message_type[t];
-        names.innerHTML = chars.map(formatCharacterName).join(', ');
+        names.innerHTML = chars.map(formatCharacterName).map(linkify).join(', ');
   
         elt.appendChild(message);
         elt.appendChild(names);
       } else {
-        names.innerHTML = chars.map(formatCharacterName).join(' + ') + ': ';
+        names.innerHTML = chars.map(formatCharacterName).map(linkify).join(' + ') + ': ';
         names.style.color = color_per_message_type[t];
         message.innerHTML = msg;
         const deleteBtn = createDeleteButton(msg);
@@ -261,7 +261,7 @@ function printMessagesPerCharacter() {
           const names = document.createElement("span");
           const message = document.createElement("span");
           const deleteBtn = createDeleteButton(msg);
-          names.innerHTML = chars.map(formatCharacterName).map(e => `<a class="bland" href="https://wiki.bloodontheclocktower.com/${e.replace(/ /g, "_")}" target="_blank">${e}</a>`).join(' + ') + ': ';
+          names.innerHTML = chars.map(formatCharacterName).map(linkify).join(' + ') + ': ';
           names.style.color = color_per_message_type[type];
           message.innerHTML = msg;
 
@@ -290,4 +290,8 @@ function formatCharacterName(name) {
     .split("_")
     .map(capitalizeFirstLetter)
     .join(" ");
+}
+
+function linkify(name) {
+  return `<a class="bland" href="https://wiki.bloodontheclocktower.com/${name.replace(/ /g, "_")}" target="_blank">${name}</a>`;
 }
