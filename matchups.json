@@ -3322,7 +3322,7 @@
             "warning": "Adding a potentially loud Minion is confirmed"
         },
         "vigormortis": {
-            "warning": "Engineer can ï¿½ï¿½killï¿½ï¿½ Minions"
+            "warning": "Engineer can « kill » Minions"
         },
         "vortox": {
             "good": "Engineer can confirm this role isn't active"
@@ -6742,7 +6742,7 @@
             "good": "This role doesn't have many ways to know if they're the Drunk"
         },
         "recluse": {
-            "good": "Recluse can appear as aï¿½Minion"
+            "good": "Recluse can appear as a Minion"
         },
         "moonchild": {
             "good": "If Moonchild is droisoned in the night after their choice, the target can appear evil"
