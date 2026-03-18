@@ -77,7 +77,8 @@ input.onchange = (evt) => {
     const characters = filecontent
       .filter((e) => e.id !== "_meta")
       .map((e) => (typeof e === "string" ? e : e.id))
-      .map((e) => getFormattedCharacterKey(e));
+      .map((e) => getFormattedCharacterKey(e))
+      .filter((e) => e !== undefined);
 
     const hermitActive = characters.some((e) => e === "Hermit");
     matchups_messages.length = 0;
