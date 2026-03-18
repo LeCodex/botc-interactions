@@ -1,502 +1,502 @@
 {
-    "drunk": {
-        "saint": {
+    "Drunk": {
+        "Saint": {
             "warning": "The Hermit Drunk cannot know they're the other role"
         },
-        "butler": {
+        "Butler": {
             "conflict": "The Hermit Drunk cannot know they're the other role"
         },
-        "recluse": {
+        "Recluse": {
             "warning": "The Hermit Drunk cannot know they're the other role"
         },
-        "barber": {
+        "Barber": {
             "warning": "The Hermit Drunk cannot know they're the other role. New hermits don't learn they're the Hermit"
         },
-        "sweetheart": {
+        "Sweetheart": {
             "warning": "The Hermit Drunk cannot know they're the other role"
         },
-        "mutant": {
+        "Mutant": {
             "great": "Interesting combination"
         },
-        "klutz": {
+        "Klutz": {
             "conflict": "The Hermit Drunk cannot know they're the other role, unless everyone must claim it"
         },
-        "goon": {
+        "Goon": {
             "warning": "The Hermit might learn they are this role"
         },
-        "moonchild": {
+        "Moonchild": {
             "conflict": "The Hermit Drunk cannot know they're the other role, unless everyone must claim it"
         },
-        "tinker": {
+        "Tinker": {
             "great": "Interesting combination"
         },
-        "lunatic": {
+        "Lunatic": {
             "conflict": "Doesn't work"
         },
-        "damsel": {
+        "Damsel": {
             "warning": "The Hermit Drunk cannot know they're the other role"
         },
-        "golem": {
+        "Golem": {
             "warning": "The Hermit might learn they are this role"
         },
-        "politician": {
+        "Politician": {
             "great": "Interesting combination"
         },
-        "puzzlemaster": {
+        "Puzzlemaster": {
             "warning": "The Hermit Drunk cannot know they're the other role"
         },
-        "snitch": {
+        "Snitch": {
             "warning": "The Hermit Drunk cannot know they're the other role"
         },
-        "heretic": {
+        "Heretic": {
             "conflict": "The Hermit Drunk cannot know they're the other role"
         },
-        "plague_doctor": {
+        "Plague Doctor": {
             "warning": "The Hermit Drunk cannot know they're the other role"
         },
-        "hatter": {
+        "Hatter": {
             "warning": "The Hermit Drunk cannot know they're the other role"
         },
-        "ogre": {
+        "Ogre": {
             "conflict": "Doesn't work"
         },
-        "zealot": {
+        "Zealot": {
             "conflict": "The Hermit Drunk cannot know they're the other role, unless everyone must claim it"
         }
     },
-    "saint": {
-        "recluse": {
+    "Saint": {
+        "Recluse": {
             "great": "Interesting combination"
         },
-        "barber": {
+        "Barber": {
             "warning": "The Hermit Saint can only die at night"
         },
-        "sweetheart": {
+        "Sweetheart": {
             "warning": "The Hermit Saint can only die at night"
         },
-        "mutant": {
+        "Mutant": {
             "warning": "The Hermit Saint can't defend itself"
         },
-        "klutz": {
+        "Klutz": {
             "warning": "The Hermit Saint can only die at night"
         },
-        "goon": {
+        "Goon": {
             "warning": "Dangerous but interesting combination. Goon makes it harder for the Hermit to die at night"
         },
-        "moonchild": {
+        "Moonchild": {
             "warning": "The Hermit Saint can only die at night"
         },
-        "tinker": {
+        "Tinker": {
             "warning": "Bad synergy"
         },
-        "golem": {
+        "Golem": {
             "conflict": "Hermit Golem Saint can kill itself"
         },
-        "politician": {
+        "Politician": {
             "great": "Interesting combination"
         },
-        "plague_doctor": {
+        "Plague Doctor": {
             "warning": "The Hermit Saint can only die at night"
         },
-        "hatter": {
+        "Hatter": {
             "warning": "The Hermit Saint can only die at night"
         },
-        "ogre": {
+        "Ogre": {
             "warning": "Dangerous but interesting combination"
         }
     },
-    "butler": {
-        "barber": {
+    "Butler": {
+        "Barber": {
             "good": "Prevents the Hermit from just being executed"
         },
-        "sweetheart": {
+        "Sweetheart": {
             "good": "Prevents the Hermit from just being executed",
             "warning": "Butler is hard to hide"
         },
-        "mutant": {
+        "Mutant": {
             "great": "Interesting combination",
             "warning": "Hermit Butler Mutant can't communicate with its master"
         },
-        "klutz": {
+        "Klutz": {
             "good": "Prevents the Hermit from just being executed",
             "warning": "Butler is hard to hide"
         },
-        "goon": {
+        "Goon": {
             "warning": "Butler is hard to hide"
         },
-        "moonchild": {
+        "Moonchild": {
             "good": "Prevents the Hermit from just being executed",
             "warning": "Butler is hard to hide"
         },
-        "lunatic": {
+        "Lunatic": {
             "conflict": "Doesn't work"
         },
-        "damsel": {
+        "Damsel": {
             "warning": "Butler is hard to hide. Hermit Butler Damsel can't easily communicate with its master"
         },
-        "golem": {
+        "Golem": {
             "warning": "Butler is hard to hide. Golem is hard to hide. Hermit Golem can control its death"
         },
-        "heretic": {
+        "Heretic": {
             "warning": "This ability can telegraph where the Hermit Heretic is (or prevents the Butler from communicating). Butler is hard to hide"
         },
-        "plague_doctor": {
+        "Plague Doctor": {
             "good": "Prevents the Hermit from just being executed",
             "warning": "Butler is hard to hide"
         },
-        "hatter": {
+        "Hatter": {
             "good": "Prevents the Hermit from just being executed",
             "warning": "Butler is hard to hide"
         },
-        "ogre": {
+        "Ogre": {
             "good": "Hermit Bulter Ogre can alwasy choose its friend as its master while they're alive"
         },
-        "zealot": {
+        "Zealot": {
             "warning": "Requires a jinx, most likely that the Butler must vote if able"
         }
     },
-    "recluse": {
-        "barber": {
+    "Recluse": {
+        "Barber": {
             "good": "ST can register the Hermit as a Demon to prevent a swap"
         },
-        "lunatic": {
+        "Lunatic": {
             "great": "Interesting combination"
         },
-        "damsel": {
+        "Damsel": {
             "good": "Misregistration could help conceal the Damsel"
         },
-        "snitch": {
+        "Snitch": {
             "info": "Hermit can give itself bluffs (don't)"
         }
     },
-    "barber": {
-        "sweetheart": {
+    "Barber": {
+        "Sweetheart": {
             "warning": "Hermit will probably be Barber swapped back into play, but moving a Sweetheart ends its ability"
         },
-        "mutant": {
+        "Mutant": {
             "good": "Hermit can control its death (somewhat)"
         },
-        "klutz": {
+        "Klutz": {
             "warning": "Hermit will probably be Barber swapped back into play"
         },
-        "goon": {
+        "Goon": {
             "warning": "Goon makes it harder for the Hermit to die. Beware two extra evils",
             "good": "Evil Barber can coordinate with evil"
         },
-        "moonchild": {
+        "Moonchild": {
             "warning": "Hermit will probably be Barber swapped back into play"
         },
-        "tinker": {
+        "Tinker": {
             "good": "ST can trigger this ability thanks to the Tinker",
             "warning": "Hermit will probably be Barber swapped back into play, but moving a Sweetheart ends its ability"
         },
-        "lunatic": {
+        "Lunatic": {
             "great": "Interesting combination"
         },
-        "damsel": {
+        "Damsel": {
             "warning": "Hermit will probably be Barber swapped back into play. This ability can telegraph where the Hermit Damsel is"
         },
-        "golem": {
+        "Golem": {
             "warning": "Golem is hard to hide. Hermit Golem can control its death"
         },
-        "politician": {
+        "Politician": {
             "conflict": "Swapping a player with an evil Policitian can create an evil Politician"
         },
-        "puzzlemaster": {
+        "Puzzlemaster": {
             "warning": "Changing who the Puzzlemaster is might change who is drunk, even if the new Puzzlemaster is dead"
         },
-        "snitch": {
+        "Snitch": {
             "warning": "Hermit will probably be Barber swapped back into play, which will trigger Snitch again"
         },
-        "heretic": {
+        "Heretic": {
             "warning": "This ability can telegraph where the Hermit Heretic is"
         },
-        "plague_doctor": {
+        "Plague Doctor": {
             "warning": "Hermit will probably be Barber swapped back into play"
         },
-        "hatter": {
+        "Hatter": {
             "warning": "Hermit will probably be Barber swapped back into play. ST can resolve abilities in either order"
         },
-        "ogre": {
+        "Ogre": {
             "warning": "Beware two extra evils",
             "good": "Evil Hermit Barber can coordinate"
         },
-        "zealot": {
+        "Zealot": {
             "warning": "Zealot is hard to hide"
         }
     },
-    "sweetheart": {
-        "mutant": {
+    "Sweetheart": {
+        "Mutant": {
             "good": "Hermit can control its death (somewhat)"
         },
-        "klutz": {
+        "Klutz": {
             "warning": "Announced death will force the reveal of this role"
         },
-        "goon": {
+        "Goon": {
             "warning": "Goon makes it harder for the Hermit to die"
         },
-        "moonchild": {
+        "Moonchild": {
             "warning": "Announced death will force the reveal of this role"
         },
-        "tinker": {
+        "Tinker": {
             "good": "ST can trigger this ability thanks to the Tinker"
         },
-        "lunatic": {
+        "Lunatic": {
             "great": "Interesting combination"
         },
-        "golem": {
+        "Golem": {
             "warning": "Golem is hard to hide. Hermit Golem can control its death"
         },
-        "zealot": {
+        "Zealot": {
             "warning": "Zealot is hard to hide"
         }
     },
-    "mutant": {
-        "klutz": {
+    "Mutant": {
+        "Klutz": {
             "good": "Hermit can control its death (somewhat)"
         },
-        "goon": {
+        "Goon": {
             "good": "Hermit can control its death (somewhat) and force their alginment to stay where it is"
         },
-        "moonchild": {
+        "Moonchild": {
             "good": "Hermit can control its death (somewhat)"
         },
-        "tinker": {
+        "Tinker": {
             "warning": "Bad synergy"
         },
-        "damsel": {
+        "Damsel": {
             "good": "Hermit can control its death (somewhat)"
         },
-        "golem": {
+        "Golem": {
             "warning": "Golem is hard to hide. Hermit Golem can control its death"
         },
-        "puzzlemaster": {
+        "Puzzlemaster": {
             "warning": "Will need other reasons to visit the ST to bluff"
         },
-        "snitch": {
+        "Snitch": {
             "warning": "Can't reveal its existence"
         },
-        "heretic": {
+        "Heretic": {
             "warning": "Can't reveal its existence"
         },
-        "plague_doctor": {
+        "Plague Doctor": {
             "good": "Hermit can control its death (somewhat)"
         },
-        "hatter": {
+        "Hatter": {
             "good": "Hermit can control its death (somewhat)"
         },
-        "zealot": {
+        "Zealot": {
             "warning": "Zealot is hard to hide"
         }
     },
-    "klutz": {
-        "goon": {
+    "Klutz": {
+        "Goon": {
             "warning": "Goon makes it harder for the Hermit to die"
         },
-        "moonchild": {
+        "Moonchild": {
             "info": "Distinguishable from regular Moonchild and Klutz"
         },
-        "tinker": {
+        "Tinker": {
             "good": "ST can trigger this ability thanks to the Tinker"
         },
-        "lunatic": {
+        "Lunatic": {
             "conflict": "Doesn't work"
         },
-        "damsel": {
+        "Damsel": {
             "warning": "This role's death might telegraph the presence of the Damsel"
         },
-        "golem": {
+        "Golem": {
             "warning": "Golem is hard to hide. Hermit Golem can control its death"
         },
-        "politician": {
+        "Politician": {
             "great": "Interesting combination"
         },
-        "heretic": {
+        "Heretic": {
             "warning": "This ability can telegraph where the Hermit Heretic is"
         },
-        "plague_doctor": {
+        "Plague Doctor": {
             "warning": "Announced death will force the reveal of this role"
         },
-        "hatter": {
+        "Hatter": {
             "warning": "Announced death will force the reveal of this role"
         },
-        "ogre": {
+        "Ogre": {
             "warning": "Dangerous combination"
         },
-        "zealot": {
+        "Zealot": {
             "warning": "Zealot is hard to hide"
         }
     },
-    "goon": {
-        "moonchild": {
+    "Goon": {
+        "Moonchild": {
             "warning": "Goon makes it harder for the Hermit to die"
         },
-        "tinker": {
+        "Tinker": {
             "good": "ST can force the Goon to stay in their alignment"
         },
-        "lunatic": {
+        "Lunatic": {
             "warning": "Doesn't work without a jinx, most likely the Lunatic doesn't learn if they change alignment"
         },
-        "damsel": {
+        "Damsel": {
             "conflict": "Evil Damsel doesn't work"
         },
-        "golem": {
+        "Golem": {
             "warning": "Golem is hard to hide. Hermit Golem can control its death"
         },
-        "plague_doctor": {
+        "Plague Doctor": {
             "warning": "Goon makes it harder for the Hermit to die"
         },
-        "hatter": {
+        "Hatter": {
             "warning": "Goon makes it harder for the Hermit to die"
         },
-        "ogre": {
+        "Ogre": {
             "warning": "Goon overrides Ogre"
         },
-        "zealot": {
+        "Zealot": {
             "warning": "Zealot is hard to hide"
         }
     },
-    "moonchild": {
-        "tinker": {
+    "Moonchild": {
+        "Tinker": {
             "good": "ST can trigger this ability thanks to the Tinker"
         },
-        "lunatic": {
+        "Lunatic": {
             "conflict": "Doesn't work"
         },
-        "damsel": {
+        "Damsel": {
             "warning": "This role's death might telegraph the presence of the Damsel"
         },
-        "golem": {
+        "Golem": {
             "warning": "Golem is hard to hide. Hermit Golem can control its death"
         },
-        "heretic": {
+        "Heretic": {
             "warning": "This ability can telegraph where the Hermit Heretic is"
         },
-        "plague_doctor": {
+        "Plague Doctor": {
             "warning": "Announced death will force the reveal of this role"
         },
-        "hatter": {
+        "Hatter": {
             "warning": "Announced death will force the reveal of this role"
         },
-        "zealot": {
+        "Zealot": {
             "warning": "Zealot is hard to hide"
         }
     },
-    "tinker": {
-        "lunatic": {
+    "Tinker": {
+        "Lunatic": {
             "warning": "Bad synergy"
         },
-        "damsel": {
+        "Damsel": {
             "warning": "Bad synergy"
         },
-        "plague_doctor": {
+        "Plague Doctor": {
             "good": "ST can trigger this ability thanks to the Tinker"
         },
-        "hatter": {
+        "Hatter": {
             "good": "ST can trigger this ability thanks to the Tinker"
         }
     },
-    "lunatic": {
-        "damsel": {
+    "Lunatic": {
+        "Damsel": {
             "conflict": "The Demon knows the Lunatic"
         },
-        "golem": {
+        "Golem": {
             "warning": "Bad synergy"
         },
-        "politician": {
+        "Politician": {
             "great": "Interesting combination"
         },
-        "puzzlemaster": {
+        "Puzzlemaster": {
             "warning": "Just a drunk"
         },
-        "heretic": {
+        "Heretic": {
             "great": "Interesting combination"
         },
-        "plague_doctor": {
+        "Plague Doctor": {
             "great": "Interesting combination"
         },
-        "hatter": {
+        "Hatter": {
             "great": "Interesting combination"
         },
-        "ogre": {
+        "Ogre": {
             "conflict": "Doesn't work"
         },
-        "zealot": {
+        "Zealot": {
             "conflict": "Doesn't work"
         }
     },
-    "damsel": {
-        "golem": {
+    "Damsel": {
+        "Golem": {
             "warning": "Golem is hard to hide. Hermit Golem can control its death"
         },
-        "politician": {
+        "Politician": {
             "conflict": "Doesn't work"
         },
-        "puzzlemaster": {
+        "Puzzlemaster": {
             "warning": "Will need other reasons to visit the ST to bluff"
         },
-        "heretic": {
+        "Heretic": {
             "great": "Interesting combination"
         },
-        "plague_doctor": {
+        "Plague Doctor": {
             "warning": "This role's death might telegraph the presence of the Damsel"
         },
-        "hatter": {
+        "Hatter": {
             "warning": "This role's death might telegraph the presence of the Damsel"
         },
-        "ogre": {
+        "Ogre": {
             "conflict": "Evil Damsel doesn't work"
         },
-        "zealot": {
+        "Zealot": {
             "conflict": "Zealot is hard to hide"
         }
     },
-    "golem": {
-        "politician": {
+    "Golem": {
+        "Politician": {
             "warning": "Golem is hard to hide. Hermit Golem can control its death"
         },
-        "heretic": {
+        "Heretic": {
             "warning": "This ability can telegraph where the Hermit Heretic is"
         },
-        "plague_doctor": {
+        "Plague Doctor": {
             "warning": "Golem is hard to hide. Hermit Golem can control its death"
         },
-        "hatter": {
+        "Hatter": {
             "warning": "Golem is hard to hide. Hermit Golem can control its death"
         }
     },
-    "politician": {
-        "heretic": {
+    "Politician": {
+        "Heretic": {
             "conflict": "Doesn't work"
         },
-        "ogre": {
+        "Ogre": {
             "great": "Interesting combination"
         },
-        "zealot": {
+        "Zealot": {
             "warning": "Zealot is hard to hide"
         }
     },
-    "puzzlemaster": {
-        "heretic": {
+    "Puzzlemaster": {
+        "Heretic": {
             "warning": "This ability can telegraph where the Hermit Heretic is"
         }
     },
-    "snitch": {},
-    "heretic": {
-        "zealot": {
+    "Snitch": {},
+    "Heretic": {
+        "Zealot": {
             "warning": "This ability can telegraph where the Hermit Heretic is"
         }
     },
-    "plague_doctor": {
-        "zealot": {
+    "Plague Doctor": {
+        "Zealot": {
             "warning": "Zealot is hard to hide"
         }
     },
-    "hatter": {
-        "zealot": {
+    "Hatter": {
+        "Zealot": {
             "warning": "Zealot is hard to hide"
         }
     },
-    "ogre": {},
-    "zealot": {}
+    "Ogre": {},
+    "Zealot": {}
 }

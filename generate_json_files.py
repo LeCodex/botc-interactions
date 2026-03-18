@@ -43,7 +43,7 @@ def extract_groups(row: list[str]):
         "name": row.pop(0),
         "recommended": row.pop(0) == "TRUE",
         "multiple": row.pop(0) == "TRUE",
-        "evil_or_fabled": row.pop(0) == "TRUE",
+        "not_only_good": row.pop(0) == "TRUE",
         "characters": [x for x in row if len(x) > 0]
     }
 

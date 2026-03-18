@@ -47,7 +47,7 @@ fetch("./hermit.json")
   .then((x) => (hermit = x));
 
 const matchups_messages = [];
-const evilFabledOrLoricTypes = ["minion", "demon", "fabled", "loric"];
+const goodCharacterTypes = ["townsfolk", "outsider"];
 
 const hiddenMessages = [];
 
@@ -67,7 +67,7 @@ input.onchange = (evt) => {
       filecontent = JSON.parse(evt.target.result);
     } catch (e) {
       if (e.name == "SyntaxError") {
-        alert("Error while parsing file");
+        alert("Error in file syntax");
       } else {
         throw e;
       }
@@ -76,42 +76,41 @@ input.onchange = (evt) => {
     console.log(filecontent);
     const characters = filecontent
       .filter((e) => e.id !== "_meta")
-      .map((e) => (typeof e === "string" ? e : e.id));
+      .map((e) => (typeof e === "string" ? e : e.id))
+      .map((e) => getFormattedCharacterKey(e));
 
-    const hermitActive = characters.some((e) => getFormattedCharacterKey(e) === "hermit");
+    const hermitActive = characters.some((e) => e === "Hermit");
     matchups_messages.length = 0;
     hiddenMessages.length = 0;
     for (const group of groups) {
-      const inGroup = group.characters.filter((e) => characters.some((f) => getFormattedCharacterKey(f) === e));
+      const inGroup = group.characters.filter((e) => characters.some((f) => f === e));
       const nonTravellers = inGroup.filter((e) => getCharacterType(e) !== "traveller");
       const descriptor = `${group.name.slice(0, 1).toLowerCase()}${group.name.slice(1)}`;
       if (group.recommended && nonTravellers.length === 0) {
-        matchups_messages.push(["warning", ["global"], `No non-Traveller character that ${descriptor}`]);
+        matchups_messages.push(["warning", ["Global"], `No non-Traveller character that ${descriptor}`]);
       }
       // Atheist can explain anything, but it will never do something that can't be explained otherwise
-      if (group.multiple && nonTravellers.length === 1 && nonTravellers[0] !== "atheist") {
-        matchups_messages.push(["warning", ["global"], `Only one non-Traveller character that ${descriptor} (${formatCharacterName(nonTravellers[0])})`]);
+      if (group.multiple && nonTravellers.length === 1 && nonTravellers[0] !== "Atheist") {
+        matchups_messages.push(["warning", ["Global"], `Only one non-Traveller character that ${descriptor} (${nonTravellers[0]})`]);
       }
-      if (group.evil_or_fabled && inGroup.length > 0 && inGroup.filter((e) => evilFabledOrLoricTypes.includes(getCharacterType(e))).length === 0) {
-        matchups_messages.push(["warning", ["global"], `No evil, Fabled, or Loric character that ${descriptor}`]);
+      if (group.not_only_good && inGroup.length > 0 && inGroup.every((e) => goodCharacterTypes.includes(getCharacterType(e)))) {
+        matchups_messages.push(["warning", ["Global"], `Only good characters that ${descriptor} (${inGroup.join(", ")}), consider adding one or more of following: ${group.characters.filter((e) => !goodCharacterTypes.includes(getCharacterType(e))).join(", ")}`]);
       }
       if (inGroup.length > 1) {
         matchups_messages.push(["group", inGroup, group.name]);
       }
     }
     for (const char of characters) {
-      const key = getFormattedCharacterKey(char);
-      if (!key) continue;
-      for (const [other, messages] of Object.entries(matchups[key])) {
-        if (!characters.includes(other.replace(/[_\-]/g, ""))) continue;
+      for (const [other, messages] of Object.entries(matchups[char])) {
+        if (!characters.includes(other)) continue;
         for (const [t, msg] of Object.entries(messages))
-          matchups_messages.push([t, [key, other], msg]);
+          matchups_messages.push([t, [char, other], msg]);
       }
-      if (hermitActive && hermit[key]) {
-        for (const [other, messages] of Object.entries(hermit[key])) {
-          if (!characters.includes(other.replace(/[_\-]/g, ""))) continue;
+      if (hermitActive && hermit[char]) {
+        for (const [other, messages] of Object.entries(hermit[char])) {
+          if (!characters.includes(other)) continue;
           for (const [t, msg] of Object.entries(messages))
-            matchups_messages.push([t, ["hermit", key, other], msg]);
+            matchups_messages.push([t, ["Hermit", char, other], msg]);
         }
       }
     }
@@ -126,7 +125,7 @@ displayTypeInput.onchange = () => { printMessages(); };
 
 function getFormattedCharacterKey(char) {
   for (const key of Object.keys(matchups))
-    if (char.replace(/[_\-]/g, "") === key.replace(/[_\-]/g, "")) return key;
+    if (char.toLowerCase().replace(/[_\- ']/g, "") === key.toLowerCase().replace(/[_\- ']/g, "")) return key;
 
   return undefined;
 }
@@ -189,12 +188,12 @@ function printMessagesPerType() {
       if (t === "group") {
         message.innerHTML = msg + ": ";
         message.style.color = color_per_message_type[t];
-        names.innerHTML = chars.map(formatCharacterName).map(linkify).join(', ');
+        names.innerHTML = chars.map(linkify).join(', ');
   
         elt.appendChild(message);
         elt.appendChild(names);
       } else {
-        names.innerHTML = chars.map(formatCharacterName).map(linkify).join(' + ') + ': ';
+        names.innerHTML = chars.map(linkify).join(' + ') + ': ';
         names.style.color = color_per_message_type[t];
         message.innerHTML = msg;
         const deleteBtn = createDeleteButton(msg);
@@ -244,7 +243,7 @@ function printMessagesPerCharacter() {
       if (messages_per_type.conflict.length)
         addons.push(`${messages_per_type.conflict.length} conflict(s)`);
 
-      title.innerHTML = `<h3>[${formatCharacterName(char)}]: ${addons.join(", ")}</h3>`;
+      title.innerHTML = `<h3>[${char}]: ${addons.join(", ")}</h3>`;
       title.style.color = color_per_character_type[category];
       title.style["font-weight"] = "bold";
       output.appendChild(title);
@@ -261,7 +260,7 @@ function printMessagesPerCharacter() {
           const names = document.createElement("span");
           const message = document.createElement("span");
           const deleteBtn = createDeleteButton(msg);
-          names.innerHTML = chars.map(formatCharacterName).map(linkify).join(' + ') + ': ';
+          names.innerHTML = chars.map(linkify).join(' + ') + ': ';
           names.style.color = color_per_message_type[type];
           message.innerHTML = msg;
 
@@ -283,13 +282,6 @@ function getCharacterType(char) {
 
 function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
-}
-
-function formatCharacterName(name) {
-  return name
-    .split("_")
-    .map(capitalizeFirstLetter)
-    .join(" ");
 }
 
 function linkify(name) {
