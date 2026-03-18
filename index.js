@@ -90,15 +90,16 @@ input.onchange = (evt) => {
         continue;
       }
       
+      const nonTravellerGroupMembers = group.characters.filter((e) => getCharacterType(e) !== "traveller");
       const descriptor = `${group.name.slice(0, 1).toLowerCase()}${group.name.slice(1)}`;
       if (group.recommended && nonTravellers.length === 0) {
-        matchups_messages.push(["warning", ["Global"], `No non-Traveller character that ${descriptor}`]);
+        matchups_messages.push(["warning", ["Global"], `No non-Traveller character that ${descriptor}, consider adding one or more of the following: ${nonTravellerGroupMembers.join(", ")}`]);
       }
       if (group.multiple && nonTravellers.length === 1) {
-        matchups_messages.push(["warning", ["Global"], `Only one non-Traveller character that ${descriptor} (${nonTravellers[0]})`]);
+        matchups_messages.push(["warning", ["Global"], `Only one non-Traveller character that ${descriptor} (${nonTravellers[0]}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => e !== nonTravellers[0]).join(", ")}`]);
       }
       if (group.not_only_good && inGroup.length > 0 && inGroup.every((e) => goodCharacterTypes.includes(getCharacterType(e)))) {
-        matchups_messages.push(["warning", ["Global"], `Only good characters that ${descriptor} (${inGroup.join(", ")}), consider adding one or more of following: ${group.characters.filter((e) => !goodCharacterTypes.includes(getCharacterType(e))).join(", ")}`]);
+        matchups_messages.push(["warning", ["Global"], `Only good characters that ${descriptor} (${inGroup.join(", ")}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => !goodCharacterTypes.includes(getCharacterType(e))).join(", ")}`]);
       }
       if (inGroup.length > 1) {
         matchups_messages.push(["group", inGroup, group.name]);
