@@ -85,12 +85,16 @@ input.onchange = (evt) => {
     for (const group of groups) {
       const inGroup = group.characters.filter((e) => characters.some((f) => f === e));
       const nonTravellers = inGroup.filter((e) => getCharacterType(e) !== "traveller");
+      // Atheist can explain anything, but it will never do something that can't be explained otherwise
+      if (nonTravellers.length === 1 && nonTravellers[0] === "Atheist") {
+        continue;
+      }
+      
       const descriptor = `${group.name.slice(0, 1).toLowerCase()}${group.name.slice(1)}`;
       if (group.recommended && nonTravellers.length === 0) {
         matchups_messages.push(["warning", ["Global"], `No non-Traveller character that ${descriptor}`]);
       }
-      // Atheist can explain anything, but it will never do something that can't be explained otherwise
-      if (group.multiple && nonTravellers.length === 1 && nonTravellers[0] !== "Atheist") {
+      if (group.multiple && nonTravellers.length === 1) {
         matchups_messages.push(["warning", ["Global"], `Only one non-Traveller character that ${descriptor} (${nonTravellers[0]})`]);
       }
       if (group.not_only_good && inGroup.length > 0 && inGroup.every((e) => goodCharacterTypes.includes(getCharacterType(e)))) {
