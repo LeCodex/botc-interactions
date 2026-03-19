@@ -107,6 +107,32 @@
         ]
     },
     {
+        "name": "Can differentiate Demons and Minions",
+        "recommended": true,
+        "multiple": false,
+        "not_only_good": false,
+        "characters": [
+            "Artist",
+            "Balloonist",
+            "Dreamer",
+            "Exorcist",
+            "Flowergirl",
+            "Fortune Teller",
+            "Gambler",
+            "Investigator",
+            "Juggler",
+            "Knight",
+            "Ravenkeeper",
+            "Sage",
+            "Savant",
+            "Snake Charmer",
+            "Slayer",
+            "Town Crier",
+            "Undertaker",
+            "Golem"
+        ]
+    },
+    {
         "name": "Explains no night deaths",
         "recommended": false,
         "multiple": false,

@@ -11077,7 +11077,7 @@
             "good": "Extra deaths work well with this Outsider"
         },
         "Pukka": {
-            "warning": "Pukka disables death abilities"
+            "warning": "Pukka disables death abilities. A new Pukka doesn't kill on its first night"
         },
         "Shabaloth": {
             "good": "Extra deaths work well with this Outsider"
@@ -12793,7 +12793,7 @@
             "good": "Interesting Demon to change into"
         },
         "Pukka": {
-            "warning": "If changed into a Pukka, no death will happen tonight"
+            "warning": "A new Pukka doesn't kill on its first night"
         },
         "Zombuul": {
             "conflict": "If a \"dead\" Zombuul changes character, they live, but still appear as dead"
@@ -13231,7 +13231,7 @@
             "warning": "Killing this Minion fully disables it, no matter what. A moving Vigormortis removes the ability of killed Minions"
         },
         "Pukka": {
-            "warning": "Pukka being saved by a Scarlet Woman guarantees a night of no death"
+            "warning": "Pukka being saved by a Scarlet Woman guarantees a night of no death. A new Pukka doesn't kill on its first night"
         },
         "Shabaloth": {
             "conflict": "If SW becomes the Shabaloth when 5 players are alive, they can win"
@@ -13620,7 +13620,7 @@
             "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "Pukka": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track. A new Pukka doesn't kill on its first night"
         },
         "Zombuul": {
             "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
