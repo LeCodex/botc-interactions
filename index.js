@@ -102,10 +102,10 @@ input.onchange = (evt) => {
         matchupMessages.push(["warning", ["Global"], `No non-Traveller character that ${descriptor}, consider adding one or more of the following: ${nonTravellerGroupMembers.map((e) => linkify(e, true)).join(", ")}`]);
       }
       if (group.multiple && nonTravellers.length === 1) {
-        matchupMessages.push(["warning", ["Global"], `Only one non-Traveller character that ${descriptor} (${nonTravellers[0]}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => e !== nonTravellers[0]).map((e) => linkify(e, true)).join(", ")}`]);
+        matchupMessages.push(["warning", ["Global"], `Only one non-Traveller character that ${descriptor} (${linkify(nonTravellers[0], true)}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => e !== nonTravellers[0]).map((e) => linkify(e, true)).join(", ")}`]);
       }
       if (group.not_only_good && inGroup.length > 0 && inGroup.every((e) => goodCharacterTypes.includes(getCharacterType(e)))) {
-        matchupMessages.push(["warning", ["Global"], `No character that ${descriptor} and isn't a Townsfolk or Outsider (${inGroup.join(", ")}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => !goodCharacterTypes.includes(getCharacterType(e))).map((e) => linkify(e, true)).join(", ")}`]);
+        matchupMessages.push(["warning", ["Global"], `No character that ${descriptor} and isn't a Townsfolk or Outsider (${inGroup.map((e) => linkify(e, true)).join(", ")}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => !goodCharacterTypes.includes(getCharacterType(e))).map((e) => linkify(e, true)).join(", ")}`]);
       }
       if (inGroup.length > 1) {
         matchupMessages.push(["group", inGroup, group.name]);
