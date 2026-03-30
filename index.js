@@ -217,7 +217,7 @@ function printMessagesPerType() {
         message.style.color = color_per_message_type[t];
         names.innerHTML = chars.map(linkify).join(', ');
         for (const child of names.children) {
-          child.style.color = color_per_message_type[getCharacterType(child.innerText)];
+          if (child.tagName == "a") child.style.color = color_per_character_type[getCharacterType(child.innerText)];
         }
   
         elt.appendChild(message);
