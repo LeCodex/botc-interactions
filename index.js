@@ -5,7 +5,7 @@ const output = document.getElementById("returnList");
 const displayTypeInput = document.getElementById("displayTypeInput");
 
 const color_per_message_type = {
-  info: "",
+  info: "gray",
   good: "lime",
   great: "aqua",
   warning: "yellow",
@@ -51,7 +51,7 @@ fetch("./hermit.json")
   .then((x) => x.json())
   .then((x) => (hermit = x));
 
-const matchups_messages = [];
+const matchupMessages = [];
 const goodCharacterTypes = ["townsfolk", "outsider"];
 
 const hiddenMessages = [];
@@ -78,15 +78,15 @@ input.onchange = (evt) => {
       }
     }
 
-    console.log(filecontent);
     const characters = filecontent
       .filter((e) => e.id !== "_meta")
       .map((e) => (typeof e === "string" ? e : e.id))
       .map((e) => getFormattedCharacterKey(e))
       .filter((e) => e !== undefined);
+    console.log(characters);
 
     const hermitActive = characters.some((e) => e === "Hermit");
-    matchups_messages.length = 0;
+    matchupMessages.length = 0;
     hiddenMessages.length = 0;
     for (const group of groups) {
       const inGroup = group.characters.filter((e) => characters.some((f) => f === e));
@@ -99,16 +99,16 @@ input.onchange = (evt) => {
       const nonTravellerGroupMembers = group.characters.filter((e) => getCharacterType(e) !== "traveller");
       const descriptor = `${group.name.slice(0, 1).toLowerCase()}${group.name.slice(1)}`;
       if (group.recommended && nonTravellers.length === 0) {
-        matchups_messages.push(["warning", ["Global"], `No non-Traveller character that ${descriptor}, consider adding one or more of the following: ${nonTravellerGroupMembers.join(", ")}`]);
+        matchupMessages.push(["warning", ["Global"], `No non-Traveller character that ${descriptor}, consider adding one or more of the following: ${nonTravellerGroupMembers.map((e) => linkify(e, true)).join(", ")}`]);
       }
       if (group.multiple && nonTravellers.length === 1) {
-        matchups_messages.push(["warning", ["Global"], `Only one non-Traveller character that ${descriptor} (${nonTravellers[0]}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => e !== nonTravellers[0]).join(", ")}`]);
+        matchupMessages.push(["warning", ["Global"], `Only one non-Traveller character that ${descriptor} (${nonTravellers[0]}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => e !== nonTravellers[0]).map((e) => linkify(e, true)).join(", ")}`]);
       }
       if (group.not_only_good && inGroup.length > 0 && inGroup.every((e) => goodCharacterTypes.includes(getCharacterType(e)))) {
-        matchups_messages.push(["warning", ["Global"], `No character that ${descriptor} and isn't a Townsfolk or Outsider (${inGroup.join(", ")}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => !goodCharacterTypes.includes(getCharacterType(e))).join(", ")}`]);
+        matchupMessages.push(["warning", ["Global"], `No character that ${descriptor} and isn't a Townsfolk or Outsider (${inGroup.join(", ")}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => !goodCharacterTypes.includes(getCharacterType(e))).map((e) => linkify(e, true)).join(", ")}`]);
       }
       if (inGroup.length > 1) {
-        matchups_messages.push(["group", inGroup, group.name]);
+        matchupMessages.push(["group", inGroup, group.name]);
       }
     }
 
@@ -116,19 +116,19 @@ input.onchange = (evt) => {
       for (const [other, messages] of Object.entries(matchups[char])) {
         if (!characters.includes(other)) continue;
         for (const [t, msg] of Object.entries(messages))
-          matchups_messages.push([t, [char, other], msg]);
+          matchupMessages.push([t, [char, other], msg]);
       }
       if (hermitActive && hermit[char]) {
         for (const [other, messages] of Object.entries(hermit[char])) {
           if (!characters.includes(other)) continue;
           for (const [t, msg] of Object.entries(messages))
-            matchups_messages.push([t, ["Hermit", char, other], msg]);
+            matchupMessages.push([t, ["Hermit", char, other], msg]);
         }
       }
     }
 
     for (const data of extra) {
-      let valid = true
+      let valid = true;
       for (const character of data.characters) {
         if (!characters.includes(character)) {
           valid = false;
@@ -137,7 +137,7 @@ input.onchange = (evt) => {
       }
       if (valid) {
         for (const [t, msg] of Object.entries(data.interaction)) {
-          matchups_messages.push([t, data.characters, msg]);
+          matchupMessages.push([t, data.characters, msg]);
         }
       }
     }
@@ -191,7 +191,7 @@ function printMessagesPerType() {
     conflict: [],
     group: [],
   };
-  for (const [type, chars, msg] of matchups_messages) {
+  for (const [type, chars, msg] of matchupMessages) {
     messages_per_type[type].push([chars, msg]);
   }
 
@@ -236,7 +236,7 @@ function printMessagesPerType() {
 
 function printMessagesPerCharacter() {
   const messages_per_character = {};
-  for (const [type, chars, msg] of matchups_messages) {
+  for (const [type, chars, msg] of matchupMessages) {
     for (const char of chars) {
       if (!messages_per_character[char])
         messages_per_character[char] = {
