@@ -31,7 +31,8 @@
             "Pukka",
             "Lleech",
             "Legion",
-            "Fibbin"
+            "Fibbin",
+            "Knaves"
         ]
     },
     {
@@ -83,27 +84,9 @@
             "Bureaucrat",
             "Butcher",
             "Thief",
-            "Scapegoat"
-        ]
-    },
-    {
-        "name": "Explains evil night deaths (ignoring extra evil)",
-        "recommended": true,
-        "multiple": false,
-        "not_only_good": false,
-        "characters": [
-            "Poppy Grower",
-            "Scarlet Woman",
-            "Pit-Hag",
-            "Imp",
-            "Fang Gu",
-            "Vigormortis",
-            "Zombuul",
-            "Legion",
-            "Lil' Monsta",
-            "Magician",
-            "Hindu",
-            "Tor"
+            "Scapegoat",
+            "Tor",
+            "Hindu"
         ]
     },
     {
@@ -130,6 +113,26 @@
             "Town Crier",
             "Undertaker",
             "Golem"
+        ]
+    },
+    {
+        "name": "Explains evil night deaths (ignoring extra evil)",
+        "recommended": true,
+        "multiple": false,
+        "not_only_good": false,
+        "characters": [
+            "Poppy Grower",
+            "Scarlet Woman",
+            "Pit-Hag",
+            "Imp",
+            "Fang Gu",
+            "Vigormortis",
+            "Zombuul",
+            "Legion",
+            "Lil' Monsta",
+            "Magician",
+            "Hindu",
+            "Tor"
         ]
     },
     {
@@ -160,7 +163,6 @@
             "Legion",
             "Lil' Monsta",
             "Ojo",
-            "Yaggababble",
             "Toymaker",
             "Evil Twin"
         ]
@@ -219,6 +221,37 @@
         ]
     },
     {
+        "name": "Explains day deaths",
+        "recommended": false,
+        "multiple": false,
+        "not_only_good": false,
+        "characters": [
+            "Tinker",
+            "Golem",
+            "Yaggababble",
+            "Slayer",
+            "Psychopath",
+            "Harpy",
+            "Witch"
+        ]
+    },
+    {
+        "name": "Explains non-specific character changes",
+        "recommended": false,
+        "multiple": false,
+        "not_only_good": false,
+        "characters": [
+            "Barber",
+            "Hatter",
+            "Pit-Hag",
+            "Farmer",
+            "Wizard",
+            "Riot",
+            "Cacklejack",
+            "Huntsman"
+        ]
+    },
+    {
         "name": "Benefits from longer games",
         "recommended": false,
         "multiple": false,
@@ -233,7 +266,8 @@
             "Village Idiot",
             "Slayer",
             "Puzzlemaster",
-            "Zenomancer"
+            "Zenomancer",
+            "Knaves"
         ]
     },
     {
@@ -280,7 +314,7 @@
         ]
     },
     {
-        "name": "Ignores droison during the game",
+        "name": "Fully ignores droison during the game",
         "recommended": false,
         "multiple": false,
         "not_only_good": false,
@@ -290,7 +324,58 @@
             "Snitch",
             "Ogre",
             "Zealot",
-            "Marionette"
+            "Marionette",
+            "Magician"
+        ]
+    },
+    {
+        "name": "Pushes good to lie/bluff beyond hiding powerful abilities",
+        "recommended": false,
+        "multiple": false,
+        "not_only_good": false,
+        "characters": [
+            "Cult Leader",
+            "Choirboy",
+            "Banshee",
+            "Farmer",
+            "Lycanthrope",
+            "Magician",
+            "Pixie",
+            "Poppy Grower",
+            "Preacher",
+            "Ravenkeeper",
+            "Sage",
+            "Snake Charmer",
+            "Soldier",
+            "Barber",
+            "Sweetheart",
+            "Mutant",
+            "Klutz",
+            "Goon",
+            "Moonchild",
+            "Lunatic",
+            "Damsel",
+            "Politician",
+            "Heretic",
+            "Plague Doctor",
+            "Hatter",
+            "Ogre",
+            "Marionette",
+            "Summoner",
+            "Mezepheles",
+            "Fang Gu",
+            "Ojo"
+        ]
+    },
+    {
+        "name": "Helps with execution",
+        "recommended": false,
+        "multiple": false,
+        "not_only_good": false,
+        "characters": [
+            "Banshee",
+            "Zealot",
+            "God of Ug"
         ]
     }
 ]

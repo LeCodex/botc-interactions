@@ -41,6 +41,11 @@ fetch("./matchups.json")
   })
   .then((x) => (matchups = x));
 
+let extra = {};
+fetch("./extra.json")
+  .then((x) => x.json())
+  .then((x) => (extra = x));
+
 let hermit = {};
 fetch("./hermit.json")
   .then((x) => x.json())
@@ -106,6 +111,7 @@ input.onchange = (evt) => {
         matchups_messages.push(["group", inGroup, group.name]);
       }
     }
+
     for (const char of characters) {
       for (const [other, messages] of Object.entries(matchups[char])) {
         if (!characters.includes(other)) continue;
@@ -117,6 +123,21 @@ input.onchange = (evt) => {
           if (!characters.includes(other)) continue;
           for (const [t, msg] of Object.entries(messages))
             matchups_messages.push([t, ["Hermit", char, other], msg]);
+        }
+      }
+    }
+
+    for (const data of extra) {
+      let valid = true
+      for (const character of data.characters) {
+        if (!characters.includes(character)) {
+          valid = false;
+          break;
+        }
+      }
+      if (valid) {
+        for (const [t, msg] of Object.entries(data.interaction)) {
+          matchups_messages.push([t, data.characters, msg]);
         }
       }
     }
@@ -195,6 +216,9 @@ function printMessagesPerType() {
         message.innerHTML = msg + ": ";
         message.style.color = color_per_message_type[t];
         names.innerHTML = chars.map(linkify).join(', ');
+        for (const child of names.children) {
+          child.style.color = color_per_message_type[getCharacterType(child.innerText)];
+        }
   
         elt.appendChild(message);
         elt.appendChild(names);

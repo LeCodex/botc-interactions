@@ -1,0 +1,214 @@
+[
+    {
+        "interaction": {
+            "info": "Anyone that thinks they're the Ravenkeeper and learns they died at night must pick that night"
+        },
+        "characters": [
+            "Hermit",
+            "Drunk",
+            "Klutz",
+            "Ravenkeeper"
+        ]
+    },
+    {
+        "interaction": {
+            "info": "Anyone that thinks they're the Sage and learns they died at night must pick that night"
+        },
+        "characters": [
+            "Hermit",
+            "Drunk",
+            "Klutz",
+            "Ravenkeeper"
+        ]
+    },
+    {
+        "interaction": {
+            "info": "Anyone that thinks they're the Ravenkeeper and learns they died at night must pick that night"
+        },
+        "characters": [
+            "Hermit",
+            "Drunk",
+            "Moonchild",
+            "Sage"
+        ]
+    },
+    {
+        "interaction": {
+            "info": "Anyone that thinks they're the Sage and learns they died at night must pick that night"
+        },
+        "characters": [
+            "Hermit",
+            "Drunk",
+            "Moonchild",
+            "Sage"
+        ]
+    },
+    {
+        "interaction": {
+            "info": "A Demon that thinks they have the Ravenkeeper ability and learns they died at night must pick that night"
+        },
+        "characters": [
+            "Hermit",
+            "Lunatic",
+            "Klutz",
+            "Boffin",
+            "Ravenkeeper"
+        ]
+    },
+    {
+        "interaction": {
+            "info": "A Demon that thinks they have the Sage ability and learns they died at night must pick that night"
+        },
+        "characters": [
+            "Hermit",
+            "Lunatic",
+            "Klutz",
+            "Boffin",
+            "Ravenkeeper"
+        ]
+    },
+    {
+        "interaction": {
+            "info": "A Demon that thinks they have the Ravenkeeper ability and learns they died at night must pick that night"
+        },
+        "characters": [
+            "Hermit",
+            "Lunatic",
+            "Moonchild",
+            "Boffin",
+            "Sage"
+        ]
+    },
+    {
+        "interaction": {
+            "info": "A Demon that thinks they have the Sage ability and learns they died at night must pick that night"
+        },
+        "characters": [
+            "Hermit",
+            "Lunatic",
+            "Moonchild",
+            "Boffin",
+            "Sage"
+        ]
+    },
+    {
+        "interaction": {
+            "info": "The Marionette reminder token is removed when the Spy sees the Grimoire"
+        },
+        "characters": [
+            "Magician",
+            "Marionette",
+            "Spy"
+        ]
+    },
+    {
+        "interaction": {
+            "info": "The Marionette reminder token is removed when the Widow sees the Grimoire"
+        },
+        "characters": [
+            "Magician",
+            "Marionette",
+            "Widow"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Vigormortis doesn't care about killing Minions due to the jinx"
+        },
+        "characters": [
+            "Magician",
+            "Wraith",
+            "Vigormortis"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Vigormortis doesn't care about killing Minions due to the jinx"
+        },
+        "characters": [
+            "Alchemist",
+            "Spy",
+            "Vigormortis"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Vigormortis doesn't care about killing Minions due to the jinx"
+        },
+        "characters": [
+            "Alchemist",
+            "Widow",
+            "Vigormortis"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Vigormortis doesn't care about killing Minions due to the jinx"
+        },
+        "characters": [
+            "Alchemist",
+            "Wraith",
+            "Vigormortis"
+        ]
+    },
+    {
+        "interaction": {
+            "conflict": "Lycanthrope kill prevents the jinx from having any effect"
+        },
+        "characters": [
+            "Magician",
+            "Wraith",
+            "Lycanthrope"
+        ]
+    },
+    {
+        "interaction": {
+            "conflict": "Lycanthrope kill prevents the jinx from having any effect"
+        },
+        "characters": [
+            "Alchemist",
+            "Spy",
+            "Lycanthrope"
+        ]
+    },
+    {
+        "interaction": {
+            "conflict": "Lycanthrope kill prevents the jinx from having any effect"
+        },
+        "characters": [
+            "Alchemist",
+            "Widow",
+            "Lycanthrope"
+        ]
+    },
+    {
+        "interaction": {
+            "conflict": "Lycanthrope kill prevents the jinx from having any effect"
+        },
+        "characters": [
+            "Alchemist",
+            "Wraith",
+            "Lycanthrope"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Activated Banshee can get up to 12 votes"
+        },
+        "characters": [
+            "Banshee",
+            "God of Ug",
+            "Bureaucrat"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Activated Banshee can get up to -6 votes"
+        },
+        "characters": [
+            "Banshee",
+            "God of Ug",
+            "Thief"
+        ]
+    }
+]

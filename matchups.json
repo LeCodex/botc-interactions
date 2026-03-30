@@ -41,7 +41,7 @@
             "good": "Acrobat can confirm a Philosopher has taken someone's ability"
         },
         "Princess": {
-            "good": "This role's death can be more trusted as coming from its ability"
+            "good": "This role's death can be more trusted as coming from its ability during Princess night"
         },
         "Sailor": {
             "good": "Acrobat can help a sailor determine who they drunked"
@@ -118,7 +118,8 @@
             "good": "Acrobat can help find the No Dashii"
         },
         "Vortox": {
-            "good": "Acrobat gives drunkeness mechanical value in Vortox games"
+            "good": "Acrobat gives drunkeness mechanical value in Vortox games",
+            "warning": "This role's info is immune to Vortox"
         },
         "Pukka": {
             "good": "Acrobat can narrow down incidental droison"
@@ -156,11 +157,17 @@
         "Voudon": {
             "good": "More deaths is good for Voudon"
         },
+        "Angel": {
+            "warning": "This role might be most responsible for their own death"
+        },
         "Fibbin": {
             "warning": "Mechanical info is immune to Fibbin"
         },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
+        },
+        "Knaves": {
+            "warning": "This role's info is immune to Knaves. This role benefits from longer games"
         },
         "Pope": {
             "warning": "Beware too many extra deaths good roles"
@@ -176,6 +183,9 @@
         }
     },
     "Alchemist": {
+        "Atheist": {
+            "warning": "Alchemist claims might be hard to distinguish between hiding Minions and Atheist game"
+        },
         "Bounty Hunter": {
             "warning": "Evil Alchemist is effectively another Minion"
         },
@@ -202,6 +212,9 @@
         },
         "Lycanthrope": {
             "good": "Obvious faux paw"
+        },
+        "Magician": {
+            "good": "Alchemist is unlikely to act weird around the Magician"
         },
         "Noble": {
             "good": "Good target for Noble"
@@ -274,6 +287,9 @@
         "Wizard": {
             "warning": "Very powerful ability for the Alchemist"
         },
+        "Vortox": {
+            "warning": "This role's info is immune to Vortox"
+        },
         "Riot": {
             "warning": "Alchemist retains its ability during Riot day"
         },
@@ -286,8 +302,14 @@
         "Scapegoat": {
             "warning": "Scapegoat saving an Alchemist is suspicious"
         },
+        "Angel": {
+            "warning": "Less beginner-friendly"
+        },
         "Hindu": {
             "good": "Travellers' alignments are equally uncertain as Alchemists'"
+        },
+        "Knaves": {
+            "warning": "This role's info is immune to Knaves"
         },
         "Pope": {
             "warning": "Can get very confusing for good, and potentially very confirmable"
@@ -551,6 +573,9 @@
         "Fang Gu": {
             "warning": "There can be multiple Demons"
         },
+        "Vortox": {
+            "warning": "This role's info is immune to Vortox"
+        },
         "Po": {
             "warning": "Alsaahir benefits from long games"
         },
@@ -606,8 +631,14 @@
         "Fibbin": {
             "warning": "Mechanical info is immune to Fibbin"
         },
+        "God of Ug": {
+            "warning": "This ability is hard to do when wearing the hat"
+        },
         "Hindu": {
             "warning": "Minions becoming Travellers can make Alsaahir guesses very complicated"
+        },
+        "Knaves": {
+            "warning": "This role's info is immune to Knaves"
         },
         "Tor": {
             "warning": "Not knowing you're this role makes it hard to play (everyone who didn't wake will try to guess)"
@@ -620,11 +651,14 @@
         }
     },
     "Amnesiac": {
+        "Atheist": {
+            "warning": "Amnesiac raises the bar for weird stuff happening if in the game. Amensiac with an Atheist-like ability is a bad idea"
+        },
         "Bounty Hunter": {
             "good": "Evil Amnesiac can get a Minion-like ability"
         },
         "Cannibal": {
-            "good": "Cannibal getting the Amnesiac ability can give it more time to figure it out"
+            "good": "Cannibal getting the Amnesiac ability can give it more time to figure it out (if ST allows them to share their ability)"
         },
         "Courtier": {
             "good": "No/less night deaths can allow the Amnesiac to get more guesses"
@@ -772,6 +806,12 @@
         "Gardener": {
             "good": "Can give interesting interactions for an Amnesiac ability"
         },
+        "God of Ug": {
+            "warning": "This ability is hard to do when wearing the hat"
+        },
+        "Knaves": {
+            "warning": "Amensiac questions can be very hard with a lying ST (can be ruled that questions are not affected)"
+        },
         "Pope": {
             "warning": "Can make the day phase long through ST consultations"
         },
@@ -902,6 +942,12 @@
         "Revolutionary": {
             "good": "Partner can help this role out"
         },
+        "God of Ug": {
+            "warning": "This ability is hard to do when wearing the hat"
+        },
+        "Knaves": {
+            "warning": "This role can easily detect which ST is lying"
+        },
         "Pope": {
             "good": "Cross-referencing information can be powerful"
         },
@@ -931,12 +977,18 @@
         "Farmer": {
             "warning": "Bad target for Farmer"
         },
+        "Grandmother": {
+            "good": "Grandmother surviving a grandchild death with no other sources of night deaths"
+        },
         "Huntsman": {
             "good": "Damselless Huntsman can be an indicator"
         },
         "Innkeeper": {
             "warning": "Drunking Atheist mid-game is a bad idea (can be prevented)",
             "good": "Protected players dying can be an indicator"
+        },
+        "Magician": {
+            "good": "Magician not being approached or seemingly doing nothing can be an indicator"
         },
         "Monk": {
             "good": "Protected players dying can be an indicator"
@@ -950,6 +1002,9 @@
         "Princess": {
             "good": "Can be executed day 1 for a Princess"
         },
+        "Sage": {
+            "good": "A Sage not waking after a night death with no other sources of night deaths can be an indicator"
+        },
         "Sailor": {
             "warning": "Drunking Atheist mid-game is a bad idea (can be prevented)"
         },
@@ -958,6 +1013,9 @@
         },
         "Steward": {
             "warning": "Steward should not see the Atheist"
+        },
+        "Virgin": {
+            "warning": "Confirmation of Atheist is unwise most of the time (but can be prevented through rules breaking)"
         },
         "Washerwoman": {
             "warning": "Confirmation of Atheist is unwise most of the time"
@@ -976,6 +1034,9 @@
         },
         "Tinker": {
             "good": "Can help fake Atheist"
+        },
+        "Lunatic": {
+            "good": "Can make payers believe there are evil players (initially)"
         },
         "Golem": {
             "good": "Golem miss can be an indicator"
@@ -1023,6 +1084,9 @@
         "Vizier": {
             "good": "Atheist can simulate announcements"
         },
+        "Summoner": {
+            "warning": "Evil players with Atheist is a bad idea"
+        },
         "Boffin": {
             "warning": "The setup doesn't apply. The ST can break the rules, but good wins if they're executed. Probably not a wise choice"
         },
@@ -1068,6 +1132,12 @@
         "Deviant": {
             "good": "Good opportunities to be funny"
         },
+        "Harlot": {
+            "warning": "Confirming the Atheist is not a good idea"
+        },
+        "Cacklejack": {
+            "warning": "Creating an Atheist mid-game is a bad idea"
+        },
         "Angel": {
             "warning": "Angel doesn't work with ST-controlled deaths. Not beginner-friendly"
         },
@@ -1075,7 +1145,7 @@
             "warning": "Fibbin can make it hard to determine an Atheist game"
         },
         "Fiddler": {
-            "warning": "Fiddler needs to be fibbed in an Atheist game"
+            "warning": "Fiddler needs to be fibbed in an Atheist game (but guarantees everyone wins)"
         },
         "Revolutionary": {
             "warning": "Confirming an Atheist with a Revolutionary is a bad idea"
@@ -1088,6 +1158,9 @@
         },
         "Hindu": {
             "conflict": "Killing this role can remove it from the game, ending the game"
+        },
+        "Knaves": {
+            "info": "Both STs can break the rules"
         },
         "Pope": {
             "warning": "Multiple Atheists will confirm each other more easily"
@@ -1362,6 +1435,10 @@
         "Hindu": {
             "warning": "Players can change character types"
         },
+        "Knaves": {
+            "good": "Once figured out, bad and good info are equally valuable",
+            "warning": "Knaves is useless N1 with this role"
+        },
         "Pope": {
             "good": "Cross-referencing information can be powerful"
         },
@@ -1376,6 +1453,9 @@
         "Bounty Hunter": {
             "good": "Confirmable evil characters are powerful and throw shade on their ability"
         },
+        "Cannibal": {
+            "good": "Helps with execution"
+        },
         "Chef": {
             "great": "Confirmation works well with this role"
         },
@@ -1389,7 +1469,7 @@
             "warning": "Beware too much confirmation"
         },
         "Gossip": {
-            "warning": "Gossip can kill this role without giving it its ability"
+            "warning": "Non-Demon kills don't trigger Banshee"
         },
         "Grandmother": {
             "good": "Banshee can also help confirm a Grandmother"
@@ -1398,16 +1478,21 @@
             "warning": "Banshee can stop working which confirms droison"
         },
         "Lycanthrope": {
-            "warning": "Lycanthrope can kill this character without giving it its ability"
+            "warning": "Non-Demon kills don't trigger Banshee"
         },
         "Mayor": {
-            "good": "Trap characters can receive a Mayor bounce"
+            "good": "Trap characters can receive a Mayor bounce",
+            "warning": "More votes means less likely to not get any executions"
         },
         "Minstrel": {
-            "warning": "Banshee can stop working which confirms droison"
+            "warning": "Banshee can stop working which confirms droison",
+            "good": "Helps with execution"
         },
         "Nightwatchman": {
             "warning": "Beware too much confirmation"
+        },
+        "Pacifist": {
+            "good": "Helps with execution"
         },
         "Philosopher": {
             "warning": "Banshee can stop working which confirms droison. Philosopher can double the Banshee ability both by dying first and by choosing after"
@@ -1416,7 +1501,8 @@
             "warning": "Pixie can double the confirmation"
         },
         "Princess": {
-            "warning": "Princess can prevent trap characters from triggering"
+            "warning": "Princess can prevent trap characters from triggering",
+            "good": "Helps with execution"
         },
         "Professor": {
             "warning": "If resurrected, the Banshee loses its ability"
@@ -1439,6 +1525,12 @@
         "Steward": {
             "good": "Steward can allow trust of hidden Townsfolk"
         },
+        "Tea Lady": {
+            "good": "Helps with execution"
+        },
+        "Undertaker": {
+            "good": "Helps with execution"
+        },
         "Virgin": {
             "warning": "Beware too much confirmation"
         },
@@ -1452,13 +1544,13 @@
             "warning": "Banshee can stop working which confirms droison. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
         },
         "Moonchild": {
-            "warning": "Moonchild can kill this role without giving it its ability"
+            "warning": "Non-Demon kills don't trigger Banshee"
         },
         "Damsel": {
             "good": "Damsel can safely out to this role once confirmed"
         },
         "Golem": {
-            "warning": "Dying during the day doesn't help trap characters"
+            "warning": "Non-Demon kills don't trigger Banshee"
         },
         "Puzzlemaster": {
             "warning": "Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
@@ -1477,7 +1569,7 @@
             "warning": "Seeing the Grimoire disables trap characters"
         },
         "Witch": {
-            "warning": "Dying during the day doesn't help trap characters"
+            "warning": "Non-Demon kills don't trigger Banshee"
         },
         "Evil Twin": {
             "warning": "Bad choice for a Twin"
@@ -1486,16 +1578,16 @@
             "good": "Pit-Hag can change the role of the Banshee once dead. Pit-Hag can create an evil Banshee"
         },
         "Assassin": {
-            "warning": "Assassin can kill a Banshee without giving it its ability"
+            "warning": "Non-Demon kills don't trigger Banshee"
         },
         "Godfather": {
-            "warning": "Godfather can kill a Banshee without giving it its ability"
+            "warning": "Non-Demon kills don't trigger Banshee"
         },
         "Boomdandy": {
-            "good": "More nominations is good for this role"
+            "good": "Helps with execution"
         },
         "Fearmonger": {
-            "good": "More nominations is good for this role"
+            "good": "Helps with execution"
         },
         "Marionette": {
             "warning": "\"Droisoned\" Banshee needs other reasons to die at night or is confirmed droisoned"
@@ -1504,16 +1596,19 @@
             "good": "Confirmable evil characters are powerful and throw shade on their ability"
         },
         "Psychopath": {
-            "warning": "Dying during the day doesn't help trap characters"
+            "warning": "Non-Demon kills don't trigger Banshee"
         },
         "Widow": {
             "warning": "Seeing the Grimoire disables trap characters. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
         },
         "Goblin": {
-            "good": "More nominations is good for this role"
+            "good": "Helps with execution"
+        },
+        "Organ Grinder": {
+            "good": "Voting twice is stronger when you can't see the votes"
         },
         "Harpy": {
-            "warning": "Dying during the day doesn't help trap characters",
+            "warning": "Non-Demon kills don't trigger Banshee",
             "good": "Confirmed good players are good Harpy targets"
         },
         "Boffin": {
@@ -1584,23 +1679,23 @@
             "warning": "Bone Collector is useless on this role"
         },
         "Bureaucrat": {
-            "good": "Bureaucrat can make the Banshee total votes count as 6"
+            "warning": "Bureaucrat can make the Banshee total votes count as 6"
         },
         "Gangster": {
-            "warning": "Dying during the day doesn't help trap characters"
+            "warning": "Non-Demon kills don't trigger Banshee"
         },
         "Gunslinger": {
-            "warning": "Dying during the day doesn't help trap characters",
+            "warning": "Non-Demon kills don't trigger Banshee",
             "good": "A dead Banshee doesn't fear this Traveller"
         },
         "Harlot": {
-            "good": "Harlot can help kill trap charaters"
+            "warning": "Non-Demon kills don't trigger Banshee"
         },
         "Thief": {
             "good": "Thief can make the Banshee total votes count as -2"
         },
         "Voudon": {
-            "warning": "Redundant with the Banshee"
+            "warning": "Reduced number of voters make extra votes more powerful"
         },
         "Gnome": {
             "warning": "Dying during the day doesn't help trap characters",
@@ -1609,11 +1704,26 @@
         "Cacklejack": {
             "good": "Turning a powerful role into a trap role can be interesting"
         },
+        "Angel": {
+            "warning": "Angel protecting trap characters doesn't help them"
+        },
+        "Doomsayer": {
+            "warning": "Non-Demon kills don't trigger Banshee"
+        },
         "Fibbin": {
             "warning": "Mechanical info is immune to Fibbin"
         },
+        "Spirit of Ivory": {
+            "good": "Extra votes can elliviate the need for Spirit of Ivory (don't rely on it)"
+        },
+        "God of Ug": {
+            "warning": "Activated Banshee with the hat has 4 votes"
+        },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance"
+        },
+        "Knaves": {
+            "warning": "This role's info is immune to Vortox"
         },
         "Pope": {
             "warning": "Beware too much confirmation"
@@ -1737,6 +1847,9 @@
             "warning": "Beware two extra evil players",
             "good": "This role can learn the Ogre's alignment"
         },
+        "Zealot": {
+            "good": "Helps with execution"
+        },
         "Scarlet Woman": {
             "good": "With a Scarlet Woman, the Demon can safely die"
         },
@@ -1842,17 +1955,26 @@
         "Gnome": {
             "good": "Evil Gnome can introduce the evil Townsfolk to the rest of the evil team"
         },
+        "Angel": {
+            "warning": "If the Bounty Hunter learns the Angel protected player, they are effectively stuck. Less beginner-friendly"
+        },
         "Duchess": {
             "good": "Evil team and the evil Townsfolk can try to use Duchess to find each other"
         },
         "Spirit of Ivory": {
             "warning": "Bounty Hunter immediately triggers Spirit of Ivory"
         },
+        "God of Ug": {
+            "good": "Helps with execution"
+        },
         "Hindu": {
             "good": "Bounty Hunter can know the alignment of the new Travellers they kill"
         },
         "Pope": {
             "warning": "Beware too many extra evils (Spirit of Ivory recommended)"
+        },
+        "Storm Catcher": {
+            "warning": "Stormcaught can be evil"
         },
         "Zenomancer": {
             "good": "Interesting role to give information about"
@@ -1991,6 +2113,9 @@
         "Hatter": {
             "warning": "Cannibal can gain this ability and then be killed"
         },
+        "Zealot": {
+            "good": "Helps with execution"
+        },
         "Spy": {
             "good": "Spy can appear as good and as any good role. Spy can simulate this role"
         },
@@ -2024,7 +2149,7 @@
             "good": "Good Boffin ability"
         },
         "Vortox": {
-            "good": "Cannibal confirmation is immune to Vortox"
+            "warning": "Cannibal confirmation is immune to Vortox"
         },
         "Lleech": {
             "warning": "This role can make executions survivable. Cannibal encourages executions of a wider type of players"
@@ -2040,6 +2165,12 @@
         },
         "Scapegoat": {
             "warning": "Cannibal using the Scapegoat ability (once it's executed) confirms the Scapegoat and both saved players"
+        },
+        "God of Ug": {
+            "good": "Helps with execution"
+        },
+        "Knaves": {
+            "warning": "Cannibal confirmation is immune to Knaves"
         },
         "Pope": {
             "warning": "All copies of this role get the same ability"
@@ -2348,6 +2479,9 @@
         "Duchess": {
             "great": "Good synergy"
         },
+        "God of Ug": {
+            "good": "This role can be said in ug speak"
+        },
         "Hindu": {
             "warning": "Players leaving influences this role"
         },
@@ -2469,8 +2603,14 @@
         "Cacklejack": {
             "warning": "Cacklejack creating a Choirboy mid-game can be tough to detect for the evil team"
         },
+        "Angel": {
+            "warning": "Choirboy with an Angel-protected King is unlikely to trigger"
+        },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance"
+        },
+        "Knaves": {
+            "warning": "Knaves can make this info near useless"
         },
         "Pope": {
             "warning": "Mutliple Kings means multiple triggers. All copies of this role receive the same info"
@@ -2813,6 +2953,9 @@
         "Revolutionary": {
             "good": "Partner can help this role out"
         },
+        "Knaves": {
+            "good": "This role benefits from longer games"
+        },
         "Pope": {
             "info": "Only one instance of a character is drunk if there are multiple"
         },
@@ -2930,6 +3073,9 @@
         },
         "Hindu": {
             "warning": "Players leaving influences this role. Hindu-ed players still count as alive neighbors"
+        },
+        "Knaves": {
+            "warning": "This role's info is immune to Knaves"
         },
         "Pope": {
             "warning": "Beware too many extra evils. Cult Leader alignment can cascade. Multiple instances of this role can make the day long"
@@ -3107,6 +3253,12 @@
         "Gnome": {
             "good": "Dreamer can check the amigo"
         },
+        "God of Ug": {
+            "warning": "This info is hard to spread when wearing the hat"
+        },
+        "Knaves": {
+            "warning": "This role can easily detect which ST is lying"
+        },
         "Tor": {
             "warning": "This role immediately knows who they are"
         }
@@ -3137,7 +3289,7 @@
             "good": "This role can learn the Ogre's alignment"
         },
         "Zealot": {
-            "good": "Zealot helps with executions"
+            "good": "Helps with execution"
         },
         "Spy": {
             "good": "Spy can appear as good"
@@ -3204,6 +3356,12 @@
         },
         "Duchess": {
             "great": "Good synergy"
+        },
+        "Revolutionary": {
+            "warning": "Empath in a pair knows the alignment of their other neighbor (except at most once per game)"
+        },
+        "God of Ug": {
+            "good": "Helps with execution"
         },
         "Hindu": {
             "warning": "Players leaving influences this role. Hindu-ed players still count as alive neighbors"
@@ -3498,6 +3656,9 @@
         "Vortox": {
             "warning": "Vortox will a learn a wrong player if targeted. This role's info is immune to Vortox"
         },
+        "Pukka": {
+            "good": "The lack of deaths due to the Exorcist is delayed by a day, hiding the fact the demon was picked"
+        },
         "Legion": {
             "warning": "Exorcist is useless in a Legion game"
         },
@@ -3513,8 +3674,15 @@
         "Barista": {
             "good": "Powerful role to double or guarantee"
         },
+        "Angel": {
+            "warning": "Angel protected Exorcist leaves the Demon in a bind once they have chosen them"
+        },
         "Fibbin": {
             "warning": "Mechanical info is immune to Fibbin"
+        },
+        "Knaves": {
+            "good": "This role benefits from longer games",
+            "warning": "This role's info is immune to Knaves. The Demon always learns the correct Exorcist"
         },
         "Pope": {
             "warning": "Beware too much protection"
@@ -3748,6 +3916,9 @@
         "Cacklejack": {
             "good": "Turning a powerful role into a trap role can be interesting"
         },
+        "Angel": {
+            "warning": "Angel protecting trap characters doesn't help them"
+        },
         "Doomsayer": {
             "warning": "Dying during the day doesn't help trap characters"
         },
@@ -3756,6 +3927,9 @@
         },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance"
+        },
+        "Knaves": {
+            "warning": "This role's info is immune to Knaves"
         },
         "Pope": {
             "warning": "Beware too much confirmation. Farmers won't know they became Farmers"
@@ -3860,6 +4034,9 @@
         },
         "Gardener": {
             "good": "Advice can relate to the setup"
+        },
+        "God of Ug": {
+            "warning": "This info is hard to spread when wearing the hat"
         },
         "Tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
@@ -4042,8 +4219,14 @@
         "Voudon": {
             "warning": "Voudon makes Flowergirl information useless"
         },
+        "Angel": {
+            "good": "Gives more time to a newer player to figure out the ability"
+        },
         "Ferryman": {
             "good": "Additional voting is good for Flowegirl"
+        },
+        "God of Ug": {
+            "good": "Demon with the Hat might vote more"
         },
         "Pope": {
             "warning": "All copies of this role receive the same info"
@@ -4116,7 +4299,7 @@
             "good": "Puzzlemaster benefits from long games"
         },
         "Zealot": {
-            "good": "Zealot helps with executions"
+            "good": "Helps with execution"
         },
         "Witch": {
             "good": "Fool might lose their life from their nomination without knowing"
@@ -4195,11 +4378,20 @@
         "Harlot": {
             "good": "This role can survive this Traveller"
         },
+        "Scapegoat": {
+            "warning": "This role might prefer the execution to go through even if on the same team as the Scapegoat"
+        },
         "Gnome": {
             "good": "This role can survive this Traveller"
         },
+        "God of Ug": {
+            "good": "This role can be said in ug speak. Helps with execution"
+        },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance"
+        },
+        "Knaves": {
+            "good": "This role benefits from longer games"
         },
         "Pope": {
             "warning": "Beware too much protection"
@@ -4314,6 +4506,9 @@
         "Beggar": {
             "great": "Good synergy"
         },
+        "Angel": {
+            "good": "Gives more time to a newer player to figure out the ability"
+        },
         "Hindu": {
             "warning": "Players leaving influences this role (change of false positive)"
         },
@@ -4357,7 +4552,7 @@
             "good": "Confirming this role is in-play is good"
         },
         "Princess": {
-            "good": "This role's death can be more trusted as coming from its ability"
+            "good": "This role's death can be more trusted as coming from its ability during Princess night"
         },
         "Savant": {
             "warning": "Savant benefits from long games"
@@ -4381,7 +4576,7 @@
             "good": "Confirmation saves a gamble"
         },
         "Drunk": {
-            "good": "Gambling Drunk is hard"
+            "good": "Gambling Drunk is hard and cause good faith deaths"
         },
         "Butler": {
             "warning": "Master that can die easily"
@@ -4509,6 +4704,9 @@
         "Voudon": {
             "good": "More deaths is good for Voudon"
         },
+        "Angel": {
+            "warning": "This role might be most responsible for their own death"
+        },
         "Fibbin": {
             "warning": "Mechanical info is immune to Fibbin"
         },
@@ -4517,6 +4715,9 @@
         },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
+        },
+        "Knaves": {
+            "warning": "This role's info is immune to Knaves. This role benefits from longer games"
         },
         "Pope": {
             "warning": "Beware too many extra deaths good roles"
@@ -4540,7 +4741,7 @@
             "good": "General can detect a successful hunt"
         },
         "Magician": {
-            "good": "General can detect a Magician successfully fooling an evil player"
+            "good": "General can detect a Magician successfully fooling an evil player, or that the Magician has stopped working"
         },
         "Pacifist": {
             "info": "Pacifist can act as  a pseudo-General"
@@ -4666,13 +4867,16 @@
             "good": "Multiple deaths work well with Pixie"
         },
         "Princess": {
-            "good": "This role's death can be more trusted as coming from its ability"
+            "good": "This role's death can be more trusted as coming from its ability during Princess night"
         },
         "Professor": {
             "good": "Used once per game roles are good target for Gossip kills"
         },
         "Ravenkeeper": {
             "good": "Multiple night deaths are good for trap characters"
+        },
+        "Sage": {
+            "warning": "Non-Demon kills don't trigger Sage"
         },
         "Sailor": {
             "info": "Sailor can tank a Gossip kill (not a good idea)"
@@ -4784,8 +4988,14 @@
         "Fibbin": {
             "warning": "Mechanical info is immune to Fibbin"
         },
+        "God of Ug": {
+            "warning": "This ability is hard to do when wearing the hat"
+        },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation (though the ST can decide to force an evil reincarnation)"
+        },
+        "Knaves": {
+            "warning": "This role's info is immune to Knaves. This role benefits from longer games"
         },
         "Pope": {
             "warning": "Beware too many extra deaths good roles. Multiple Gossips are hard to tell apart"
@@ -4955,8 +5165,14 @@
         "Voudon": {
             "good": "More deaths is good for Voudon"
         },
+        "Angel": {
+            "warning": "Angel protecting the grandchild makes it unlikely for the Grandmother to be double killed"
+        },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance"
+        },
+        "Knaves": {
+            "warning": "This role can easily detect which ST is lying. This role benefits from longer games"
         },
         "Pope": {
             "warning": "Beware too many extra deaths good roles"
@@ -5061,6 +5277,9 @@
         },
         "Barista": {
             "warning": "Useless to double"
+        },
+        "Harlot": {
+            "good": "Good target for a High Priestess"
         }
     },
     "Huntsman": {
@@ -5136,6 +5355,9 @@
         },
         "Hindu": {
             "warning": "The Damsel is likely to prefer becoming a Traveller"
+        },
+        "Knaves": {
+            "info": "Role/alignment changes are immune to Knaves"
         },
         "Pope": {
             "good": "Minions have an easier time claiming Hunstman to find the Damsel, but the Damsel is more likely to be found with multiple Hunstmen"
@@ -5257,6 +5479,9 @@
         },
         "Deviant": {
             "warning": "Don't drunk the Deviant, it's rude"
+        },
+        "Knaves": {
+            "good": "This role benefits from longer games"
         },
         "Pope": {
             "warning": "Beware too much protection and drunkenness"
@@ -5430,6 +5655,9 @@
         "Cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
+        "Knaves": {
+            "warning": "Knaves can make this info near useless"
+        },
         "Pope": {
             "warning": "If all copies don't receive the same info, it can be hard for evil to deal with"
         },
@@ -5563,6 +5791,12 @@
         },
         "Cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+        },
+        "God of Ug": {
+            "warning": "This ability is hard to do when wearing the hat"
+        },
+        "Knaves": {
+            "warning": "Knaves can make this info near useless"
         },
         "Pope": {
             "good": "Cross-referencing information can be powerful"
@@ -5734,6 +5968,10 @@
         "Cacklejack": {
             "warning": "Creating an immediately active King is powerful"
         },
+        "God of Ug": {
+            "good": "This role can be said in ug speak",
+            "warning": "This info is hard to spread when wearing the hat"
+        },
         "Pope": {
             "good": "A Demon that learns of multiple Kings has a free bluff"
         },
@@ -5897,6 +6135,12 @@
         "Cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
+        "God of Ug": {
+            "good": "This role can be said in ug speak"
+        },
+        "Knaves": {
+            "warning": "Knaves can make this info very powerful"
+        },
         "Pope": {
             "good": "Cross-referencing information can be powerful"
         },
@@ -6015,7 +6259,7 @@
             "warning": "First night info is immune to Vigormortis poison. More reason for a Librarian 0"
         },
         "Vortox": {
-            "info": "Librarian only needs the seen role not to be among the targets (can be in or out of game)"
+            "warning": "Vortox makes this info near useless"
         },
         "Shabaloth": {
             "warning": "When resurrected, it gets new first night info (or same)"
@@ -6065,11 +6309,17 @@
         "Sentinel": {
             "good": "More reason for a Librarion 0"
         },
+        "Knaves": {
+            "warning": "Knaves can make this info near useless"
+        },
         "Tor": {
             "warning": "This role immediately knows who they are"
         }
     },
     "Lycanthrope": {
+        "Magician": {
+            "good": "Obvious faux paw"
+        },
         "Mayor": {
             "warning": "Lycanthrope can keep trying to kill the Mayor",
             "good": "Obvious faux paw"
@@ -6098,13 +6348,16 @@
             "good": "Protection works well with PG"
         },
         "Princess": {
-            "good": "This role's death can be more trusted as coming from its ability"
+            "good": "This role's death can be more trusted as coming from its ability during Princess night"
         },
         "Professor": {
             "good": "Used once per game roles are good target for Lycanthrope kills"
         },
         "Ravenkeeper": {
             "great": "Lycanthrope and trap charaters are powerful"
+        },
+        "Sage": {
+            "warning": "Non-Demon kills don't trigger Sage"
         },
         "Seamstress": {
             "good": "Used once per game roles are good target for Lycanthrope kills. Faux Paw registers as evil"
@@ -6311,11 +6564,14 @@
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
         },
+        "Knaves": {
+            "warning": "This role's info is immune to Knaves"
+        },
         "Pope": {
             "warning": "Multiple copies of this role can interfere with each other, and are very hard to deal with for evil"
         },
         "Storm Catcher": {
-            "good": "Faux Paw can be Storm Caught (or potentially learn the stormcaught player)"
+            "good": "Faux Paw can be Storm Caught (or potentially learn the stormcaught player). Evil can try and discreetly guide a stormcaught Lycanthrope"
         },
         "Tor": {
             "good": "Can be confused for the Demon. Can help good players learn who they are"
@@ -6341,6 +6597,7 @@
             "warning": "Pixie gets no use from learning Magician"
         },
         "Poppy Grower": {
+            "good": "Magician can help confirm a PG if they are not approached",
             "warning": "Magician only becomes useful if still alive when PG dies"
         },
         "Preacher": {
@@ -6397,6 +6654,9 @@
         "Pit-Hag": {
             "good": "Pit Hag can make the Magician into a Demon"
         },
+        "Cerenovus": {
+            "warning": "Not a great role to be made mad as, beyond preventing a claim"
+        },
         "Mastermind": {
             "good": "Mastermind can make a Magician execution more believable"
         },
@@ -6407,8 +6667,7 @@
             "warning": "Magician can't fake this Minion without double claim"
         },
         "Marionette": {
-            "good": "Magician can appear as the Marionette to the Demon",
-            "warning": "If there are Grimoire watchers in-play, a Marionette will immediately tell them who the Demon is"
+            "good": "Magician can appear as the Marionette to the Demon"
         },
         "Mezepheles": {
             "warning": "This role as evil can't do much for the evil team beyond disabling it"
@@ -6590,6 +6849,10 @@
         "Hindu": {
             "warning": "Players leaving influences this role"
         },
+        "Knaves": {
+            "good": "Can help determine the lying ST",
+            "warning": "Knaves can make this info near useless"
+        },
         "Pope": {
             "warning": "All copies of this role receive the same info"
         },
@@ -6719,8 +6982,17 @@
         "Barista": {
             "good": "Powerful role to guarantee"
         },
+        "Bureaucrat": {
+            "warning": "More votes means less likely to not get any executions"
+        },
         "Doomsayer": {
             "warning": "Mayor can't protect from day death"
+        },
+        "God of Ug": {
+            "warning": "More votes means less likely to not get any executions"
+        },
+        "Storm Catcher": {
+            "warning": "A stormcaught Mayor will never bounce"
         },
         "Tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -6754,6 +7026,9 @@
         "Moonchild": {
             "good": "If Moonchild is droisoned in the night after their choice, the target can appear evil"
         },
+        "Golem": {
+            "warning": "Immune to drunkeness after their first nomination"
+        },
         "Puzzlemaster": {
             "good": "Puzzlemaster benefits from long games"
         },
@@ -6761,7 +7036,7 @@
             "warning": "Droison and Heretic can cause confusing game states"
         },
         "Zealot": {
-            "good": "Zealot helps with executions"
+            "good": "Helps with execution"
         },
         "Spy": {
             "good": "Spy can Hide from Minstrel"
@@ -6815,11 +7090,20 @@
         "Bone Collector": {
             "warning": "Bone Collector is useless on this role"
         },
+        "Bureaucrat": {
+            "good": "Helps with execution"
+        },
         "Butcher": {
             "good": "Extra executions gives more chances for this role to do something"
         },
         "Fibbin": {
             "info": "Mechanical info is immune to Fibbin"
+        },
+        "God of Ug": {
+            "good": "Helps with execution"
+        },
+        "Knaves": {
+            "good": "This role benefits from longer games"
         },
         "Pope": {
             "warning": "Multiple copies of this role are redundant"
@@ -6928,8 +7212,17 @@
         "Barista": {
             "good": "Powerful role to double or guarantee"
         },
+        "God of Ug": {
+            "good": "This role can be said in ug speak"
+        },
+        "Knaves": {
+            "good": "This role benefits from longer games"
+        },
         "Pope": {
             "warning": "Beware too much protection"
+        },
+        "Zenomancer": {
+            "good": "Longer games are good for quests"
         }
     },
     "Nightwatchman": {
@@ -7063,6 +7356,9 @@
         },
         "Hindu": {
             "warning": "Confirmed good Traveller can be very powerful"
+        },
+        "Knaves": {
+            "warning": "This role's info is immune to Knaves"
         },
         "Pope": {
             "warning": "Beware too much confirmation"
@@ -7415,7 +7711,7 @@
             "good": "Puzzlemaster benefits from long games"
         },
         "Zealot": {
-            "good": "Zealot helps with executions"
+            "good": "Helps with execution"
         },
         "Witch": {
             "good": "Pacifist likes to nominate"
@@ -7425,6 +7721,9 @@
         },
         "Cerenovus": {
             "info": "This role can make other players survive Cere madness break (not a good idea)"
+        },
+        "Godfather": {
+            "good": "Can prevent Outsiders dying during the day"
         },
         "Devil's Advocate": {
             "good": "Pacifist explains random good players being chosen by DA"
@@ -7478,8 +7777,14 @@
         "Fibbin": {
             "warning": "Mechanical info is immune to Fibbin"
         },
+        "God of Ug": {
+            "good": "Helps with execution"
+        },
         "Hindu": {
             "good": "Executed players not saved by the Pacifist are more likely to become evil Travellers"
+        },
+        "Knaves": {
+            "good": "This role benefits from longer games"
         },
         "Pope": {
             "warning": "Multiple copies of this role are redundant"
@@ -7540,6 +7845,9 @@
         },
         "Pit-Hag": {
             "good": "Can be used to steal a good player's ability"
+        },
+        "Cerenovus": {
+            "warning": "Being mad as the Philosopher allows you to claim your actual role anyways"
         },
         "Boffin": {
             "good": "Good Boffin ability"
@@ -7660,6 +7968,9 @@
         "Vigormortis": {
             "warning": "First night info is immune to Vigormortis poison (although the ability can still be disabled later)"
         },
+        "Vortox": {
+            "warning": "Pixie with false info but still with their ability will gain that false ability when their target dies"
+        },
         "Po": {
             "good": "Multiple deaths work well with Pixie"
         },
@@ -7701,13 +8012,28 @@
             "good": "Extra kills work well with this role"
         },
         "Harlot": {
-            "good": "Extra kills work well with this role"
+            "good": "Extra kills work well with this role. Gives a good reason for difference of claims"
+        },
+        "Scapegoat": {
+            "warning": "This role might prefer the execution to go through even if on the same team as the Scapegoat"
         },
         "Gnome": {
             "good": "Extra kills work well with this role"
         },
+        "Angel": {
+            "warning": "If the Angel protected player is the Pixie target, they are unlikely to get their ability"
+        },
+        "Buddhist": {
+            "warning": "Less time to fulfill madness"
+        },
         "Revolutionary": {
             "good": "Partner can help this role out"
+        },
+        "God of Ug": {
+            "warning": "This ability is hard to do when wearing the hat"
+        },
+        "Knaves": {
+            "warning": "Pixie with false info but still with their ability will gain that false ability when their target dies"
         },
         "Storm Catcher": {
             "good": "This role can't announce they're stormcaught"
@@ -7890,6 +8216,9 @@
         "Cacklejack": {
             "warning": "Useless ability mid-game"
         },
+        "Angel": {
+            "warning": "Angel protecting a Poppy Grower makes it unlikely to die"
+        },
         "Duchess": {
             "good": "Evil team can try and use Duchess to find each other"
         },
@@ -7900,7 +8229,7 @@
             "warning": "All Poppy Growers need to die for evil to learn each other"
         },
         "Storm Catcher": {
-            "warning": "Storm catching this role removes its downside"
+            "warning": "Storm catching this role removes its downside (though an interesting game to see who wants to the execute the Poppy Grower)"
         },
         "Tor": {
             "conflict": "An active detriment in Tor games"
@@ -8053,7 +8382,7 @@
             "info": "The Demon still chooses a player on a Princess night"
         },
         "Moonchild": {
-            "good": "This role's death can be more trusted as coming from its ability"
+            "good": "This role's death can be more trusted as coming from its ability during Princess night"
         },
         "Tinker": {
             "good": "Can throw shade on a Princess"
@@ -8068,7 +8397,7 @@
             "good": "Can be executed day 1 for a Princess"
         },
         "Zealot": {
-            "good": "Zealot can healp a Princess execution (but also could harm it if other nominations are made)"
+            "good": "Helps with execution (but also could harm it if other nominations are made)"
         },
         "Poisoner": {
             "good": "Droison can throw shade on the Princess"
@@ -8084,6 +8413,7 @@
             "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "Cerenovus": {
+            "good": "Making the succesful D1 executee mad as the Princess is interesting",
             "warning": "While Cerenovus-mad, this role can't use its ability easily. Cerenovus-mad players can break madness if Princess nominated"
         },
         "Assassin": {
@@ -8192,7 +8522,7 @@
             "warning": "Bone Collector is useless on this role: dead Princess can't nominate"
         },
         "Bureaucrat": {
-            "good": "Princess revolves around nominations"
+            "good": "Helps with execution"
         },
         "Butcher": {
             "info": "Butcher nomination is independant from the Princess one"
@@ -8204,7 +8534,7 @@
             "good": "Princess can nominate the Gunslinger killed player"
         },
         "Harlot": {
-            "good": "This role's death can be more trusted as coming from its ability"
+            "good": "This role's death can be more trusted as coming from its ability during Princess night"
         },
         "Judge": {
             "warning": "Judge can prevent a Princess execution"
@@ -8235,6 +8565,12 @@
         },
         "Toymaker": {
             "warning": "Demon can freely trigger Toymaker on Princess night"
+        },
+        "God of Ug": {
+            "good": "Helps with execution"
+        },
+        "Knaves": {
+            "good": "This role benefits from longer games"
         },
         "Pope": {
             "warning": "Multiple copies of this role are redundant"
@@ -8328,6 +8664,10 @@
         },
         "Hindu": {
             "warning": "Travellers can't be resurrected"
+        },
+        "Knaves": {
+            "good": "This role benefits from longer games",
+            "warning": "This role's info is immune to Knaves"
         },
         "Pope": {
             "warning": "Beware too much resurrection",
@@ -8494,8 +8834,14 @@
         "Cacklejack": {
             "good": "Turning a powerful role into a trap role can be interesting"
         },
+        "Angel": {
+            "warning": "Angel protecting trap characters doesn't help them"
+        },
         "Doomsayer": {
             "warning": "Dying during the day doesn't help trap characters"
+        },
+        "God of Ug": {
+            "warning": "This info is hard to spread when wearing the hat"
         },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance"
@@ -8518,6 +8864,9 @@
         "Steward": {
             "good": "Steward can allow trust of hidden Townsfolk"
         },
+        "Drunk": {
+            "good": "Drunk Sage can simulate that their death is caused (or not) by the Demon"
+        },
         "Recluse": {
             "good": "Recluse can appear as a Demon"
         },
@@ -8526,7 +8875,7 @@
             "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
         "Moonchild": {
-            "warning": "Moonchild can kill a Sage"
+            "warning": "Non-Demon kills don't trigger Sage"
         },
         "Golem": {
             "warning": "Dying during the day doesn't help trap characters"
@@ -8547,7 +8896,7 @@
             "warning": "Seeing the Grimoire disables trap characters"
         },
         "Witch": {
-            "warning": "Dying during the day doesn't help trap characters"
+            "warning": "Non-Demon kills don't trigger Sage"
         },
         "Evil Twin": {
             "warning": "Bad choice for a Twin"
@@ -8556,22 +8905,22 @@
             "good": "Sage can potentially detect Pit-Hag deaths"
         },
         "Assassin": {
-            "warning": "Assassin can kill a Sage"
+            "warning": "Non-Demon kills don't trigger Sage"
         },
         "Godfather": {
-            "warning": "Godfather can kill a Sage"
+            "warning": "Non-Demon kills don't trigger Sage"
         },
         "Mezepheles": {
             "warning": "This role as evil can't do much for the evil team beyond disabling it"
         },
         "Psychopath": {
-            "warning": "Dying during the day doesn't help trap characters"
+            "warning": "Non-Demon kills don't trigger Sage"
         },
         "Widow": {
             "warning": "Seeing the Grimoire disables trap characters"
         },
         "Harpy": {
-            "warning": "Dying during the day doesn't help trap characters"
+            "warning": "Non-Demon kills don't trigger Sage"
         },
         "Boffin": {
             "warning": "This ability is useless to the Demon"
@@ -8639,28 +8988,34 @@
             "warning": "Bad Apprentice ability"
         },
         "Barista": {
-            "warning": "Trap characters will generally not be doubled, unless the ST decides after the Demon choice"
+            "warning": "Trap characters will generally not be doubled, unless the ST decides after the Demon choice, and it'll either be useless or very powerful"
         },
         "Bone Collector": {
             "warning": "Bone Collector is useless on this role"
         },
         "Gangster": {
-            "warning": "Dying during the day doesn't help trap characters"
+            "warning": "Non-Demon kills don't trigger Sage"
         },
         "Gunslinger": {
-            "warning": "Dying during the day doesn't help trap characters"
+            "warning": "Non-Demon kills don't trigger Sage"
         },
         "Harlot": {
-            "good": "Harlot can help kill trap charaters"
+            "warning": "Non-Demon kills don't trigger Sage"
         },
         "Gnome": {
-            "warning": "Dying during the day doesn't help trap characters"
+            "warning": "Non-Demon kills don't trigger Sage"
         },
         "Cacklejack": {
             "good": "Turning a powerful role into a trap role can be interesting"
         },
+        "Angel": {
+            "warning": "Angel protecting trap characters doesn't help them"
+        },
         "Doomsayer": {
-            "warning": "Dying during the day doesn't help trap characters"
+            "warning": "Non-Demon kills don't trigger Sage"
+        },
+        "God of Ug": {
+            "good": "This role can be said in ug speak"
         },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance"
@@ -8706,6 +9061,9 @@
             "warning": "Surviving the Virgin nomination is powerful",
             "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
+        "Drunk": {
+            "warning": "Might be hard to distinguish a Drunk Sailor and a Sailor that got drunked every night"
+        },
         "Saint": {
             "good": "Droison can cause a safe Saint execution"
         },
@@ -8719,7 +9077,8 @@
             "good": "Good bluff for a Damsel to get executed/killed"
         },
         "Golem": {
-            "good": "This role can appear as the Demon if Golem nominated"
+            "good": "This role can appear as the Demon if Golem nominated",
+            "warning": "Immune to drunkeness after their first nomination"
         },
         "Puzzlemaster": {
             "good": "Puzzlemaster benefits from long games"
@@ -8728,7 +9087,7 @@
             "warning": "Droison and Heretic can cause confusing game states"
         },
         "Zealot": {
-            "good": "Zealot helps with executions"
+            "good": "Helps with execution"
         },
         "Evil Twin": {
             "warning": "Bad choice for a Twin"
@@ -8797,11 +9156,21 @@
         "Harlot": {
             "good": "This role can survive this Traveller"
         },
+        "Scapegoat": {
+            "warning": "This role might prefer the execution to go through even if on the same team as the Scapegoat"
+        },
         "Gnome": {
             "good": "This role can survive this Traveller"
         },
+        "God of Ug": {
+            "good": "Helps with execution"
+        },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance"
+        },
+        "Knaves": {
+            "good": "This role benefits from longer games",
+            "warning": "This role's info is immune to Knaves"
         },
         "Pope": {
             "warning": "Beware too much protection"
@@ -8856,6 +9225,9 @@
         "Evil Twin": {
             "good": "Good choice for a Twin"
         },
+        "Cerenovus": {
+            "warning": "This role is hard to be convincingly mad as"
+        },
         "Assassin": {
             "warning": "Savant benefits from long games"
         },
@@ -8869,7 +9241,7 @@
             "good": "Interesting Boffin ability"
         },
         "Wizard": {
-            "good": "Savant wan learn about the Wizard"
+            "good": "Savant can learn about the Wizard"
         },
         "Vortox": {
             "info": "Both information must be false if a Vortox is in-play"
@@ -8900,6 +9272,12 @@
         },
         "Barista": {
             "good": "Powerful role to double or guarantee"
+        },
+        "God of Ug": {
+            "warning": "This info is hard to spread when wearing the hat"
+        },
+        "Knaves": {
+            "info": "Both information must be true or false, depending on which ST is asked"
         },
         "Pope": {
             "warning": "Can make the day phase long through ST consultations and trying to find worlds with all this information. In general, rough to ST"
@@ -9184,6 +9562,9 @@
         "Boffin": {
             "warning": "This ability is near-useless to the Demon (but interesting with a Heretic)"
         },
+        "Vortox": {
+            "warning": "This role's info is immune to Vortox"
+        },
         "Shabaloth": {
             "warning": "When resurrected, this gets another use of its ability"
         },
@@ -9245,6 +9626,9 @@
         },
         "Revolutionary": {
             "good": "Partner can help this role out. Rev can misregister and be killed"
+        },
+        "Knaves": {
+            "warning": "This role's info is immune to Knaves"
         },
         "Storm Catcher": {
             "good": "This role benefits from the extra survivability"
@@ -9376,6 +9760,12 @@
         "Revolutionary": {
             "conflict": "Snake Charmer is either disabled or turns their partner"
         },
+        "God of Ug": {
+            "warning": "A snake charm might be hard to explain with the hat"
+        },
+        "Knaves": {
+            "warning": "This role's info is immune to Knaves"
+        },
         "Zenomancer": {
             "good": "Interesting role to give information about"
         }
@@ -9408,6 +9798,9 @@
         "Pit-Hag": {
             "good": "If Pit-Hag makes a new Demon, the Soldier can die",
             "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
+        },
+        "Cerenovus": {
+            "good": "Making players that died in the night mad as the Soldier is interesting"
         },
         "Assassin": {
             "good": "Assassin can kill Soldier"
@@ -9460,6 +9853,12 @@
         },
         "Bone Collector": {
             "warning": "Bone Collector is useless on this role"
+        },
+        "Angel": {
+            "warning": "Angel protecting trap characters doesn't help them"
+        },
+        "Knaves": {
+            "good": "This role benefits from longer games"
         },
         "Pope": {
             "warning": "Beware too much protection"
@@ -9606,6 +10005,9 @@
         },
         "Duchess": {
             "great": "Good synergy"
+        },
+        "Knaves": {
+            "warning": "Knaves can make this info very powerful"
         }
     },
     "Tea Lady": {
@@ -9658,7 +10060,7 @@
             "good": "This role can help find the Ogre's alignment"
         },
         "Zealot": {
-            "good": "Zealot helps with executions"
+            "good": "Helps with execution"
         },
         "Spy": {
             "good": "Spy can appear as good"
@@ -9670,10 +10072,14 @@
             "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "Cerenovus": {
+            "good": "Making a player whose neighbor died mad as the Tea Lady is interesting",
             "warning": "This role can make other players survive Cerenovus madness break"
         },
         "Assassin": {
             "good": "Assassin ignores protection"
+        },
+        "Godfather": {
+            "good": "Can prevent Outsiders dying during the day"
         },
         "Devil's Advocate": {
             "good": "Tea Lady explains random good players being chosen by DA"
@@ -9745,10 +10151,14 @@
             "good": "Matron can change the Tea Lady's living neighbors"
         },
         "Scapegoat": {
-            "good": "Interesting synergy"
+            "good": "Interesting synergy",
+            "warning": "This role might prefer the execution to go through even if on the same team as the Scapegoat"
         },
         "Gnome": {
             "good": "This role can protect from this Traveller. An amigo saved by the Tea Lady extends the confirmation to the Gnome"
+        },
+        "Angel": {
+            "warning": "Angel protecting a neighbor of a Tea Lady makes it less likely for them to be attacked or executed"
         },
         "Fibbin": {
             "warning": "Mechanical info is immune to Fibbin"
@@ -9756,14 +10166,21 @@
         "Revolutionary": {
             "good": "Tea Lady protects their partner"
         },
+        "God of Ug": {
+            "good": "Helps with execution"
+        },
         "Hindu": {
             "warning": "Players leaving influences this role. Hindu-ed players still count as alive neighbors"
+        },
+        "Knaves": {
+            "good": "This role benefits from longer games",
+            "warning": "This role's info is immune to Knaves"
         },
         "Pope": {
             "warning": "Beware too much protection. Tea Ladies can form unkillable chains"
         },
         "Storm Catcher": {
-            "warning": "Storm catching this role is not a good idea (potential infinit protection)"
+            "warning": "Storm catching this role is not a good idea (potential infinite protection)"
         },
         "Tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -9942,7 +10359,7 @@
             "good": "Undertaker can know when this role was executed"
         },
         "Zealot": {
-            "good": "Zealot helps with executions"
+            "good": "Helps with execution"
         },
         "Scarlet Woman": {
             "good": "Allows the Undertaker to realistically see a Demon"
@@ -10058,6 +10475,9 @@
         },
         "Doomsayer": {
             "warning": "Dying during the day doesn't help the Undertaker"
+        },
+        "God of Ug": {
+            "good": "Helps with execution"
         },
         "Pope": {
             "warning": "All copies of this role receive the same info"
@@ -10215,7 +10635,7 @@
             "good": "Vigormortis can kill seen Minions to protect them"
         },
         "Vortox": {
-            "warning": "Village Idiot can more easily find if Vortox is in-play. Drunk Village Idiot cannot receive true info in Vortox game"
+            "warning": "Village Idiot can more easily find if Vortox is in-play. All Village Idiots receive the same (false) info in a Vortox game"
         },
         "Po": {
             "warning": "Village Idiot benefits from long games to find the drunk one"
@@ -10279,6 +10699,9 @@
         },
         "Hindu": {
             "warning": "The drunk Village Idiot might change"
+        },
+        "Knaves": {
+            "warning": "This role can easily detect which ST is lying"
         },
         "Pope": {
             "info": "Even with more than 3 Village Idiots, only one is drunk"
@@ -10407,11 +10830,20 @@
         "Bone Collector": {
             "warning": "Bone collected Virgin can confirm a second player"
         },
+        "Harlot": {
+            "warning": "A Virgin will likely refuse a Harlot visit"
+        },
+        "Scapegoat": {
+            "warning": "Scapegoat saving the Virgin nomination confirms the Virgin, Scapegoat, and nominator (unless Spy)"
+        },
         "Gnome": {
             "warning": "Bad/confirmable Gnome amigo"
         },
         "Cacklejack": {
             "warning": "Confirmed character change"
+        },
+        "Angel": {
+            "warning": "Angel protected player nominating the Virgin might make them the most responsible unwillingly"
         },
         "Fibbin": {
             "warning": "Mechanical info is immune to Fibbin"
@@ -10419,8 +10851,14 @@
         "Revolutionary": {
             "warning": "Double confirmation if in the Rev pair"
         },
+        "God of Ug": {
+            "warning": "Instant executions make the God of Ug bonus useless"
+        },
         "Hindu": {
             "warning": "Confirmed good Traveller can be very powerful. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
+        },
+        "Knaves": {
+            "warning": "This role's info is immune to Knaves"
         },
         "Pope": {
             "warning": "Beware too much confirmation"
@@ -10535,7 +10973,7 @@
             "good": "Spy knows who the Drunk is"
         },
         "Evil Twin": {
-            "good": "Drunk can explain Twins claiming different roles"
+            "good": "Can explain the Twins not claiming the same role"
         },
         "Pit-Hag": {
             "good": "Creating this Outsider can be silent"
@@ -10594,6 +11032,9 @@
         "Barista": {
             "warning": "A Barista-sobered Drunk gets true info but still cannot mechanically affect the game"
         },
+        "Harlot": {
+            "good": "Gives a reason to accept a Harlot visit to check if you are the Drunk (though risky if the Harlot is evil). Gives a good reason for difference of claims"
+        },
         "Gnome": {
             "good": "Interesting amigo"
         },
@@ -10606,11 +11047,15 @@
         "Sentinel": {
             "warning": "Sentinel adding a Drunk is completely untraceable"
         },
+        "God of Ug": {
+            "good": "This role can be said in ug speak"
+        },
         "Pope": {
             "conflict": "Having any number of copies makes this role unsolvable"
         },
         "Storm Catcher": {
-            "good": "This role can't announce they're stormcaught"
+            "good": "This role can't announce they're stormcaught",
+            "warning": "A Drunk might believe they are the stormcaught role"
         },
         "Ventriloquist": {
             "good": "Claiming to the Drunk can count as a pivot. Misinformation can make pivots more convincing"
@@ -10748,6 +11193,9 @@
         "Revolutionary": {
             "good": "Partner can help this role out"
         },
+        "God of Ug": {
+            "good": "This role can be said in ug speak"
+        },
         "Storm Catcher": {
             "warning": "If stormcaught, Saint can't die without ending the game"
         },
@@ -10769,7 +11217,10 @@
             "good": "Golem can kill this role"
         },
         "Zealot": {
-            "info": "Similar abilities"
+            "warning": "Butler can ignore their restriction by picking the Zealot"
+        },
+        "Cerenovus": {
+            "good": "Making a player mad as the Butler makes them effectively gain the butler ability"
         },
         "Godfather": {
             "good": "Godfather can avoid loud Outsiders"
@@ -10812,6 +11263,9 @@
         },
         "Gnome": {
             "warning": "This role is fine to die to this Traveller"
+        },
+        "God of Ug": {
+            "warning": "Does not want the hat as they can't control their votes"
         },
         "Hindu": {
             "warning": "This Outsider can be killed to remove its downside"
@@ -10931,10 +11385,11 @@
             "warning": "This role is fine to die to this Traveller"
         },
         "Harlot": {
+            "good": "Gives a good reason for difference of claims",
             "warning": "This role is fine to die to this Traveller"
         },
         "Scapegoat": {
-            "info": "Recluse can appear as evil (probably don't)"
+            "warning": "Hard to determine the alignment if saved by Scapegoat"
         },
         "Gnome": {
             "warning": "This role is fine to die to this Traveller"
@@ -11114,6 +11569,9 @@
         "Gnome": {
             "good": "Interesting amigo"
         },
+        "Angel": {
+            "warning": "An Angel-protected on-death Outsider is less likely to be killed"
+        },
         "Pope": {
             "warning": "Can be tough for good with multiple copies"
         },
@@ -11235,6 +11693,9 @@
         "Gnome": {
             "good": "Interesting amigo"
         },
+        "Angel": {
+            "warning": "An Angel-protected on-death Outsider is less likely to be killed"
+        },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance"
         },
@@ -11262,7 +11723,7 @@
             "good": "Baron works better with hidden Outsiders"
         },
         "Evil Twin": {
-            "good": "Mutant can explain Twins claiming different roles"
+            "good": "Can explain the Twins not claiming the same role"
         },
         "Pit-Hag": {
             "good": "Creating this Outsider can be silent. Mad players can claim to be pit-hagged"
@@ -11309,16 +11770,26 @@
             "warning": "This role is fine to die to this Traveller"
         },
         "Harlot": {
+            "good": "Gives a good reason for difference of claims",
             "warning": "This role is fine to die to this Traveller"
         },
         "Gnome": {
             "warning": "This role is fine to die to this Traveller"
         },
+        "Cacklejack": {
+            "good": "Mad players can't claim to have changed characters"
+        },
         "Angel": {
             "warning": "Madness breaks might be most reponsible for their own deaths"
         },
+        "Buddhist": {
+            "warning": "Less time to fulfill madness"
+        },
         "Revolutionary": {
             "warning": "Can cause lying in the Rev pair"
+        },
+        "God of Ug": {
+            "warning": "Instant executions make the God of Ug bonus useless. This ability is hard to do when wearing the hat"
         },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance"
@@ -11372,7 +11843,7 @@
             "good": "Creating this Outsider can be silent"
         },
         "Cerenovus": {
-            "warning": "This role must claim itself even if mad"
+            "warning": "This role must claim itself even if mad. Dead players mad as Klutz is hard to convincingly pull off"
         },
         "Assassin": {
             "good": "Extra deaths work well with this Outsider"
@@ -11449,14 +11920,23 @@
         "Gnome": {
             "good": "Interesting amigo"
         },
+        "Angel": {
+            "warning": "An Angel-protected on-death Outsider is less likely to be killed"
+        },
         "Fibbin": {
             "warning": "Mechanical info is immune to Fibbin"
         },
         "Revolutionary": {
             "good": "Partner can help this role out"
         },
+        "God of Ug": {
+            "good": "This role can be said in ug speak"
+        },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance"
+        },
+        "Knaves": {
+            "warning": "This role's info is immune to Knaves"
         },
         "Storm Catcher": {
             "warning": "Storm catching this role effectively disables it"
@@ -11549,14 +12029,26 @@
         "Barista": {
             "warning": "Useless to double"
         },
+        "Scapegoat": {
+            "warning": "Hard to determine the alignment if saved by Scapegoat"
+        },
         "Gnome": {
             "warning": "This amigo can change alignment"
+        },
+        "Angel": {
+            "warning": "If the Goon isn't targeted, they will stay good the entire game"
         },
         "Revolutionary": {
             "conflict": "Goon is either disabled or turns their partner (still drunks people who chooses them)"
         },
         "Spirit of Ivory": {
             "warning": "If there's an extra evil player, this role can't change alignment"
+        },
+        "God of Ug": {
+            "good": "This role can be said in ug speak"
+        },
+        "Knaves": {
+            "info": "Role/alignment changes are immune to Knaves"
         },
         "Pope": {
             "warning": "Beware too many extra evils"
@@ -11613,7 +12105,7 @@
             "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "Cerenovus": {
-            "warning": "This role must claim itself even if mad"
+            "warning": "This role must claim itself even if mad. Dead players mad as Moonchild is hard to convincingly pull off"
         },
         "Mastermind": {
             "good": "Moonchild can hide a Mastermind day"
@@ -11689,6 +12181,9 @@
         "Gnome": {
             "good": "Interesting amigo"
         },
+        "Angel": {
+            "info": "Moonchild is a reason for a good player to be the most reponsible cause of death at night"
+        },
         "Fibbin": {
             "warning": "Mechanical info is immune to Fibbin"
         },
@@ -11697,6 +12192,9 @@
         },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
+        },
+        "Knaves": {
+            "warning": "This role's info is immune to Knaves. This role benefits from longer games"
         },
         "Pope": {
             "warning": "Beware too many extra deaths good roles"
@@ -11792,6 +12290,9 @@
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
         },
+        "Knaves": {
+            "warning": "This role benefits from longer games"
+        },
         "Pope": {
             "warning": "Beware too many extra deaths good roles"
         },
@@ -11832,6 +12333,9 @@
         },
         "Pit-Hag": {
             "good": "Lunatic can believe they changed role"
+        },
+        "Cerenovus": {
+            "warning": "This role is hard to be convincingly mad as"
         },
         "Godfather": {
             "good": "Godfather can trigger off an Outsider that doesn't know it"
@@ -11902,6 +12406,9 @@
         },
         "Barista": {
             "warning": "A doubled Lunatic prevents the Demon from keeping up the illusion"
+        },
+        "Harlot": {
+            "good": "Gives a good reason for difference of claims (unlikley to say yes)"
         },
         "Angel": {
             "info": "Lunatic is responsible for the deaths if they chose them"
@@ -12005,6 +12512,9 @@
         "Harlot": {
             "warning": "This role is fine to die to this Traveller"
         },
+        "Scapegoat": {
+            "warning": "This role might prefer the execution to go through even if on the same team as the Scapegoat"
+        },
         "Gnome": {
             "warning": "This role is fine to die to this Traveller"
         },
@@ -12040,6 +12550,9 @@
         "Ogre": {
             "good": "Golem is confirmed as good"
         },
+        "Poisoner": {
+            "warning": "Immune to poisoning after their first nomination"
+        },
         "Evil Twin": {
             "conflict": "Golem can kill one of the twins"
         },
@@ -12047,7 +12560,8 @@
             "good": "Confirmable evil characters are powerful and throw shade on their ability"
         },
         "Cerenovus": {
-            "good": "Cerenovus making players mad as confirmable characters is interesting"
+            "good": "Cerenovus making players mad as confirmable characters is interesting",
+            "warning": "Making a player mad as the Golem effectively prevents them nominating if they already have"
         },
         "Godfather": {
             "good": "Golem will need to be executed eventually"
@@ -12134,8 +12648,14 @@
         "Revolutionary": {
             "warning": "Double confirmation if in the Rev pair"
         },
+        "God of Ug": {
+            "warning": "Day deaths before executions might make the challenge not worth it"
+        },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
+        },
+        "Knaves": {
+            "warning": "This role's info is immune to Knaves. This role benefits from longer games"
         },
         "Pope": {
             "warning": "Beware too much confirmation"
@@ -12352,11 +12872,17 @@
         "Gnome": {
             "good": "Interesting amigo"
         },
+        "Angel": {
+            "good": "Gives more time to a newer player to figure out the ability"
+        },
         "Revolutionary": {
             "good": "Partner can help this role out"
         },
         "Hindu": {
             "warning": "This Outsider can be killed to remove its downside"
+        },
+        "Knaves": {
+            "conflict": "Knaves invalidate the need to find the drunk player, as it overrides the truthiness"
         },
         "Storm Catcher": {
             "good": "This role benefits from the extra survivability"
@@ -12478,6 +13004,9 @@
         },
         "Gnome": {
             "warning": "This role is fine to die to this Traveller"
+        },
+        "God of Ug": {
+            "good": "This role can be said in ug speak"
         },
         "Tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -12695,6 +13224,9 @@
         "Gnome": {
             "good": "Interesting amigo"
         },
+        "Angel": {
+            "warning": "An Angel-protected on-death Outsider is less likely to be killed"
+        },
         "Pope": {
             "warning": "Can be tough for good with multiple copies"
         },
@@ -12828,6 +13360,9 @@
         "Gnome": {
             "good": "Interesting amigo"
         },
+        "Angel": {
+            "warning": "An Angel-protected on-death Outsider is less likely to be killed"
+        },
         "Pope": {
             "warning": "Can be tough for good with multiple copies"
         },
@@ -12913,6 +13448,9 @@
         "Beggar": {
             "good": "This role can determine the (dead) Ogre's alignment"
         },
+        "Scapegoat": {
+            "good": "Scapegoat can help learn the alignment of the Ogre"
+        },
         "Gnome": {
             "warning": "This amigo can change alignment. Ogre picking Gnome creates a confirmation chain"
         },
@@ -12955,16 +13493,16 @@
             "good": "Zealot can help push a Mastermind day, and then execute a good player"
         },
         "Devil's Advocate": {
-            "good": "Zealot helps with executions"
+            "good": "Helps with execution"
         },
         "Boomdandy": {
-            "good": "Zealot helps with executions"
+            "good": "Helps with execution"
         },
         "Fearmonger": {
-            "good": "Zealot helps with executions"
+            "good": "Helps with execution"
         },
         "Goblin": {
-            "good": "Zealot helps with executions"
+            "good": "Helps with execution"
         },
         "Vizier": {
             "good": "Zealot can appear as evil (thanks to the jinx)"
@@ -13009,7 +13547,7 @@
             "good": "Interesting target for a Bureaucrat"
         },
         "Butcher": {
-            "good": "Zealot helps with executions"
+            "good": "Helps with execution"
         },
         "Gangster": {
             "warning": "This role is fine to die to this Traveller"
@@ -13024,7 +13562,7 @@
             "warning": "Judge will always be able to execute with a Zealot"
         },
         "Scapegoat": {
-            "good": "Zealot helps with executions"
+            "good": "Helps with execution"
         },
         "Thief": {
             "good": "Interesting target for a Thief"
@@ -13034,6 +13572,9 @@
         },
         "Gnome": {
             "warning": "This role is fine to die to this Traveller"
+        },
+        "God of Ug": {
+            "warning": "Does not want the hat as they can't control their votes"
         },
         "Tor": {
             "warning": "Might accidentally break the rules (can be mitigated by playing as the Zeloat if you could be the Zealot, though this is likely to have a first day where a lot of people must vote)"
@@ -13068,7 +13609,7 @@
             "warning": "LoT might override Outsider modification"
         },
         "Angel": {
-            "warning": "Hermit is probably not a good pick for Angel"
+            "warning": "Hermit is probably not a good pick for Angel (not beginner-friendly)"
         },
         "Revolutionary": {
             "good": "Revolutionary can help a new Hermit"
@@ -13174,6 +13715,9 @@
         "Wraith": {
             "good": "Wraith can guide this role"
         },
+        "Fang Gu": {
+            "warning": "This Minion might accidentally target a newly jumped Fang Gu"
+        },
         "Vigormortis": {
             "great": "Good synergy"
         },
@@ -13272,8 +13816,15 @@
         "Cacklejack": {
             "good": "Swapping into ths role is interesting"
         },
+        "Angel": {
+            "good": "This Minion needs to remain alive",
+            "warning": "An Angel-protected Demon is less likely to die"
+        },
         "Doomsayer": {
             "good": "SW can make the Demon survive the Doomsayer"
+        },
+        "Knaves": {
+            "good": "This role benefits from longer games"
         },
         "Tor": {
             "good": "This role can allow the Demon to learn who they are"
@@ -13365,11 +13916,17 @@
         "Barista": {
             "warning": "Useless to double"
         },
+        "Harlot": {
+            "good": "Spy can appear as a Townsfolk or Outsider. Gives a good reason for difference of claims"
+        },
         "Scapegoat": {
             "info": "Spy can appear as good"
         },
         "Gnome": {
             "info": "Spy can register as good (don't)"
+        },
+        "Cacklejack": {
+            "good": "Cacklejack can replace this Minion"
         },
         "Doomsayer": {
             "good": "Spy can appear as good"
@@ -13383,8 +13940,15 @@
         "Revolutionary": {
             "good": "Good partner role"
         },
+        "God of Ug": {
+            "good": "This role can be said in ug speak",
+            "warning": "This info is hard to spread when wearing the hat"
+        },
         "Hindu": {
             "info": "Can become a good Traveller (dont)"
+        },
+        "Knaves": {
+            "warning": "Evil team misinformation is not great"
         },
         "Tor": {
             "warning": "This role immediately knows who they are"
@@ -13411,6 +13975,9 @@
         },
         "Wraith": {
             "good": "Wraith can guide this role"
+        },
+        "Fang Gu": {
+            "warning": "This Minion might accidentally target a newly jumped Fang Gu"
         },
         "Vigormortis": {
             "great": "Good synergy"
@@ -13449,6 +14016,13 @@
         "Revolutionary": {
             "good": "Partner can help this role out"
         },
+        "God of Ug": {
+            "good": "This role can be said in ug speak",
+            "warning": "Day deaths before executions might make the challenge not worth it"
+        },
+        "Knaves": {
+            "warning": "This role benefits from longer games"
+        },
         "Ventriloquist": {
             "warning": "Extra killing roles makes ventriloquism more evil-sided, as the number of executions is reduced"
         },
@@ -13458,7 +14032,10 @@
     },
     "Evil Twin": {
         "Pit-Hag": {
-            "good": "Evil Twin can change to another Minion"
+            "good": "Evil Twin can change to another Minion. Evil Twin allows the Pit-Hag to create a new Demon if the initial one dies"
+        },
+        "Cerenovus": {
+            "good": "Can explain the Twins not claiming the same role"
         },
         "Mastermind": {
             "conflict": "If Evil Twin is not executed before the Demon, the Mastermind doesn't trigger"
@@ -13529,17 +14106,39 @@
         "Butcher": {
             "good": "Extra executions gives more chances for this role to do something"
         },
+        "Gangster": {
+            "conflict": "Can kill this role without executions"
+        },
+        "Gunslinger": {
+            "conflict": "Can kill this role without executions"
+        },
         "Judge": {
             "warning": "Evil Judge can force an execution on the good twin"
         },
+        "Scapegoat": {
+            "good": "Can delay a Twin execution"
+        },
         "Gnome": {
+            "conflict": "Can kill this role without executions",
             "great": "Very interesting amigo"
+        },
+        "Cacklejack": {
+            "good": "Cacklejack can replace this Minion"
+        },
+        "Angel": {
+            "warning": "Angel protecting one of the Twins just delays the execution to after the Demon is killed"
         },
         "Fiddler": {
             "good": "Allows a fiddle between an alive and dead player (though hard to convinvingly orchestrate)"
         },
         "Revolutionary": {
             "warning": "Outed evils in the pair can be rough"
+        },
+        "God of Ug": {
+            "good": "Interesting dynamic with the twins"
+        },
+        "Knaves": {
+            "good": "This role benefits from longer games"
         },
         "Tor": {
             "warning": "This role immediately knows who they are, but their target doesn't know what role they have"
@@ -13562,7 +14161,8 @@
             "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "Mastermind": {
-            "warning": "Mastermind allows the Pit-Hag to create a new Demon after the first one has died. Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
+            "good": "Mastermind allows the Pit-Hag to create a new Demon after the first one has died",
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "Fearmonger": {
             "warning": "Adding a loud Minion is confirmed"
@@ -13605,7 +14205,8 @@
             "good": "Interesting Demon to change into"
         },
         "Fang Gu": {
-            "good": "Interesting Demon to change into"
+            "good": "Interesting Demon to change into",
+            "warning": "This Minion might accidentally target a newly jumped Fang Gu"
         },
         "Vigormortis": {
             "warning": "Once killed, a Pit-Hag can't change the Demon without losing their ability"
@@ -13672,6 +14273,9 @@
         "Toymaker": {
             "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
+        "God of Ug": {
+            "info": "Cannot be said in ug speak (counts as a single word)"
+        },
         "Pope": {
             "info": "Pit-Hag cannot create duplicates, only remove them"
         },
@@ -13685,6 +14289,9 @@
     "Cerenovus": {
         "Godfather": {
             "good": "Cerenovus can cause executions on Outsiders"
+        },
+        "Devil's Advocate": {
+            "warning": "This role can make players survive Cerenovus madness break"
         },
         "Boomdandy": {
             "warning": "Cerenovus should not trigger Boomdandy"
@@ -13705,11 +14312,11 @@
         "Wraith": {
             "good": "Wraith can guide this role. Making an (extra) evil mad forces them to wake with the Wraith"
         },
+        "Fang Gu": {
+            "warning": "This Minion might accidentally target a newly jumped Fang Gu"
+        },
         "Vigormortis": {
             "great": "Good synergy"
-        },
-        "Riot": {
-            "warning": "Cerenovus execution on day 3 can cause a day 4 with no Riot ability"
         },
         "Leviathan": {
             "warning": "Madness executions are very powerful in a Leviathan game"
@@ -13726,12 +14333,24 @@
         "Barista": {
             "warning": "Loud double"
         },
+        "Harlot": {
+            "good": "Gives a good reason for difference of claims"
+        },
+        "Cacklejack": {
+            "good": "Mad players can't claim to have changed characters"
+        },
         "Angel": {
             "warning": "Madness breaks might be most reponsible for their own deaths"
+        },
+        "Buddhist": {
+            "warning": "Less time to fulfill madness"
         },
         "Revolutionary": {
             "warning": "Can cause lying in the Rev pair",
             "good": "Partner can help this role out"
+        },
+        "God of Ug": {
+            "warning": "Instant executions make the God of Ug bonus useless. This ability is hard to do when wearing the hat"
         },
         "Storm Catcher": {
             "warning": "Cerenovus can cere-lock the stormcaught role"
@@ -13758,6 +14377,9 @@
         },
         "Imp": {
             "good": "This Minion is a good target for a starpass (once used)"
+        },
+        "Fang Gu": {
+            "warning": "This Minion might accidentally target a newly jumped Fang Gu"
         },
         "Vigormortis": {
             "great": "Good synergy"
@@ -13798,6 +14420,9 @@
         "Revolutionary": {
             "good": "Partner can help this role out"
         },
+        "Knaves": {
+            "warning": "This role benefits from longer games"
+        },
         "Storm Catcher": {
             "warning": "Assassin may be able to kill through the Stormcatcher (up to the ST)"
         },
@@ -13814,6 +14439,9 @@
     "Godfather": {
         "Mastermind": {
             "good": "Godfather can hide a Mastermind day"
+        },
+        "Devil's Advocate": {
+            "warning": "Can prevent Outsiders dying during the day"
         },
         "Boomdandy": {
             "warning": "Both discourage executions"
@@ -13847,7 +14475,7 @@
             "good": "Wraith can guide this role"
         },
         "Fang Gu": {
-            "warning": "Beware too many Outsider modifications"
+            "warning": "Beware too many Outsider modifications. This Minion might accidentally target a newly jumped Fang Gu"
         },
         "Vigormortis": {
             "warning": "Beware too many Outsider modifications"
@@ -13897,6 +14525,9 @@
         "Gunslinger": {
             "great": "Good synergy"
         },
+        "Scapegoat": {
+            "good": "Can prevent Outsiders dying during the day"
+        },
         "Voudon": {
             "good": "More deaths is good for Voudon"
         },
@@ -13908,6 +14539,9 @@
         },
         "Sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
+        },
+        "Knaves": {
+            "warning": "Evil team misinformation is not great. This role benefits from longer games"
         },
         "Pope": {
             "warning": "Godfather cannot know the exact Outsider count since they might be duplicated. Can add more than 1 Outsider with the duplicates"
@@ -13984,8 +14618,14 @@
         "Cacklejack": {
             "good": "Swapping into ths role is interesting"
         },
+        "Angel": {
+            "good": "This Minion needs to remain alive"
+        },
         "Fiddler": {
             "good": "Allows a fiddle between an alive and dead player (though hard to convinvingly orchestrate)"
+        },
+        "Knaves": {
+            "good": "This role benefits from longer games"
         },
         "Tor": {
             "warning": "Not knowing you're this role makes it hard to play",
@@ -14034,16 +14674,22 @@
             "good": "Extra executions gives more chances for this role to do something"
         },
         "Scapegoat": {
-            "good": "Interesting synergy"
+            "warning": "This role might prefer the execution to go through even if on the same team as the Scapegoat"
         },
         "Revolutionary": {
             "good": "Partner can help this role out"
+        },
+        "Knaves": {
+            "good": "This role benefits from longer games"
         },
         "Tor": {
             "good": "This role can find out for sure who they are if their ability triggers/is used"
         },
         "Ventriloquist": {
             "good": "DA can obfuscate a Ventriloquist"
+        },
+        "Zenomancer": {
+            "good": "Longer games are good for quests"
         }
     },
     "Boomdandy": {
@@ -14117,14 +14763,33 @@
         "Butcher": {
             "good": "Extra executions gives more chances for this role to do something"
         },
+        "Gangster": {
+            "warning": "Can kill this role without executions"
+        },
+        "Gunslinger": {
+            "warning": "Can kill this role without executions"
+        },
+        "Scapegoat": {
+            "warning": "This role might prefer the execution to go through even if on the same team as the Scapegoat"
+        },
         "Gnome": {
-            "good": "Interesting amigo"
+            "good": "Interesting amigo",
+            "warning": "Can kill this role without executions"
         },
         "Angel": {
-            "warning": "Angel doesn't work with ST-controlled deaths. Also Boomdandy doesn't give time for something bad to happen"
+            "conflict": "Angel doesn't work with ST-controlled deaths. Angel protecting a Goblin doesn't help them. Boomdandy doesn't give time for something bad to happen"
+        },
+        "Big Wig": {
+            "good": "Can give the defense to an evil player for them to do a deliberately bad job"
+        },
+        "God of Ug": {
+            "good": "Helps with execution"
         },
         "Hindu": {
             "warning": "If there are Hindu deaths left when the Boomdandy explodes, the ST chooses the remaining Travellers, who stay alive during the countdown"
+        },
+        "Knaves": {
+            "warning": "This role benefits from longer games"
         },
         "Storm Catcher": {
             "warning": "Boomdandy can't kill through Storm Catcher"
@@ -14166,6 +14831,9 @@
         "Wraith": {
             "good": "Wraith can guide this role"
         },
+        "Fang Gu": {
+            "warning": "This Minion might accidentally target a newly jumped Fang Gu"
+        },
         "Vigormortis": {
             "warning": "Killing this Minion fully disables it, no matter what"
         },
@@ -14199,11 +14867,17 @@
         "Butcher": {
             "warning": "Extra executions can't ever trigger the Fearmonger"
         },
+        "Scapegoat": {
+            "good": "Scapegoat can save a Fearmonger execution if town is in a really bad shape"
+        },
         "Gnome": {
             "good": "Gnome can protect from a Fearmonger nomination"
         },
         "Cacklejack": {
             "good": "Swapping away from a Fearmonger is interesting"
+        },
+        "Angel": {
+            "good": "This Minion needs to remain alive"
         },
         "Revolutionary": {
             "good": "Partner can help this role out"
@@ -14269,10 +14943,14 @@
             "warning": "Bone Collector is useless on this role (though the bluff might be interesting)"
         },
         "Harlot": {
+            "good": "Gives a good reason for difference of claims",
             "warning": "Marionette can unknowingly out to a good Harlot, revealing the Demon"
         },
         "Matron": {
             "warning": "Matron can move Marionette away from the Demon and vice versa"
+        },
+        "Duchess": {
+            "good": "Gives a reason for an evil player to unknowingly visit"
         },
         "Revolutionary": {
             "conflict": "Marionette in the pair prevents the Revolutionary from being used an accessibility tool"
@@ -14282,6 +14960,9 @@
         },
         "Pope": {
             "good": "Marionette can duplicate a good character"
+        },
+        "Storm Catcher": {
+            "good": "Marionette can think they're stormcaught"
         },
         "Tor": {
             "warning": "A Marionette tells the Demon they are the Demon"
@@ -14341,8 +15022,29 @@
         "Barista": {
             "warning": "Beware two extra evils if doubled"
         },
+        "Bishop": {
+            "good": "Interesting to change alignments mid-game"
+        },
+        "Deviant": {
+            "warning": "A Mez trigger on this Traveller doesn't change much"
+        },
+        "Gangster": {
+            "warning": "A Mez trigger on this Traveller is dangerous"
+        },
+        "Gunslinger": {
+            "warning": "A Mez trigger on this Traveller is dangerous"
+        },
+        "Judge": {
+            "warning": "A Mez trigger on this Traveller is dangerous"
+        },
+        "Scapegoat": {
+            "good": "Interesting to change alignments mid-game"
+        },
+        "Voudon": {
+            "warning": "A Mez trigger on this Traveller is dangerous if the number of voters is low"
+        },
         "Gnome": {
-            "warning": "The amigo/Traveller can change alignment"
+            "warning": "The amigo/Traveller can change alignment. A Mez trigger on this Traveller is dangerous"
         },
         "Cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
@@ -14353,6 +15055,12 @@
         },
         "Spirit of Ivory": {
             "warning": "If there's already an extra evil player, Mezepheles has no ability"
+        },
+        "God of Ug": {
+            "warning": "This ability is hard to do when wearing the hat"
+        },
+        "Storm Catcher": {
+            "warning": "Stormcaught can be evil"
         },
         "Tor": {
             "warning": "This role immediately knows who they are"
@@ -14379,6 +15087,9 @@
         },
         "Wizard": {
             "warning": "Loud Minions can confirm a Wizard not being in-play"
+        },
+        "Fang Gu": {
+            "warning": "This Minion might accidentally target a newly jumped Fang Gu"
         },
         "Vigormortis": {
             "warning": "An unkillable Psychopath is very powerful"
@@ -14420,11 +15131,20 @@
         "Cacklejack": {
             "warning": "Confirmed character change"
         },
+        "Angel": {
+            "warning": "Psychopath doesn't need additional incentive not to nominate them"
+        },
         "Revolutionary": {
             "warning": "Outed evils in the pair can be rough"
         },
+        "God of Ug": {
+            "warning": "This ability is hard to do when wearing the hat. Day deaths before executions might make the challenge not worth it"
+        },
         "Hindu": {
             "good": "A Psychopath can kill used evil players to give them new abilities"
+        },
+        "Knaves": {
+            "warning": "This role benefits from longer games"
         },
         "Tor": {
             "warning": "Not knowing you're this role makes it hard to play (everyone might try to Psychopath kill)"
@@ -14502,6 +15222,15 @@
         "Matron": {
             "warning": "Moving everyone around might make it hard to remember the Grimoire"
         },
+        "Angel": {
+            "good": "This Minion needs to remain alive"
+        },
+        "God of Ug": {
+            "warning": "This info is hard to spread when wearing the hat"
+        },
+        "Knaves": {
+            "warning": "Evil team misinformation is not great"
+        },
         "Tor": {
             "warning": "This role immediately knows who they are"
         },
@@ -14571,11 +15300,33 @@
         "Butcher": {
             "good": "Extra executions gives more chances for this role to do something"
         },
+        "Gangster": {
+            "warning": "Can kill this role without executions"
+        },
+        "Gunslinger": {
+            "warning": "Can kill this role without executions"
+        },
         "Judge": {
             "warning": "Evil Judge can force an execution of a Goblin"
         },
+        "Scapegoat": {
+            "warning": "This role might prefer the execution to go through even if on the same team as the Scapegoat"
+        },
+        "Gnome": {
+            "warning": "Can kill this role without executions"
+        },
+        "Angel": {
+            "warning": "Angel protecting a Goblin doesn't help them"
+        },
         "Revolutionary": {
             "warning": "Outed evils in the pair can be rough"
+        },
+        "Big Wig": {
+            "good": "Can give the defense to an evil player for them to do a deliberately bad job"
+        },
+        "God of Ug": {
+            "good": "Helps with execution",
+            "warning": "This ability is hard to do when wearing the hat"
         },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance"
@@ -14640,6 +15391,9 @@
         "Thief": {
             "good": "Thief's effect is not announced"
         },
+        "God of Ug": {
+            "good": "Voting twice is stronger when you can't see the votes"
+        },
         "Tor": {
             "warning": "This role immediately knows who they are (might be night 2 depending on how the ST plays it)"
         },
@@ -14653,6 +15407,9 @@
         },
         "Wizard": {
             "warning": "Loud Minions can confirm a Wizard not being in-play"
+        },
+        "Fang Gu": {
+            "warning": "This Minion might accidentally target a newly jumped Fang Gu"
         },
         "Vigormortis": {
             "good": "Killing the Vizier allows to avoid 50/50 on final day (but reveals the Demon type)"
@@ -14702,11 +15459,17 @@
         "Cacklejack": {
             "warning": "Swapping away from a Vizier is powerful"
         },
+        "Angel": {
+            "warning": "Vizier already can't die by nomination"
+        },
         "Ferryman": {
             "good": "Additional voting is good for Vizier"
         },
         "Revolutionary": {
             "warning": "Outed evils in the pair can be rough"
+        },
+        "God of Ug": {
+            "good": "The player with the hat is likely to vote more"
         },
         "Hindu": {
             "warning": "Unlikely to die"
@@ -14730,6 +15493,9 @@
         },
         "Wraith": {
             "good": "Wraith can guide this role. Making an (extra) evil mad forces them to wake with the Wraith"
+        },
+        "Fang Gu": {
+            "warning": "This Minion might accidentally target a newly jumped Fang Gu"
         },
         "Vigormortis": {
             "great": "Good synergy"
@@ -14765,6 +15531,9 @@
         "Angel": {
             "warning": "Madness breaks might be most reponsible for their own deaths"
         },
+        "Buddhist": {
+            "warning": "Less time to fulfill madness"
+        },
         "Duchess": {
             "good": "Harpy could cause people to lie about Duchess info"
         },
@@ -14774,6 +15543,12 @@
         },
         "Big Wig": {
             "warning": "If a Harpy-mad player wears the Big Wig, they might die in any case"
+        },
+        "God of Ug": {
+            "warning": "This ability is hard to do when wearing the hat. Day deaths before executions might make the challenge not worth it"
+        },
+        "Knaves": {
+            "warning": "This role benefits from longer games"
         },
         "Storm Catcher": {
             "warning": "Harpy madness has no consequences on the stormcaught role"
@@ -14845,8 +15620,17 @@
             "good": "Cacklejack can either replace this ability once used",
             "warning": "Not a good ability to give mid-game"
         },
+        "Angel": {
+            "good": "This Minion needs to remain alive"
+        },
         "Revolutionary": {
             "warning": "Summoner cannot summon in the Rev pair without changing both"
+        },
+        "Knaves": {
+            "warning": "Evil team misinformation is not great, especially for bluffs"
+        },
+        "Storm Catcher": {
+            "good": "The stormcaught player can be summoned"
         },
         "Tor": {
             "warning": "This role immediately knows who they are"
@@ -14899,8 +15683,17 @@
         "Gnome": {
             "good": "Interesting amigo"
         },
+        "Angel": {
+            "good": "This Minion needs to remain alive"
+        },
+        "Knaves": {
+            "warning": "The Demon always learns the correct ability, even if the Boffin is lied to"
+        },
         "Pope": {
             "info": "Boffin ability still cannot be an in-play ability"
+        },
+        "Storm Catcher": {
+            "good": "The Boffin can give the stormcaught abiltiy to the Demon to help with bluffing it"
         },
         "Tor": {
             "warning": "This role tells the Demon they are the Demon"
@@ -14934,8 +15727,14 @@
         "Cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
+        "Angel": {
+            "good": "This Minion needs to remain alive"
+        },
         "Sentinel": {
             "warning": "Sentinel can obfuscate the presence of this role"
+        },
+        "God of Ug": {
+            "good": "This role can be said in ug speak"
         },
         "Hindu": {
             "info": "Changing Outsiders into Travellers doesn't influence the Xaan night"
@@ -15000,6 +15799,9 @@
         },
         "Toymaker": {
             "warning": "Wishes must respect the Toymaker"
+        },
+        "God of Ug": {
+            "warning": "This ability is hard to do when wearing the hat"
         },
         "Hindu": {
             "warning": "Wishes might persist through death"
@@ -15072,12 +15874,18 @@
         "Gnome": {
             "good": "Interesting amigo"
         },
+        "Angel": {
+            "good": "An Angel-protected Wraith can be more brazen, which is good for newer players"
+        },
         "Revolutionary": {
             "warning": "Outed evils in the pair can be rough",
             "good": "Waking the pair together can be nice"
         },
         "Toymaker": {
             "good": "Wraith can help decide the night of no kills"
+        },
+        "God of Ug": {
+            "good": "This role can be said in ug speak"
         },
         "Hindu": {
             "warning": "Confirmed evil Travellers might not be fun to play as"
@@ -15102,6 +15910,12 @@
         },
         "Cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
+        },
+        "Angel": {
+            "warning": "This role might be most responsible for their own death"
+        },
+        "God of Ug": {
+            "good": "This role can be said in ug speak"
         },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance"
@@ -15134,6 +15948,9 @@
         "Cacklejack": {
             "good": "Cacklejack can either replace this ability once used or give a use mid-game"
         },
+        "Angel": {
+            "warning": "This role might be most responsible for their own death"
+        },
         "Revolutionary": {
             "warning": "Fang Gu cannot jump into the Rev pair without changing both"
         },
@@ -15142,6 +15959,9 @@
         },
         "Spirit of Ivory": {
             "info": "If there's an extra evil, Fang Gu can't jump (will still kill the outsider targeted)"
+        },
+        "God of Ug": {
+            "good": "This role can be said in ug speak"
         },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance"
@@ -15169,6 +15989,9 @@
         },
         "Cacklejack": {
             "warning": "If swapped, Minions lose their ability"
+        },
+        "Angel": {
+            "warning": "Angel might interfere with a Vigormortis killing their Minion"
         },
         "Revolutionary": {
             "good": "Rev can misregister to have the poison be placed further away"
@@ -15209,8 +16032,14 @@
             "good": "Single kill Demons can kill twice with a Barista",
             "warning": "Potentially loud double"
         },
+        "Beggar": {
+            "warning": "Traveller info is immune to Vortox"
+        },
         "Bureaucrat": {
             "good": "Helps with execution"
+        },
+        "Harlot": {
+            "warning": "Traveller info is immune to Vortox"
         },
         "Voudon": {
             "conflict": "Evil Voudon can choose not to vote on day 1, causing a loss"
@@ -15223,6 +16052,9 @@
         },
         "Fibbin": {
             "info": "Fibbin can give true info with Vortox"
+        },
+        "Knaves": {
+            "warning": "Causes both STs to lie in the case of Townsfolk information, making it easier to detect a Vortox"
         },
         "Ventriloquist": {
             "good": "Misinformation can make pivots more convincing"
@@ -15243,6 +16075,12 @@
         },
         "Toymaker": {
             "warning": "Po ignores the Toymaker by charging"
+        },
+        "God of Ug": {
+            "good": "This role can be said in ug speak"
+        },
+        "Knaves": {
+            "warning": "This role benefits from longer games"
         },
         "Tor": {
             "warning": "This role can easily find out who they are"
@@ -15271,6 +16109,12 @@
         "Gnome": {
             "warning": "Extra day deaths can kill the Pukka target"
         },
+        "Knaves": {
+            "good": "This role benefits from longer games"
+        },
+        "Storm Catcher": {
+            "good": "Pukka can still poison the sotrmcaught player (but still can't kill them)"
+        },
         "Tor": {
             "warning": "Harder to identify as the Demon"
         },
@@ -15287,6 +16131,9 @@
         },
         "Voudon": {
             "good": "More deaths is good for Voudon"
+        },
+        "Knaves": {
+            "warning": "This role benefits from longer games"
         },
         "Tor": {
             "warning": "This role can easily find out who they are"
@@ -15315,6 +16162,9 @@
         "Cacklejack": {
             "warning": "Zombuul should not be swapped away after first death"
         },
+        "Angel": {
+            "warning": "First Zombuul death might trigger an unfair punishment"
+        },
         "Doomsayer": {
             "warning": "Doomsayer can prevent the Zombuul from attacking",
             "good": "Zombuul can survive the Doomsayer"
@@ -15324,6 +16174,9 @@
         },
         "Hindu": {
             "conflict": "Zombuul ability doees not work with Hindu"
+        },
+        "Knaves": {
+            "good": "This role benefits from longer games"
         },
         "Tor": {
             "good": "Allows the Demon to learn who they are. This role can figure out who they are after some time"
@@ -15350,6 +16203,9 @@
         },
         "Hindu": {
             "warning": "First choices matter less with Hindu"
+        },
+        "Knaves": {
+            "warning": "This role benefits from longer games"
         },
         "Tor": {
             "warning": "This role immediately knows who they are"
@@ -15380,6 +16236,15 @@
         },
         "Ferryman": {
             "warning": "Ferryman is useless with Riot"
+        },
+        "God of Ug": {
+            "warning": "Votes only matter before day 3"
+        },
+        "Knaves": {
+            "warning": "This role benefits from longer games"
+        },
+        "Storm Catcher": {
+            "warning": "Rioting is not an execution, so the stormcaught player will be confirmed"
         },
         "Tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -15422,6 +16287,9 @@
         "Cacklejack": {
             "warning": "Confirmed character change"
         },
+        "Angel": {
+            "warning": "Few deaths make the Angel redundant"
+        },
         "Buddhist": {
             "good": "Buddhist can help new players find their voice in high-info games like Leviathan"
         },
@@ -15436,6 +16304,12 @@
         },
         "Toymaker": {
             "warning": "Toymaker downside doesn't come into play with Leviathan"
+        },
+        "God of Ug": {
+            "good": "Votes are a lot more valuable in a Leviathan game"
+        },
+        "Knaves": {
+            "good": "This role benefits from longer games"
         },
         "Storm Catcher": {
             "warning": "Leviathan can't kill"
@@ -15464,8 +16338,14 @@
         "Cacklejack": {
             "good": "Swapping into ths role is interesting"
         },
+        "Angel": {
+            "warning": "The Angel-protected player makes for an obvious host. The Lleech can't die"
+        },
         "Fiddler": {
             "warning": "Outed Lleech can't win a Fiddler contest"
+        },
+        "God of Ug": {
+            "good": "This role can be said in ug speak"
         },
         "Tor": {
             "warning": "Not knowing you're this role makes it hard to play"
@@ -15508,11 +16388,17 @@
         "Fiddler": {
             "conflict": "Legion with a Fiddler is a instant loss for good"
         },
+        "God of Ug": {
+            "warning": "Evil only cares about keeping the hat from good in a Legion game"
+        },
         "Hindu": {
             "warning": "Many evil Travellers can be imbalanced"
         },
         "Pope": {
             "good": "Legion tends to double claim itself"
+        },
+        "Storm Catcher": {
+            "warning": "Good players are unlikely to die at night in a Legion game"
         },
         "Tor": {
             "warning": "Not knowing you're this role makes it very hard to play"
@@ -15570,9 +16456,6 @@
         },
         "Ventriloquist": {
             "warning": "Frequent pivots can make Ojo harder to play"
-        },
-        "Zenomancer": {
-            "warning": "Shorter games means less time for quests"
         }
     },
     "Kazali": {
@@ -15597,6 +16480,9 @@
         },
         "Pope": {
             "warning": "This role can bring more Outsiders into play than there are on the script"
+        },
+        "Storm Catcher": {
+            "warning": "Might remove the stormcaught role from play (doesn't learn about it during their picks)"
         },
         "Tor": {
             "warning": "This role immediately knows who they are, and allows all Minions to know they're evil"
@@ -15623,6 +16509,12 @@
         },
         "Duchess": {
             "good": "This role gives good opportunities for phrases"
+        },
+        "God of Ug": {
+            "warning": "This ability is hard to do when wearing the hat. Day deaths before executions might make the challenge not worth it"
+        },
+        "Knaves": {
+            "warning": "This role benefits from longer games"
         },
         "Tor": {
             "warning": "This role immediately knows who they are"
@@ -15681,6 +16573,9 @@
         },
         "Pope": {
             "warning": "This role can bring more Outsiders into play than there are on the script"
+        },
+        "Storm Catcher": {
+            "warning": "Might remove the strom caught character from play"
         },
         "Tor": {
             "warning": "Not knowing you're this role makes it very hard to play"
@@ -15757,6 +16652,12 @@
         "Fibbin": {
             "warning": "Can cause the Beggar to receive false information"
         },
+        "God of Ug": {
+            "warning": "Players without dead votes don't need the hat"
+        },
+        "Knaves": {
+            "warning": "Beggar is not immune to Knaves"
+        },
         "Zenomancer": {
             "good": "Interesting role to give information about"
         }
@@ -15770,6 +16671,9 @@
         },
         "Angel": {
             "warning": "Bishop nominations are tough to determine \"most reponsible\""
+        },
+        "God of Ug": {
+            "good": "Votes matter more in a Bishop game"
         },
         "Hindu": {
             "warning": "Very influential Traveller to bring mid-game"
@@ -15792,6 +16696,15 @@
         },
         "Thief": {
             "good": "If both choose the same player, that player has -3 votes"
+        },
+        "Voudon": {
+            "warning": "Reduced number of voters make extra votes more powerful"
+        },
+        "Spirit of Ivory": {
+            "info": "More (potential) good votes might make Spirit of Ivory less needed. On the other hand, extra evils means more likely to have evil extra votes"
+        },
+        "God of Ug": {
+            "warning": "Bureaucrat and hat can give a player 6 votes"
         }
     },
     "Butcher": {
@@ -15803,6 +16716,9 @@
         },
         "Voudon": {
             "good": "More deaths is good for Voudon"
+        },
+        "Knaves": {
+            "warning": "This role benefits from longer games"
         },
         "Ventriloquist": {
             "good": "Extra executions gives more chances for this role to do something",
@@ -15823,6 +16739,9 @@
             "good": "Opens good opportunities to be funny",
             "warning": "Silence means less time to be funny"
         },
+        "God of Ug": {
+            "good": "Opens good opportunities to be funny"
+        },
         "Ventriloquist": {
             "good": "Opens good opportunities to be funny"
         },
@@ -15833,6 +16752,12 @@
     "Gangster": {
         "Voudon": {
             "good": "More deaths is good for Voudon"
+        },
+        "Angel": {
+            "warning": "Hard to determine most responsible with a Gangster kill"
+        },
+        "Knaves": {
+            "warning": "This role benefits from longer games"
         },
         "Tor": {
             "good": "Might get request to die to learn who you are"
@@ -15847,6 +16772,12 @@
     "Gunslinger": {
         "Voudon": {
             "good": "More deaths is good for Voudon"
+        },
+        "God of Ug": {
+            "good": "The hat wearer might vote more"
+        },
+        "Knaves": {
+            "warning": "This role benefits from longer games"
         },
         "Tor": {
             "good": "Might get request to die to learn who you are"
@@ -15865,6 +16796,9 @@
         "Hindu": {
             "warning": "Can die and be resurrected (might be silent if resurrected as Harlot, but hard to tell until all Hindu deaths are used)"
         },
+        "Knaves": {
+            "warning": "Evil team misinformation is not great. This role benefits from longer games"
+        },
         "Tor": {
             "good": "Can help players figure out who they are"
         },
@@ -15877,16 +16811,26 @@
         }
     },
     "Judge": {
+        "God of Ug": {
+            "good": "This role can be said in ug speak"
+        },
         "Storm Catcher": {
             "warning": "Evil Judge can force an execution on the stormcaught player"
         }
     },
     "Matron": {
+        "Angel": {
+            "good": "Matron encourages new players to learn about private chats",
+            "warning": "Less beginner-friendly"
+        },
         "Revolutionary": {
-            "warning": "The Revolutionary pair must be moved together"
+            "warning": "The Revolutionary pair must be moved together. Less beginner-friendly"
         },
         "Gardener": {
             "conflict": "Matron messes with the gardening"
+        },
+        "God of Ug": {
+            "warning": "Both roles make talking difficult"
         },
         "Hindu": {
             "warning": "Very influential Traveller to bring mid-game"
@@ -15912,13 +16856,21 @@
             "good": "Interesting role to give information about"
         }
     },
-    "Thief": {},
+    "Thief": {
+        "God of Ug": {
+            "good": "This role can be said in ug speak",
+            "warning": "Minus two votes is a big risk for the hat wearer"
+        }
+    },
     "Voudon": {
         "Gnome": {
-            "good": "More deaths is good for Voudon"
+            "good": "More deaths is good for Voudon and can prevent a lone Voudon vote D1"
         },
         "Ferryman": {
             "warning": "Voudon makes the Ferryman useless if alive on final day"
+        },
+        "God of Ug": {
+            "warning": "Reduced number of voters make extra votes more powerful"
         },
         "Hindu": {
             "warning": "Very influential Traveller to bring mid-game",
@@ -15929,6 +16881,12 @@
         }
     },
     "Gnome": {
+        "God of Ug": {
+            "good": "This role can be said in ug speak"
+        },
+        "Knaves": {
+            "warning": "This role benefits from longer games"
+        },
         "Tor": {
             "good": "Can help players figure out who they are"
         },
@@ -15960,10 +16918,26 @@
         "Doomsayer": {
             "warning": "Angel doesn't work with ST-controlled deaths"
         },
+        "God of Ug": {
+            "warning": "This Loric is not beginner-friendly"
+        },
+        "Hindu": {
+            "warning": "This Loric is not beginner-friendly"
+        },
+        "Knaves": {
+            "warning": "This Loric is not beginner-friendly"
+        },
+        "Pope": {
+            "warning": "This Loric is not beginner-friendly"
+        },
+        "Storm Catcher": {
+            "warning": "Might be redundant to have an Angel and Stormcaught player"
+        },
         "Tor": {
-            "warning": "Tor is not beginner-friendly"
+            "warning": "This Loric is not beginner-friendly"
         },
         "Ventriloquist": {
+            "good": "Ventriloquist might help new players who are not comfortable outing yet",
             "warning": "Discourages specific nominations"
         }
     },
@@ -15974,13 +16948,28 @@
         "Big Wig": {
             "info": "Both interact with silence"
         },
+        "God of Ug": {
+            "warning": "This Loric is not beginner-friendly. Less time to speak ug"
+        },
+        "Hindu": {
+            "warning": "This Loric is not beginner-friendly"
+        },
+        "Knaves": {
+            "warning": "This Loric is not beginner-friendly"
+        },
+        "Pope": {
+            "warning": "This Loric is not beginner-friendly"
+        },
         "Tor": {
-            "warning": "Tor is not beginner-friendly"
+            "warning": "This Loric is not beginner-friendly"
         }
     },
     "Doomsayer": {
         "Ferryman": {
             "great": "Interesting synergy"
+        },
+        "God of Ug": {
+            "warning": "Day deaths before executions might make the challenge not worth it"
         },
         "Hindu": {
             "good": "Interesting synergy"
@@ -15996,6 +16985,9 @@
         }
     },
     "Duchess": {
+        "Knaves": {
+            "warning": "This role's info is immune to Knaves"
+        },
         "Tor": {
             "good": "Can help players figure out who they are"
         },
@@ -16003,13 +16995,20 @@
             "good": "Interesting role to give information about"
         }
     },
-    "Ferryman": {},
+    "Ferryman": {
+        "God of Ug": {
+            "good": "Ferryman gives a reason for dead players to use the hat before final day"
+        }
+    },
     "Fibbin": {
         "Tor": {
             "info": "Can give players incorrect info from a different role (dont)"
         }
     },
     "Fiddler": {
+        "Knaves": {
+            "warning": "This role benefits from longer games"
+        },
         "Zenomancer": {
             "warning": "Shorter games means less time for quests"
         }
@@ -16031,11 +17030,18 @@
         }
     },
     "Spirit of Ivory": {
+        "God of Ug": {
+            "info": "More (potential) good votes might make Spirit of Ivory less needed. On the other hand, extra evils means more likely to have evil extra votes"
+        },
         "Pope": {
             "great": "Spirit of Ivory is good to control multiple alignment changers"
         }
     },
     "Toymaker": {
+        "Knaves": {
+            "good": "This role benefits from longer games",
+            "warning": "This role's info is immune to Knaves"
+        },
         "Tor": {
             "warning": "Toymaker allows regular Demon and Minion info with Tor"
         },
@@ -16044,6 +17050,10 @@
         }
     },
     "Big Wig": {
+        "God of Ug": {
+            "good": "This role can be said in ug speak",
+            "warning": "This ability is hard to do when wearing the hat. Less time to speak ug"
+        },
         "Ventriloquist": {
             "warning": "Ventriloquist is harder to trigger when you can't defend yourself"
         }
@@ -16056,7 +17066,32 @@
             "great": "Interesting synergy"
         }
     },
+    "God of Ug": {
+        "Knaves": {
+            "good": "This role can be said in ug speak"
+        },
+        "Pope": {
+            "good": "This role can be said in ug speak"
+        },
+        "Tor": {
+            "good": "This role can be said in ug speak"
+        },
+        "Ventriloquist": {
+            "warning": "This ability is hard to do when wearing the hat"
+        },
+        "Zenomancer": {
+            "good": "Opens good opportunities for quests (though is also its own quest)"
+        }
+    },
     "Hindu": {},
+    "Knaves": {
+        "Storm Catcher": {
+            "warning": "This role's info is immune to Knaves"
+        },
+        "Zenomancer": {
+            "warning": "This role's info is immune to Knaves"
+        }
+    },
     "Pope": {
         "Storm Catcher": {
             "warning": "Only one copy might be stormcaught (no official ruling, ST-dependent)"

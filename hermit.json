@@ -159,11 +159,20 @@
         "Barber": {
             "good": "ST can register the Hermit as a Demon to prevent a swap"
         },
+        "Goon": {
+            "warning": "Goon will already cause misinformation for characters that choose"
+        },
         "Lunatic": {
             "great": "Interesting combination"
         },
         "Damsel": {
             "good": "Misregistration could help conceal the Damsel"
+        },
+        "Golem": {
+            "good": "Prevents confirmation by nominating yourself"
+        },
+        "Puzzlemaster": {
+            "info": "Hermit can learn themself as the Demon (dont)"
         },
         "Snitch": {
             "info": "Hermit can give itself bluffs (don't)"
@@ -342,6 +351,9 @@
         },
         "Golem": {
             "warning": "Golem is hard to hide. Hermit Golem can control its death"
+        },
+        "Politician": {
+            "good": "Allows the Hermit to play both sides for the entire game"
         },
         "Plague Doctor": {
             "warning": "Goon makes it harder for the Hermit to die"
