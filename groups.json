@@ -54,7 +54,8 @@
             "Kazali",
             "Lord of Typhon",
             "Sentinel",
-            "Pope"
+            "Pope",
+            "Marionette"
         ]
     },
     {
@@ -338,11 +339,11 @@
             "Choirboy",
             "Banshee",
             "Farmer",
-            "Lycanthrope",
+            "Juggler",
             "Magician",
             "Pixie",
             "Poppy Grower",
-            "Preacher",
+            "Gossip",
             "Ravenkeeper",
             "Sage",
             "Snake Charmer",
@@ -364,7 +365,16 @@
             "Summoner",
             "Mezepheles",
             "Fang Gu",
-            "Ojo"
+            "Ojo",
+            "Preacher",
+            "Alsaahir",
+            "Saint",
+            "Undertaker",
+            "Cerenovus",
+            "Harpy",
+            "Big Wig",
+            "Ventriloquist",
+            "Tor"
         ]
     },
     {

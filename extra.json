@@ -113,6 +113,26 @@
     },
     {
         "interaction": {
+            "info": "The No Dashii poisoned reminder tokens are removed when the Spy sees the Grimoire"
+        },
+        "characters": [
+            "Magician",
+            "No Dashii",
+            "Spy"
+        ]
+    },
+    {
+        "interaction": {
+            "info": "The No Dashii poisoned reminder tokens are removed when the Widow sees the Grimoire"
+        },
+        "characters": [
+            "Magician",
+            "No Dashii",
+            "Widow"
+        ]
+    },
+    {
+        "interaction": {
             "warning": "Vigormortis doesn't care about killing Minions due to the jinx"
         },
         "characters": [
@@ -209,6 +229,37 @@
             "Banshee",
             "God of Ug",
             "Thief"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Someone pit-hagged into the Lunatic can be made to believe they are the Drunk who got jumped to by the Fang Gu"
+        },
+        "characters": [
+            "Lunatic",
+            "Pit-Hag",
+            "Fang Gu",
+            "Drunk"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "During a fiddle contest, players sat next to a Recluse can still suspect they're the Marionette"
+        },
+        "characters": [
+            "Fiddler",
+            "Marionette",
+            "Recluse"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "During a fiddle contest, players sat next to a Minion (in theory, most players) can still suspect they're the Marionette"
+        },
+        "characters": [
+            "Fiddler",
+            "Marionette",
+            "Lil' Monsta"
         ]
     }
 ]
