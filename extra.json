@@ -64,7 +64,7 @@
             "Lunatic",
             "Klutz",
             "Boffin",
-            "Ravenkeeper"
+            "Sage"
         ]
     },
     {
@@ -76,7 +76,7 @@
             "Lunatic",
             "Moonchild",
             "Boffin",
-            "Sage"
+            "Ravenkeeper"
         ]
     },
     {
@@ -89,6 +89,16 @@
             "Moonchild",
             "Boffin",
             "Sage"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "A Recluse with a Magician and Marionette makes it very unlikely for evil to find the Marionette"
+        },
+        "characters": [
+            "Magician",
+            "Marionette",
+            "Recluse"
         ]
     },
     {
@@ -213,6 +223,86 @@
     },
     {
         "interaction": {
+            "conflict": "Riot prevents the jinx from having any effect"
+        },
+        "characters": [
+            "Magician",
+            "Wraith",
+            "Riot"
+        ]
+    },
+    {
+        "interaction": {
+            "conflict": "Riot prevents the jinx from having any effect"
+        },
+        "characters": [
+            "Alchemist",
+            "Spy",
+            "Riot"
+        ]
+    },
+    {
+        "interaction": {
+            "conflict": "Riot prevents the jinx from having any effect"
+        },
+        "characters": [
+            "Alchemist",
+            "Widow",
+            "Riot"
+        ]
+    },
+    {
+        "interaction": {
+            "conflict": "Riot prevents the jinx from having any effect"
+        },
+        "characters": [
+            "Alchemist",
+            "Wraith",
+            "Riot"
+        ]
+    },
+    {
+        "interaction": {
+            "conflict": "Leviathan prevents the jinx from having any effect"
+        },
+        "characters": [
+            "Magician",
+            "Wraith",
+            "Leviathan"
+        ]
+    },
+    {
+        "interaction": {
+            "conflict": "Leviathan prevents the jinx from having any effect"
+        },
+        "characters": [
+            "Alchemist",
+            "Spy",
+            "Leviathan"
+        ]
+    },
+    {
+        "interaction": {
+            "conflict": "Leviathan prevents the jinx from having any effect"
+        },
+        "characters": [
+            "Alchemist",
+            "Widow",
+            "Leviathan"
+        ]
+    },
+    {
+        "interaction": {
+            "conflict": "Leviathan prevents the jinx from having any effect"
+        },
+        "characters": [
+            "Alchemist",
+            "Wraith",
+            "Leviathan"
+        ]
+    },
+    {
+        "interaction": {
             "warning": "Activated Banshee can get up to 12 votes"
         },
         "characters": [
@@ -244,6 +334,17 @@
     },
     {
         "interaction": {
+            "good": "Someone cacklejacked into the Lunatic can be made to believe they are the Drunk who got jumped to by the Fang Gu (don't unless the Cacklejack is evil)"
+        },
+        "characters": [
+            "Lunatic",
+            "Cacklejack",
+            "Fang Gu",
+            "Drunk"
+        ]
+    },
+    {
+        "interaction": {
             "good": "During a fiddle contest, players sat next to a Recluse can still suspect they're the Marionette"
         },
         "characters": [
@@ -260,6 +361,346 @@
             "Fiddler",
             "Marionette",
             "Lil' Monsta"
+        ]
+    },
+    {
+        "interaction": {
+            "conflict": "Alchemist-Summoner + Marionette can result in games where there are no (known) evil players until night 3"
+        },
+        "characters": [
+            "Alchemist",
+            "Summoner",
+            "Marionette"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Clockmaker no on 5-12 players"
+        },
+        "characters": [
+            "Clockmaker",
+            "Summoner",
+            "Marionette"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+        },
+        "characters": [
+            "Leviathan",
+            "Soldier",
+            "Spy"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+        },
+        "characters": [
+            "Leviathan",
+            "Soldier",
+            "Widow"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+        },
+        "characters": [
+            "Leviathan",
+            "Exorcist",
+            "Spy"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+        },
+        "characters": [
+            "Leviathan",
+            "Exorcist",
+            "Widow"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+        },
+        "characters": [
+            "Leviathan",
+            "Innkeeper",
+            "Spy"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+        },
+        "characters": [
+            "Leviathan",
+            "Innkeeper",
+            "Widow"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+        },
+        "characters": [
+            "Leviathan",
+            "Monk",
+            "Spy"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+        },
+        "characters": [
+            "Leviathan",
+            "Monk",
+            "Widow"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+        },
+        "characters": [
+            "Riot",
+            "Soldier",
+            "Spy"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+        },
+        "characters": [
+            "Riot",
+            "Soldier",
+            "Widow"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+        },
+        "characters": [
+            "Riot",
+            "Exorcist",
+            "Spy"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+        },
+        "characters": [
+            "Riot",
+            "Exorcist",
+            "Widow"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+        },
+        "characters": [
+            "Riot",
+            "Innkeeper",
+            "Spy"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+        },
+        "characters": [
+            "Riot",
+            "Innkeeper",
+            "Widow"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+        },
+        "characters": [
+            "Riot",
+            "Monk",
+            "Spy"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+        },
+        "characters": [
+            "Riot",
+            "Monk",
+            "Widow"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "If chosen by the Exorcist, the Demon does not pick, preventing this jinx from being used"
+        },
+        "characters": [
+            "Leviathan",
+            "Banshee",
+            "Exorcist"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "If chosen by the Exorcist, the Demon does not pick, preventing this jinx from being used"
+        },
+        "characters": [
+            "Leviathan",
+            "Ravenkeeper",
+            "Exorcist"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "If chosen by the Exorcist, the Demon does not pick, preventing this jinx from being used"
+        },
+        "characters": [
+            "Leviathan",
+            "Sage",
+            "Exorcist"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "If chosen by the Exorcist, the Demon does not pick, preventing this jinx from being used"
+        },
+        "characters": [
+            "Leviathan",
+            "Farmer",
+            "Exorcist"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "If chosen by the Exorcist, the Demon does not pick, preventing this jinx from being used"
+        },
+        "characters": [
+            "Riot",
+            "Banshee",
+            "Exorcist"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "If chosen by the Exorcist, the Demon does not pick, preventing this jinx from being used"
+        },
+        "characters": [
+            "Riot",
+            "Ravenkeeper",
+            "Exorcist"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "If chosen by the Exorcist, the Demon does not pick, preventing this jinx from being used"
+        },
+        "characters": [
+            "Riot",
+            "Sage",
+            "Exorcist"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "If chosen by the Exorcist, the Demon does not pick, preventing this jinx from being used"
+        },
+        "characters": [
+            "Riot",
+            "Farmer",
+            "Exorcist"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good killing characters can activating the King jinx without executions"
+        },
+        "characters": [
+            "Leviathan",
+            "King",
+            "Acrobat"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good killing characters can activating the King jinx without executions"
+        },
+        "characters": [
+            "Leviathan",
+            "King",
+            "Gambler"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good killing characters can activating the King jinx without executions"
+        },
+        "characters": [
+            "Leviathan",
+            "King",
+            "Gossip"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good killing characters can activating the King jinx without executions"
+        },
+        "characters": [
+            "Leviathan",
+            "King",
+            "Lycanthrope"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good killing characters can activating the King jinx without executions"
+        },
+        "characters": [
+            "Riot",
+            "King",
+            "Acrobat"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good killing characters can activating the King jinx without executions"
+        },
+        "characters": [
+            "Riot",
+            "King",
+            "Gambler"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good killing characters can activating the King jinx without executions"
+        },
+        "characters": [
+            "Riot",
+            "King",
+            "Gossip"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good killing characters can activating the King jinx without executions"
+        },
+        "characters": [
+            "Riot",
+            "King",
+            "Lycanthrope"
         ]
     }
 ]
