@@ -131,7 +131,7 @@
             "good": "Acrobat can narrow down incidental droison"
         },
         "Shabaloth": {
-            "warning": "Death-based characters like being resurrected"
+            "warning": "Death-based characters like being resurrected. In a 6-player game, can cause the game to last only 1 day with 3 night deaths (and an execution)"
         },
         "Al-Hadikhia": {
             "warning": "This role needs explanation for non-picked deaths"
@@ -235,6 +235,9 @@
             "good": "When resurrected, it gets a new ability (or same)",
             "warning": "Bluffing Alchemist can waste a Professor"
         },
+        "Sailor": {
+            "warning": "Alchemist can't be lied to about having another ability if droisoned on the 1st night with this ability, since they will learn the truth once sober/healthy"
+        },
         "Steward": {
             "good": "False Steward ping can claim to be the Alchemist"
         },
@@ -265,6 +268,9 @@
         "Baron": {
             "info": "Alch-Baron is fairly weak, but can be useful for confirmation"
         },
+        "Poisoner": {
+            "warning": "Alchemist can't be lied to about having another ability if droisoned on the 1st night with this ability, since they will learn the truth once sober/healthy"
+        },
         "Scarlet Woman": {
             "warning": "Alch-Scarlet Woman is near-useless without Heretic. Beware creating 2 Demons"
         },
@@ -287,6 +293,9 @@
         "Mezepheles": {
             "conflict": "Alch-Zepheles can just become evil on command"
         },
+        "Widow": {
+            "warning": "Alchemist can't be lied to about having another ability if droisoned on the 1st night with this ability, since they will learn the truth once sober/healthy"
+        },
         "Harpy": {
             "warning": "Alch-Harpy is pretty weak"
         },
@@ -294,7 +303,7 @@
             "good": "Demon can have a Minion ability. Good Boffin can give bad abilities to the Demon"
         },
         "Xaan": {
-            "info": "Xaanchemist creates a loop: everyone remains poisoned"
+            "warning": "Alchemist can't be lied to about having another ability if droisoned on the 1st night with this ability, since they will learn the truth once sober/healthy"
         },
         "Wizard": {
             "warning": "Very powerful ability for the Alchemist"
@@ -819,6 +828,9 @@
         },
         "Barista": {
             "good": "Powerful role to double or guarantee"
+        },
+        "Deviant": {
+            "good": "Publicly claiming roles & roles that visit the ST for info opens room for jokes"
         },
         "Angel": {
             "good": "Gives time to figure out their ability",
@@ -1487,7 +1499,7 @@
             "great": "Confirmation works well with this role"
         },
         "Courtier": {
-            "warning": "Banshee can stop working which confirms droison"
+            "warning": "Activated Banshee that gets droisoned loses their vote if they try to vote (can be avoided by first trying to nominate), which also confirms droiso"
         },
         "Farmer": {
             "warning": "Beware too much confirmation"
@@ -1499,7 +1511,7 @@
             "good": "Banshee can also help confirm a Grandmother"
         },
         "Innkeeper": {
-            "warning": "Banshee can stop working which confirms droison"
+            "warning": "Activated Banshee that gets droisoned loses their vote if they try to vote (can be avoided by first trying to nominate), which also confirms droiso"
         },
         "Lycanthrope": {
             "warning": "Non-Demon kills don't trigger Banshee"
@@ -1509,7 +1521,7 @@
             "warning": "More votes means less likely to not get any executions"
         },
         "Minstrel": {
-            "warning": "Banshee can stop working which confirms droison",
+            "warning": "Activated Banshee that gets droisoned loses their vote if they try to vote (can be avoided by first trying to nominate), which also confirms droiso",
             "good": "Helps with execution"
         },
         "Nightwatchman": {
@@ -1519,7 +1531,7 @@
             "good": "Helps with execution"
         },
         "Philosopher": {
-            "warning": "Banshee can stop working which confirms droison. Philosopher can double the Banshee ability both by dying first and by choosing after"
+            "warning": "Activated Banshee that gets droisoned loses their vote if they try to vote (can be avoided by first trying to nominate), which also confirms droison. Philosopher can double the Banshee ability both by dying first and by choosing after"
         },
         "Pixie": {
             "warning": "Pixie can double the confirmation"
@@ -1538,7 +1550,7 @@
             "warning": "Beware too many \"trap\" characters"
         },
         "Sailor": {
-            "warning": "Banshee can stop working which confirms droison"
+            "warning": "Activated Banshee that gets droisoned loses their vote if they try to vote (can be avoided by first trying to nominate), which also confirms droiso"
         },
         "Seamstress": {
             "warning": "Confirmed players are powerful with Seamstress"
@@ -1568,7 +1580,7 @@
             "warning": "Barber can \"kill\" this role withut triggering it"
         },
         "Sweetheart": {
-            "warning": "Banshee can stop working which confirms droison. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
+            "warning": "Activated Banshee that gets droisoned loses their vote if they try to vote (can be avoided by first trying to nominate), which also confirms droison. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
         },
         "Mutant": {
             "warning": "Instant execution might mean no voting"
@@ -1593,7 +1605,7 @@
         },
         "Poisoner": {
             "good": "Poisoner can disable this role before a kill",
-            "warning": "Banshee can stop working which confirms droison. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
+            "warning": "Activated Banshee that gets droisoned loses their vote if they try to vote (can be avoided by first trying to nominate), which also confirms droison. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
         },
         "Scarlet Woman": {
             "warning": "Demon can't fake Banshee"
@@ -1652,7 +1664,7 @@
         },
         "Xaan": {
             "good": "Xaan can disable this role (although hard to time)",
-            "warning": "Banshee can stop working which confirms droison. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
+            "warning": "Activated Banshee that gets droisoned loses their vote if they try to vote (can be avoided by first trying to nominate), which also confirms droison. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
         },
         "Wizard": {
             "good": "Killing the Banshee is an interesting cost. Wizard could fake this role"
@@ -1664,7 +1676,7 @@
             "warning": "Fang Gu can't fake Banshee"
         },
         "Vigormortis": {
-            "warning": "Minions can't fake Banshee. Banshee can stop working which confirms droison. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
+            "warning": "Minions can't fake Banshee. Activated Banshee that gets droisoned loses their vote if they try to vote (can be avoided by first trying to nominate), which also confirms droison. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
         },
         "No Dashii": {
             "warning": "Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
@@ -2898,6 +2910,9 @@
         "Recluse": {
             "warning": "Recluse can hide from Courtier"
         },
+        "Tinker": {
+            "good": "Extra deaths can hide nights with no kills"
+        },
         "Lunatic": {
             "warning": "A droisoned Lunatic doesn't give its picks to the Demon"
         },
@@ -2983,6 +2998,9 @@
         },
         "Vigormortis": {
             "warning": "If the Vigormortis is droisoned, the Minions lose their ability"
+        },
+        "Shabaloth": {
+            "warning": "If resurrected, they can use their ability again and might have a better idea which Demon it is"
         },
         "Zombuul": {
             "good": "No night deaths can make it look like Zombuul",
@@ -3117,6 +3135,9 @@
         },
         "Barista": {
             "warning": "Useless to double"
+        },
+        "Deviant": {
+            "good": "Publicly claiming roles & roles that visit the ST for info opens room for jokes"
         },
         "Matron": {
             "good": "Matron can change the CL's neighbors"
@@ -3352,6 +3373,9 @@
         },
         "Recluse": {
             "good": "Recluse can appear evil"
+        },
+        "Tinker": {
+            "info": "Could die during the night after the Empath learns their info (don't)"
         },
         "Lunatic": {
             "good": "Public info can help Lunatic find out they're the Lunatic"
@@ -3683,6 +3707,9 @@
         },
         "Barber": {
             "warning": "The Demon can move around"
+        },
+        "Tinker": {
+            "good": "Extra deaths can hide nights with no kills"
         },
         "Lunatic": {
             "good": "Lunatic can believe they were affected by an Exorcist (which prevents them from picking)"
@@ -4104,6 +4131,9 @@
         "Bone Collector": {
             "good": "Once per game abilities are good to bone collect"
         },
+        "Deviant": {
+            "good": "Publicly claiming roles & roles that visit the ST for info opens room for jokes"
+        },
         "Gangster": {
             "good": "Used abilities are safe to die"
         },
@@ -4400,6 +4430,9 @@
         "Moonchild": {
             "good": "This role can appear evil if picked by Moonchild"
         },
+        "Tinker": {
+            "good": "Extra deaths can hide nights with no kills"
+        },
         "Golem": {
             "good": "This role can appear as the Demon if Golem nominated"
         },
@@ -4555,6 +4588,9 @@
         "Barber": {
             "warning": "The Demon can move around",
             "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
+        },
+        "Tinker": {
+            "warning": "A red herring Tinker probably won't die"
         },
         "Lunatic": {
             "good": "Good choice for the red herring. Public info can help Lunatic find out they're the Lunatic"
@@ -4775,7 +4811,7 @@
             "good": "Extra deaths can hide nights with no kills"
         },
         "Shabaloth": {
-            "warning": "Death-based characters like being resurrected"
+            "warning": "Death-based characters like being resurrected. In a 6-player game, can cause the game to last only 1 day with 3 night deaths (and an execution)"
         },
         "Zombuul": {
             "good": "Extra deaths can hide nights with no kills. This Demon can die safely in the night"
@@ -5038,6 +5074,9 @@
         "Barber": {
             "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
+        "Tinker": {
+            "good": "Tinker can obscure extra night deaths (including if bluffed)"
+        },
         "Lunatic": {
             "good": "Gossip kill can hide the Demon chosing other targets"
         },
@@ -5077,6 +5116,9 @@
         "Pukka": {
             "good": "Extra deaths can hide nights with no kills"
         },
+        "Shabaloth": {
+            "warning": "In a 6-player game, can cause the game to last only 1 day with 3 night deaths (and an execution)"
+        },
         "Zombuul": {
             "good": "Extra deaths can hide nights with no kills"
         },
@@ -5099,6 +5141,12 @@
         },
         "Barista": {
             "warning": "Double Gossip obscures which one(s) were true"
+        },
+        "Bone Collector": {
+            "warning": "Needs to \"use\" their ability the day before they are bone collected for it to work"
+        },
+        "Deviant": {
+            "good": "Publicly claiming roles & roles that visit the ST for info opens room for jokes"
         },
         "Voudon": {
             "good": "More deaths is good for Voudon"
@@ -5378,6 +5426,9 @@
         "Mutant": {
             "warning": "Mad players are generally not a great target for High Priestess"
         },
+        "Klutz": {
+            "good": "The Klutz-picked player might be a good HP target"
+        },
         "Lunatic": {
             "good": "Good target to help figure out they're the Lunatic or once they figured it out"
         },
@@ -5567,7 +5618,10 @@
             "good": "Innkeeper is more likely too choose a Goon"
         },
         "Moonchild": {
-            "good": "This role can make the Monchild target appear evil (protection and/or droison)"
+            "good": "This role can make the Moonchild target appear evil (protection and/or droison)"
+        },
+        "Tinker": {
+            "good": "Extra deaths can hide nights with no kills"
         },
         "Lunatic": {
             "warning": "A droisoned Lunatic doesn't give its picks to the Demon"
@@ -5611,7 +5665,7 @@
             "warning": "Droisoned Lleech is a rules nightmare"
         },
         "Ojo": {
-            "warning": "Protection characters are weaker in an Ojo game",
+            "warning": "Protection characters are weaker in an Ojo game (though the mind game can be interesting)",
             "good": "Protection with multi-kill Demons works well"
         },
         "Yaggababble": {
@@ -5919,7 +5973,10 @@
             "good": "Powerful role to double or guarantee"
         },
         "Bone Collector": {
-            "warning": "Bone Collector is useless on this role"
+            "warning": "Needs to \"use\" their ability the day before they are bone collected for it to work"
+        },
+        "Deviant": {
+            "good": "Publicly claiming roles & roles that visit the ST for info opens room for jokes"
         },
         "Gangster": {
             "good": "Used abilities are safe to die"
@@ -6013,6 +6070,9 @@
         },
         "Moonchild": {
             "warning": "Moonchild can kill King",
+            "good": "Multiple deaths works well with King"
+        },
+        "Tinker": {
             "good": "Multiple deaths works well with King"
         },
         "Lunatic": {
@@ -6355,7 +6415,6 @@
             "good": "Lunatic is a hidden Outsider"
         },
         "Damsel": {
-            "warning": "Evil Librarian should not see Damsel",
             "good": "Damsel is a hidden Outsider"
         },
         "Golem": {
@@ -7319,6 +7378,9 @@
         "Village Idiot": {
             "good": "No/less night deaths can allow the Village Idiot to get more info"
         },
+        "Tinker": {
+            "good": "If the Tinker dies while Monk protected, it excludes the possibility of a Demon kill. Extra deaths can hide nights with no kills"
+        },
         "Puzzlemaster": {
             "good": "Puzzlemaster benefits from long games"
         },
@@ -7377,15 +7439,15 @@
             "warning": "Protected players choices don't matter"
         },
         "Lleech": {
-            "good": "Monk can protect from this Demon's poison"
+            "good": "Monk can protect from this Demon's poison",
+            "warning": "Protecting the host might make them impossible to find"
         },
         "Lil' Monsta": {
             "good": "Monk can also protect from the Minion that is babysitting",
             "warning": "LM targets are chosen by the ST"
         },
         "Ojo": {
-            "warning": "Protection characters are weaker in an Ojo game",
-            "good": "Protection with multi-kill Demons works well"
+            "warning": "Protection characters are weaker in an Ojo game (though the mind game can be interesting)"
         },
         "Yaggababble": {
             "good": "Protection with multi-kill Demons works well, but is weaker on Yaggababble games"
@@ -7470,6 +7532,9 @@
         },
         "Psychopath": {
             "warning": "Outed evil players will never be chosen by Nightwatchman"
+        },
+        "Widow": {
+            "warning": "Confirmable characters shouldn't receive the ping"
         },
         "Vizier": {
             "warning": "Outed evil players will never be chosen by Nightwatchman"
@@ -7603,6 +7668,9 @@
         },
         "Mutant": {
             "good": "Good target for Noble"
+        },
+        "Tinker": {
+            "warning": "Tinker is likely to die on its own, and so might be a bad Noble ping"
         },
         "Lunatic": {
             "good": "Good target for Noble"
@@ -8021,11 +8089,23 @@
         "Drunk": {
             "warning": "Philosopher has no use becoming this role"
         },
+        "Mutant": {
+            "warning": "Can control their madness fully. There is very little way to differentiate a droisoned Mutant and one the ST refuses to execute"
+        },
         "Goon": {
             "warning": "Beware two extra evil players"
         },
+        "Tinker": {
+            "warning": "ST can't kill the actual Tinker until the Philo-Tinker is dead"
+        },
         "Lunatic": {
             "warning": "A day 1 Philo-Lunatic can bait the Demon kills and make it way clearer to the actual Lunatic"
+        },
+        "Golem": {
+            "warning": "Philo can choose Golem to confirm themself"
+        },
+        "Politician": {
+            "warning": "Beware multiple players playing for evil. Droisoned Politician is a bit rude"
         },
         "Puzzlemaster": {
             "warning": "This role can make it hard to find the Puzzle drunk"
@@ -8035,7 +8115,7 @@
         },
         "Heretic": {
             "good": "Philosopher can guarantee this role is active",
-            "warning": "When the Philo-Heretic dies, if a Hretic is in-play, they cancel each other"
+            "warning": "When the Philo-Heretic dies, if a Heretic is in-play, they cancel each other"
         },
         "Ogre": {
             "warning": "Beware two extra evil players"
@@ -8457,6 +8537,9 @@
         "Barber": {
             "warning": "The Minions can move around"
         },
+        "Tinker": {
+            "good": "If one of the Minion kills, can confuse a Preacher as to whether they hit or not"
+        },
         "Snitch": {
             "good": "Snitch can compensate for Minions losing their abilities"
         },
@@ -8598,7 +8681,7 @@
             "good": "This role's death can be more trusted as coming from its ability during Princess night"
         },
         "Tinker": {
-            "good": "Can throw shade on a Princess"
+            "good": "Extra deaths can hide nights with no kills"
         },
         "Damsel": {
             "good": "Can be executed day 1 for a Princess"
@@ -9099,6 +9182,9 @@
         "Moonchild": {
             "warning": "Non-Demon kills don't trigger Sage"
         },
+        "Tinker": {
+            "warning": "Sage-pinged Tinker will probably not die"
+        },
         "Lunatic": {
             "good": "A Lunatic that has figured out they're the Lunatic could bait the Demon into killing this role. Public info can help Lunatic find out they're the Lunatic. Good choice for a fake Minion (if they don't talk in private)"
         },
@@ -9291,6 +9377,9 @@
         },
         "Moonchild": {
             "good": "This role can appear evil if picked by Moonchild. If Moonchild is droisoned in the night after their choice, the target can appear evil"
+        },
+        "Tinker": {
+            "good": "Extra deaths can hide nights with no kills"
         },
         "Lunatic": {
             "warning": "A droisoned Lunatic doesn't give its picks to the Demon"
@@ -9501,6 +9590,9 @@
         },
         "Barista": {
             "good": "Powerful role to double or guarantee"
+        },
+        "Deviant": {
+            "good": "Publicly claiming roles & roles that visit the ST for info opens room for jokes"
         },
         "God of Ug": {
             "warning": "This info is hard to spread when wearing the hat"
@@ -9859,6 +9951,9 @@
         "Bone Collector": {
             "good": "Once per game abilities are good to bone collect"
         },
+        "Deviant": {
+            "good": "Publicly claiming roles & roles that visit the ST for info opens room for jokes"
+        },
         "Gangster": {
             "good": "Used abilities are safe to die"
         },
@@ -10044,6 +10139,9 @@
         },
         "Moonchild": {
             "warning": "Non-Demon kills ignore Soldier. Needs more than one extra killing source to not be confirmed"
+        },
+        "Tinker": {
+            "good": "Extra deaths can hide nights with no kills"
         },
         "Lunatic": {
             "good": "A Lunatic that has figured out they're the Lunatic could bait the Demon into killing this role. Good choice for a fake Minion (if they don't talk in private)"
@@ -10344,10 +10442,10 @@
             "good": "Tea Lady can protect this Outsider"
         },
         "Moonchild": {
-            "good": "This role can make the Monchild target appear evil"
+            "good": "This role can make the Moonchild target appear evil"
         },
         "Tinker": {
-            "good": "Tea Lady can protect this Outsider"
+            "good": "Tea Lady can protect this Outsider. Tinker can hide night death protections"
         },
         "Golem": {
             "good": "This role can make its neighbors appear as the Demon if Golem nominated"
@@ -11101,7 +11199,8 @@
             "warning": "Outed Minions can nominate the Virgin before anyone else if it's public"
         },
         "Widow": {
-            "good": "Good target for Widow poison"
+            "good": "Good target for Widow poison",
+            "warning": "Confirmable characters shouldn't receive the ping"
         },
         "Goblin": {
             "warning": "Instant good execution prevents this role from triggering"
@@ -11326,7 +11425,8 @@
             "good": "Godfather can trigger off an Outsider that doesn't know it"
         },
         "Marionette": {
-            "good": "Drunk can easily replace an Outsider Marionette"
+            "good": "Drunk can easily replace an Outsider Marionette",
+            "warning": "There is little reason to make a player both the Drunk & Marionette besides messing with outsider count"
         },
         "Mezepheles": {
             "warning": "Usefulness as evil dependent on what role they saw"
@@ -11380,7 +11480,8 @@
             "good": "Interesting amigo"
         },
         "Cacklejack": {
-            "warning": "Creating a Drunk is untraceable"
+            "warning": "Creating a Drunk is untraceable",
+            "good": "Hidden outsiders give a reason not to out a character change"
         },
         "Fibbin": {
             "good": "Can cause a Drunk to get good information"
@@ -11493,9 +11594,6 @@
         },
         "Al-Hadikhia": {
             "warning": "This Outsider will most likely choose death"
-        },
-        "Riot": {
-            "conflict": "Saint is a huge liability"
         },
         "Leviathan": {
             "warning": "After the first good execution, Saint becomes a dud"
@@ -11672,7 +11770,7 @@
             "good": "Good target for the Summoner"
         },
         "Boffin": {
-            "info": "Recluse can appaear as a Demon (don't). Demon with Recluse ability could misregister as a Minion"
+            "info": "Recluse can appear as a Demon (don't). Demon with Recluse ability could misregister as a Minion"
         },
         "Xaan": {
             "warning": "Recluse cannot misregister to change Xaan night"
@@ -11919,6 +12017,9 @@
         "Gnome": {
             "good": "Interesting amigo"
         },
+        "Cacklejack": {
+            "good": "Hidden Outsiders give a reason not to out a character change"
+        },
         "Angel": {
             "warning": "An Angel-protected on-death Outsider is less likely to be killed"
         },
@@ -12043,6 +12144,9 @@
         "Gnome": {
             "good": "Interesting amigo"
         },
+        "Cacklejack": {
+            "good": "Hidden Outsiders give a reason not to out a character change"
+        },
         "Angel": {
             "warning": "An Angel-protected on-death Outsider is less likely to be killed"
         },
@@ -12136,7 +12240,7 @@
             "warning": "This role is fine to die to this Traveller"
         },
         "Cacklejack": {
-            "good": "Mad players can't claim to have changed characters"
+            "good": "Hidden Outsiders give a reason not to out a character change"
         },
         "Angel": {
             "warning": "Madness breaks might be most reponsible for their own deaths"
@@ -12285,6 +12389,9 @@
         "Gnome": {
             "good": "Interesting amigo"
         },
+        "Cacklejack": {
+            "good": "Hidden Outsiders give a reason not to out a character change"
+        },
         "Angel": {
             "warning": "An Angel-protected on-death Outsider is less likely to be killed"
         },
@@ -12317,6 +12424,12 @@
         "Moonchild": {
             "warning": "Goon can change alignment"
         },
+        "Tinker": {
+            "good": "Extra deaths can hide nights with no kills"
+        },
+        "Lunatic": {
+            "warning": "If a Lunatic picks the Goon, they won't inform the Demon of their picks, which might signal that the Goon has already been picked tonight and is good"
+        },
         "Heretic": {
             "warning": "Evil Goon is an additional player who can snitch on the Heretic",
             "good": "Evil Goon can bluff Heretic"
@@ -12324,8 +12437,18 @@
         "Hermit": {
             "warning": "Doubling this Outsider is dangerous. Beware two extra evils"
         },
+        "Baron": {
+            "warning": "Beware not having picking non-Demon evil picking players with a Goon"
+        },
+        "Scarlet Woman": {
+            "warning": "Beware not having picking non-Demon evil picking players with a Goon"
+        },
         "Spy": {
-            "good": "Spy can check on the alignment of the Goon"
+            "good": "Spy can check on the alignment of the Goon",
+            "warning": "Beware not having picking non-Demon evil picking players with a Goon"
+        },
+        "Evil Twin": {
+            "warning": "Beware not having picking non-Demon evil picking players with a Goon"
         },
         "Pit-Hag": {
             "warning": "If Pit-Hag manages to change the Goon into another character, beware of two extra evil players. Varying amount of night deaths makes Pit-Hag Demon changes harder to track",
@@ -12338,7 +12461,10 @@
             "good": "Godfather can avoid loud Outsiders"
         },
         "Mastermind": {
-            "warning": "Extra evils can make winning the Mastermind day harder"
+            "warning": "Extra evils can make winning the Mastermind day harder. Beware not having picking non-Demon evil picking players with a Goon"
+        },
+        "Boomdandy": {
+            "warning": "Beware not having picking non-Demon evil picking players with a Goon"
         },
         "Fearmonger": {
             "warning": "Can prevent announcements from being made"
@@ -12347,25 +12473,40 @@
             "good": "Marionette choosing Goon with the ability they think they have turns the Goon evil"
         },
         "Mezepheles": {
-            "warning": "Beware two extra evil players"
+            "warning": "Beware two extra evil players. Beware not having picking non-Demon evil picking players with a Goon"
         },
         "Psychopath": {
-            "good": "Psychopath can lock the Goon in its current alignment"
+            "good": "Psychopath can lock the Goon in its current alignment",
+            "warning": "Beware not having picking non-Demon evil picking players with a Goon"
         },
         "Widow": {
             "warning": "If this role learns of a Widow and becomes evil, a good player learns the Widow is in-play again, if still alive"
         },
+        "Goblin": {
+            "warning": "Beware not having picking non-Demon evil picking players with a Goon"
+        },
+        "Organ Grinder": {
+            "warning": "Beware not having picking non-Demon evil picking players with a Goon"
+        },
         "Vizier": {
-            "warning": "Extra evil players can make the Vizier's job harder"
+            "warning": "Extra evil players can make the Vizier's job harder. Beware not having picking non-Demon evil picking players with a Goon"
         },
         "Summoner": {
             "conflict": "If Summoner picks Goon, the now evil Goon immediately loses the game"
         },
         "Boffin": {
-            "good": "Good Boffin ability"
+            "good": "Good Boffin ability",
+            "warning": "Beware not having picking non-Demon evil picking players with a Goon"
+        },
+        "Xaan": {
+            "warning": "Beware not having picking non-Demon evil picking players with a Goon"
+        },
+        "Wizard": {
+            "warning": "Beware not having picking non-Demon evil picking players with a Goon"
         },
         "Wraith": {
-            "good": "Wraith knows when the Goon becomes evil"
+            "good": "Wraith knows when the Goon becomes evil",
+            "warning": "Beware not having picking non-Demon evil picking players with a Goon"
         },
         "Fang Gu": {
             "warning": "Beware two extra evil players"
@@ -12402,6 +12543,9 @@
         },
         "Gnome": {
             "warning": "This amigo can change alignment"
+        },
+        "Cacklejack": {
+            "good": "Hidden Outsiders give a reason not to out a character change"
         },
         "Angel": {
             "warning": "If the Goon isn't targeted, they will stay good the entire game"
@@ -12515,6 +12659,9 @@
         "Pukka": {
             "good": "Extra deaths can hide nights with no kills"
         },
+        "Shabaloth": {
+            "warning": "In a 6-player game, can cause the game to last only 1 day with 3 night deaths (and an execution)"
+        },
         "Zombuul": {
             "good": "Extra deaths can hide nights with no kills"
         },
@@ -12556,6 +12703,9 @@
         "Gnome": {
             "good": "Interesting amigo"
         },
+        "Cacklejack": {
+            "good": "Hidden Outsiders give a reason not to out a character change"
+        },
         "Angel": {
             "info": "Moonchild is a reason for a good player to be the most reponsible cause of death at night"
         },
@@ -12594,11 +12744,17 @@
         "Puzzlemaster": {
             "warning": "Puzzlemaster benefits from long games"
         },
+        "Plague Doctor": {
+            "good": "If there are killing Minions, the Tinker can support a dead Plague Doctor bluff"
+        },
         "Hermit": {
             "warning": "Doubling this Outsider is dangerous"
         },
         "Witch": {
             "good": "Tinker can fake a kill"
+        },
+        "Evil Twin": {
+            "good": "Tinker can die after the Demon is dead"
         },
         "Pit-Hag": {
             "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
@@ -12607,13 +12763,25 @@
             "good": "Tinker can trigger the Godfather at any time"
         },
         "Mastermind": {
-            "good": "Tinker can hide a Mastermind day"
+            "good": "Tinker can die after the Demon is dead"
+        },
+        "Devil's Advocate": {
+            "info": "Could still \"die by execution\" if picked by DA (don't, this interacrts poorly with some abilities)"
+        },
+        "Boomdandy": {
+            "info": "Don't kill a Tinker after the explosion"
+        },
+        "Marionette": {
+            "warning": "This role doesn't have many ways to tell they're the Marionette"
         },
         "Mezepheles": {
             "warning": "This role as evil can't do much for the evil team"
         },
         "Psychopath": {
             "good": "Tinker can fake a kill"
+        },
+        "Harpy": {
+            "good": "Tinker can help fake a player being Harpy mad at them"
         },
         "Summoner": {
             "good": "Extra night deaths can hide Summoner"
@@ -12627,6 +12795,9 @@
         },
         "Pukka": {
             "good": "Extra deaths can hide nights with no kills"
+        },
+        "Shabaloth": {
+            "good": "Tinker helps obscure extra night deaths (including if bluffed)"
         },
         "Zombuul": {
             "good": "Extra deaths can hide nights with no kills"
@@ -12644,6 +12815,9 @@
         "Lil' Monsta": {
             "warning": "Hard bluff from Minions"
         },
+        "Ojo": {
+            "warning": "This role will never be killed unless the Ojo misses"
+        },
         "Kazali": {
             "warning": "Hard bluff from Minions"
         },
@@ -12655,6 +12829,9 @@
         },
         "Barista": {
             "warning": "Cannot be doubled"
+        },
+        "Bone Collector": {
+            "warning": "Bone Collector is useless on this role"
         },
         "Voudon": {
             "good": "More deaths is good for Voudon"
@@ -12807,6 +12984,9 @@
         "Scapegoat": {
             "good": "A Scapegoat save could help the Lunatic be convinced they're the Demon, if they didn't talk"
         },
+        "Cacklejack": {
+            "warning": "Someone cacklejacked into a Lunatic can't believe they're the Demon (without other explanations), since Pit-Hag can't change alignment"
+        },
         "Angel": {
             "info": "Lunatic is responsible for the deaths if they chose them"
         },
@@ -12924,6 +13104,9 @@
         "Gnome": {
             "warning": "This role is fine to die to this Traveller"
         },
+        "Cacklejack": {
+            "good": "Hidden Outsiders give a reason not to out a character change"
+        },
         "Revolutionary": {
             "good": "Partner can help this role out"
         },
@@ -12983,6 +13166,9 @@
         },
         "Psychopath": {
             "warning": "Golem can kill Psychopath"
+        },
+        "Widow": {
+            "warning": "Confirmable characters shouldn't receive the ping"
         },
         "Organ Grinder": {
             "conflict": "If Golem kills OG, it's immediately confirmed"
@@ -13082,13 +13268,13 @@
     "Politician": {
         "Heretic": {
             "warning": "Politician is an additional player who can snitch on the Heretic",
-            "good": "Politician can bluff Heretic"
+            "good": "Politician can bluff Heretic and Heretic can bluff Politician (both want \"evil to win\")"
         },
         "Zealot": {
             "good": "Politician can use a Zealot to help them"
         },
         "Hermit": {
-            "warning": "Doubling this Outsider is dangerous. Beware two extra evils. The hermit extra abilities allow the Hermit Politicna to be way more potent than the regular one"
+            "warning": "Doubling this Outsider is dangerous. Beware two extra evils. The hermit extra abilities allow the Hermit Politician to be way more potent than the regular one"
         },
         "Pit-Hag": {
             "good": "Creating this Outsider can be silent"
@@ -13143,6 +13329,9 @@
         },
         "Gnome": {
             "warning": "This amigo can change alignment"
+        },
+        "Cacklejack": {
+            "good": "Hidden Outsiders give a reason not to out a character change"
         },
         "Fiddler": {
             "good": "Politician could attempt to lose the fiddle contest"
@@ -13506,6 +13695,9 @@
         "Bone Collector": {
             "warning": "Bone Collector is useless on this role"
         },
+        "Cacklejack": {
+            "good": "Hidden Outsiders give a reason not to out a character change (but for this one, please don't)"
+        },
         "Fiddler": {
             "warning": "Heretic doesn't affect Fiddler"
         },
@@ -13646,6 +13838,9 @@
         "Gnome": {
             "good": "Interesting amigo"
         },
+        "Cacklejack": {
+            "good": "Hidden Outsiders give a reason not to out a character change"
+        },
         "Angel": {
             "warning": "An Angel-protected on-death Outsider is less likely to be killed"
         },
@@ -13782,6 +13977,9 @@
         },
         "Gnome": {
             "good": "Interesting amigo"
+        },
+        "Cacklejack": {
+            "good": "Hidden Outsiders give a reason not to out a character change"
         },
         "Angel": {
             "warning": "An Angel-protected on-death Outsider is less likely to be killed"
@@ -14369,6 +14567,9 @@
         "Revolutionary": {
             "good": "Good partner role"
         },
+        "Toymaker": {
+            "warning": "Grim peeking is redundant with Toymaker"
+        },
         "God of Ug": {
             "good": "This role can be said in ug speak",
             "warning": "This info is hard to spread when wearing the hat"
@@ -14475,9 +14676,6 @@
         "Psychopath": {
             "warning": "The Twins are not a good target"
         },
-        "Widow": {
-            "good": "This role can help the Pit-hag not create in-play character"
-        },
         "Vizier": {
             "conflict": "Vizier can execute the good twin as soon as they're nominated and voted on"
         },
@@ -14533,7 +14731,7 @@
             "warning": "Bone Collector is useless on this role"
         },
         "Bureaucrat": {
-            "good": "Helps with execution"
+            "good": "Helps with execution. If the evil Twin is executed, the remaining is very likely good, and so is an obvious target for a good Bureaucrat"
         },
         "Butcher": {
             "good": "Extra executions gives more chances for this role to do something"
@@ -14560,11 +14758,20 @@
         "Angel": {
             "warning": "Angel protecting one of the Twins just delays the execution to after the Demon is killed"
         },
+        "Buddhist": {
+            "warning": "If one of the twin is under the Buddhist effect, they might have less time to convince time of their goodness"
+        },
+        "Doomsayer": {
+            "conflict": "Can kill this role without executions (and confirm the good one as good to one player)"
+        },
         "Fiddler": {
             "good": "Allows a fiddle between an alive and dead player (though hard to convinvingly orchestrate)"
         },
         "Revolutionary": {
             "warning": "Outed evils in the pair can be rough"
+        },
+        "Big Wig": {
+            "warning": "Good twin doesn't fear this madness, which means it's likely the twins picked as Big Wigs but might not participate"
         },
         "God of Ug": {
             "good": "Interesting dynamic with the twins"
@@ -14614,6 +14821,7 @@
             "warning": "Adding a loud Minion is confirmed"
         },
         "Widow": {
+            "good": "This role can help the Pit-hag not create in-play character",
             "warning": "Adding a loud Minion is confirmed"
         },
         "Goblin": {
@@ -14686,7 +14894,7 @@
             "good": "Kazali can become a Demon with ongoing benefits if they make a Pit-Hag"
         },
         "Yaggababble": {
-            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
+            "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track. Arbitrary deaths can make it hard to cross-reference the phrase"
         },
         "Lord of Typhon": {
             "warning": "Loud Minions might give out the extra one added by LoT",
@@ -15611,6 +15819,9 @@
         "Revolutionary": {
             "warning": "Outed evils in the pair can be rough"
         },
+        "Toymaker": {
+            "warning": "Outed evil is redundant with Toymaker"
+        },
         "God of Ug": {
             "warning": "This ability is hard to do when wearing the hat. Day deaths before executions might make the challenge not worth it"
         },
@@ -15698,6 +15909,9 @@
         },
         "Angel": {
             "good": "This Minion needs to remain alive"
+        },
+        "Toymaker": {
+            "warning": "Grim peeking is redundant with Toymaker"
         },
         "God of Ug": {
             "warning": "This info is hard to spread when wearing the hat"
@@ -15942,6 +16156,9 @@
         "Revolutionary": {
             "warning": "Outed evils in the pair can be rough"
         },
+        "Toymaker": {
+            "warning": "Outed evil is redundant with Toymaker"
+        },
         "God of Ug": {
             "good": "The player with the hat is likely to vote more"
         },
@@ -16102,6 +16319,9 @@
         },
         "Revolutionary": {
             "warning": "Summoner cannot summon in the Rev pair without changing both"
+        },
+        "Toymaker": {
+            "warning": "Summoning is redundant with Toymaker"
         },
         "Knaves": {
             "warning": "Evil team misinformation is not great, especially for bluffs"

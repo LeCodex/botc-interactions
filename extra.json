@@ -313,7 +313,7 @@
     },
     {
         "interaction": {
-            "warning": "Activated Banshee can get up to -6 votes"
+            "warning": "Activated Banshee can get up to -4 votes"
         },
         "characters": [
             "Banshee",
@@ -365,7 +365,7 @@
     },
     {
         "interaction": {
-            "conflict": "Alchemist-Summoner + Marionette can result in games where there are no (known) evil players until night 3"
+            "conflict": "Alchemist-Summoner + Marionette can result in games where there are no evil players until night 3"
         },
         "characters": [
             "Alchemist",
@@ -419,16 +419,6 @@
         },
         "characters": [
             "Leviathan",
-            "Exorcist",
-            "Widow"
-        ]
-    },
-    {
-        "interaction": {
-            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
-        },
-        "characters": [
-            "Leviathan",
             "Innkeeper",
             "Spy"
         ]
@@ -439,28 +429,8 @@
         },
         "characters": [
             "Leviathan",
-            "Innkeeper",
-            "Widow"
-        ]
-    },
-    {
-        "interaction": {
-            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
-        },
-        "characters": [
-            "Leviathan",
             "Monk",
             "Spy"
-        ]
-    },
-    {
-        "interaction": {
-            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
-        },
-        "characters": [
-            "Leviathan",
-            "Monk",
-            "Widow"
         ]
     },
     {
@@ -499,48 +469,78 @@
         },
         "characters": [
             "Riot",
+            "Innkeeper",
+            "Spy"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+        },
+        "characters": [
+            "Riot",
+            "Monk",
+            "Spy"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Wraith can see who got chosen, which makes it harder for good to win with this jinx"
+        },
+        "characters": [
+            "Leviathan",
             "Exorcist",
-            "Widow"
+            "Wraith"
         ]
     },
     {
         "interaction": {
-            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+            "warning": "Wraith can see who got chosen, which makes it harder for good to win with this jinx"
+        },
+        "characters": [
+            "Leviathan",
+            "Innkeeper",
+            "Wraith"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Wraith can see who got chosen, which makes it harder for good to win with this jinx"
+        },
+        "characters": [
+            "Leviathan",
+            "Monk",
+            "Wraith"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Wraith can see who got chosen, which makes it harder for good to win with this jinx"
+        },
+        "characters": [
+            "Riot",
+            "Exorcist",
+            "Wraith"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Wraith can see who got chosen, which makes it harder for good to win with this jinx"
         },
         "characters": [
             "Riot",
             "Innkeeper",
-            "Spy"
+            "Wraith"
         ]
     },
     {
         "interaction": {
-            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
-        },
-        "characters": [
-            "Riot",
-            "Innkeeper",
-            "Widow"
-        ]
-    },
-    {
-        "interaction": {
-            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
+            "warning": "Wraith can see who got chosen, which makes it harder for good to win with this jinx"
         },
         "characters": [
             "Riot",
             "Monk",
-            "Spy"
-        ]
-    },
-    {
-        "interaction": {
-            "warning": "Good can't win through the jinx with this Minion in-play, making it useless"
-        },
-        "characters": [
-            "Riot",
-            "Monk",
-            "Widow"
+            "Wraith"
         ]
     },
     {
@@ -625,7 +625,7 @@
     },
     {
         "interaction": {
-            "warning": "Good killing characters can activating the King jinx without executions"
+            "warning": "Good killing characters can activate the King jinx without executions"
         },
         "characters": [
             "Leviathan",
@@ -635,7 +635,17 @@
     },
     {
         "interaction": {
-            "warning": "Good killing characters can activating the King jinx without executions"
+            "warning": "Good killing characters can activate the King jinx without executions"
+        },
+        "characters": [
+            "Leviathan",
+            "King",
+            "Banshee"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good killing characters can activate the King jinx without executions"
         },
         "characters": [
             "Leviathan",
@@ -645,7 +655,7 @@
     },
     {
         "interaction": {
-            "warning": "Good killing characters can activating the King jinx without executions"
+            "warning": "Good killing characters can activate the King jinx without executions"
         },
         "characters": [
             "Leviathan",
@@ -655,7 +665,7 @@
     },
     {
         "interaction": {
-            "warning": "Good killing characters can activating the King jinx without executions"
+            "warning": "Good killing characters can activate the King jinx without executions"
         },
         "characters": [
             "Leviathan",
@@ -665,7 +675,7 @@
     },
     {
         "interaction": {
-            "warning": "Good killing characters can activating the King jinx without executions"
+            "warning": "Good killing characters can activate the King jinx without executions"
         },
         "characters": [
             "Riot",
@@ -675,7 +685,17 @@
     },
     {
         "interaction": {
-            "warning": "Good killing characters can activating the King jinx without executions"
+            "warning": "Good killing characters can activate the King jinx without executions"
+        },
+        "characters": [
+            "Riot",
+            "King",
+            "Banshee"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Good killing characters can activate the King jinx without executions"
         },
         "characters": [
             "Riot",
@@ -685,7 +705,7 @@
     },
     {
         "interaction": {
-            "warning": "Good killing characters can activating the King jinx without executions"
+            "warning": "Good killing characters can activate the King jinx without executions"
         },
         "characters": [
             "Riot",
@@ -695,12 +715,82 @@
     },
     {
         "interaction": {
-            "warning": "Good killing characters can activating the King jinx without executions"
+            "warning": "Good killing characters can activate the King jinx without executions"
         },
         "characters": [
             "Riot",
             "King",
             "Lycanthrope"
+        ]
+    },
+    {
+        "interaction": {
+            "conflict": "Alchemist-Boomdandy is guaranteed to give evil the win in a Legion game"
+        },
+        "characters": [
+            "Alchemist",
+            "Boomdandy",
+            "Legion"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "A Drunk Engineer could believe Legion is in-play"
+        },
+        "characters": [
+            "Engineer",
+            "Drunk",
+            "Legion"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "A protected Tinker can make the Mathematician number arbitrary"
+        },
+        "characters": [
+            "Tinker",
+            "Mathematician",
+            "Tea Lady"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "A protected Tinker can make the Mathematician number arbitrary"
+        },
+        "characters": [
+            "Tinker",
+            "Mathematician",
+            "Innkeeper"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Evil Librarian should not see Damsel"
+        },
+        "characters": [
+            "Librarian",
+            "Damsel",
+            "Bounty Hunter"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Evil Librarian should not see Damsel"
+        },
+        "characters": [
+            "Librarian",
+            "Damsel",
+            "Mezepheles"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Zombuul can use the Tinker ability to appear more trustworthy (or in reverse, make the Tinker less trustworthy)"
+        },
+        "characters": [
+            "Tinker",
+            "Boffin",
+            "Zombuul"
         ]
     }
 ]
