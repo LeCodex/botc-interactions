@@ -345,6 +345,28 @@
     },
     {
         "interaction": {
+            "good": "Someone barbered into the Lunatic can be made to believe they are the Drunk who got jumped to by the Fang Gu"
+        },
+        "characters": [
+            "Lunatic",
+            "Barber",
+            "Fang Gu",
+            "Drunk"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "A Canibal eating a Lunatic can be made to believe they are the Drunk who got jumped to by the Fang Gu (until they change abilities)"
+        },
+        "characters": [
+            "Lunatic",
+            "Cannibal",
+            "Fang Gu",
+            "Drunk"
+        ]
+    },
+    {
+        "interaction": {
             "good": "During a fiddle contest, players sat next to a Recluse can still suspect they're the Marionette"
         },
         "characters": [
@@ -791,6 +813,56 @@
             "Tinker",
             "Boffin",
             "Zombuul"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Lleech can bluff Tinker when they die with the host if a SW is active (or throw shade on a Tinker that dies at the same time as another player this way)"
+        },
+        "characters": [
+            "Tinker",
+            "Lleech",
+            "Scarlet Woman"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Lleech can bluff Tinker with the host if an Evil Twin is active (or throw shade on a Tinker that dies at the same time as another player this way)"
+        },
+        "characters": [
+            "Tinker",
+            "Lleech",
+            "Evil Twin"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Outsiders that don't claim after death prevent Heretic from being found out by elimination (Lunatic can believe they're a dead Demon)"
+        },
+        "characters": [
+            "Heretic",
+            "Lunatic",
+            "Scarlet Woman"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Outsiders that don't claim after death prevent Heretic from being found out by elimination (Lunatic can believe they're a dead Demon)"
+        },
+        "characters": [
+            "Heretic",
+            "Lunatic",
+            "Mastermind"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Outsiders that don't claim after death prevent Heretic from being found out by elimination (Lunatic can believe they're a dead Demon)"
+        },
+        "characters": [
+            "Heretic",
+            "Lunatic",
+            "Evil Twin"
         ]
     }
 ]

@@ -43,7 +43,7 @@
             "great": "Interesting combination"
         },
         "Puzzlemaster": {
-            "warning": "The Hermit Drunk cannot know they're the other role"
+            "warning": "Allows anyone who thinks they're a Townsfolk to do a Puzzlemaster guess, which will confirm to the Hermit-Drunk they are the Hermit (can be bluffed)"
         },
         "Snitch": {
             "warning": "The Hermit Drunk cannot know they're the other role"
@@ -419,7 +419,7 @@
             "great": "Interesting combination"
         },
         "Puzzlemaster": {
-            "warning": "Just a drunk"
+            "warning": "Allows anyone that thinks they are the Demon to do a Puzzlemaster guess, which will confirm to the Hermit-Lunatic they are the Hermit (can be bluffed)"
         },
         "Heretic": {
             "great": "Interesting combination"

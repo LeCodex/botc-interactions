@@ -17,6 +17,7 @@ def parse_interaction(input: str):
     # Separate the string in the different messages
     messages = {}
     partitions: list[str] = [input]
+
     for separator in categories.keys():
         new_partitions = []
         
@@ -30,12 +31,12 @@ def parse_interaction(input: str):
         partitions = new_partitions
 
     partitions = [x.strip(" .") for x in partitions if len(x) > 0]  # Filter out the empty strings
-    
-    # If no symbols: it's just an info
-    if len(partitions) == 1:
+
+    # Start with no symbols: it's an info
+    if not any(partitions[0] == x for x in categories.keys()):
         messages["info"] = partitions.pop(0)
 
-    # Otherwise, add each message in its category
+    # Add each message in its category
     while len(partitions):
         symbol = partitions.pop(0)
         messages[categories[symbol]] = partitions.pop(0)
