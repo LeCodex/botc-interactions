@@ -864,5 +864,25 @@
             "Lunatic",
             "Evil Twin"
         ]
+    },
+    {
+        "interaction": {
+            "good": "Outsiders that don't claim after death prevent Heretic from being found out by elimination (Lunatic can believe they're a dead Demon)"
+        },
+        "characters": [
+            "Heretic",
+            "Lunatic",
+            "Zombuul"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Legion gaining the Wraith ability doesn't give much useful information to them"
+        },
+        "characters": [
+            "Plague Doctor",
+            "Wraith",
+            "Legion"
+        ]
     }
 ]

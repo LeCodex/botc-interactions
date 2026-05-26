@@ -81,6 +81,9 @@
             "good": "Acrobat can help find the Puzzle drunk",
             "warning": "Puzzlemaster benefits from long games"
         },
+        "Snitch": {
+            "warning": "Hard bluff for Minions"
+        },
         "Heretic": {
             "warning": "Good killing characters lose their downside in a Heretic game"
         },
@@ -277,6 +280,9 @@
         "Golem": {
             "good": "Alchemist can appear as a Minion and therefore an \"easy\" Golem target"
         },
+        "Snitch": {
+            "good": "Great bluff for Minions"
+        },
         "Baron": {
             "info": "Alch-Baron is fairly weak, but can be useful for confirmation"
         },
@@ -328,6 +334,12 @@
         },
         "Lleech": {
             "good": "Alchemist can be fooled into having another ability if Lleech host"
+        },
+        "Kazali": {
+            "good": "Great bluff for Minions"
+        },
+        "Lord of Typhon": {
+            "good": "Great bluff for Minions"
         },
         "Barista": {
             "good": "Powerful role to double or guarantee"
@@ -408,6 +420,9 @@
         "Gambler": {
             "great": "Good synergy",
             "warning": "Alsaahir benefits from long games"
+        },
+        "General": {
+            "good": "General could get info based on how close the Alsahhir guess was"
         },
         "Gossip": {
             "good": "Gossip can hep guide Alsaahir",
@@ -544,7 +559,8 @@
             "good": "Puzzlemaster can help guide Alsaahir"
         },
         "Snitch": {
-            "warning": "Having bluffs makes minions harder to narrow down"
+            "warning": "Having bluffs makes Minions harder to narrow down",
+            "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "Heretic": {
             "warning": "In a Heretic game, this role almost always hurts the good team"
@@ -643,7 +659,7 @@
             "warning": "Demon can move"
         },
         "Ojo": {
-            "warning": "Ojo can kill Alsaahir directly"
+            "warning": "Ojo can kill this role directly after a public claim"
         },
         "Kazali": {
             "info": "Asaahir could use possible Kazali choices to guide their own"
@@ -687,6 +703,9 @@
         }
     },
     "Amnesiac": {
+        "Artist": {
+            "good": "Artist question can help guide Amnesiac"
+        },
         "Atheist": {
             "warning": "Amnesiac raises the bar for weird stuff happening if in the game. Amensiac with an Atheist-like ability is a bad idea"
         },
@@ -696,6 +715,9 @@
         "Cannibal": {
             "good": "Copying the Amnesiac ability can give it more time to figure it out (if ST allows them to share their ability)",
             "warning": "When copying the Amnesiac, they might get a different ability (ST-dependent)"
+        },
+        "Chambermaid": {
+            "warning": "Potentially inconsistent waking"
         },
         "Courtier": {
             "good": "No/less night deaths can allow the Amnesiac to get more guesses"
@@ -884,8 +906,17 @@
         "Cannibal": {
             "warning": "Cannibal will try to use the ability whenever possible"
         },
+        "Chef": {
+            "great": "Good synergy"
+        },
         "Farmer": {
             "good": "Used once per game roles are a good target for Farmer"
+        },
+        "Fool": {
+            "good": "Can ask about why an execution survived"
+        },
+        "General": {
+            "good": "General can detect lost once per game abilities"
         },
         "Gossip": {
             "good": "Used once per game roles are good target for Gossip kills"
@@ -902,6 +933,12 @@
         "Mathematician": {
             "good": "Mathematician can help once per game roles"
         },
+        "Mayor": {
+            "good": "Confirming easy Demon bluffs can be powerful (but quite specific)"
+        },
+        "Pacifist": {
+            "good": "Can ask about why an execution survived"
+        },
         "Philosopher": {
             "warning": "Philosopher can get a second question",
             "good": "Philosopher can use once per game abilities again without risk"
@@ -916,22 +953,40 @@
             "good": "When resurrected, it gets another use of its ability. Can help figure out why a resurrection failed"
         },
         "Sailor": {
-            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
+            "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent). Can ask about why an execution survived"
+        },
+        "Savant": {
+            "good": "Can ask about the statements"
         },
         "Shugenja": {
             "great": "Good synergy"
         },
+        "Soldier": {
+            "good": "Confirming easy Demon bluffs can be powerful (but quite specific)"
+        },
+        "Tea Lady": {
+            "good": "Can ask about why an execution survived"
+        },
         "Undertaker": {
             "good": "Used once per game roles can be executed to be confirmed"
         },
+        "Village Idiot": {
+            "good": "Can ask about the drunk VI"
+        },
         "Virgin": {
             "good": "Used once per game roles can be executed to be confirmed. Can help figure out why an instant execution didn't happen"
+        },
+        "Saint": {
+            "good": "Confirming easy Demon bluffs can be powerful (but quite specific)"
         },
         "Recluse": {
             "good": "Recluse can muddle Artist info"
         },
         "Barber": {
             "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
+        },
+        "Snitch": {
+            "good": "Great bluff for Minions"
         },
         "Heretic": {
             "warning": "Confirmed Heretic is powerful"
@@ -941,6 +996,9 @@
         },
         "Evil Twin": {
             "good": "Good choice for a Twin"
+        },
+        "Devil's Advocate": {
+            "good": "Can ask about why an execution survived"
         },
         "Fearmonger": {
             "good": "This bluff gives a good reason to execute"
@@ -961,7 +1019,8 @@
             "good": "Used once per game roles will always choose death. Dead ones are more likely to choose live (and potentially seem like Minions)"
         },
         "Lleech": {
-            "warning": "Knowing who the Demon is isn't very useful for Lleech. If Artist asks an obvious question and is the Lleech host, it's a hard situation to resolve"
+            "warning": "Knowing who the Demon is isn't very useful for Lleech. If Artist asks an obvious question and is the Lleech host, it's a hard situation to resolve",
+            "good": "Can ask about why an execution survived"
         },
         "Lil' Monsta": {
             "good": "Great bluff for Minions"
@@ -1041,6 +1100,9 @@
             "warning": "Drunking Atheist mid-game is a bad idea (can be prevented)",
             "good": "Protected players dying can be an indicator"
         },
+        "Investigator": {
+            "good": "Good choice for a wrong ping"
+        },
         "Magician": {
             "good": "Magician not being approached or seemingly doing nothing can be an indicator"
         },
@@ -1101,6 +1163,10 @@
         },
         "Puzzlemaster": {
             "info": "Puzzlemaster doesn't prevent setup abilities"
+        },
+        "Snitch": {
+            "warning": "Useless bluff",
+            "good": "Starting with bluffs can make it easier to convince town of an Atheist game"
         },
         "Heretic": {
             "conflict": "Storyteller dependent. If there are only good players, good should always win"
@@ -1257,6 +1323,9 @@
         },
         "Gambler": {
             "warning": "Balloonist benefits from long games"
+        },
+        "General": {
+            "good": "Extra starting Outsiders can give a reason for the game to start neutral or even evil sided"
         },
         "Gossip": {
             "warning": "Balloonist benefits from long games"
@@ -1618,6 +1687,10 @@
         "Puzzlemaster": {
             "warning": "Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
         },
+        "Snitch": {
+            "good": "Knowing this character isn't in-play is powerful for evil",
+            "warning": "Hard role to bluff for Minions"
+        },
         "Ogre": {
             "good": "Banshee can be confirmed as good"
         },
@@ -1697,7 +1770,7 @@
             "warning": "Minions can't fake Banshee. Activated Banshee that gets droisoned loses their vote if they try to vote (can be avoided by first trying to nominate), which also confirms droison. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
         },
         "No Dashii": {
-            "warning": "Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
+            "warning": "Droisoned Banshee needs other reasons to die at night or is confirmed droisoned. Confirmed characters make No Dashii poison easier to track"
         },
         "Vortox": {
             "warning": "This role's info is immune to Vortox"
@@ -1823,11 +1896,17 @@
         "Farmer": {
             "good": "Confirmable evil characters are powerful and throw shade on their ability"
         },
+        "Fisherman": {
+            "good": "Interesting role to turn evil"
+        },
+        "General": {
+            "good": "General can detect extra evils"
+        },
         "Gossip": {
             "warning": "Evil Gossip is quite powerful"
         },
         "Grandmother": {
-            "good": "Grandmother is good for role swaps with powerful info roles"
+            "good": "Grandmother is good for role swaps with powerful info roles. Evil Grandmother can act as a pseudo Evil Twin"
         },
         "High Priestess": {
             "good": "First night info works well with HP"
@@ -1917,6 +1996,9 @@
         },
         "Puzzlemaster": {
             "info": "Puzzlemaster doesn't prevent setup abilities"
+        },
+        "Snitch": {
+            "good": "Great bluff for Minions"
         },
         "Ogre": {
             "warning": "Beware two extra evil players",
@@ -2078,6 +2160,9 @@
         "Fool": {
             "warning": "This role can make executions survivable"
         },
+        "General": {
+            "good": "General can detect Cannibal eating an Outsider"
+        },
         "Grandmother": {
             "good": "Cannibal can get a second round of first night info, and survive through changing abilities"
         },
@@ -2181,7 +2266,8 @@
             "warning": "Cannibal dying keeps the Puzzlemaster ability"
         },
         "Snitch": {
-            "good": "Cannibal can give a small reason for the Snitch to stay alive (giving additional bluffs, which might not be that useful, and confirming the Snitch just died)"
+            "good": "Cannibal can give a small reason for the Snitch to stay alive (giving additional bluffs, which might not be that useful, and confirming the Snitch just died)",
+            "warning": "Hard role to bluff for certain Minions"
         },
         "Heretic": {
             "warning": "The Cannibal cancels the Heretic while they have their ability"
@@ -2229,6 +2315,10 @@
         },
         "Vortox": {
             "warning": "Cannibal confirmation is immune to Vortox"
+        },
+        "Leviathan": {
+            "good": "Encourages executions",
+            "warning": "Can only get at most one use out of their ability, and will most likely be poisoned most of the game"
         },
         "Lleech": {
             "warning": "This role can make executions survivable. Cannibal encourages executions of a wider type of players"
@@ -2349,7 +2439,7 @@
             "good": "Interesting Boffin ability"
         },
         "Wraith": {
-            "good": "Potentially unusual waking pattern. Good bluff for a Wraith",
+            "good": "Wraith can determine this character purely from night actions. Potentially unusual waking pattern. Good bluff for a Wraith",
             "warning": "Wraith could be an outed Minion"
         },
         "Imp": {
@@ -2412,6 +2502,9 @@
         "Farmer": {
             "good": "First night info roles are a good target for Farmer"
         },
+        "General": {
+            "warning": "A lot of starting info makes it even more likely for good to start winning, making starting info more monotone"
+        },
         "Gossip": {
             "good": "First night info roles are good targets for Gossip kills"
         },
@@ -2470,6 +2563,9 @@
         },
         "Lunatic": {
             "good": "Public info can help Lunatic find out they're the Lunatic"
+        },
+        "Snitch": {
+            "warning": "Having bluffs makes Minions harder to narrow down"
         },
         "Ogre": {
             "info": "Ogre doesn't change the Chef number (acts after the Chef)"
@@ -2581,6 +2677,12 @@
         "Farmer": {
             "good": "Used once per game roles are a good target for Farmer"
         },
+        "Gambler": {
+            "good": "Gambling lying characters is harder"
+        },
+        "General": {
+            "good": "General can detect a (successful or not) Choirboy info"
+        },
         "Gossip": {
             "good": "Used once per game roles are good target for Gossip kills"
         },
@@ -2589,6 +2691,9 @@
         },
         "Innkeeper": {
             "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
+        },
+        "Investigator": {
+            "good": "Good choice for a wrong ping"
         },
         "Juggler": {
             "good": "Confirming this role is in-play is good"
@@ -2640,6 +2745,9 @@
         "Puzzlemaster": {
             "good": "Choirboy can help confirm Puzzlemaster info"
         },
+        "Snitch": {
+            "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "Poisoner": {
             "good": "Poisoner can disable this role before a kill"
         },
@@ -2673,11 +2781,17 @@
         "Riot": {
             "warning": "Choirboy only learns one of the Demons"
         },
+        "Leviathan": {
+            "warning": "Leviathan can't kill the King"
+        },
         "Lleech": {
             "warning": "Knowing who the Demon is isn't very useful for Lleech"
         },
         "Lil' Monsta": {
             "good": "If a Minion holding LM kills the King, the Choirboy wake to learn info"
+        },
+        "Ojo": {
+            "warning": "Ojo can kill this role directly"
         },
         "Kazali": {
             "conflict": "Kazali can delete the King"
@@ -2725,6 +2839,9 @@
         },
         "Flowergirl": {
             "great": "Good synergy"
+        },
+        "General": {
+            "warning": "A lot of starting info makes it even more likely for good to start winning, making starting info more monotone"
         },
         "Gossip": {
             "good": "First night info roles are good targets for Gossip kills"
@@ -2785,7 +2902,7 @@
             "good": "Public info can help Lunatic find out they're the Lunatic"
         },
         "Snitch": {
-            "good": "Snitch can help Minions hide"
+            "warning": "Having bluffs makes Minions harder to narrow down"
         },
         "Spy": {
             "good": "Spy can hide from Clockmaker"
@@ -2943,6 +3060,9 @@
         "Damsel": {
             "good": "Good Outsider to drunk, and good bluff for Minions looking for the Damsel"
         },
+        "Politician": {
+            "info": "Don't droison the Politician on final day"
+        },
         "Puzzlemaster": {
             "warning": "This role can make it hard to find the Puzzle drunk",
             "good": "Puzzlemaster benefits from long games"
@@ -3074,6 +3194,12 @@
         }
     },
     "Cult Leader": {
+        "General": {
+            "good": "General can detect extra evils"
+        },
+        "Investigator": {
+            "good": "Good choice for a wrong ping"
+        },
         "Lycanthrope": {
             "good": "Extra evil players increase the chance of a miss. Faux paw registers as evil"
         },
@@ -3146,7 +3272,7 @@
             "good": "If this role triggers successfully (changing alignment), it confirms a non-Xaan-night"
         },
         "Wraith": {
-            "good": "Wraith knows when the Cult Leader becomes evil"
+            "good": "Wraith knows when the Cult Leader becomes evil. Wraith can determine this character purely from night actions"
         },
         "Fang Gu": {
             "warning": "Beware two extra evil players"
@@ -3157,6 +3283,9 @@
         "Legion": {
             "conflict": "Extra evils in Legion games are dangerous"
         },
+        "Ojo": {
+            "warning": "Ojo can kill this role directly after a public claim"
+        },
         "Lord of Typhon": {
             "good": "Cult Leader voting pattern can reval a LoT. Less likely for the Cult Leader to be stuck within evil players"
         },
@@ -3165,6 +3294,9 @@
         },
         "Beggar": {
             "warning": "This role is more unlikely to die and so can't give its vote token"
+        },
+        "Bishop": {
+            "good": "Bishop can be interesting with alignment changing"
         },
         "Deviant": {
             "good": "Publicly claiming roles & roles that visit the ST for info opens room for jokes"
@@ -3283,8 +3415,15 @@
         "Golem": {
             "warning": "Confirming characters are uninteresting for Dreamer"
         },
+        "Politician": {
+            "good": "Good discrediting bluff to see someone as a Politician"
+        },
         "Puzzlemaster": {
             "good": "Dreamer can help confirm Puzzlemaster info"
+        },
+        "Snitch": {
+            "good": "Snitch makes Dreamer picking a Minion N1 more likely to work out",
+            "warning": "Hard role to bluff for certain Minions"
         },
         "Heretic": {
             "warning": "Confirmed Heretic is powerful"
@@ -3332,6 +3471,9 @@
         },
         "Boffin": {
             "good": "Interesting Boffin ability (allows for easier bluffs)"
+        },
+        "Wraith": {
+            "good": "Wraith can determine this character purely from night actions"
         },
         "Imp": {
             "good": "This Demon explains someone seen as a Demon by Dreamer dying"
@@ -3415,6 +3557,9 @@
         },
         "Politician": {
             "good": "Shown as good despite playing for evil"
+        },
+        "Snitch": {
+            "good": "Great bluff for Minions"
         },
         "Heretic": {
             "good": "Shown as good despite \"playing for evil\""
@@ -3625,6 +3770,9 @@
         "Vigormortis": {
             "warning": "Engineer can « kill » Minions"
         },
+        "No Dashii": {
+            "good": "Creating a No Dashii can make it easier to track the Demon"
+        },
         "Vortox": {
             "good": "Engineer can confirm this role isn't active"
         },
@@ -3756,6 +3904,9 @@
         "Puzzlemaster": {
             "good": "Exorcist can help confirm Puzzlemaster info. Puzzlemaster benefits from long games"
         },
+        "Snitch": {
+            "good": "Great bluff for Minions"
+        },
         "Heretic": {
             "warning": "Protection characters are going against the good win condition in Heretic games"
         },
@@ -3851,6 +4002,9 @@
         "Fisherman": {
             "good": "Used once per game roles are a good target for Farmer"
         },
+        "Gambler": {
+            "good": "Gambling lying characters is harder"
+        },
         "General": {
             "good": "General can detect a Farmer dying"
         },
@@ -3867,7 +4021,7 @@
             "good": "Used once per game roles are a good target for Farmer"
         },
         "Investigator": {
-            "good": "First night info roles are a good target for Farmer"
+            "good": "First night info roles are a good target for Farmer. Good choice for a wrong ping"
         },
         "Juggler": {
             "good": "Used once per game roles are a good target for Farmer"
@@ -3951,6 +4105,13 @@
         "Golem": {
             "warning": "Dying during the day doesn't help trap characters"
         },
+        "Politician": {
+            "warning": "Turning a Politician into a Farmer can effectively remove an evil player"
+        },
+        "Snitch": {
+            "good": "Knowing this character isn't in-play is powerful for evil",
+            "warning": "Hard role to bluff for Minions"
+        },
         "Heretic": {
             "good": "Farmer replacing powerful abilities can help the good team/indicate a Heretic"
         },
@@ -4018,6 +4179,9 @@
         },
         "Vigormortis": {
             "good": "Minions can bluff this character"
+        },
+        "No Dashii": {
+            "warning": "Confirmed characters make No Dashii poison easier to track"
         },
         "Vortox": {
             "warning": "This role's info is immune to Vortox"
@@ -4113,6 +4277,9 @@
         }
     },
     "Fisherman": {
+        "General": {
+            "good": "General can detect lost once per game abilities"
+        },
         "Gossip": {
             "good": "Used once per game roles are good target for Gossip kills"
         },
@@ -4149,6 +4316,9 @@
         "Damsel": {
             "good": "Advice can help the Damsel hide/die"
         },
+        "Politician": {
+            "good": "Advice can point to a Politician and their activities"
+        },
         "Snitch": {
             "good": "Advice can point to the Minion bluffs"
         },
@@ -4160,6 +4330,9 @@
         },
         "Fearmonger": {
             "good": "This bluff gives a good reason to execute"
+        },
+        "Mezepheles": {
+            "good": "Interesting role to turn evil"
         },
         "Boffin": {
             "good": "Interesting Boffin ability"
@@ -4298,6 +4471,9 @@
         },
         "Puzzlemaster": {
             "good": "Flowergirl can help confirm Puzzlemaster info"
+        },
+        "Snitch": {
+            "good": "Knowing this character isn't in-play is powerful for evil. Great bluff for Minions"
         },
         "Hatter": {
             "warning": "Demon can move (with the Hatter variant)"
@@ -4606,6 +4782,9 @@
         }
     },
     "Fortune Teller": {
+        "General": {
+            "good": "General could help determine the red herring"
+        },
         "Grandmother": {
             "good": "Grandmother is good for role swaps with powerful info roles"
         },
@@ -4655,6 +4834,9 @@
         "Puzzlemaster": {
             "good": "FT can help confirm Puzzlemaster info"
         },
+        "Snitch": {
+            "good": "Great bluff for Minions"
+        },
         "Hatter": {
             "warning": "Demon can move (with the Hatter variant)"
         },
@@ -4679,6 +4861,9 @@
         },
         "Boffin": {
             "warning": "This ability is useless to the Demon"
+        },
+        "Wraith": {
+            "good": "Wraith can determine this character purely from night actions"
         },
         "Imp": {
             "good": "Can explain a red herring dying in the night"
@@ -4734,6 +4919,9 @@
         "Innkeeper": {
             "warning": "Protection can muddle Gambler info"
         },
+        "Magician": {
+            "good": "Gambling lying characters is harder"
+        },
         "Mathematician": {
             "good": "Failing to die counts as a malfunction"
         },
@@ -4754,19 +4942,25 @@
             "good": "Confirming this role is in-play is good"
         },
         "Pixie": {
-            "good": "Multiple deaths work well with Pixie"
+            "good": "Multiple deaths work well with Pixie. Gambling lying characters is harder"
         },
         "Poppy Grower": {
-            "good": "Confirming this role is in-play is good"
+            "good": "Confirming this role is in-play is good. Gambling lying characters is harder"
         },
         "Princess": {
             "good": "This role's death can be more trusted as coming from its ability during Princess night"
+        },
+        "Ravenkeeper": {
+            "good": "Gambling lying characters is harder"
+        },
+        "Sage": {
+            "good": "Gambling lying characters is harder"
         },
         "Savant": {
             "warning": "Savant benefits from long games"
         },
         "Soldier": {
-            "good": "Confirming this role is in-play is good"
+            "good": "Confirming this role is in-play is good. Gambling lying characters is harder"
         },
         "Tea Lady": {
             "warning": "Protection can muddle Gambler info"
@@ -4796,16 +4990,28 @@
             "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
         "Mutant": {
-            "good": "Gambling Mutant is hard"
+            "good": "Gambling lying characters is harder"
         },
         "Goon": {
             "good": "Gambling a Goon will always be \"correct\" (if they didn't get picked before then)"
         },
+        "Lunatic": {
+            "good": "Gambling lying characters is harder"
+        },
+        "Damsel": {
+            "good": "Gambling lying characters is harder"
+        },
         "Golem": {
             "good": "Confirmation saves a gamble"
         },
+        "Politician": {
+            "good": "Gambling lying characters is harder"
+        },
         "Puzzlemaster": {
             "warning": "Puzzlemaster benefits from long games"
+        },
+        "Snitch": {
+            "warning": "Hard role to bluff for Minions"
         },
         "Heretic": {
             "warning": "Good killing characters lose their downside in a Heretic game"
@@ -4952,17 +5158,47 @@
         }
     },
     "General": {
+        "Grandmother": {
+            "warning": "A lot of starting info makes it even more likely for good to start winning, making starting info more monotone"
+        },
         "High Priestess": {
-            "great": "Good synergy"
+            "great": "Good synergy (can learn how good the HP info or what they got out of it was)"
         },
         "Huntsman": {
             "good": "General can detect a successful hunt"
         },
+        "Innkeeper": {
+            "good": "General can detect if someone important was droisoned"
+        },
+        "Investigator": {
+            "warning": "A lot of starting info makes it even more likely for good to start winning, making starting info more monotone"
+        },
+        "Knight": {
+            "warning": "A lot of starting info makes it even more likely for good to start winning, making starting info more monotone"
+        },
+        "Librarian": {
+            "warning": "A lot of starting info makes it even more likely for good to start winning, making starting info more monotone"
+        },
         "Magician": {
             "good": "General can detect a Magician successfully fooling an evil player, or that the Magician has stopped working"
         },
+        "Mathematician": {
+            "info": "Both do similar work"
+        },
+        "Mayor": {
+            "good": "General can detect a Mayor bounce"
+        },
+        "Noble": {
+            "warning": "A lot of starting info makes it even more likely for good to start winning, making starting info more monotone"
+        },
         "Pacifist": {
-            "info": "Pacifist can act as  a pseudo-General"
+            "info": "Pacifist can act as a pseudo-General"
+        },
+        "Philosopher": {
+            "good": "General can detect lost once per game abilities"
+        },
+        "Pixie": {
+            "good": "General can detect a successful Pixie-ing"
         },
         "Poppy Grower": {
             "good": "General can detect a Poppygrower dying"
@@ -4976,35 +5212,87 @@
         "Sage": {
             "good": "General can detect a Sage dying"
         },
+        "Sailor": {
+            "good": "General can detect if someone important was droisoned"
+        },
         "Savant": {
             "good": "General can detect a Savant solving their information"
+        },
+        "Seamstress": {
+            "good": "General can detect lost once per game abilities"
+        },
+        "Shugenja": {
+            "warning": "A lot of starting info makes it even more likely for good to start winning, making starting info more monotone"
+        },
+        "Slayer": {
+            "good": "General can detect lost once per game abilities"
         },
         "Snake Charmer": {
             "good": "General can detect a snakecharm"
         },
+        "Steward": {
+            "warning": "A lot of starting info makes it even more likely for good to start winning, making starting info more monotone"
+        },
+        "Village Idiot": {
+            "good": "General can detect when a sober or drunk VI dies"
+        },
+        "Washerwoman": {
+            "warning": "A lot of starting info makes it even more likely for good to start winning, making starting info more monotone"
+        },
+        "Drunk": {
+            "good": "General can detect if someone important was droisoned"
+        },
+        "Saint": {
+            "good": "General can detect that a Saint is a bad execution"
+        },
+        "Butler": {
+            "good": "General could detect an evil master"
+        },
+        "Barber": {
+            "good": "General can detect the death of this Outsider"
+        },
         "Sweetheart": {
-            "good": "Who is Sweetheart drunk influences the General"
+            "good": "General can detect if someone important was droisoned"
+        },
+        "Klutz": {
+            "good": "General can detect the death of this Outsider"
+        },
+        "Goon": {
+            "good": "General can detect extra evils. General can detect if someone important was droisoned"
+        },
+        "Moonchild": {
+            "good": "General can detect the death of this Outsider"
         },
         "Lunatic": {
             "good": "General can detect a Lunatic figuring out they're not the Demon"
         },
         "Puzzlemaster": {
-            "good": "General could help find if the answer was true"
+            "good": "General could help find if the answer was true. General can detect lost once per game abilities"
         },
         "Heretic": {
             "warning": "General's answers take Heretic into account"
         },
+        "Plague Doctor": {
+            "good": "General can detect the death of this Outsider"
+        },
+        "Hatter": {
+            "good": "General can detect the death of this Outsider"
+        },
         "Hermit": {
-            "warning": "Hermit can impact the General info quite a lot"
+            "warning": "Hermit can impact the General info quite a lot. Less Outsiders means it's even more liekly for good to start winning, making starting info more monotone"
         },
         "Baron": {
             "good": "Extra starting Outsiders can give a reason for the game to start neutral or even evil sided"
         },
         "Poisoner": {
-            "good": "General can detect if someone important was poisoned"
+            "good": "General can detect if someone important was droisoned"
         },
         "Evil Twin": {
             "good": "General can gauge which twin is the evil one"
+        },
+        "Godfather": {
+            "good": "Extra starting Outsiders can give a reason for the game to start neutral or even evil sided",
+            "warning": "Less Outsiders means it's even more liekly for good to start winning, making starting info more monotone"
         },
         "Mastermind": {
             "good": "General can detect a Mastermind day"
@@ -5015,23 +5303,54 @@
         "Fearmonger": {
             "good": "General can gage who is the Fearmonger target"
         },
+        "Mezepheles": {
+            "good": "General can detect extra evils"
+        },
+        "Widow": {
+            "good": "General can detect if someone important was droisoned"
+        },
         "Boffin": {
             "good": "Interesting Boffin ability"
         },
         "Wizard": {
             "good": "General can detect a sudden game state change"
         },
+        "Wraith": {
+            "good": "Wraith can determine this character purely from night actions"
+        },
+        "Imp": {
+            "good": "General can detect a starpass"
+        },
+        "Fang Gu": {
+            "good": "Extra starting Outsiders can give a reason for the game to start neutral or even evil sided. General can detect extra evils"
+        },
+        "Vigormortis": {
+            "good": "General can detect if someone important was droisoned",
+            "warning": "Less Outsiders means it's even more liekly for good to start winning, making starting info more monotone"
+        },
+        "No Dashii": {
+            "good": "General can detect if someone important was droisoned"
+        },
+        "Vortox": {
+            "warning": "Subjective information is awkward with \"false info\""
+        },
         "Po": {
             "good": "General can detect a Po charge"
         },
         "Pukka": {
-            "good": "General can detect if someone important was poisoned"
+            "good": "General can detect if someone important was droisoned"
+        },
+        "Lleech": {
+            "good": "General can detect if someone important was droisoned"
         },
         "Legion": {
             "good": "Legion game is one of the rare games that start in evil's favor"
         },
-        "Kazali": {
-            "good": "The starting gamestate might not be as clearcut as it usually is"
+        "Ojo": {
+            "good": "General can detect a miss"
+        },
+        "Lord of Typhon": {
+            "good": "General can detect extra evils"
         },
         "Barista": {
             "warning": "Useless to double"
@@ -5042,11 +5361,20 @@
         "Hindu": {
             "warning": "Travellers are swingy"
         },
+        "Knaves": {
+            "warning": "Subjective information is awkward with \"false info\""
+        },
         "Pope": {
             "warning": "All copies of this role receive the same info"
         },
+        "Storm Catcher": {
+            "good": "General could indicate if the stormcaught character is in-play"
+        },
         "Tor": {
             "warning": "This role immediately knows who they are"
+        },
+        "Zenomancer": {
+            "good": "General can guide on if quests are a good idea, and if the rewards are powerful or not"
         }
     },
     "Gossip": {
@@ -5206,7 +5534,7 @@
             "warning": "Multiple ST-chosen deaths can muddle this role's info"
         },
         "Ojo": {
-            "warning": "Multiple ST-chosen deaths can muddle this role's info"
+            "warning": "Multiple ST-chosen deaths can muddle this role's info. Ojo can kill this role directly after a public claim"
         },
         "Yaggababble": {
             "good": "This role gives good opportunities for phrases. Extra deaths can hide nights with no kills",
@@ -5376,6 +5704,9 @@
             "good": "Xaan can disable this role (although hard to time). If this role triggers successfully, it confirms a non-Xaan-night",
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
         },
+        "Wraith": {
+            "good": "Wraith can determine this character purely from night actions"
+        },
         "Vortox": {
             "warning": "This role can easily confirm a Vortox"
         },
@@ -5514,6 +5845,12 @@
         "Lunatic": {
             "good": "Good target to help figure out they're the Lunatic or once they figured it out"
         },
+        "Damsel": {
+            "good": "High Priestess can get told the Damsel to give them a safe person to talk to (but can easily be bluffed)"
+        },
+        "Puzzlemaster": {
+            "good": "High Priestess can help the Puzzlemaster"
+        },
         "Evil Twin": {
             "info": "High Priestess has a possibility of being more easily confirmable, making it a questionable Twin choice"
         },
@@ -5535,6 +5872,9 @@
         "Wraith": {
             "good": "High Priestess can be given a person who saw the Wraith"
         },
+        "Vortox": {
+            "warning": "Subjective information is awkward with \"false info\""
+        },
         "Legion": {
             "good": "High Priestess will most likely learn the few good players"
         },
@@ -5543,6 +5883,9 @@
         },
         "Harlot": {
             "good": "Good target for a High Priestess"
+        },
+        "Knaves": {
+            "warning": "Subjective information is awkward with \"false info\""
         }
     },
     "Huntsman": {
@@ -5570,6 +5913,9 @@
         },
         "Damsel": {
             "info": "Linked"
+        },
+        "Snitch": {
+            "good": "Powerful bluff for a Minion with a Damsel in-play"
         },
         "Hermit": {
             "warning": "Huntsman cannot neutralize Hermit"
@@ -5708,6 +6054,9 @@
         "Lunatic": {
             "warning": "A droisoned Lunatic doesn't give its picks to the Demon"
         },
+        "Politician": {
+            "info": "Don't droison the Politician on final day"
+        },
         "Puzzlemaster": {
             "warning": "This role can make it hard to find the Puzzle drunk",
             "good": "Puzzlemaster benefits from long games"
@@ -5777,7 +6126,7 @@
             "good": "First night info roles are good targets for Lycanthrope kills"
         },
         "Magician": {
-            "good": "This role is a good false target. Public info can help evil find each other"
+            "good": "Good choice for a wrong ping. Public info can help evil find each other"
         },
         "Mathematician": {
             "good": "Mathematician can help first night info"
@@ -5792,7 +6141,7 @@
             "good": "Pixie can get a second round of first night info"
         },
         "Poppy Grower": {
-            "good": "Public info can help evil find each other"
+            "good": "Public info can help evil find each other. Good choice for a wrong ping"
         },
         "Preacher": {
             "great": "Powerful synergy"
@@ -5803,8 +6152,17 @@
         "Professor": {
             "good": "When resurrected, it gets new first night info (or same)"
         },
+        "Ravenkeeper": {
+            "good": "Good choice for a wrong ping"
+        },
+        "Sage": {
+            "good": "Good choice for a wrong ping"
+        },
         "Snake Charmer": {
             "good": "Characters that hide can be good second Investigator pings"
+        },
+        "Soldier": {
+            "good": "Good choice for a wrong ping"
         },
         "Undertaker": {
             "great": "Good synergy",
@@ -5831,11 +6189,20 @@
         "Mutant": {
             "good": "This role is a good false target"
         },
+        "Goon": {
+            "good": "Good choice for a wrong ping"
+        },
         "Tinker": {
             "warning": "Tinker is likely to die on its own, and so might be a bad Investigator ping (or it means not using its ability)"
         },
+        "Damsel": {
+            "good": "Good choice for a wrong ping"
+        },
+        "Politician": {
+            "good": "Good choice for a wrong ping"
+        },
         "Snitch": {
-            "good": "Snitch can help Minions hide"
+            "warning": "Having bluffs makes Minions harder to narrow down"
         },
         "Hatter": {
             "warning": "The seen Minion can change characters"
@@ -5883,11 +6250,15 @@
             "good": "Can confirm Wizard is in-play"
         },
         "Wraith": {
-            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
+            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake",
+            "good": "Wraith can determine this character is one of Investigator, Washerwoman, and Librarian from night actions"
         },
         "Vigormortis": {
             "warning": "First night info is immune to Vigormortis poison",
             "good": "Investigator can't confirm one of their picks by having the other die in the night"
+        },
+        "No Dashii": {
+            "good": "Tracking Minions helps with No Dashii"
         },
         "Vortox": {
             "warning": "Vortox makes this info near useless"
@@ -6036,6 +6407,9 @@
         "Wraith": {
             "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
         },
+        "No Dashii": {
+            "good": "Juggler can track Outsiders and Minions"
+        },
         "Vortox": {
             "warning": "Vortox makes this info near useless"
         },
@@ -6052,7 +6426,8 @@
             "info": "Juggler can juggle the same character multiple times correctly"
         },
         "Ojo": {
-            "good": "Outing certain roles can get them killed"
+            "good": "Outing certain roles can get them killed",
+            "warning": "Ojo can kill this role directly after a public claim"
         },
         "Lord of Typhon": {
             "warning": "Info on the Minions can be powerful in LoT game"
@@ -6239,9 +6614,6 @@
         "Al-Hadikhia": {
             "good": "Multiple deaths works well with King"
         },
-        "Leviathan": {
-            "warning": "Leviathan can't kill the King"
-        },
         "Lleech": {
             "good": "Lleech can poison King, which gives a reason not to kill them"
         },
@@ -6334,6 +6706,9 @@
         "Golem": {
             "info": "Both do similar work"
         },
+        "Snitch": {
+            "good": "Great bluff for Minions"
+        },
         "Heretic": {
             "warning": "This ability is less useful in a Heretic game"
         },
@@ -6371,7 +6746,8 @@
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
         },
         "Wraith": {
-            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
+            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake",
+            "good": "Wraith can determine this character purely from night actions"
         },
         "Imp": {
             "warning": "Demon can move"
@@ -6517,6 +6893,9 @@
         "Politician": {
             "good": "Politician is a hidden Outsider"
         },
+        "Snitch": {
+            "good": "Great bluff for Minions"
+        },
         "Heretic": {
             "warning": "Confirmed Heretic is powerful"
         },
@@ -6551,13 +6930,17 @@
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
         },
         "Wraith": {
-            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
+            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake",
+            "good": "Wraith can determine this character is one of Investigator, Washerwoman, and Librarian from night actions"
         },
         "Fang Gu": {
             "good": "Fang Gu can turn the Librarian target into the Demon"
         },
         "Vigormortis": {
             "warning": "First night info is immune to Vigormortis poison. More reason for a Librarian 0"
+        },
+        "No Dashii": {
+            "good": "Tracking Outsiders helps with No Dashii"
         },
         "Vortox": {
             "warning": "Vortox makes this info near useless"
@@ -6952,7 +7335,8 @@
             "good": "Puzzlemaster can be told the Magician for more believability"
         },
         "Snitch": {
-            "info": "Magician will need to invent bluffs anyways"
+            "info": "Magician will need to invent bluffs anyways",
+            "warning": "With bluffs, evil needs less to coordinate, making Magician less useful"
         },
         "Heretic": {
             "warning": "In a Heretic game, Minions killing the Demon accidentally gives evil the win instead"
@@ -7049,6 +7433,9 @@
         },
         "Barista": {
             "warning": "Cannot be doubled"
+        },
+        "Bishop": {
+            "good": "Counts as good even though they \"play for evil\""
         },
         "Bone Collector": {
             "warning": "Bone Collector is useless on this role"
@@ -7208,6 +7595,9 @@
         },
         "Golem": {
             "warning": "Golem can kill the Mayor"
+        },
+        "Snitch": {
+            "good": "Great bluff for Minions"
         },
         "Heretic": {
             "warning": "Mayor can be a liability for good in a Heretic game"
@@ -7488,6 +7878,9 @@
         "Puzzlemaster": {
             "good": "Puzzlemaster benefits from long games"
         },
+        "Snitch": {
+            "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "Heretic": {
             "warning": "Protection characters are going against the good win condition in Heretic games"
         },
@@ -7618,6 +8011,9 @@
         "Politician": {
             "good": "Interesting target for the Nightwatchman"
         },
+        "Snitch": {
+            "warning": "Hard role to bluff for Minions"
+        },
         "Ogre": {
             "good": "Nightwatchman can be confirmed as good"
         },
@@ -7660,6 +8056,9 @@
         },
         "Wizard": {
             "good": "Wizard could fake this role"
+        },
+        "No Dashii": {
+            "warning": "Confirmed characters make No Dashii poison easier to track"
         },
         "Vortox": {
             "warning": "This role can easily confirm a Vortox"
@@ -7786,7 +8185,8 @@
             "good": "Good target for Noble"
         },
         "Snitch": {
-            "good": "Snitch can help Minions hide"
+            "warning": "Having bluffs makes Minions harder to narrow down",
+            "good": "Great bluff for Minions"
         },
         "Ogre": {
             "warning": "Noble will always see the Ogre as good"
@@ -7828,7 +8228,8 @@
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
         },
         "Wraith": {
-            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
+            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake",
+            "good": "Wraith can determine this character purely from night actions"
         },
         "Imp": {
             "good": "The Demon can more safely be given to a Noble"
@@ -7950,6 +8351,9 @@
         "Politician": {
             "good": "Shown as good despite playing for evil"
         },
+        "Snitch": {
+            "good": "Great bluff for Minions"
+        },
         "Heretic": {
             "good": "Shown as good despite \"playing for evil\""
         },
@@ -7983,6 +8387,9 @@
         "Boffin": {
             "warning": "This ability is useless to the Demon"
         },
+        "Wraith": {
+            "good": "Wraith can determine this character purely from night actions"
+        },
         "Imp": {
             "good": "Can detect a starpass"
         },
@@ -8003,6 +8410,9 @@
         },
         "Riot": {
             "warning": "Oracle isn't likely to get much information in a Riot game"
+        },
+        "Leviathan": {
+            "warning": "Oracle isn't likely to get much information in a Leviathan game"
         },
         "Legion": {
             "warning": "Oracle can figure out Legion easily"
@@ -8235,7 +8645,8 @@
             "warning": "This role can make it hard to find the Puzzle drunk"
         },
         "Snitch": {
-            "warning": "Philosopher has no use becoming this role"
+            "warning": "Philosopher has no use becoming this role",
+            "good": "Great bluff for Minions"
         },
         "Heretic": {
             "good": "Philosopher can guarantee this role is active",
@@ -8339,6 +8750,9 @@
         "Lunatic": {
             "good": "Good choice for a fake Minion (if they don't talk in private)"
         },
+        "Snitch": {
+            "good": "Great bluff for Minions"
+        },
         "Spy": {
             "good": "Spy can appear as any Townsfolk. Spy can simulate this role"
         },
@@ -8398,7 +8812,7 @@
             "good": "Great bluff for Minions"
         },
         "Ojo": {
-            "warning": "Madness can make the Ojo's job harder, though Pixie madness points towards an in-play, confirmed playet"
+            "warning": "Madness can make the Ojo's job harder, though Pixie madness points towards an in-play, confirmed player"
         },
         "Kazali": {
             "good": "Great bluff for Minions"
@@ -8737,6 +9151,9 @@
         "Barista": {
             "good": "Powerful role to double or guarantee"
         },
+        "Revolutionary": {
+            "info": "Revolutionaries could register as a Minion (don't)"
+        },
         "Pope": {
             "warning": "Preacher choices need to tracked separately. Rough for evil to deal with"
         },
@@ -8898,7 +9315,8 @@
             "warning": "All this Demon's ability relies on killing"
         },
         "No Dashii": {
-            "good": "This Demon's main ability is not disabled by the Princess"
+            "good": "This Demon's main ability is not disabled by the Princess",
+            "warning": "Confirmed characters make No Dashii poison easier to track"
         },
         "Vortox": {
             "good": "This Demon's main ability is not disabled by the Princess. Vortox and Princess both encourage executions"
@@ -9040,6 +9458,9 @@
         "Puzzlemaster": {
             "good": "Puzzlemaster benefits from long games"
         },
+        "Snitch": {
+            "warning": "Hard role to bluff for Minions"
+        },
         "Heretic": {
             "warning": "Resurrecting characters goes against the good win condition in Heretic games"
         },
@@ -9066,6 +9487,9 @@
         },
         "Wizard": {
             "good": "Wizard could fake this role"
+        },
+        "No Dashii": {
+            "warning": "Confirmed characters make No Dashii poison easier to track"
         },
         "Vortox": {
             "warning": "This role's info is immune to Vortox"
@@ -9152,8 +9576,15 @@
         "Golem": {
             "warning": "Dying during the day doesn't help trap characters"
         },
+        "Politician": {
+            "good": "Good discrediting bluff to see someone as a Politician"
+        },
         "Puzzlemaster": {
             "good": "Ravenkeeper can help confirm Puzzlemaster info"
+        },
+        "Snitch": {
+            "good": "Knowing this character isn't in-play is powerful for evil",
+            "warning": "Hard role to bluff for Minions"
         },
         "Heretic": {
             "warning": "Confirmed Heretic is powerful"
@@ -9338,6 +9769,10 @@
         },
         "Puzzlemaster": {
             "good": "Sage can help confirm Puzzlemaster info"
+        },
+        "Snitch": {
+            "good": "Knowing this character isn't in-play is powerful for evil",
+            "warning": "Hard role to bluff for Minions"
         },
         "Hatter": {
             "warning": "Demon can move (with the Hatter variant)"
@@ -9537,8 +9972,14 @@
             "good": "This role can appear as the Demon if Golem nominated",
             "warning": "Immune to drunkeness after their first nomination"
         },
+        "Politician": {
+            "info": "Don't droison the Politician on final day"
+        },
         "Puzzlemaster": {
             "good": "Puzzlemaster benefits from long games"
+        },
+        "Snitch": {
+            "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "Heretic": {
             "warning": "Droison and Heretic can cause confusing game states. Protection characters are going against the good win condition in Heretic games"
@@ -9787,6 +10228,9 @@
         "Politician": {
             "good": "Shown as good despite playing for evil"
         },
+        "Snitch": {
+            "good": "Great bluff for Minions"
+        },
         "Heretic": {
             "good": "Shown as good despite \"playing for evil\""
         },
@@ -9898,6 +10342,10 @@
         "Politician": {
             "good": "Shown as good despite playing for evil"
         },
+        "Snitch": {
+            "warning": "Having bluffs makes Minions harder to narrow down",
+            "good": "Great bluff for Minions"
+        },
         "Heretic": {
             "good": "Shown as good despite \"playing for evil\""
         },
@@ -9936,7 +10384,8 @@
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
         },
         "Wraith": {
-            "warning": "Wraith could be an outed Minion. This role ignores the Wraith optional rule as their ability already triggered when they wake"
+            "warning": "Wraith could be an outed Minion. This role ignores the Wraith optional rule as their ability already triggered when they wake",
+            "good": "Wraith can determine this character purely from night actions"
         },
         "No Dashii": {
             "great": "Good synergy for evil"
@@ -10034,6 +10483,9 @@
         },
         "Puzzlemaster": {
             "good": "Puzzlemaster can help guide Slayer"
+        },
+        "Snitch": {
+            "good": "Knowing this character isn't in-play is powerful for evil. Great bluff for Minions"
         },
         "Heretic": {
             "warning": "In a Heretic game, this role almost always hurts the good team"
@@ -10319,6 +10771,9 @@
         "Puzzlemaster": {
             "good": "Puzzlemaster benefits from long games"
         },
+        "Snitch": {
+            "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "Heretic": {
             "warning": "Protection characters are going against the good win condition in Heretic games"
         },
@@ -10486,6 +10941,9 @@
         "Politician": {
             "good": "Shown as good despite playing for evil"
         },
+        "Snitch": {
+            "good": "Great bluff for Minions"
+        },
         "Heretic": {
             "warning": "Steward seeing Heretic is powerful",
             "good": "Shown as good despite \"playing for evil\""
@@ -10636,6 +11094,9 @@
         "Puzzlemaster": {
             "good": "Puzzlemaster benefits from long games"
         },
+        "Snitch": {
+            "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "Heretic": {
             "warning": "Protection characters are going against the good win condition in Heretic games",
             "good": "Shown as good despite \"playing for evil\""
@@ -10736,6 +11197,9 @@
         "Butcher": {
             "good": "Extra executions gives more chances for this role to do something"
         },
+        "Deviant": {
+            "good": "Deviant can survive exile not from their ability"
+        },
         "Gangster": {
             "good": "This role can protect from this Traveller"
         },
@@ -10824,7 +11288,8 @@
             "warning": "Town Crier benefits from long games"
         },
         "Snitch": {
-            "good": "Snitch can help Minions hide"
+            "warning": "Having bluffs makes Minions harder to narrow down",
+            "good": "Great bluff for Minions"
         },
         "Spy": {
             "good": "Spy can hide from Town Crier"
@@ -10960,6 +11425,9 @@
         "Lunatic": {
             "good": "Public info can help Lunatic find out they're the Lunatic"
         },
+        "Snitch": {
+            "warning": "Hard role to bluff for certain Minions"
+        },
         "Heretic": {
             "warning": "Confirmed Heretic is powerful"
         },
@@ -11034,6 +11502,9 @@
         "Wizard": {
             "good": "Can confirm Wizard is in-play"
         },
+        "Wraith": {
+            "good": "Wraith can determine this character purely from night actions"
+        },
         "Vortox": {
             "good": "Forcing executions works well with this role",
             "warning": "Can easily confirm a Vortox"
@@ -11054,7 +11525,7 @@
             "warning": "Undertaker benefits from long games"
         },
         "Leviathan": {
-            "good": "Undertaker becomes very useful to count the number of executions left"
+            "good": "Undertaker can become useful to count the number of executions left, if trusted, but is also an easy bluff"
         },
         "Lleech": {
             "warning": "This role can make executions survivable. Undertaker encourages executions of a wider type of players"
@@ -11155,6 +11626,9 @@
         "Puzzlemaster": {
             "good": "Village Idiot can help confirm this character"
         },
+        "Snitch": {
+            "good": "Great bluff for Minions"
+        },
         "Heretic": {
             "good": "This Outsider can easily hide behind a Village Idiot claim. Shown as good despite \"playing for evil\""
         },
@@ -11237,7 +11711,7 @@
             "good": "Sobering all Village Idiots can be an interesting/clue depending on the wish"
         },
         "Wraith": {
-            "good": "Potentially outed Minion could be used to check sobriety"
+            "good": "Potentially outed Minion could be used to check sobriety. Wraith can determine this character purely from night actions"
         },
         "Imp": {
             "good": "This Demon can die"
@@ -11349,6 +11823,9 @@
         "Damsel": {
             "good": "Damsel can safely out to this role once confirmed"
         },
+        "Snitch": {
+            "warning": "Hard role to bluff for Minions"
+        },
         "Ogre": {
             "good": "Virgin is confirmed as good"
         },
@@ -11416,6 +11893,9 @@
         },
         "Wizard": {
             "good": "Wizard could fake this role"
+        },
+        "No Dashii": {
+            "warning": "Confirmed characters make No Dashii poison easier to track"
         },
         "Vortox": {
             "warning": "This role's info is immune to Vortox"
@@ -11514,6 +11994,9 @@
         "Sweetheart": {
             "warning": "First night info is immune to Sweetheart"
         },
+        "Snitch": {
+            "good": "Great bluff for Minions"
+        },
         "Baron": {
             "warning": "In Teensyville, WW can be the only Townsfolk"
         },
@@ -11545,7 +12028,8 @@
             "warning": "Xaan 1 is powerful against this role (but more easily traceable)"
         },
         "Wraith": {
-            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
+            "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake",
+            "good": "Wraith can determine this character is one of Investigator, Washerwoman, and Librarian from night actions"
         },
         "Vigormortis": {
             "warning": "First night info is immune to Vigormortis poison"
@@ -11599,6 +12083,9 @@
         },
         "Puzzlemaster": {
             "warning": "This role can make it hard to find the Puzzle drunk"
+        },
+        "Snitch": {
+            "good": "Showing Drunk could be interesting"
         },
         "Heretic": {
             "good": "Outsiders that don't claim after death prevent Heretic from being found out by elimination"
@@ -11725,6 +12212,9 @@
         "Puzzlemaster": {
             "warning": "Droison can cause a safe Saint execution"
         },
+        "Snitch": {
+            "good": "Great bluff for Minions"
+        },
         "Heretic": {
             "great": "Interesting interaction"
         },
@@ -11800,6 +12290,9 @@
         },
         "Leviathan": {
             "warning": "After the first good execution, Saint becomes a dud"
+        },
+        "Lleech": {
+            "warning": "This role doesn't have many ways to tell they're the host"
         },
         "Lil' Monsta": {
             "good": "Great bluff for Minions"
@@ -11898,7 +12391,7 @@
             "warning": "This Outsider will most likely choose death"
         },
         "Lleech": {
-            "warning": "Butler might want to be executed"
+            "warning": "Butler might want to be executed. This role doesn't have many ways to tell they're the host"
         },
         "Barista": {
             "warning": "Useless to double or sober"
@@ -11946,7 +12439,8 @@
             "good": "Recluse can appear as a Demon (only use if it makes sense)"
         },
         "Snitch": {
-            "info": "Recluse can appear as a Minion (don't)"
+            "info": "Recluse can appear as a Minion (don't)",
+            "good": "Great bluff for Minions"
         },
         "Spy": {
             "info": "Recluse can appear as any Minion or Demon on the Grimoire (don't)"
@@ -12203,6 +12697,9 @@
         "Al-Hadikhia": {
             "good": "Extra deaths work well with this Outsider"
         },
+        "Lleech": {
+            "warning": "This role doesn't have many ways to tell they're the host"
+        },
         "Legion": {
             "warning": "Legion targets are chosen by the ST"
         },
@@ -12260,6 +12757,9 @@
         },
         "Golem": {
             "warning": "Golem can kill this role"
+        },
+        "Politician": {
+            "info": "Don't droison the Politician on final day"
         },
         "Heretic": {
             "warning": "Droison and Heretic can cause confusing game states"
@@ -12329,7 +12829,7 @@
             "good": "Extra deaths work well with this Outsider"
         },
         "Lleech": {
-            "warning": "Sweetheart drunkeness can hide the Lleech host"
+            "warning": "Sweetheart drunkeness can hide the Lleech host. This role doesn't have many ways to tell they're the host"
         },
         "Legion": {
             "warning": "Legion targets are chosen by the ST"
@@ -12579,6 +13079,9 @@
         "Shabaloth": {
             "good": "Extra deaths work well with this Outsider"
         },
+        "Lleech": {
+            "warning": "This role doesn't have many ways to tell they're the host"
+        },
         "Legion": {
             "warning": "Legion targets are chosen by the ST. Klutz, if they die, is very likely to fail"
         },
@@ -12720,7 +13223,7 @@
             "warning": "Beware not having picking non-Demon evil picking players with a Goon"
         },
         "Wraith": {
-            "good": "Wraith knows when the Goon becomes evil",
+            "good": "Wraith knows when the Goon becomes evil. Wraith can determine this character purely from night actions",
             "warning": "Beware not having picking non-Demon evil picking players with a Goon"
         },
         "Fang Gu": {
@@ -12755,6 +13258,9 @@
         },
         "Beggar": {
             "warning": "Protection gives less use to the Beggar"
+        },
+        "Bishop": {
+            "good": "Bishop can be interesting with alignment changing"
         },
         "Scapegoat": {
             "warning": "Hard to determine the alignment if saved by Scapegoat"
@@ -12974,6 +13480,9 @@
         "Puzzlemaster": {
             "warning": "Puzzlemaster benefits from long games"
         },
+        "Snitch": {
+            "warning": "Hard bluff from Minions"
+        },
         "Heretic": {
             "warning": "Good killing characters lose their downside in a Heretic game"
         },
@@ -13054,6 +13563,9 @@
         "Leviathan": {
             "warning": "Killing roles in a Leviathan games are confirmed if alone"
         },
+        "Lleech": {
+            "warning": "This role doesn't have many ways to tell they're the host"
+        },
         "Legion": {
             "warning": "Tinker is a big liability in Legion games"
         },
@@ -13130,6 +13642,9 @@
         "Golem": {
             "good": "Golem can find a Lunatic"
         },
+        "Politician": {
+            "good": "Good choice for a fake Minion"
+        },
         "Puzzlemaster": {
             "warning": "A puzzledrunk Lunatic won't signal itself or its kills to the Demon"
         },
@@ -13156,7 +13671,8 @@
             "good": "Can have the Lunatic die without thinking they're the Lunatic"
         },
         "Evil Twin": {
-            "good": "Can have the Lunatic die without thinking they're the Lunatic. The Lunatic can learn the good twin as their Minion"
+            "good": "Can have the Lunatic die without thinking they're the Lunatic. The Lunatic can learn the good twin as their Minion",
+            "warning": "Can't be a good Twin"
         },
         "Pit-Hag": {
             "good": "Lunatic can believe they changed role",
@@ -13214,7 +13730,7 @@
             "warning": "A droisoned Lunatic doesn't give its picks to the Demon (Lleech can choose since they know before picking)"
         },
         "Legion": {
-            "warning": "A Lunatic that could think they are Legion drastically increases the length of the first night. Lunatic with Legionhas kills decided by the ST",
+            "warning": "A Lunatic that could think they are Legion drastically increases the length of the first night. Lunatic with Legion has kills decided by the ST",
             "good": "Can have the Lunatic die without thinking they're the Lunatic immediately"
         },
         "Lil' Monsta": {
@@ -13398,6 +13914,9 @@
         "Puzzlemaster": {
             "warning": "Puzzlemaster benefits from long games"
         },
+        "Snitch": {
+            "warning": "Hard bluff for Minions"
+        },
         "Heretic": {
             "warning": "Good killing characters lose their downside in a Heretic game"
         },
@@ -13467,6 +13986,9 @@
         },
         "Fang Gu": {
             "good": "Fang Gu disables the confirmation"
+        },
+        "No Dashii": {
+            "warning": "Confirmed characters make No Dashii poison easier to track"
         },
         "Leviathan": {
             "good": "Day kills aren't executions"
@@ -13553,6 +14075,18 @@
         "Hermit": {
             "warning": "Doubling this Outsider is dangerous. Beware two extra evils. The hermit extra abilities allow the Hermit Politician to be way more potent than the regular one"
         },
+        "Baron": {
+            "good": "Baron works better with hidden Outsiders"
+        },
+        "Poisoner": {
+            "warning": "Politician can be poisoned on final day without knowing"
+        },
+        "Spy": {
+            "good": "Seeing the Grimoire makes it easier to hire the Policitian"
+        },
+        "Evil Twin": {
+            "warning": "Not a great good twin, as they can win by hiding the Twins and getting themself executed"
+        },
         "Pit-Hag": {
             "good": "Creating this Outsider can be silent"
         },
@@ -13575,16 +14109,28 @@
             "warning": "Evil Politician is a liablity. Beware two extra evil players"
         },
         "Widow": {
-            "good": "Politician can help a Widow stay hidden"
+            "good": "Politician can help a Widow stay hidden. Seeing the Grimoire makes it easier to hire the Policitian"
+        },
+        "Harpy": {
+            "good": "Politician can break madness voluntarily"
+        },
+        "Summoner": {
+            "warning": "Summoning Politician effectively removes a potential evil player"
         },
         "Xaan": {
-            "warning": "Hidden Outsiders make Xaan hard to solve for"
-        },
-        "Wizard": {
-            "good": "Politician can receive the hint"
+            "warning": "Hidden Outsiders make Xaan hard to solve for. Politician can be poisoned on final day without knowing"
         },
         "Fang Gu": {
             "warning": "Beware two extra evil players"
+        },
+        "Pukka": {
+            "warning": "Politician can be poisoned on final day without knowing"
+        },
+        "Leviathan": {
+            "good": "Politician makes executing players acting evil more risky"
+        },
+        "Lleech": {
+            "warning": "This role doesn't have many ways to tell they're the host"
         },
         "Legion": {
             "warning": "Extra evils in Legion games are dangerous"
@@ -13603,6 +14149,9 @@
         },
         "Beggar": {
             "good": "Shown as good despite playing for evil"
+        },
+        "Bishop": {
+            "good": "Counts as good even though they play for evil"
         },
         "Bone Collector": {
             "warning": "Bone Collector is useless on this role"
@@ -13645,6 +14194,9 @@
         }
     },
     "Puzzlemaster": {
+        "Snitch": {
+            "good": "Great bluff for Minions"
+        },
         "Hermit": {
             "warning": "Requires other reasons to visit the ST to not be obvious"
         },
@@ -13813,7 +14365,7 @@
             "warning": "This Minion has no use for bluffs"
         },
         "Pit-Hag": {
-            "good": "Creating a Snitch can give Minions bluffs"
+            "good": "Creating a Snitch can give Minions bluffs. Bluffs tell the Pit-Hag what can be created"
         },
         "Cerenovus": {
             "good": "This Minion prefers to remain alive"
@@ -13822,7 +14374,7 @@
             "good": "This Minion prefers to remain alive until their ability is spent"
         },
         "Godfather": {
-            "good": "Godfather can avoid loud Outsiders"
+            "good": "Godfather can have more options if all out of play Outsiders are loud"
         },
         "Mastermind": {
             "good": "This Minion needs to remain alive"
@@ -13837,14 +14389,14 @@
             "good": "This Minion needs to remain alive"
         },
         "Marionette": {
-            "warning": "This role doesn't have many ways to tell they're the Marionette"
+            "warning": "This role doesn't have many ways to tell they're the Marionette. Snitch is useless in 1-minion games"
         },
         "Mezepheles": {
             "warning": "This role as evil can't do much for the evil team",
             "good": "This Minion prefers to remain alive until their ability is spent"
         },
         "Psychopath": {
-            "warning": "This Minion has no use for bluffs"
+            "warning": "This Minion generally has no use for bluffs"
         },
         "Widow": {
             "warning": "This Minion has no use for bluffs"
@@ -13862,7 +14414,7 @@
             "warning": "This Minion has less use for more bluffs"
         },
         "Boffin": {
-            "good": "Good Boffin ability"
+            "good": "Good Boffin ability. This Minion prefers to remain alive"
         },
         "Xaan": {
             "good": "This Minion prefers to remain alive. Snitch announcement can help Xaan get the Outsider count"
@@ -13873,20 +14425,23 @@
         "Al-Hadikhia": {
             "warning": "This Outsider will most likely choose death"
         },
+        "Riot": {
+            "good": "Snitch helps Minions hide"
+        },
         "Legion": {
-            "good": "Legion can probably know every in play character"
+            "warning": "Legion can probably know every in play character"
         },
         "Lil' Monsta": {
             "good": "Hiding Minions is very powerful with a LM"
+        },
+        "Ojo": {
+            "good": "Additional bluffs gives Ojo more chance to hit"
         },
         "Kazali": {
             "warning": "Minions already have a bluff in Kazali games"
         },
         "Lord of Typhon": {
             "warning": "Minions already have a bluff in LoT games"
-        },
-        "Bone Collector": {
-            "good": "Bone collecting this role is interesting"
         },
         "Gangster": {
             "warning": "This role is fine to die to this Traveller"
@@ -13897,8 +14452,14 @@
         "Harlot": {
             "warning": "This role is fine to die to this Traveller"
         },
+        "Matron": {
+            "good": "Minions can get bluffs without being sat next to the Demon"
+        },
         "Gnome": {
             "warning": "This role is fine to die to this Traveller"
+        },
+        "Buddhist": {
+            "good": "Evil doesn't need to talk with bluffs"
         },
         "God of Ug": {
             "good": "This role can be said in ug speak"
@@ -14022,10 +14583,13 @@
             "warning": "If Heretic becomes a Minion, it can confirm that no Heretic is in-play. Arbitrary Outsiders make determining if the Heretic is in-play harder"
         },
         "Barista": {
-            "warning": "Shouldn't be doubled"
+            "warning": "Most often shouldn't be doubled"
         },
         "Beggar": {
             "good": "Shown as good despite \"playing for evil\""
+        },
+        "Bishop": {
+            "good": "Counts as good even though they \"play for evil\""
         },
         "Bone Collector": {
             "warning": "Bone Collector is useless on this role"
@@ -14182,6 +14746,9 @@
         "Riot": {
             "good": "Plague Doctor can bring Minion abilities to a Riot day"
         },
+        "Lleech": {
+            "warning": "This role doesn't have many ways to tell they're the host"
+        },
         "Legion": {
             "good": "Plague Doctor can bring Minion abilities to a Legion game",
             "warning": "Legion targets are chosen by the ST"
@@ -14326,7 +14893,8 @@
             "warning": "Changing to a loud Demon confirms Hatter"
         },
         "Lleech": {
-            "good": "Interesting Demon to change into"
+            "good": "Interesting Demon to change into",
+            "warning": "This role doesn't have many ways to tell they're the host"
         },
         "Lil' Monsta": {
             "warning": "LM targets are chosen by the ST"
@@ -14415,6 +14983,9 @@
         "Wizard": {
             "good": "Evil Ogre can receive the hint"
         },
+        "Wraith": {
+            "good": "Wraith can determine this character purely from night actions. Wraith can know the Ogre's alignment"
+        },
         "Fang Gu": {
             "warning": "Beware two extra evil players",
             "good": "Fang Gu can change the Ogre's target's alignment"
@@ -14426,7 +14997,8 @@
             "good": "Can nominate on behalf on their Riot friend"
         },
         "Lleech": {
-            "good": "Llech can be confirmed as evil"
+            "good": "Llech can be confirmed as evil",
+            "warning": "This role doesn't have many ways to tell they're the host"
         },
         "Legion": {
             "conflict": "Extra evils in Legion games are dangerous"
@@ -14516,6 +15088,9 @@
         },
         "Leviathan": {
             "good": "Zealot helps with executions"
+        },
+        "Lleech": {
+            "warning": "This role doesn't have many ways to tell they're the host"
         },
         "Legion": {
             "good": "Zealot can appear as a Legion (thanks to the jinx)"
@@ -15053,8 +15628,14 @@
         "Psychopath": {
             "warning": "The Twins are not a good target"
         },
+        "Widow": {
+            "good": "Good Twin is interesting to give the widow ping to (and to bluff having received it)"
+        },
         "Vizier": {
             "conflict": "Vizier can execute the good twin as soon as they're nominated and voted on"
+        },
+        "Harpy": {
+            "good": "Harpy can make players mad at the twins"
         },
         "Summoner": {
             "warning": "Loud Minions can confirm a Summoner not being in-play"
@@ -15068,17 +15649,26 @@
         "Imp": {
             "good": "Evil Twin can change to the Imp"
         },
+        "Fang Gu": {
+            "info": "An Outsider twin gives the Fang Gu a target to jump to, however if the ET is still alive, this immedaitely creates a new pair"
+        },
         "Vigormortis": {
             "warning": "Killing this Minion (almost) fully disables it, no matter what"
         },
+        "No Dashii": {
+            "warning": "Confirmed characters make No Dashii poison easier to track"
+        },
         "Vortox": {
             "good": "Forcing executions works well with this role"
+        },
+        "Po": {
+            "good": "Lack of kills can make town paranoid of a charge"
         },
         "Shabaloth": {
             "warning": "This Minion's resurrection is obvious"
         },
         "Al-Hadikhia": {
-            "warning": "This Minion's resurrection is obvious"
+            "warning": "This Minion's resurrection is obvious. Neither Twin should be picked, so this increases the need for the rest of the evil team to be"
         },
         "Riot": {
             "warning": "An Alchemist with this ability is very powerful in a Riot game. Outed Minions with Riot will die quickly"
@@ -15344,7 +15934,7 @@
             "warning": "Madness executions are very powerful in a Leviathan game"
         },
         "Legion": {
-            "warning": "Cerenovus ability confirms no Legion"
+            "warning": "Cerenovus execution confirms no Legion (and being cerenovus'd confirmed to that player there's no Legion)"
         },
         "Ojo": {
             "warning": "Madness can make the Ojo's job harder"
@@ -15426,6 +16016,9 @@
         },
         "Lleech": {
             "warning": "Can kill the Lleech host"
+        },
+        "Legion": {
+            "good": "Legion could fake this Minion with ST help"
         },
         "Apprentice": {
             "good": "Once per game abilities are good for arriving late or leaving early"
@@ -15693,6 +16286,7 @@
             "good": "An Alchemist with this ability is interesting for a Riot game"
         },
         "Leviathan": {
+            "info": "Protected executions still count fror Leviathan",
             "conflict": "DA protecting the Leviathan every other day can be very hard for good"
         },
         "Lleech": {
@@ -15866,7 +16460,8 @@
             "warning": "Loud Minions can confirm a Summoner not being in-play"
         },
         "Wizard": {
-            "warning": "Loud Minions can confirm a Wizard not being in-play"
+            "warning": "Loud Minions can confirm a Wizard not being in-play",
+            "good": "Wizard could fake this role"
         },
         "Wraith": {
             "good": "Wraith can guide this role"
@@ -16163,13 +16758,17 @@
             "warning": "Loud Minions can confirm a Summoner not being in-play"
         },
         "Wizard": {
-            "warning": "Loud Minions can confirm a Wizard not being in-play"
+            "warning": "Loud Minions can confirm a Wizard not being in-play",
+            "good": "Wizard could fake this role"
         },
         "Fang Gu": {
             "warning": "This Minion might accidentally target a newly jumped Fang Gu"
         },
         "Vigormortis": {
             "warning": "An unkillable Psychopath is very powerful"
+        },
+        "No Dashii": {
+            "warning": "Confirmed characters make No Dashii poison easier to track"
         },
         "Pukka": {
             "good": "Extra day deaths can make up for Pukka kills",
@@ -16350,6 +16949,9 @@
         "Vigormortis": {
             "warning": "Killing this Minion fully disables it, no matter what"
         },
+        "No Dashii": {
+            "warning": "Confirmed characters make No Dashii poison easier to track"
+        },
         "Vortox": {
             "good": "Forcing executions works well with this role"
         },
@@ -16501,13 +17103,17 @@
             "warning": "Loud Minions can confirm a Summoner not being in-play"
         },
         "Wizard": {
-            "warning": "Loud Minions can confirm a Wizard not being in-play"
+            "warning": "Loud Minions can confirm a Wizard not being in-play",
+            "good": "Wizard could fake this role"
         },
         "Fang Gu": {
             "warning": "This Minion might accidentally target a newly jumped Fang Gu"
         },
         "Vigormortis": {
             "good": "Killing the Vizier allows to avoid 50/50 on final day (but reveals the Demon type)"
+        },
+        "No Dashii": {
+            "warning": "Confirmed characters make No Dashii poison easier to track"
         },
         "Vortox": {
             "good": "Forcing executions works well with this role"
@@ -16689,8 +17295,8 @@
         "Vortox": {
             "good": "Vortox from night 3 can be quite confusing"
         },
-        "Zombuul": {
-            "good": "A summoned Zombuul can be hidden"
+        "Pukka": {
+            "good": "Early summoning a Pukka is useful if the Summoner has a risk of dying early"
         },
         "Al-Hadikhia": {
             "warning": "Al-Hadikhia being created can be loud (can be delayed)",
@@ -16698,6 +17304,9 @@
         },
         "Leviathan": {
             "warning": "Leviathan being created is loud"
+        },
+        "Legion": {
+            "warning": "Summoning Legion is most likely a bad idea for the evil team, as they lack the major upside of Legion"
         },
         "Lil' Monsta": {
             "info": "Should have 5 Minions for base 3-Minion games"
@@ -16863,6 +17472,9 @@
         }
     },
     "Wizard": {
+        "Wraith": {
+            "good": "Wizard could fake this role"
+        },
         "Imp": {
             "good": "This Minion is a good target for a starpass"
         },
@@ -17300,7 +17912,7 @@
             "good": "Allows a fiddle between an alive and dead player (though hard to convinvingly orchestrate)"
         },
         "Hindu": {
-            "conflict": "Zombuul ability doees not work with Hindu"
+            "conflict": "Zombuul ability does not work with Hindu"
         },
         "Knaves": {
             "good": "This role benefits from longer games"
@@ -17825,7 +18437,8 @@
             "good": "Lots of deaths and less nominations means Beggar can be more frivolous with their votes"
         },
         "Ferryman": {
-            "warning": "Ferryman makes the Beggar much stronger"
+            "warning": "Ferryman makes the Beggar much stronger",
+            "good": "Allows an alive Beggar on final day to vote if tokens were previously expended"
         },
         "Fibbin": {
             "warning": "Can cause the Beggar to receive false information"
@@ -17926,8 +18539,14 @@
             "good": "Opens good opportunities to be funny",
             "warning": "Silence means less time to be funny"
         },
+        "Gardener": {
+            "good": "Forcing placement can help the Deviant to be in funnier situations"
+        },
         "God of Ug": {
             "good": "Opens good opportunities to be funny"
+        },
+        "Tor": {
+            "warning": "Lack of information can make it harder to be funny"
         },
         "Ventriloquist": {
             "good": "Opens good opportunities to be funny"
