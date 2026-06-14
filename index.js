@@ -103,7 +103,8 @@ input.onchange = (evt) => {
         // Can't use just map(linkify) as the index is passed as a second argument, and 0 is falsy
         matchupMessages.push(["warning", ["Global"], `No non-Traveller character that ${descriptor}, consider adding one or more of the following: ${nonTravellerGroupMembers.toSorted(sortByCharacterTypeAndName).map((e) => linkify(e)).join(", ")}`]);
       }
-      if (group.multiple && nonTravellers.length === 1) {
+      // Yes it's ugly but who cares
+      if (group.multiple && nonTravellers.length === 1 && !(group.name === "Explains night deaths" && getCharacterType(nonTravellers[0]) === "demon")) {
         matchupMessages.push(["warning", ["Global"], `Only one non-Traveller character that ${descriptor} (${linkify(nonTravellers[0])}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => e !== nonTravellers[0]).toSorted(sortByCharacterTypeAndName).map((e) => linkify(e)).join(", ")}`]);
       }
       if (group.not_only_good && inGroup.length > 0 && inGroup.every((e) => goodCharacterTypes.includes(getCharacterType(e)))) {
