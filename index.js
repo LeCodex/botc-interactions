@@ -22,6 +22,7 @@ const color_per_character_type = {
   fabled: "gold",
   loric: "YellowGreen",
 };
+const character_type_order = Object.keys(color_per_character_type);
 
 let groups = [];
 fetch("./groups.json")
@@ -99,13 +100,13 @@ input.onchange = (evt) => {
       const nonTravellerGroupMembers = group.characters.filter((e) => getCharacterType(e) !== "traveller");
       const descriptor = `${group.name.slice(0, 1).toLowerCase()}${group.name.slice(1)}`;
       if (group.recommended && nonTravellers.length === 0) {
-        matchupMessages.push(["warning", ["Global"], `No non-Traveller character that ${descriptor}, consider adding one or more of the following: ${nonTravellerGroupMembers.map((e) => linkify(e, true)).join(", ")}`]);
+        matchupMessages.push(["warning", ["Global"], `No non-Traveller character that ${descriptor}, consider adding one or more of the following: ${nonTravellerGroupMembers.toSorted(sortByCharacterTypeAndName).map(linkify).join(", ")}`]);
       }
       if (group.multiple && nonTravellers.length === 1) {
-        matchupMessages.push(["warning", ["Global"], `Only one non-Traveller character that ${descriptor} (${linkify(nonTravellers[0], true)}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => e !== nonTravellers[0]).map((e) => linkify(e, true)).join(", ")}`]);
+        matchupMessages.push(["warning", ["Global"], `Only one non-Traveller character that ${descriptor} (${linkify(nonTravellers[0])}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => e !== nonTravellers[0]).toSorted(sortByCharacterTypeAndName).map(linkify).join(", ")}`]);
       }
       if (group.not_only_good && inGroup.length > 0 && inGroup.every((e) => goodCharacterTypes.includes(getCharacterType(e)))) {
-        matchupMessages.push(["warning", ["Global"], `No character that ${descriptor} and isn't a Townsfolk or Outsider (${inGroup.map((e) => linkify(e, true)).join(", ")}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => !goodCharacterTypes.includes(getCharacterType(e))).map((e) => linkify(e, true)).join(", ")}`]);
+        matchupMessages.push(["warning", ["Global"], `No character that ${descriptor} and isn't a Townsfolk or Outsider (${inGroup.map(linkify).join(", ")}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => !goodCharacterTypes.includes(getCharacterType(e))).toSorted(sortByCharacterTypeAndName).map(linkify).join(", ")}`]);
       }
       if (inGroup.length > 1) {
         matchupMessages.push(["group", inGroup, group.name]);
@@ -215,12 +216,12 @@ function printMessagesPerType() {
       if (t === "group") {
         message.innerHTML = msg + ": ";
         message.style.color = color_per_message_type[t];
-        names.innerHTML = chars.map((e) => linkify(e, true)).join(', ');
+        names.innerHTML = chars.map(linkify).join(', ');
 
         elt.appendChild(message);
         elt.appendChild(names);
       } else {
-        names.innerHTML = chars.map((e) => linkify(e)).join(' + ') + ': ';
+        names.innerHTML = chars.map((e) => linkify(e, false)).join(' + ') + ': ';
         names.style.color = color_per_message_type[t];
         message.innerHTML = msg;
         const deleteBtn = createDeleteButton(msg);
@@ -287,7 +288,7 @@ function printMessagesPerCharacter() {
           const names = document.createElement("span");
           const message = document.createElement("span");
           const deleteBtn = createDeleteButton(msg);
-          names.innerHTML = chars.map((e) => linkify(e)).join(' + ') + ': ';
+          names.innerHTML = chars.map((e) => linkify(e, false)).join(' + ') + ': ';
           names.style.color = color_per_message_type[type];
           message.innerHTML = msg;
 
@@ -311,11 +312,20 @@ function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
-function linkify(name, colorByCharacterTypes = false) {
+function linkify(name, colorByCharacterTypes = true) {
   if (name.toLowerCase() == "global") return name;
   let extra = "";
   if (colorByCharacterTypes) {
     extra = "style=\"color: " + color_per_character_type[getCharacterType(name)] + ";\"";
   }
   return `<a class="bland" href="https://wiki.bloodontheclocktower.com/${name.replace(/ /g, "_")}" target="_blank" ${extra}>${name}</a>`;
+}
+
+function sortByCharacterTypeAndName(a, b) {
+  const typeA = getCharacterType(a);
+  const typeB = getCharacterType(b);
+  if (typeA !== typeB) {
+    return character_type_order.indexOf(typeA) - character_type_order.indexOf(typeB);
+  }
+  return typeA.localeCompare(typeB);
 }
