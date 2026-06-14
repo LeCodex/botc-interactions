@@ -217,7 +217,7 @@ function printMessagesPerType() {
       if (t === "group") {
         message.innerHTML = msg + ": ";
         message.style.color = color_per_message_type[t];
-        names.innerHTML = chars.map((e) => linkify(e)).join(', ');
+        names.innerHTML = chars.toSorted(sortByCharacterTypeAndName).map((e) => linkify(e)).join(', ');
 
         elt.appendChild(message);
         elt.appendChild(names);
