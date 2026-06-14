@@ -100,13 +100,14 @@ input.onchange = (evt) => {
       const nonTravellerGroupMembers = group.characters.filter((e) => getCharacterType(e) !== "traveller");
       const descriptor = `${group.name.slice(0, 1).toLowerCase()}${group.name.slice(1)}`;
       if (group.recommended && nonTravellers.length === 0) {
-        matchupMessages.push(["warning", ["Global"], `No non-Traveller character that ${descriptor}, consider adding one or more of the following: ${nonTravellerGroupMembers.toSorted(sortByCharacterTypeAndName).map(linkify).join(", ")}`]);
+        // Can't use just map(linkify) as the index is passed as a second argument, and 0 is falsy
+        matchupMessages.push(["warning", ["Global"], `No non-Traveller character that ${descriptor}, consider adding one or more of the following: ${nonTravellerGroupMembers.toSorted(sortByCharacterTypeAndName).map((e) => linkify(e)).join(", ")}`]);
       }
       if (group.multiple && nonTravellers.length === 1) {
-        matchupMessages.push(["warning", ["Global"], `Only one non-Traveller character that ${descriptor} (${linkify(nonTravellers[0])}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => e !== nonTravellers[0]).toSorted(sortByCharacterTypeAndName).map(linkify).join(", ")}`]);
+        matchupMessages.push(["warning", ["Global"], `Only one non-Traveller character that ${descriptor} (${linkify(nonTravellers[0])}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => e !== nonTravellers[0]).toSorted(sortByCharacterTypeAndName).map((e) => linkify(e)).join(", ")}`]);
       }
       if (group.not_only_good && inGroup.length > 0 && inGroup.every((e) => goodCharacterTypes.includes(getCharacterType(e)))) {
-        matchupMessages.push(["warning", ["Global"], `No character that ${descriptor} and isn't a Townsfolk or Outsider (${inGroup.map(linkify).join(", ")}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => !goodCharacterTypes.includes(getCharacterType(e))).toSorted(sortByCharacterTypeAndName).map(linkify).join(", ")}`]);
+        matchupMessages.push(["warning", ["Global"], `No character that ${descriptor} and isn't a Townsfolk or Outsider (${inGroup.map((e) => linkify(e)).join(", ")}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => !goodCharacterTypes.includes(getCharacterType(e))).toSorted(sortByCharacterTypeAndName).map((e) => linkify(e)).join(", ")}`]);
       }
       if (inGroup.length > 1) {
         matchupMessages.push(["group", inGroup, group.name]);
@@ -216,7 +217,7 @@ function printMessagesPerType() {
       if (t === "group") {
         message.innerHTML = msg + ": ";
         message.style.color = color_per_message_type[t];
-        names.innerHTML = chars.map(linkify).join(', ');
+        names.innerHTML = chars.map((e) => linkify(e)).join(', ');
 
         elt.appendChild(message);
         elt.appendChild(names);
