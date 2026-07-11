@@ -884,5 +884,455 @@
             "Wraith",
             "Legion"
         ]
+    },
+    {
+        "interaction": {
+            "good": "No Dashii can selectively disable its poison"
+        },
+        "characters": [
+            "Boffin",
+            "Monk",
+            "No Dashii"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Vigormortis can selectively disable its poison"
+        },
+        "characters": [
+            "Boffin",
+            "Monk",
+            "Vigormortis"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Lleech can selectively disable its poison"
+        },
+        "characters": [
+            "Boffin",
+            "Monk",
+            "Lleech"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Vortox can selectively disable its falsification"
+        },
+        "characters": [
+            "Boffin",
+            "Monk",
+            "Vortox"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Al-Hadikhia can force a \"live\" choice"
+        },
+        "characters": [
+            "Boffin",
+            "Monk",
+            "Al-Hadikhia"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Farmer",
+            "Imp"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Ravenkeeper",
+            "Imp"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Banshee",
+            "Imp"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Barber",
+            "Imp"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Hatter",
+            "Imp"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Moonchild",
+            "Imp"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Plague Doctor",
+            "Imp"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Sweetheart",
+            "Imp"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Farmer",
+            "Fang Gu"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Ravenkeeper",
+            "Fang Gu"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Banshee",
+            "Fang Gu"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Barber",
+            "Fang Gu"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Hatter",
+            "Fang Gu"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Moonchild",
+            "Fang Gu"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Plague Doctor",
+            "Fang Gu"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Sweetheart",
+            "Fang Gu"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Farmer",
+            "Zombuul"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Ravenkeeper",
+            "Zombuul"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Banshee",
+            "Zombuul"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Barber",
+            "Zombuul"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Hatter",
+            "Zombuul"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Moonchild",
+            "Zombuul"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Plague Doctor",
+            "Zombuul"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability for this Demon"
+        },
+        "characters": [
+            "Boffin",
+            "Sweetheart",
+            "Zombuul"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability if this Minion is in-play"
+        },
+        "characters": [
+            "Boffin",
+            "Farmer",
+            "Scarlet Woman"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability if this Minion is in-play"
+        },
+        "characters": [
+            "Boffin",
+            "Ravenkeeper",
+            "Scarlet Woman"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability if this Minion is in-play"
+        },
+        "characters": [
+            "Boffin",
+            "Banshee",
+            "Scarlet Woman"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability if this Minion is in-play"
+        },
+        "characters": [
+            "Boffin",
+            "Barber",
+            "Scarlet Woman"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability if this Minion is in-play"
+        },
+        "characters": [
+            "Boffin",
+            "Hatter",
+            "Scarlet Woman"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability if this Minion is in-play"
+        },
+        "characters": [
+            "Boffin",
+            "Moonchild",
+            "Scarlet Woman"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability if this Minion is in-play"
+        },
+        "characters": [
+            "Boffin",
+            "Plague Doctor",
+            "Scarlet Woman"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability if this Minion is in-play"
+        },
+        "characters": [
+            "Boffin",
+            "Sweetheart",
+            "Scarlet Woman"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability if this Minion is in-play"
+        },
+        "characters": [
+            "Boffin",
+            "Farmer",
+            "Mastermind"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability if this Minion is in-play"
+        },
+        "characters": [
+            "Boffin",
+            "Ravenkeeper",
+            "Mastermind"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability if this Minion is in-play"
+        },
+        "characters": [
+            "Boffin",
+            "Banshee",
+            "Mastermind"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability if this Minion is in-play"
+        },
+        "characters": [
+            "Boffin",
+            "Barber",
+            "Mastermind"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability if this Minion is in-play"
+        },
+        "characters": [
+            "Boffin",
+            "Hatter",
+            "Mastermind"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability if this Minion is in-play"
+        },
+        "characters": [
+            "Boffin",
+            "Moonchild",
+            "Mastermind"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability if this Minion is in-play"
+        },
+        "characters": [
+            "Boffin",
+            "Plague Doctor",
+            "Mastermind"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good Boffin ability if this Minion is in-play"
+        },
+        "characters": [
+            "Boffin",
+            "Sweetheart",
+            "Mastermind"
+        ]
     }
 ]
