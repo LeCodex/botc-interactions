@@ -101,14 +101,14 @@ input.onchange = (evt) => {
       const descriptor = `${group.name.slice(0, 1).toLowerCase()}${group.name.slice(1)}`;
       if (group.recommended && nonTravellers.length === 0) {
         // Can't use just map(linkify) as the index is passed as a second argument, and 0 is falsy
-        matchupMessages.push(["warning", ["Global"], `No non-Traveller character that ${descriptor}, consider adding one or more of the following: ${nonTravellerGroupMembers.toSorted(sortByCharacterTypeAndName).map((e) => linkify(e)).join(", ")}`]);
+        matchupMessages.push(["warning", ["Global"], `No non-Traveller character that ${descriptor}. Click for suggestions`, nonTravellerGroupMembers.toSorted(sortByCharacterTypeAndName).map((e) => linkify(e)).join(", ")]);
       }
       // Yes it's ugly but who cares
       if (group.multiple && nonTravellers.length === 1 && !(group.name === "Explains night deaths" && getCharacterType(nonTravellers[0]) === "demon")) {
-        matchupMessages.push(["warning", ["Global"], `Only one non-Traveller character that ${descriptor} (${linkify(nonTravellers[0])}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => e !== nonTravellers[0]).toSorted(sortByCharacterTypeAndName).map((e) => linkify(e)).join(", ")}`]);
+        matchupMessages.push(["warning", ["Global"], `Only one non-Traveller character that ${descriptor} (${linkify(nonTravellers[0])}). Click for suggestions`, nonTravellerGroupMembers.filter((e) => e !== nonTravellers[0]).toSorted(sortByCharacterTypeAndName).map((e) => linkify(e)).join(", ")]);
       }
       if (group.not_only_good && inGroup.length > 0 && inGroup.every((e) => goodCharacterTypes.includes(getCharacterType(e)))) {
-        matchupMessages.push(["warning", ["Global"], `No character that ${descriptor} and isn't a Townsfolk or Outsider (${inGroup.map((e) => linkify(e)).join(", ")}), consider adding one or more of following: ${nonTravellerGroupMembers.filter((e) => !goodCharacterTypes.includes(getCharacterType(e))).toSorted(sortByCharacterTypeAndName).map((e) => linkify(e)).join(", ")}`]);
+        matchupMessages.push(["warning", ["Global"], `No character that ${descriptor} and isn't a Townsfolk or Outsider (${inGroup.map((e) => linkify(e)).join(", ")}). Click for suggestions`, nonTravellerGroupMembers.filter((e) => !goodCharacterTypes.includes(getCharacterType(e))).toSorted(sortByCharacterTypeAndName).map((e) => linkify(e)).join(", ")]);
       }
       if (inGroup.length > 1) {
         matchupMessages.push(["group", inGroup, group.name]);
@@ -194,8 +194,8 @@ function printMessagesPerType() {
     conflict: [],
     group: [],
   };
-  for (const [type, chars, msg] of matchupMessages) {
-    messages_per_type[type].push([chars, msg]);
+  for (const [type, chars, msg, extra] of matchupMessages) {
+    messages_per_type[type].push([chars, msg, extra]);
   }
 
   for (const [t, messages] of Object.entries(messages_per_type)) {
@@ -207,7 +207,7 @@ function printMessagesPerType() {
     title.style["font-weight"] = "bold";
     output.appendChild(title);
 
-    for (const [chars, msg] of messages) {
+    for (const [chars, msg, extra] of messages) {
       if (hiddenMessages.includes(msg)) {
         continue;
       }
@@ -227,11 +227,26 @@ function printMessagesPerType() {
         names.style.color = color_per_message_type[t];
         message.innerHTML = msg;
         const deleteBtn = createDeleteButton(msg);
-  
-        elt.appendChild(deleteBtn);
-        elt.appendChild(names);
-        elt.appendChild(message);
+
+        if (extra) {
+          const details = document.createElement("details");
+          const summary = document.createElement("summary");
+          const extraSpan = document.createElement("span");
+          extraSpan.innerHTML = extra;
+
+          summary.appendChild(deleteBtn);
+          summary.appendChild(names);
+          summary.appendChild(message);
+          details.appendChild(summary);
+          details.appendChild(extraSpan);
+          elt.appendChild(details);
+        } else {
+          elt.appendChild(deleteBtn);
+          elt.appendChild(names);
+          elt.appendChild(message);
+        }
       }
+
       output.appendChild(elt);
     }
   }
@@ -239,7 +254,7 @@ function printMessagesPerType() {
 
 function printMessagesPerCharacter() {
   const messages_per_character = {};
-  for (const [type, chars, msg] of matchupMessages) {
+  for (const [type, chars, msg, extra] of matchupMessages) {
     for (const char of chars) {
       if (!messages_per_character[char])
         messages_per_character[char] = {
@@ -250,7 +265,8 @@ function printMessagesPerCharacter() {
           conflict: [],
           group: [],
         };
-      messages_per_character[char][type].push([chars, msg]);
+
+      messages_per_character[char][type].push([chars, msg, extra]);
     }
   }
 
@@ -281,7 +297,7 @@ function printMessagesPerCharacter() {
       for (const [type, messages] of Object.entries(messages_per_type)) {
         if (!messages.length) continue;
 
-        for (let [chars, msg] of messages) {
+        for (const [chars, msg, extra] of messages) {
           if (hiddenMessages.includes(msg)) {
             continue;
           }
@@ -294,9 +310,24 @@ function printMessagesPerCharacter() {
           names.style.color = color_per_message_type[type];
           message.innerHTML = msg;
 
-          elt.appendChild(deleteBtn);
-          elt.appendChild(names);
-          elt.appendChild(message);
+          if (extra) {
+            const details = document.createElement("details");
+            const summary = document.createElement("summary");
+            const extraSpan = document.createElement("span");
+            extraSpan.innerHTML = extra;
+
+            summary.appendChild(deleteBtn);
+            summary.appendChild(names);
+            summary.appendChild(message);
+            details.appendChild(summary);
+            details.appendChild(extraSpan);
+            elt.appendChild(details);
+          } else {
+            elt.appendChild(deleteBtn);
+            elt.appendChild(names);
+            elt.appendChild(message);
+          }
+
           output.appendChild(elt);
         }
       }
