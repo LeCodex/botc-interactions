@@ -231,14 +231,15 @@ function printMessagesPerType() {
         if (extra) {
           const details = document.createElement("details");
           const summary = document.createElement("summary");
-          const extraSpan = document.createElement("span");
-          extraSpan.innerHTML = extra;
+          const extraDiv = document.createElement("div");
+          extraDiv.innerHTML = extra;
+          extraDiv.style.paddingLeft = "2em";
 
           summary.appendChild(deleteBtn);
           summary.appendChild(names);
           summary.appendChild(message);
           details.appendChild(summary);
-          details.appendChild(extraSpan);
+          details.appendChild(extraDiv);
           elt.appendChild(details);
         } else {
           elt.appendChild(deleteBtn);
@@ -313,14 +314,15 @@ function printMessagesPerCharacter() {
           if (extra) {
             const details = document.createElement("details");
             const summary = document.createElement("summary");
-            const extraSpan = document.createElement("span");
-            extraSpan.innerHTML = extra;
+            const extraDiv = document.createElement("div");
+            extraDiv.innerHTML = extra;
+            extraDiv.style.paddingLeft = "2em";
 
             summary.appendChild(deleteBtn);
             summary.appendChild(names);
             summary.appendChild(message);
             details.appendChild(summary);
-            details.appendChild(extraSpan);
+            details.appendChild(extraDiv);
             elt.appendChild(details);
           } else {
             elt.appendChild(deleteBtn);
