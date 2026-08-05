@@ -717,7 +717,7 @@
             "good": "Artist question can help guide Amnesiac"
         },
         "Atheist": {
-            "warning": "Amnesiac raises the bar for weird stuff happening if in the game. Amensiac with an Atheist-like ability is a bad idea"
+            "warning": "Amnesiac raises the bar for weird stuff happening if in the game. Amnesiac with an Atheist-like ability is a bad idea"
         },
         "Bounty Hunter": {
             "good": "Evil Amnesiac can get a Minion-like ability"
@@ -7735,7 +7735,7 @@
             "good": "Mathematician can help first night info"
         },
         "Drunk": {
-            "good": "Good source of malfunction (with the optional jinx)"
+            "good": "Good source of malfunction"
         },
         "Lunatic": {
             "good": "Good source of malfunction"
@@ -7747,7 +7747,7 @@
             "good": "Can help figure out the twins if one of them would be a malfunction. Causes a malfunction if it prevents another good win ability"
         },
         "Marionette": {
-            "good": "Good source of malfunction (if using the optional jinx)"
+            "good": "Good source of malfunction"
         },
         "Spy": {
             "good": "Good source of malfunction"
@@ -12641,7 +12641,8 @@
             "warning": "Hidden Outsiders make Xaan hard to solve for"
         },
         "Al-Hadikhia": {
-            "good": "Extra deaths work well with this Outsider"
+            "good": "Extra deaths work well with this Outsider",
+            "warning": "Al-Had may not know who died to perform a Barber \"resurrection\""
         },
         "Fang Gu": {
             "warning": "Fang Gu jumping to this Outsider is kind of a loss"
@@ -12938,8 +12939,7 @@
             "good": "Godfather can trigger off an Outsider that doesn't know it"
         },
         "Marionette": {
-            "good": "Drunk can easily replace an Outsider Marionette",
-            "warning": "There is little reason to make a player both the Drunk & Marionette besides messing with outsider count"
+            "good": "Drunk can easily replace an Outsider Marionette"
         },
         "Mezepheles": {
             "warning": "Usefulness as evil dependent on what role they saw"
@@ -15830,7 +15830,7 @@
             "good": "Allows the Boffin to give death abilities, and potentially duplicates it"
         },
         "Spy": {
-            "warning": "Spy can change the Boffed character by registering as it"
+            "info": "Spy can change the Boffed character by registering as it"
         },
         "Summoner": {
             "warning": "Boffin is useless until a Demon is summoned"

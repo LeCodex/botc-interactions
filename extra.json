@@ -93,16 +93,6 @@
     },
     {
         "interaction": {
-            "warning": "A Recluse with a Magician and Marionette makes it very unlikely for evil to find the Marionette"
-        },
-        "characters": [
-            "Magician",
-            "Marionette",
-            "Recluse"
-        ]
-    },
-    {
-        "interaction": {
             "info": "The Marionette reminder token is removed when the Spy sees the Grimoire"
         },
         "characters": [
