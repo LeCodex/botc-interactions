@@ -1251,36 +1251,6 @@
         },
         "characters": [
             "Boffin",
-            "Farmer",
-            "Mastermind"
-        ]
-    },
-    {
-        "interaction": {
-            "good": "Good Boffin ability if this Minion is in-play"
-        },
-        "characters": [
-            "Boffin",
-            "Ravenkeeper",
-            "Mastermind"
-        ]
-    },
-    {
-        "interaction": {
-            "good": "Good Boffin ability if this Minion is in-play"
-        },
-        "characters": [
-            "Boffin",
-            "Banshee",
-            "Mastermind"
-        ]
-    },
-    {
-        "interaction": {
-            "good": "Good Boffin ability if this Minion is in-play"
-        },
-        "characters": [
-            "Boffin",
             "Barber",
             "Mastermind"
         ]
@@ -1323,6 +1293,16 @@
             "Boffin",
             "Sweetheart",
             "Mastermind"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "A Mayor that receives Lil Monsta on the final day and doesn't learn of a Marionette always wins if they convince town not to execute (unless droisoned)"
+        },
+        "characters": [
+            "Mayor",
+            "Marionette",
+            "Lil' Monsta"
         ]
     }
 ]

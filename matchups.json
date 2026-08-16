@@ -647,7 +647,7 @@
             "good": "Alsaahir benefits from longer games"
         },
         "Lil' Monsta": {
-            "warning": "Demon can move"
+            "warning": "Demon can move. Alsaahir must guess one of the Minions as the Demon if it's Lil Monsta, which isn't the case for other Demons"
         },
         "Lleech": {
             "warning": "Lleech can be an outed Demon"
@@ -16787,6 +16787,7 @@
             "good": "Legion can make it easier to make a good player believe they're a Marionette"
         },
         "Lil' Monsta": {
+            "info": "Marionette doesn't learn they're the Marionette if they hold Lil Monsta, nor do they wake with the other Minions",
             "good": "A dead Minion has no reason to hide to a Marionette. Minions choose where the Marionette can be"
         },
         "Lleech": {
