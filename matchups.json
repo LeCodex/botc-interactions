@@ -10215,7 +10215,7 @@
             "good": "Trap characters with multi-kill Demons work well"
         },
         "Zombuul": {
-            "good": "This Demon can die safely in the night. Sage can see dead players"
+            "good": "This Demon can die safely in the night. Dead players shown to Sage might be the Demon"
         },
         "Apprentice": {
             "warning": "Bad Apprentice ability"
@@ -18088,8 +18088,41 @@
         }
     },
     "Al-Hadikhia": {
+        "Fang Gu": {
+            "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "Imp": {
+            "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "Kazali": {
+            "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "Lil' Monsta": {
+            "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "Lleech": {
+            "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "Lord of Typhon": {
+            "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "No Dashii": {
+            "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
         "Po": {
             "good": "Al-had hiding on night 2 can fake a Po charge"
+        },
+        "Pukka": {
+            "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "Vigormortis": {
+            "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "Vortox": {
+            "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "Zombuul": {
+            "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
         },
         "Barista": {
             "warning": "Loud double"
