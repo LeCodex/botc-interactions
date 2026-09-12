@@ -66,7 +66,10 @@ def alphabetical_path(path: str | None, k: str):
         f"{path}.{k}"
     )
 
-def recursive_diff(a: dict, b: dict, path: str | None = None, diffs: dict[str, tuple[Any | None, Any | None]] = {}):
+def recursive_diff(a: dict, b: dict, path: str | None = None, diffs: dict[str, tuple[Any | None, Any | None]] | None = None):
+    if diffs is None:
+        diffs = {}
+
     for k, v in a.items():
         full_path = alphabetical_path(path, k)
         if k not in b:

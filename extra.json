@@ -133,6 +133,36 @@
     },
     {
         "interaction": {
+            "warning": "Alchemist cannot have this Minion ability in a Legion game"
+        },
+        "characters": [
+            "Alchemist",
+            "Spy",
+            "Legion"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Alchemist cannot have this Minion ability in a Legion game"
+        },
+        "characters": [
+            "Alchemist",
+            "Widow",
+            "Legion"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Alchemist cannot have this Minion ability in a Legion game"
+        },
+        "characters": [
+            "Alchemist",
+            "Wraith",
+            "Legion"
+        ]
+    },
+    {
+        "interaction": {
             "warning": "Vigormortis doesn't care about killing Minions due to the jinx"
         },
         "characters": [
@@ -1303,6 +1333,116 @@
             "Mayor",
             "Marionette",
             "Lil' Monsta"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good evil character to show to a Dreamer when they choose this good character"
+        },
+        "characters": [
+            "Dreamer",
+            "Devil's Advocate",
+            "Fool"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good evil character to show to a Dreamer when they choose this good character"
+        },
+        "characters": [
+            "Dreamer",
+            "Devil's Advocate",
+            "Sailor"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good evil character to show to a Dreamer when they choose this good character"
+        },
+        "characters": [
+            "Dreamer",
+            "Devil's Advocate",
+            "Tea Lady"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Good evil character to show to a Dreamer when they choose this good character"
+        },
+        "characters": [
+            "Dreamer",
+            "Devil's Advocate",
+            "Pacifist"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Protecting trap characters  from execution makes it more likely they get killed at night or by the Demon"
+        },
+        "characters": [
+            "Alchemist",
+            "Devil's Advocate",
+            "Banshee"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Protecting trap characters  from execution makes it more likely they get killed at night or by the Demon"
+        },
+        "characters": [
+            "Alchemist",
+            "Devil's Advocate",
+            "Farmer"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Protecting trap characters  from execution makes it more likely they get killed at night or by the Demon"
+        },
+        "characters": [
+            "Alchemist",
+            "Devil's Advocate",
+            "Ravenkeeper"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "Protecting trap characters  from execution makes it more likely they get killed at night or by the Demon"
+        },
+        "characters": [
+            "Alchemist",
+            "Devil's Advocate",
+            "Sage"
+        ]
+    },
+    {
+        "interaction": {
+            "info": "An Alchemist DA on Riot day is interesting but also weird (ST dependent)"
+        },
+        "characters": [
+            "Alchemist",
+            "Devil's Advocate",
+            "Riot"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Evil Twin prevents an Alchemist win through this ability"
+        },
+        "characters": [
+            "Evil Twin",
+            "Alchemist",
+            "Goblin"
+        ]
+    },
+    {
+        "interaction": {
+            "warning": "Evil Twin prevents an Alchemist win through this ability"
+        },
+        "characters": [
+            "Evil Twin",
+            "Alchemist",
+            "Fearmonger"
         ]
     }
 ]
