@@ -74,14 +74,14 @@ def recursive_diff(a: dict, b: dict, path: str | None = None, diffs: dict[str, t
         full_path = alphabetical_path(path, k)
         if k not in b:
             if type(v) == dict:
-                recursive_diff(v, {}, full_path)
+                recursive_diff(v, {}, full_path, diffs)
             else:
                 diffs[full_path] = (v, diffs[full_path][1] if full_path in diffs else None)
             continue
 
         other = b[k]
         if type(v) == dict and type(other) == dict:
-            recursive_diff(v, other, full_path)
+            recursive_diff(v, other, full_path, diffs)
         elif v != other:
             diffs[full_path] = (v, other)
 
@@ -89,7 +89,7 @@ def recursive_diff(a: dict, b: dict, path: str | None = None, diffs: dict[str, t
         full_path = alphabetical_path(path, k)
         if k not in a:
             if type(v) == dict:
-                recursive_diff({}, v, full_path)
+                recursive_diff({}, v, full_path, diffs)
             else:
                 diffs[full_path] = (diffs[full_path][0] if full_path in diffs else None, v)
             continue

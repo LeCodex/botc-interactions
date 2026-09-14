@@ -133,7 +133,7 @@
             "warning": "Hard bluff for Minions"
         },
         "Legion": {
-            "warning": "Acrobat is a big liability in Legion games"
+            "warning": "Acrobat is a big liability in Legion games. Hard to bluff because ST controls the kills"
         },
         "Leviathan": {
             "warning": "Acrobat is powerful with no regular sources of night deaths (and removes a demon candidate in a Leviathan game)"
@@ -1048,6 +1048,9 @@
         "Kazali": {
             "good": "Great bluff for Minions"
         },
+        "Legion": {
+            "good": "Great bluff for Legion"
+        },
         "Lil' Monsta": {
             "good": "Great bluff for Minions"
         },
@@ -1303,6 +1306,9 @@
         "Big Wig": {
             "info": "The ST also gets to choose who defends them"
         },
+        "Gardener": {
+            "good": "While using Gardener, could assign this role to someone that wouldn't resent it"
+        },
         "Hindu": {
             "conflict": "Killing this role can remove it from the game, ending the game"
         },
@@ -1533,6 +1539,9 @@
         },
         "Imp": {
             "warning": "Players can change character types"
+        },
+        "Legion": {
+            "good": "Great bluff for Legion"
         },
         "Leviathan": {
             "good": "Balloonist benefits from long games"
@@ -1805,7 +1814,7 @@
             "warning": "Hard role to bluff for Minions"
         },
         "Legion": {
-            "warning": "Legion targets are chosen by the ST. Legion can't fake Banshee"
+            "warning": "Legion targets are chosen by the ST. Legion can't fake Banshee. Good roles that can cause good player deaths are dangerous in Legion games"
         },
         "Lil' Monsta": {
             "warning": "LM targets are chosen by the ST. Hard role to bluff for Minions",
@@ -2106,7 +2115,8 @@
             "good": "Great bluff for Minions"
         },
         "Legion": {
-            "warning": "Need to count the evil Townsfolk as a Legion"
+            "warning": "Need to count the evil Townsfolk as a Legion",
+            "good": "Great bluff for Legion"
         },
         "Lil' Monsta": {
             "good": "Evil player can be a new babysitter. Great bluff for Minions"
@@ -2349,6 +2359,9 @@
         "Kazali": {
             "warning": "Hard role to bluff for certain Minions"
         },
+        "Legion": {
+            "warning": "Hard role to bluff for Legion (requires a lot of coordination). Unlikely to do much in a Legion game. Good roles that can cause good player deaths are dangerous in Legion games"
+        },
         "Leviathan": {
             "good": "Encourages executions",
             "warning": "Can only get at most one use out of their ability, and will most likely be poisoned most of the game"
@@ -2488,7 +2501,8 @@
             "good": "Uncommon waking pattern for a Demon"
         },
         "Legion": {
-            "warning": "Legion never wakes"
+            "warning": "Legion never wakes",
+            "good": "Great bluff for Legion"
         },
         "Leviathan": {
             "warning": "Demon is known not to wake up"
@@ -2653,7 +2667,7 @@
             "good": "Kazali controls Chef information"
         },
         "Legion": {
-            "good": "Ludicrous Chef info is possible"
+            "good": "Ludicrous Chef info is possible. Great bluff for Legion"
         },
         "Lleech": {
             "warning": "First night info must be false if Lleech host"
@@ -2702,6 +2716,9 @@
         },
         "Duchess": {
             "great": "Good synergy"
+        },
+        "Gardener": {
+            "warning": "This role depends a lot on the gardening"
         },
         "God of Ug": {
             "good": "This role can be said in ug speak"
@@ -2798,10 +2815,13 @@
             "good": "Making a player that just died in the night mad as the King can throw shade on a Choirboy that received nothing"
         },
         "Evil Twin": {
-            "warning": "Bad choice for a Twin"
+            "warning": "Choirboy as a twin works, but tells the Demon a Choirboy is in-play and makes killing the King effectively give Sage info to town"
         },
         "Marionette": {
-            "warning": "If the King is the Marionette, the Choirboy has no ability (and technically invalid setup)"
+            "conflict": "If the King is the Marionette, the Choirboy has no ability (and technically invalid setup)"
+        },
+        "Mastermind": {
+            "good": "The Choirboy could learn dead players"
         },
         "Pit-Hag": {
             "warning": "Pit-Hag can turn a player into a Choirboy without King"
@@ -2830,6 +2850,9 @@
             "conflict": "Kazali can delete the King",
             "good": "Knowing this character isn't in-play is powerful for evil"
         },
+        "Legion": {
+            "warning": "King is unlikely to die with so few good players without the game ending. Choirboy info in a Legion game is not that useful. Good roles that can cause good player deaths are dangerous in Legion games"
+        },
         "Leviathan": {
             "warning": "Leviathan can't kill the King"
         },
@@ -2851,6 +2874,9 @@
         },
         "Vortox": {
             "warning": "Vortox makes this info near useless"
+        },
+        "Zombuul": {
+            "good": "The Choirboy could learn dead players"
         },
         "Apprentice": {
             "warning": "Apprentice can't have this ability, unless a King is already in-play (not a good idea if they leave)"
@@ -3007,6 +3033,9 @@
         "Kazali": {
             "good": "Kazali controls Clockmaker information"
         },
+        "Legion": {
+            "good": "Great bluff for Legion"
+        },
         "Lleech": {
             "warning": "Knowing who the Demon is isn't very useful for Lleech"
         },
@@ -3048,6 +3077,9 @@
         },
         "Matron": {
             "warning": "Matron can make Clockmaker information harder to parse"
+        },
+        "Gardener": {
+            "warning": "This role depends a lot on the gardening"
         },
         "Hindu": {
             "warning": "Players leaving influences this role"
@@ -3385,6 +3417,9 @@
         "Spirit of Ivory": {
             "warning": "If there's an extra evil player, this role can't change alignment"
         },
+        "Gardener": {
+            "warning": "This role depends a lot on the gardening"
+        },
         "God of Ug": {
             "warning": "If an extra evil gets the hat, evil can even more easily out vote town"
         },
@@ -3506,6 +3541,9 @@
         "Cerenovus": {
             "great": "Interesting interaction"
         },
+        "Devil's Advocate": {
+            "good": "DA can protect Dreamer targets to make them look evil"
+        },
         "Evil Twin": {
             "warning": "Twins must always appear the same (good role/ET) to the Dreamer"
         },
@@ -3545,19 +3583,21 @@
             "good": "This Demon explains someone seen as a Demon by Dreamer dying"
         },
         "Imp": {
-            "good": "This Demon explains someone seen as a Demon by Dreamer dying"
+            "good": "This Demon explains someone seen as a Demon by Dreamer dying. This Demon turns Minion pings into Demon candidates"
         },
         "Kazali": {
             "warning": "Hard role to bluff for certain Minions"
         },
         "Legion": {
-            "warning": "Legion can appear as any Minion, so Dreamer isn't very useful. Also Dreamer can theoritecally only see Legion as evil characters"
+            "warning": "Legion can appear as any Minion, so Dreamer isn't very useful",
+            "good": "This Demon turns Minion pings into Demon candidates. Great bluff for Legion"
         },
         "Leviathan": {
             "warning": "If announced, Leviathan is the only Demon the Dreamer can see"
         },
         "Lil' Monsta": {
-            "warning": "Dreamer can't see Lil Monsta. Hard role to bluff for certain Minions"
+            "warning": "Dreamer can't see Lil Monsta. Hard role to bluff for certain Minions",
+            "good": "This Demon turns Minion pings into Demon candidates"
         },
         "Lleech": {
             "warning": "Knowing who the Demon is isn't very useful for Lleech"
@@ -3680,6 +3720,9 @@
         "Kazali": {
             "good": "Great bluff for Minions"
         },
+        "Legion": {
+            "good": "Empath is more likely to get genuine 2's with Legion. Great bluff for Legion"
+        },
         "Lil' Monsta": {
             "good": "Great bluff for Minions"
         },
@@ -3710,6 +3753,9 @@
         },
         "Revolutionary": {
             "warning": "Empath in a pair knows the alignment of their other neighbor (except at most once per game)"
+        },
+        "Gardener": {
+            "warning": "This role depends a lot on the gardening"
         },
         "God of Ug": {
             "good": "Helps with execution"
@@ -3891,6 +3937,9 @@
         "Revolutionary": {
             "good": "Partner can help this role out"
         },
+        "Gardener": {
+            "warning": "Swapping and changing characters might mess with the intended setup"
+        },
         "Hindu": {
             "warning": "Engineer can choose extra roles if Minions have been tranformed into Travellers"
         },
@@ -4027,7 +4076,7 @@
             "good": "Great bluff for Minions"
         },
         "Legion": {
-            "warning": "Exorcist is useless in a Legion game"
+            "warning": "Exorcist is useless in a Legion game. Hard to bluff because ST controls the kills"
         },
         "Lil' Monsta": {
             "good": "Exorcist can prevent the babysitter from acting. Great bluff for Minions"
@@ -4267,7 +4316,7 @@
             "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "Legion": {
-            "warning": "Legion targets are chosen by the ST"
+            "warning": "Legion targets are chosen by the ST. Good roles that can cause good player deaths are dangerous in Legion games"
         },
         "Lil' Monsta": {
             "warning": "LM targets are chosen by the ST. Hard role to bluff for Minions"
@@ -4336,6 +4385,9 @@
         },
         "Fibbin": {
             "warning": "Mechanical info is immune to Fibbin"
+        },
+        "Gardener": {
+            "warning": "Swapping and changing characters might mess with the intended setup"
         },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance"
@@ -4439,8 +4491,17 @@
         "Wraith": {
             "good": "Advice can indicate a Wraith"
         },
+        "Kazali": {
+            "good": "Great bluff for Minions"
+        },
+        "Legion": {
+            "good": "Great bluff for Legion"
+        },
         "Lleech": {
             "good": "Fisherman can get a hint that helps with finding the host instead of the Demon"
+        },
+        "Lord of Typhon": {
+            "good": "Great bluff for Minions"
         },
         "Shabaloth": {
             "warning": "When resurrected, this gets another use of its ability"
@@ -4641,7 +4702,8 @@
             "good": "Great bluff for Minions. Knowing this character isn't in-play is powerful for evil"
         },
         "Legion": {
-            "warning": "Flowergirl can figure out Legion easily. Flowergirl pushing voting can make Legion more likely to do an only-evil vote. Legion discourages good voting to bait out Legion"
+            "warning": "Flowergirl can figure out Legion easily. Flowergirl pushing voting can make Legion more likely to do an only-evil vote. Legion discourages good voting to bait out Legion",
+            "good": "Great bluff for Legion"
         },
         "Leviathan": {
             "good": "Flowergirl benefits from long games"
@@ -4965,6 +5027,9 @@
         "Boffin": {
             "warning": "This ability is useless to the Demon"
         },
+        "Devil's Advocate": {
+            "good": "DA can protect FT targets to make them look evil"
+        },
         "Evil Twin": {
             "good": "Good choice for a Twin"
         },
@@ -4997,7 +5062,8 @@
             "good": "Great bluff for Minions"
         },
         "Legion": {
-            "warning": "Many Demons make Fortune Teller information less useful"
+            "warning": "Many Demons make Fortune Teller information less useful",
+            "good": "Great bluff for Legion"
         },
         "Lil' Monsta": {
             "warning": "The Demon can move around",
@@ -5194,19 +5260,21 @@
             "good": "This Demon can die safely in the night"
         },
         "Imp": {
-            "good": "This Demon can die safely in the night"
+            "good": "This Demon can die safely in the night. This Demon turns Minion pings into Demon candidates"
         },
         "Kazali": {
             "warning": "Hard role to bluff for Minions"
         },
         "Legion": {
-            "warning": "Multiple ST-chosen deaths can muddle this role's info"
+            "warning": "Multiple ST-chosen deaths can muddle this role's info. Good roles that can cause good player deaths are dangerous in Legion games. Hard to bluff because ST controls the kills",
+            "good": "This Demon turns Minion pings into Demon candidates"
         },
         "Leviathan": {
             "warning": "Killing roles in a Leviathan games are confirmed if alone, and remove Demon candidates"
         },
         "Lil' Monsta": {
-            "warning": "Hard role to bluff for Minions"
+            "warning": "Hard role to bluff for Minions",
+            "good": "This Demon turns Minion pings into Demon candidates"
         },
         "Lleech": {
             "warning": "Knowing who the Demon is isn't very useful for Lleech"
@@ -5645,7 +5713,7 @@
             "good": "This role can explain non-picked deaths"
         },
         "Legion": {
-            "warning": "Multiple ST-chosen deaths can muddle this role's info"
+            "warning": "Multiple ST-chosen deaths can muddle this role's info. Hard to bluff because ST controls the kills"
         },
         "Leviathan": {
             "warning": "Killing roles in a Leviathan games are confirmed if alone, and remove Demon candidates"
@@ -5850,7 +5918,7 @@
             "good": "This role can explain non-picked deaths"
         },
         "Legion": {
-            "warning": "Grandmother is a liability in a Legion game. Legion targets are chosen by the ST. Multiple ST-chosen deaths can muddle this role's info"
+            "warning": "Good roles that can cause good player deaths are dangerous in Legion games Legion targets are chosen by the ST. Multiple ST-chosen deaths can muddle this role's info. Hard to bluff because ST controls the kills"
         },
         "Lil' Monsta": {
             "warning": "LM targets are chosen by the ST. If the grandchild is killed during the day by a babysitter, the Grandmother dies immediately",
@@ -6017,7 +6085,7 @@
             "good": "High Priestess can be given a person who saw the Wraith"
         },
         "Legion": {
-            "good": "High Priestess will most likely learn the few good players"
+            "good": "High Priestess will most likely learn the few good players. Great bluff for Legion"
         },
         "Vortox": {
             "warning": "Subjective information is awkward with \"false info\""
@@ -6027,6 +6095,9 @@
         },
         "Harlot": {
             "good": "Good target for a High Priestess"
+        },
+        "Gardener": {
+            "good": "This role can be good to give to someone to encourage them to talk more with people"
         },
         "Knaves": {
             "warning": "Subjective information is awkward with \"false info\""
@@ -6091,6 +6162,9 @@
         "Kazali": {
             "conflict": "Kazali can delete the Damsel"
         },
+        "Legion": {
+            "warning": "Huntsman asking around for the Damsel is very unlikely to get genuine help"
+        },
         "Lord of Typhon": {
             "conflict": "LoT can delete the Damsel"
         },
@@ -6117,6 +6191,9 @@
         },
         "Revolutionary": {
             "good": "Partner can help this role out"
+        },
+        "Gardener": {
+            "good": "Can put the Huntsman and Damsel as players that are close socially (can be meta'd)"
         },
         "Hindu": {
             "warning": "The Damsel is likely to prefer becoming a Traveller"
@@ -6249,6 +6326,10 @@
         },
         "Kazali": {
             "good": "Knowing this character isn't in-play is powerful for evil"
+        },
+        "Legion": {
+            "good": "Potential misinfo helps Legion not have to coordinate as much",
+            "warning": "Hard to bluff because ST controls the kills"
         },
         "Lleech": {
             "warning": "Droisoned Lleech is a rules nightmare"
@@ -6419,6 +6500,9 @@
         "Cerenovus": {
             "warning": "First night info is very easy to be mad as, but also looks suspicious if it happens late"
         },
+        "Devil's Advocate": {
+            "good": "DA can protect Investigator targets to make them look evil"
+        },
         "Evil Twin": {
             "warning": "Investigator must see both Twins if it sees Evil Twin (not useful)"
         },
@@ -6465,12 +6549,19 @@
         "Al-Hadikhia": {
             "good": "First night info roles will always pick death. Dead ones are more likely to pick live (and appear as Minions). Investigator can't confirm one of their picks by having the other die in the night (can get resurrected)"
         },
+        "Imp": {
+            "good": "This Demon turns Minion pings into Demon candidates"
+        },
         "Kazali": {
             "good": "Great bluff for Minions"
         },
+        "Legion": {
+            "warning": "Should always see two Legions",
+            "good": "This Demon turns Minion pings into Demon candidates. Great bluff for Legion"
+        },
         "Lil' Monsta": {
             "great": "Good synergy",
-            "good": "Great bluff for Minions"
+            "good": "Great bluff for Minions. This Demon turns Minion pings into Demon candidates"
         },
         "Lleech": {
             "warning": "First night info must be false if Lleech host"
@@ -6626,9 +6717,15 @@
         "Fang Gu": {
             "good": "Knowing whether this Demon is in play is very powerful"
         },
+        "Imp": {
+            "good": "This Demon turns Minion pings into Demon candidates"
+        },
         "Legion": {
             "info": "Juggler can juggle the same character multiple times correctly",
-            "good": "Knowing whether this Demon is in play is very powerful"
+            "good": "Knowing whether this Demon is in play is very powerful. This Demon turns Minion pings into Demon candidates. Great bluff for Legion"
+        },
+        "Lil' Monsta": {
+            "good": "This Demon turns Minion pings into Demon candidates"
         },
         "Lleech": {
             "warning": "Knowing who the Demon is isn't very useful for Lleech"
@@ -6833,7 +6930,8 @@
             "good": "Multiple deaths works well with King"
         },
         "Legion": {
-            "warning": "Legion targets are chosen by the ST"
+            "warning": "Legion targets are chosen by the ST",
+            "good": "Great bluff for Legion"
         },
         "Lil' Monsta": {
             "warning": "LM targets are chosen by the ST",
@@ -6999,7 +7097,8 @@
             "good": "Great bluff for Minions"
         },
         "Legion": {
-            "great": "Knight is very useful in a Legion game"
+            "great": "Knight is very useful in a Legion game",
+            "good": "Great bluff for Legion"
         },
         "Lil' Monsta": {
             "conflict": "Demon can move",
@@ -7184,7 +7283,7 @@
             "good": "Great bluff for Minions. More reason for a Librarian 0"
         },
         "Legion": {
-            "good": "More reason for a Librarian 0"
+            "good": "More reason for a Librarian 0. Great bluff for Legion"
         },
         "Lil' Monsta": {
             "good": "Great bluff for Minions"
@@ -7429,7 +7528,8 @@
             "good": "Imp can fake dying in the night"
         },
         "Legion": {
-            "conflict": "Lycanthrope in Legion game is a big liability"
+            "conflict": "Good roles that can cause good player deaths are dangerous in Legion games (Lycanthrope is repeatable and therefore even more dangerous)",
+            "warning": "Hard to bluff because ST controls the kills"
         },
         "Leviathan": {
             "warning": "Killing roles in a Leviathan game are confirmed if alone. Leviathan can't bluff Lycanthrope. Faux paw registers as evil and doesn't count for executions"
@@ -7702,6 +7802,9 @@
         "Revolutionary": {
             "warning": "Magician is impossible in the pair"
         },
+        "Toymaker": {
+            "great": "Toymaker allows this role to work in Teensies"
+        },
         "Storm Catcher": {
             "warning": "Storm catching this role disables it"
         },
@@ -7796,6 +7899,9 @@
         },
         "Xaan": {
             "good": "Mathematician can detect day characters that were poisoned the day afterward"
+        },
+        "Legion": {
+            "good": "Legion causes misregistration. Low malfunctions while Legion cannot coordinate worlds is a sign of Legion. Great bluff for Legion"
         },
         "Vortox": {
             "warning": "Vortox makes this info near useless"
@@ -7938,7 +8044,7 @@
         },
         "Legion": {
             "warning": "Legion targets are chosen by the ST",
-            "good": "A Mayor as sole good survivor can still win"
+            "good": "A Mayor as sole good survivor can still win. Great bluff for Legion"
         },
         "Lil' Monsta": {
             "warning": "LM targets are chosen by the ST, so the Mayor protection has no use",
@@ -8122,6 +8228,9 @@
         "Kazali": {
             "good": "Knowing this character isn't in-play is powerful for evil"
         },
+        "Legion": {
+            "good": "Potential misinfo helps Legion not have to coordinate as much"
+        },
         "Leviathan": {
             "conflict": "Can cause a 6th day"
         },
@@ -8258,6 +8367,9 @@
         },
         "Kazali": {
             "good": "Knowing this character isn't in-play is powerful for evil"
+        },
+        "Legion": {
+            "warning": "Hard to bluff because ST controls the kills"
         },
         "Lil' Monsta": {
             "good": "Monk can also protect from the Minion that is babysitting",
@@ -8412,7 +8524,7 @@
             "warning": "Hard role to bluff for Minions"
         },
         "Legion": {
-            "good": "Very powerful in a Legion game"
+            "good": "Potentially very powerful in a Legion game"
         },
         "Lil' Monsta": {
             "warning": "Hard role to bluff for Minions"
@@ -8553,6 +8665,9 @@
         "Cerenovus": {
             "warning": "First night info is very easy to be mad as, but also looks suspicious if it happens late"
         },
+        "Devil's Advocate": {
+            "good": "DA can protect Noble targets to make them look evil"
+        },
         "Evil Twin": {
             "warning": "In 1 Minion games with Evil Twin, Noble is effectively a Steward"
         },
@@ -8601,7 +8716,7 @@
             "good": "Great bluff for Minions"
         },
         "Legion": {
-            "good": "Quite powerful in a Legion game"
+            "good": "Quite powerful in a Legion game. Great bluff for Legion"
         },
         "Lil' Monsta": {
             "good": "Great bluff for Minions"
@@ -8760,7 +8875,8 @@
             "good": "Great bluff for Minions"
         },
         "Legion": {
-            "warning": "Oracle can figure out Legion easily"
+            "warning": "Oracle can figure out Legion easily",
+            "good": "Great bluff for Legion"
         },
         "Leviathan": {
             "warning": "Oracle isn't likely to get much information in a Leviathan game"
@@ -9031,6 +9147,9 @@
         "Kazali": {
             "good": "Great bluff for Minions"
         },
+        "Legion": {
+            "good": "Potential misinfo helps Legion not have to coordinate as much. Great bluff for Legion"
+        },
         "Lil' Monsta": {
             "good": "Great bluff for Minions"
         },
@@ -9158,8 +9277,8 @@
             "good": "Great bluff for Minions"
         },
         "Legion": {
-            "good": "Legion often double claims. Confirming another Townsfolk is very powerful in a Legion game (if no double claims or after death)",
-            "warning": "Pixie relies on good player deaths, which are complicated in Legion games"
+            "good": "Legion often double claims. Confirming another Townsfolk is very powerful in a Legion game (if no double claims or after death). Great bluff for Legion",
+            "warning": "Good roles that can cause good player deaths are dangerous in Legion games"
         },
         "Leviathan": {
             "conflict": "Pixie is very unlikely to get its ability in a Leviathan game"
@@ -9421,6 +9540,9 @@
         "Revolutionary": {
             "good": "Partner can help this role out"
         },
+        "Toymaker": {
+            "great": "Toymaker allows this role to work in Teensies"
+        },
         "Pope": {
             "warning": "All Poppy Growers need to die for evil to learn each other"
         },
@@ -9510,6 +9632,9 @@
         },
         "Xaan": {
             "good": "This Minion can help against a Preacher"
+        },
+        "Legion": {
+            "warning": "Preacher can't do much else other than wait for the ST to confirm it's Legion"
         },
         "Lord of Typhon": {
             "warning": "Info on the Minions can be powerful in LoT game"
@@ -9692,7 +9817,7 @@
             "good": "This Demon's main ability is not disabled by the Princess"
         },
         "Legion": {
-            "warning": "Considering mostly Legions die in the night, the Princess ability can actually be detrimental"
+            "warning": "Considering mostly Legions die in the night, the Princess ability can actually be detrimental. Hard to bluff because ST controls the kills"
         },
         "Leviathan": {
             "conflict": "Princess is useless with Leviathan"
@@ -9875,6 +10000,9 @@
             "good": "Knowing this character isn't in-play is powerful for evil",
             "warning": "Hard role to bluff for Minions"
         },
+        "Legion": {
+            "warning": "Good roles that can cause good player deaths are dangerous in Legion games. Hard to bluff because ST controls the kills"
+        },
         "Lil' Monsta": {
             "warning": "Hard role to bluff for Minions"
         },
@@ -10036,17 +10164,19 @@
             "good": "This Demon can die safely in the night"
         },
         "Imp": {
-            "good": "This Demon can die safely in the night"
+            "good": "This Demon can die safely in the night. This Demon turns Minion pings into Demon candidates"
         },
         "Kazali": {
             "good": "Knowing this character isn't in-play is powerful for evil",
             "warning": "Hard role to bluff for Minions"
         },
         "Legion": {
-            "warning": "Legion targets are chosen by the ST"
+            "warning": "Legion targets are chosen by the ST. Good roles that can cause good player deaths are dangerous in Legion games",
+            "good": "This Demon turns Minion pings into Demon candidates"
         },
         "Lil' Monsta": {
-            "warning": "LM targets are chosen by the ST. Hard role to bluff for Minions"
+            "warning": "LM targets are chosen by the ST. Hard role to bluff for Minions",
+            "good": "This Demon turns Minion pings into Demon candidates"
         },
         "Lord of Typhon": {
             "good": "Knowing this character isn't in-play is powerful for evil",
@@ -10177,6 +10307,9 @@
         "Cerenovus": {
             "good": "Making players mad as trap characters when they die is interesting"
         },
+        "Devil's Advocate": {
+            "good": "DA can protect Sage targets to make them look evil"
+        },
         "Evil Twin": {
             "warning": "Bad choice for a Twin"
         },
@@ -10232,7 +10365,7 @@
             "warning": "Hard role to bluff for Minions"
         },
         "Legion": {
-            "warning": "Legion targets are chosen by the ST. Sage targets could effectively be anyone in a Legion game"
+            "warning": "Legion targets are chosen by the ST. Sage targets could effectively be anyone in a Legion game. Good roles that can cause good player deaths are dangerous in Legion games"
         },
         "Lil' Monsta": {
             "warning": "LM targets are chosen by the ST. Demon can move around. Hard role to bluff for Minions",
@@ -10431,6 +10564,10 @@
         },
         "Kazali": {
             "good": "Knowing this character isn't in-play is powerful for evil"
+        },
+        "Legion": {
+            "good": "Potential misinfo helps Legion not have to coordinate as much",
+            "warning": "Legion targets are chosen by the ST"
         },
         "Leviathan": {
             "warning": "\"Can't die\" only matters for executions in a Vortox game (if there are no killing Minions), and still counts for the two executions"
@@ -10668,6 +10805,9 @@
         "Cerenovus": {
             "good": "Seamstress can check if the double claim is evil or not"
         },
+        "Devil's Advocate": {
+            "good": "DA can protect Seamstress targets to make them look evil"
+        },
         "Evil Twin": {
             "warning": "Seamstress with an Evil Twin can check anyone's alignment"
         },
@@ -10692,6 +10832,9 @@
         },
         "Kazali": {
             "good": "Great bluff for Minions"
+        },
+        "Legion": {
+            "good": "Seamstress is more likely to get a yes on two evil players in a Legion game. Great bluff for Legion"
         },
         "Lil' Monsta": {
             "good": "Great bluff for Minions"
@@ -10827,7 +10970,8 @@
             "good": "Great bluff for Minions"
         },
         "Legion": {
-            "warning": "Shugenja info is likely to be useless/abirtrary in Legion games"
+            "warning": "Shugenja info is likely to be useless/abirtrary in Legion games",
+            "good": "Great bluff for Legion"
         },
         "Leviathan": {
             "warning": "Good confirmation is very powerful in a Leviathan game"
@@ -10880,6 +11024,9 @@
         },
         "Matron": {
             "warning": "Matron can make Shugenja info hard to remember and follow"
+        },
+        "Gardener": {
+            "warning": "This role depends a lot on the gardening"
         },
         "Pope": {
             "good": "Cross-referencing information can be powerful"
@@ -10970,7 +11117,7 @@
             "good": "Great bluff for Minions. Knowing this character isn't in-play is powerful for evil"
         },
         "Legion": {
-            "good": "Legion is much more susceptible to Slayer shots"
+            "good": "Legion is much more susceptible to Slayer shots. Great bluff for Legion"
         },
         "Leviathan": {
             "good": "Slayer has a long time to choose its target"
@@ -11462,7 +11609,7 @@
             "good": "Great bluff for Minions"
         },
         "Legion": {
-            "good": "Steward is powerful in a Legion game"
+            "good": "Steward is powerful in a Legion game. Great bluff for Legion"
         },
         "Lil' Monsta": {
             "good": "Great bluff for Minions"
@@ -11648,6 +11795,9 @@
         "Kazali": {
             "good": "Knowing this character isn't in-play is powerful for evil"
         },
+        "Legion": {
+            "warning": "Tea Lady is either useless or very powerful in Legion games. Legion targets are chosen by the ST"
+        },
         "Leviathan": {
             "warning": "\"Can't die\" only matters for executions in a Vortox game (if there are no killing Minions), and still counts for the two executions"
         },
@@ -11727,6 +11877,9 @@
         },
         "Revolutionary": {
             "good": "Tea Lady protects their partner"
+        },
+        "Gardener": {
+            "warning": "This role depends a lot on the gardening"
         },
         "God of Ug": {
             "good": "Helps with execution"
@@ -11837,17 +11990,21 @@
         "Al-Hadikhia": {
             "warning": "Town Crier benefits from long games"
         },
+        "Imp": {
+            "good": "This Demon turns Minion pings into Demon candidates"
+        },
         "Kazali": {
             "good": "Great bluff for Minions. Knowing this character isn't in-play is powerful for evil"
         },
         "Legion": {
-            "warning": "Town Crier can figure out Legion easily"
+            "warning": "Town Crier can figure out Legion easily",
+            "good": "This Demon turns Minion pings into Demon candidates. Great bluff for Legion"
         },
         "Leviathan": {
             "good": "Town Crier benefits from long games"
         },
         "Lil' Monsta": {
-            "good": "Great bluff for Minions"
+            "good": "Great bluff for Minions. This Demon turns Minion pings into Demon candidates"
         },
         "Lord of Typhon": {
             "warning": "Info on the Minions can be powerful in LoT game",
@@ -12015,7 +12172,7 @@
             "warning": "Hard role to bluff for certain Minions"
         },
         "Legion": {
-            "good": "Undertaker can quickly confirm a Legion game"
+            "warning": "Undertaker can quickly confirm a Legion game. Hard role to bluff for Legion (requires a lot of coordination)"
         },
         "Leviathan": {
             "good": "Undertaker can become useful to count the number of executions left, if trusted, but is also an easy bluff"
@@ -12230,7 +12387,8 @@
             "good": "Great bluff for Minions"
         },
         "Legion": {
-            "warning": "Village Idiot can more easily find if Legion is in-play"
+            "warning": "Village Idiot can more easily find if Legion is in-play",
+            "good": "Potential misinfo helps Legion not have to coordinate as much. Great bluff for Legion"
         },
         "Leviathan": {
             "good": "Village Idiot benefits from long games to find the drunk one. Village Idiot is a powerful ability for Leviathan"
@@ -12291,6 +12449,9 @@
         },
         "Duchess": {
             "great": "Good synergy"
+        },
+        "Gardener": {
+            "good": "Can put the Village Idiots as players that are close socially (can be meta'd)"
         },
         "Hindu": {
             "warning": "The drunk Village Idiot might change"
@@ -12548,6 +12709,9 @@
         "Kazali": {
             "good": "Great bluff for Minions"
         },
+        "Legion": {
+            "good": "Washerwoman is powerful in a Legion game. Great bluff for Legion"
+        },
         "Lil' Monsta": {
             "good": "Great bluff for Minions"
         },
@@ -12766,6 +12930,9 @@
         "Angel": {
             "warning": "An Angel-protected on-death Outsider is less likely to be killed"
         },
+        "Gardener": {
+            "warning": "Swapping and changing characters might mess with the intended setup"
+        },
         "Pope": {
             "warning": "Can be tough for good with multiple copies"
         },
@@ -12826,6 +12993,9 @@
         "Fang Gu": {
             "good": "Fang Gu prevents loud Outsiders"
         },
+        "Legion": {
+            "warning": "Will almost always be voting with evil"
+        },
         "Lleech": {
             "warning": "Butler might want to be executed. This role doesn't have many ways to tell they're the host"
         },
@@ -12846,6 +13016,9 @@
         },
         "Harlot": {
             "warning": "This role is fine to die to this Traveller"
+        },
+        "Gardener": {
+            "good": "While using Gardener, could assign this role to someone that wouldn't resent it"
         },
         "God of Ug": {
             "warning": "Does not want the hat as they can't control their votes"
@@ -13042,6 +13215,9 @@
             "good": "Drunk can always be (re)assigned after Kazali chooses its Minions",
             "warning": "Kazali adding a Drunk is untraceable"
         },
+        "Legion": {
+            "good": "Potential misinfo helps Legion not have to coordinate as much"
+        },
         "Lleech": {
             "warning": "Drunk can hide the Lleech host very well"
         },
@@ -13200,6 +13376,9 @@
         },
         "Kazali": {
             "warning": "Hard bluff for Minions"
+        },
+        "Legion": {
+            "warning": "Good roles that can cause good player deaths are dangerous in Legion games"
         },
         "Leviathan": {
             "good": "Day kills aren't executions"
@@ -13379,7 +13558,8 @@
             "info": "Goon still becomes a Minion if chosen by Kazali"
         },
         "Legion": {
-            "warning": "Legion targets are chosen by the ST, so Goon can't turn evil"
+            "warning": "Legion targets are chosen by the ST, so Goon can't turn evil",
+            "good": "Potential misinfo helps Legion not have to coordinate as much"
         },
         "Lil' Monsta": {
             "warning": "LM targets are chosen by the ST, so Goon can't turn evil"
@@ -13534,6 +13714,9 @@
         "Kazali": {
             "good": "Kazali can become a Demon with ongoing benefits. Great bluff for Minions"
         },
+        "Legion": {
+            "warning": "No ability if Legion starts in-play"
+        },
         "Leviathan": {
             "warning": "Changing to a loud Demon confirms Hatter"
         },
@@ -13579,6 +13762,9 @@
         },
         "Angel": {
             "warning": "An Angel-protected on-death Outsider is less likely to be killed"
+        },
+        "Gardener": {
+            "warning": "Swapping and changing characters might mess with the intended setup"
         },
         "Pope": {
             "warning": "Can be tough for good with multiple copies"
@@ -14282,7 +14468,7 @@
             "warning": "Fang Gu jumping to this Outsider is kind of a loss"
         },
         "Legion": {
-            "warning": "Legion targets are chosen by the ST. Moonchild, if they die, is very likely to fail"
+            "warning": "Legion targets are chosen by the ST. Moonchild, if they die, is very likely to fail. Good roles that can cause good player deaths are dangerous in Legion games. Hard to bluff because ST controls the kills"
         },
         "Leviathan": {
             "warning": "Killing roles in a Leviathan games are confirmed if alone, and remove Demon candidates"
@@ -14411,6 +14597,9 @@
         "Kazali": {
             "good": "Hidden Outsiders work well with Kazali, unless chosen as Minions",
             "warning": "Hard role to bluff for Minions"
+        },
+        "Legion": {
+            "good": "Potential misinfo helps Legion not have to coordinate as much"
         },
         "Leviathan": {
             "warning": "Madness executions are very powerful in a Leviathan game"
@@ -14648,7 +14837,7 @@
             "good": "Great bluff for Minions"
         },
         "Legion": {
-            "good": "Plague Doctor can bring Minion abilities to a Legion game",
+            "good": "Plague Doctor can bring Minion abilities to a Legion game. Great bluff for Legion",
             "warning": "Legion targets are chosen by the ST"
         },
         "Lil' Monsta": {
@@ -14770,7 +14959,8 @@
             "good": "Hidden Outsiders work well with Kazali, unless chosen as Minions"
         },
         "Legion": {
-            "warning": "Extra evils in Legion games are dangerous"
+            "warning": "Extra evils in Legion games are dangerous",
+            "good": "Potential misinfo helps Legion not have to coordinate as much"
         },
         "Leviathan": {
             "good": "Politician makes executing players acting evil more risky"
@@ -14919,7 +15109,8 @@
             "good": "Great bluff for Minions"
         },
         "Legion": {
-            "warning": "Knowing one Demon isn't that useful"
+            "warning": "Knowing one Demon isn't that useful",
+            "good": "Potential misinfo helps Legion not have to coordinate as much. Great bluff for Legion"
         },
         "Leviathan": {
             "good": "Puzzlemaster benefits from long games"
@@ -15055,7 +15246,8 @@
             "good": "Great bluff for Minions"
         },
         "Legion": {
-            "info": "Recluse could appear as a Demon (dont)"
+            "info": "Recluse could appear as a Demon (dont)",
+            "good": "Potential misinfo helps Legion not have to coordinate as much. Great bluff for Legion"
         },
         "Leviathan": {
             "info": "Recluse can appear as evil (don't)"
@@ -15114,6 +15306,9 @@
         },
         "Spirit of Ivory": {
             "info": "Recluse can register as evil (don't)"
+        },
+        "Gardener": {
+            "good": "While using Gardener, could assign this role to someone that wouldn't resent it"
         },
         "Hindu": {
             "warning": "This Outsider can be killed to remove its downside. Recluse can turn into an evil Traveller (but probably don't"
@@ -15195,6 +15390,9 @@
         },
         "Kazali": {
             "good": "Great bluff for Minions"
+        },
+        "Legion": {
+            "good": "Great bluff for Legion"
         },
         "Leviathan": {
             "warning": "After the first good execution, Saint becomes a dud"
@@ -15381,6 +15579,9 @@
         "Buddhist": {
             "good": "Evil doesn't need to talk with bluffs"
         },
+        "Gardener": {
+            "good": "While using Gardener, could assign this role to someone that wouldn't resent it"
+        },
         "God of Ug": {
             "good": "This role can be said in ug speak"
         },
@@ -15442,7 +15643,8 @@
             "good": "Hidden Outsiders work well with Kazali, unless chosen as Minions"
         },
         "Legion": {
-            "warning": "Legion targets are chosen by the ST"
+            "warning": "Legion targets are chosen by the ST",
+            "good": "Potential misinfo helps Legion not have to coordinate as much"
         },
         "Lil' Monsta": {
             "warning": "LM targets are chosen by the ST"
@@ -15631,6 +15833,9 @@
         "Fiddler": {
             "info": "Don't kill Tinker during a fiddle contest"
         },
+        "Gardener": {
+            "good": "While using Gardener, could assign this role to someone that wouldn't resent it"
+        },
         "Hindu": {
             "warning": "Dying is part of this character's ability and balance"
         },
@@ -15697,7 +15902,7 @@
             "good": "Great bluff for Minions"
         },
         "Legion": {
-            "good": "Zealot can appear as a Legion (thanks to the jinx)"
+            "good": "Zealot can appear as a Legion (thanks to the jinx). Great bluff for Legion"
         },
         "Leviathan": {
             "good": "Zealot helps with executions"
@@ -15880,6 +16085,9 @@
         "Kazali": {
             "warning": "Bad choice for a Kazali. Kazali makes this character hard to solve for"
         },
+        "Legion": {
+            "warning": "Requires more coordination from Legion to have two extra Outsiders to bluff convincingly"
+        },
         "Lord of Typhon": {
             "warning": "LoT makes this character hard to solve for. Also, creating a Baron has no effect"
         },
@@ -15951,9 +16159,6 @@
         },
         "Kazali": {
             "good": "Interesting choice for Kazali"
-        },
-        "Legion": {
-            "good": "If a good/Traveller Boffin is in-play, Legion can register as a Minion to pass the abiltiy around"
         },
         "Lil' Monsta": {
             "good": "Boffin ability moves with Lil Monsta and is reset each time it changes",
@@ -16143,8 +16348,14 @@
         "Pit-Hag": {
             "good": "Mad players can claim to be pit-hagged"
         },
+        "Spy": {
+            "good": "This Minion can learn who was made mad and try and make their task harder"
+        },
+        "Widow": {
+            "good": "This Minion can learn who was made mad and try and make their task harder"
+        },
         "Wizard": {
-            "good": "Wizard could fake this role"
+            "good": "Wizard could fake this role. This Minion can learn who was made mad and try and make their task harder"
         },
         "Wraith": {
             "good": "Wraith can guide this role. Making an (extra) evil mad forces them to wake with the Wraith"
@@ -16153,6 +16364,7 @@
             "warning": "This Minion might accidentally target a newly jumped Fang Gu"
         },
         "Legion": {
+            "good": "Easy to fake madness. Potential misinfo helps Legion not have to coordinate as much",
             "warning": "Cerenovus execution confirms no Legion (and being cerenovus'd confirmed to that player there's no Legion)"
         },
         "Leviathan": {
@@ -16322,7 +16534,8 @@
     },
     "Evil Twin": {
         "Harpy": {
-            "good": "Harpy can make players mad at the twins"
+            "good": "Harpy can make players mad at the twins",
+            "warning": "With outed evils, it limits options on how to fulfill Harpy madness"
         },
         "Mastermind": {
             "conflict": "If Evil Twin is not executed before the Demon, the Mastermind doesn't trigger"
@@ -16401,7 +16614,7 @@
             "warning": "Apprentice can't have this ability"
         },
         "Barista": {
-            "warning": "Cannot be doubled"
+            "warning": "Shouldn't be doubled"
         },
         "Bone Collector": {
             "warning": "Bone Collector is useless on this role"
@@ -16450,7 +16663,7 @@
             "warning": "Good twin doesn't fear this madness, which means it's likely the twins picked as Big Wigs but might not participate"
         },
         "Gardener": {
-            "good": "Can put the Twins next to each other which can be fun socially"
+            "good": "Can put the Twins next to each other, or on players that are close socially, which can be fun socially"
         },
         "God of Ug": {
             "good": "Interesting dynamic with the twins"
@@ -16569,6 +16782,9 @@
     "Goblin": {
         "Godfather": {
             "warning": "Godfather discourages executions"
+        },
+        "Harpy": {
+            "warning": "With outed evils, it limits options on how to fulfill Harpy madness"
         },
         "Mastermind": {
             "good": "Powerful ability to hide behind a Goblin claim"
@@ -16820,14 +17036,30 @@
         }
     },
     "Harpy": {
+        "Marionette": {
+            "good": "Easier to accuse someone of being evil if they might not know it"
+        },
+        "Organ Grinder": {
+            "good": "Mad players can choose not to vote while OG is active"
+        },
         "Pit-Hag": {
             "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "Psychopath": {
-            "good": "Both can simulate day deaths"
+            "good": "Both can simulate day deaths",
+            "warning": "With outed evils, it limits options on how to fulfill Harpy madness"
+        },
+        "Spy": {
+            "good": "This Minion can learn who was made mad and try and make their task harder"
         },
         "Summoner": {
             "good": "Extra night deaths can hide the Summoner"
+        },
+        "Vizier": {
+            "warning": "With outed evils, it limits options on how to fulfill Harpy madness"
+        },
+        "Widow": {
+            "good": "This Minion can learn who was made mad and try and make their task harder"
         },
         "Witch": {
             "good": "Both can simulate day deaths"
@@ -16836,7 +17068,8 @@
             "good": "Wizard could fake this role"
         },
         "Wraith": {
-            "good": "Wraith can guide this role. Making an (extra) evil mad forces them to wake with the Wraith"
+            "good": "Wraith can guide this role. Making an (extra) evil mad forces them to wake with the Wraith. This Minion can learn who was made mad and try and make their task harder. Accusing someone of being the Wraith is a good way of fulfilling Harpy madness",
+            "warning": "With (potential) outed evils, it limits options on how to fulfill Harpy madness"
         },
         "Al-Hadikhia": {
             "great": "This Minion can explain non-picked deaths"
@@ -16845,13 +17078,14 @@
             "warning": "This Minion might accidentally target a newly jumped Fang Gu"
         },
         "Legion": {
+            "good": "Easy to fake madness. Potential misinfo helps Legion not have to coordinate as much",
             "warning": "Harpy ability confirms no Legion"
         },
         "Leviathan": {
             "warning": "Killing roles in a Leviathan game are confirmed if alone"
         },
         "Lleech": {
-            "warning": "Can kill the Lleech host"
+            "warning": "Can kill the Lleech host. With (potential) outed evils, it limits options on how to fulfill Harpy madness"
         },
         "Pukka": {
             "good": "Extra day deaths can make up for Pukka kills",
@@ -16947,7 +17181,7 @@
             "good": "This Minion is a good target for a starpass. A dead Demon has no reason to hide to a Marionette"
         },
         "Legion": {
-            "good": "Legion can make it easier to make a good player believe they're a Marionette"
+            "good": "Legion can make it easier to make a good player believe they're a Marionette. Potential misinfo helps Legion not have to coordinate as much"
         },
         "Lil' Monsta": {
             "info": "Marionette doesn't learn they're the Marionette if they hold Lil Monsta, nor do they wake with the other Minions",
@@ -17167,6 +17401,9 @@
         },
         "Fang Gu": {
             "warning": "Beware two extra evil players"
+        },
+        "Legion": {
+            "good": "Potential misinfo helps Legion not have to coordinate as much"
         },
         "Lil' Monsta": {
             "good": "Evil player can be a new babysitter"
@@ -17399,6 +17636,9 @@
         "Toymaker": {
             "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
+        "Gardener": {
+            "warning": "Swapping and changing characters might mess with the intended setup"
+        },
         "God of Ug": {
             "info": "Cannot be said in ug speak (counts as a single word)"
         },
@@ -17421,6 +17661,9 @@
         },
         "Fang Gu": {
             "warning": "This Minion might accidentally target a newly jumped Fang Gu"
+        },
+        "Legion": {
+            "good": "Potential misinfo helps Legion not have to coordinate as much"
         },
         "Leviathan": {
             "warning": "Can cause a 6th day"
@@ -17654,11 +17897,14 @@
         "Kazali": {
             "great": "Powerful role to have alongside others"
         },
+        "Legion": {
+            "good": "Potential misinfo helps Legion not have to coordinate as much"
+        },
         "Leviathan": {
             "good": "Information for the evil team is more powerful in a Leviathan game. Spy can appear as good (not a good idea)"
         },
         "Lil' Monsta": {
-            "info": "Unclear if Spy's misregistration can help hide LM"
+            "info": "Up to the ST if Spy's misregistration can help hide LM (use sparingly)"
         },
         "Lord of Typhon": {
             "warning": "Spy is very powerful at muddling the LoT line"
@@ -17711,6 +17957,9 @@
         "Toymaker": {
             "warning": "Grim peeking is redundant with Toymaker"
         },
+        "Gardener": {
+            "good": "Gardened Grimoires will generally have something interesting to look out for"
+        },
         "God of Ug": {
             "good": "This role can be said in ug speak",
             "warning": "This info is hard to spread when wearing the hat"
@@ -17759,7 +18008,7 @@
             "warning": "Beware two living Demons"
         },
         "Legion": {
-            "warning": "Summoning Legion is most likely a bad idea for the evil team, as they lack the major upside of Legion"
+            "warning": "Summoning Legion is most likely a bad idea for the evil team, as they lack the major upside of Legion (absolute majority)"
         },
         "Leviathan": {
             "warning": "Leviathan being created is loud"
@@ -17809,6 +18058,9 @@
         },
         "Toymaker": {
             "warning": "Summoning is redundant with Toymaker"
+        },
+        "Gardener": {
+            "warning": "Swapping and changing characters might mess with the intended setup"
         },
         "Knaves": {
             "warning": "Evil team misinformation is not great, especially for bluffs"
@@ -17934,7 +18186,7 @@
             "great": "Powerful role to have alongside others"
         },
         "Legion": {
-            "good": "Legion can bluff Widow being in-play"
+            "good": "Legion can bluff Widow being in-play. Potential misinfo helps Legion not have to coordinate as much"
         },
         "Leviathan": {
             "good": "Information for the evil team is more powerful in a Leviathan game"
@@ -17977,6 +18229,9 @@
         },
         "Toymaker": {
             "warning": "Grim peeking is redundant with Toymaker"
+        },
+        "Gardener": {
+            "good": "Gardened Grimoires will generally have something interesting to look out for"
         },
         "God of Ug": {
             "warning": "This info is hard to spread when wearing the hat"
@@ -18112,6 +18367,9 @@
         "Toymaker": {
             "warning": "Wishes must respect the Toymaker"
         },
+        "Gardener": {
+            "warning": "Wishes might mess with the intended setup"
+        },
         "God of Ug": {
             "warning": "This ability is hard to do when wearing the hat"
         },
@@ -18219,6 +18477,9 @@
         "Kazali": {
             "info": "Xaan does not override Kazali's outsider mod"
         },
+        "Legion": {
+            "good": "Potential misinfo helps Legion not have to coordinate as much"
+        },
         "Lord of Typhon": {
             "info": "Xaan does not override Lord of Typhon's outsider mod"
         },
@@ -18274,6 +18535,9 @@
         },
         "Kazali": {
             "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "Legion": {
+            "warning": "Legion can't bluff outed evils"
         },
         "Lil' Monsta": {
             "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
@@ -18363,6 +18627,9 @@
         "Spirit of Ivory": {
             "info": "If there's an extra evil, Fang Gu can't jump (will still kill the outsider targeted)"
         },
+        "Gardener": {
+            "warning": "Swapping and changing characters might mess with the intended setup"
+        },
         "God of Ug": {
             "good": "This role can be said in ug speak",
             "warning": "If an extra evil gets the hat, evil can even more easily out vote town"
@@ -18432,7 +18699,7 @@
             "warning": "Sentinel can obfuscate the presence of this role"
         },
         "Gardener": {
-            "warning": "Kazali picking Minions may mess with a gardening"
+            "warning": "Swapping and changing characters might mess with the intended setup"
         },
         "Pope": {
             "warning": "This role can bring more Outsiders into play than there are on the script"
@@ -18445,8 +18712,20 @@
         }
     },
     "Legion": {
+        "Lleech": {
+            "good": "Potential misinfo helps Legion not have to coordinate as much"
+        },
+        "No Dashii": {
+            "good": "Potential misinfo helps Legion not have to coordinate as much"
+        },
+        "Pukka": {
+            "warning": "With ST-controlled deaths, it's hard to bluff a Pukka for Legion that die at night"
+        },
+        "Vigormortis": {
+            "good": "Potential misinfo helps Legion not have to coordinate as much"
+        },
         "Vortox": {
-            "good": "Legion can easily fake a Vortox"
+            "good": "Legion can easily fake a Vortox. Potential misinfo helps Legion not have to coordinate as much"
         },
         "Apprentice": {
             "good": "Apprentice can bring Minions to a Legion game"
@@ -18455,7 +18734,8 @@
             "warning": "Useless to double"
         },
         "Beggar": {
-            "great": "Interesting bluff for an evil Beggar"
+            "great": "Interesting bluff for an evil Beggar",
+            "warning": "Good players might refuse to give a Beggar tokens in a potential Legion game so they can't be the one good vote"
         },
         "Cacklejack": {
             "warning": "Swapping into this role is a detriment. Swapping out of Legion will probably give a massive advantage to the evil team"
@@ -18569,9 +18849,6 @@
         "Lord of Typhon": {
             "info": "Both add an extra Minion, so 5 Minions might be needed on the script"
         },
-        "Yaggababble": {
-            "good": "Yaggababble can fake extra minions"
-        },
         "Barista": {
             "good": "Single kill Demons can kill twice with a Barista",
             "warning": "Potentially loud double"
@@ -18635,9 +18912,6 @@
         }
     },
     "Lord of Typhon": {
-        "Yaggababble": {
-            "good": "Yaggababble can fake extra minions"
-        },
         "Barista": {
             "good": "Single kill Demons can kill twice with a Barista",
             "warning": "Potentially loud double"
@@ -18685,6 +18959,9 @@
         "Toymaker": {
             "great": "Very recommended"
         },
+        "Gardener": {
+            "info": "Minions still get dealt their initial good roles"
+        },
         "God of Ug": {
             "warning": "If an extra evil gets the hat, evil can even more easily out vote town"
         },
@@ -18709,13 +18986,15 @@
         "Matron": {
             "warning": "Matron can make it hard to track what abilities were poisoned when"
         },
+        "Gardener": {
+            "warning": "This role depends a lot on the gardening"
+        },
         "Ventriloquist": {
             "good": "Misinformation can make pivots more convincing"
         }
     },
     "Ojo": {
         "Barista": {
-            "good": "Single kill Demons can kill twice with a Barista",
             "warning": "Potentially loud double"
         },
         "Voudon": {
@@ -18736,6 +19015,7 @@
     },
     "Po": {
         "Barista": {
+            "good": "Alllows Po to kill 3 people in a singl night (charge + kill)",
             "warning": "Potentially loud double"
         },
         "Beggar": {
@@ -18955,6 +19235,9 @@
         "Duchess": {
             "good": "This role gives good opportunities for phrases"
         },
+        "Gardener": {
+            "good": "This role gives good opportunities for phrases"
+        },
         "God of Ug": {
             "warning": "This ability is hard to do when wearing the hat. Day deaths before executions might make the challenge not worth it"
         },
@@ -19139,6 +19422,9 @@
         "Angel": {
             "warning": "Bishop nominations are tough to determine \"most reponsible\""
         },
+        "Gardener": {
+            "warning": "Both might be too much ST control over the game"
+        },
         "God of Ug": {
             "good": "Votes matter more in a Bishop game"
         },
@@ -19199,6 +19485,9 @@
         }
     },
     "Cacklejack": {
+        "Gardener": {
+            "warning": "Swapping and changing characters might mess with the intended setup"
+        },
         "Hindu": {
             "warning": "Very influential Traveller to bring mid-game"
         },
@@ -19231,6 +19520,10 @@
         },
         "God of Ug": {
             "good": "Opens good opportunities to be funny"
+        },
+        "Hindu": {
+            "warning": "Not a very powerful Traveller",
+            "good": "Can assign this to someone that would be able to make the most out of it"
         },
         "Tor": {
             "warning": "Lack of information can make it harder to be funny"
@@ -19423,6 +19716,9 @@
         },
         "Big Wig": {
             "info": "Both interact with silence"
+        },
+        "Gardener": {
+            "good": "Can give (recurring) info to new players so they have something to talk about"
         },
         "God of Ug": {
             "warning": "This Loric is not beginner-friendly. Less time to speak ug"

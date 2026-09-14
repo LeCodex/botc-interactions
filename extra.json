@@ -1377,7 +1377,7 @@
     },
     {
         "interaction": {
-            "good": "Protecting trap characters  from execution makes it more likely they get killed at night or by the Demon"
+            "good": "Protecting trap characters from execution makes it more likely they get killed at night or by the Demon"
         },
         "characters": [
             "Alchemist",
@@ -1387,7 +1387,7 @@
     },
     {
         "interaction": {
-            "good": "Protecting trap characters  from execution makes it more likely they get killed at night or by the Demon"
+            "good": "Protecting trap characters from execution makes it more likely they get killed at night or by the Demon"
         },
         "characters": [
             "Alchemist",
@@ -1397,7 +1397,7 @@
     },
     {
         "interaction": {
-            "good": "Protecting trap characters  from execution makes it more likely they get killed at night or by the Demon"
+            "good": "Protecting trap characters from execution makes it more likely they get killed at night or by the Demon"
         },
         "characters": [
             "Alchemist",
@@ -1407,7 +1407,7 @@
     },
     {
         "interaction": {
-            "good": "Protecting trap characters  from execution makes it more likely they get killed at night or by the Demon"
+            "good": "Protecting trap characters from execution makes it more likely they get killed at night or by the Demon"
         },
         "characters": [
             "Alchemist",
@@ -1443,6 +1443,96 @@
             "Evil Twin",
             "Alchemist",
             "Fearmonger"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "If a Boffin ability is in-play, Legion can register as a Minion to pass the ability around"
+        },
+        "characters": [
+            "Alchemist",
+            "Boffin",
+            "Legion"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "If a Boffin ability is in-play, Legion can register as a Minion to pass the ability around"
+        },
+        "characters": [
+            "Apprentice",
+            "Boffin",
+            "Legion"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "While the Voudon lives, vote tokens can be given to the Beggar while not losing the ability to vote, and still be able to vote on final day"
+        },
+        "characters": [
+            "Voudon",
+            "Beggar",
+            "Ferryman"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "By faking this Minion, Yagabbable can look like there are extra Minions"
+        },
+        "characters": [
+            "Yaggababble",
+            "Harpy",
+            "Lil' Monsta"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "By faking this Minion, Yagabbable can look like there are extra Minions"
+        },
+        "characters": [
+            "Yaggababble",
+            "Harpy",
+            "Lord of Typhon"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "By faking this Minion, Yagabbable can look like there are extra Minions"
+        },
+        "characters": [
+            "Yaggababble",
+            "Psychopath",
+            "Lil' Monsta"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "By faking this Minion, Yagabbable can look like there are extra Minions"
+        },
+        "characters": [
+            "Yaggababble",
+            "Psychopath",
+            "Lord of Typhon"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "By faking this Minion, Yagabbable can look like there are extra Minions"
+        },
+        "characters": [
+            "Yaggababble",
+            "Witch",
+            "Lil' Monsta"
+        ]
+    },
+    {
+        "interaction": {
+            "good": "By faking this Minion, Yagabbable can look like there are extra Minions"
+        },
+        "characters": [
+            "Yaggababble",
+            "Witch",
+            "Lord of Typhon"
         ]
     }
 ]
