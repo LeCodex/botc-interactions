@@ -58,7 +58,7 @@
             "warning": "The Hermit Drunk cannot know they're the other role"
         },
         "Ogre": {
-            "conflict": "Doesn't work"
+            "conflict": "Doesn't work, unless the ST has every player that received a Townsfolk token do an \"ogre pick\" on the first night"
         },
         "Zealot": {
             "conflict": "The Hermit Drunk cannot know they're the other role, unless everyone must claim it"
