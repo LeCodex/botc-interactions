@@ -9627,7 +9627,6 @@
             "good": "Preacher can confirm that the players they have picked don't have the Golbin ability"
         },
         "Marionette": {
-            "warning": "Marionette that gets hit by Preacher learns this, and stops having their fake ability",
             "good": "This role doesn't have many ways to know if they're the Marionette"
         },
         "Mastermind": {
