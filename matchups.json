@@ -6932,7 +6932,7 @@
             "good": "Summoner gives a reason for the King not to out immediately"
         },
         "Vizier": {
-            "conflict": "Vizier can kill King if they're ever nominated"
+            "conflict": "Vizier can kill King if they're ever nominated and voted on by good"
         },
         "Widow": {
             "conflict": "Widow can poison King"
@@ -7525,7 +7525,7 @@
             "good": "With a Scarlet Woman, the Demon can fake dying in the night"
         },
         "Spy": {
-            "good": "Spy can die to Lycanthrope",
+            "good": "Spy can die to Lycanthrope. Seeing the Grimoire gives the faux paw",
             "warning": "Seeing the Grimoire helps finding the Lycanthrope"
         },
         "Summoner": {
@@ -7536,8 +7536,8 @@
             "warning": "Faux paw registers as evil"
         },
         "Widow": {
-            "good": "This role can help find the Ogre's alignment",
-            "warning": "Choosing the faux paw turns the Ogre evil"
+            "good": "Seeing the Grimoire gives the faux paw",
+            "warning": "Seeing the Grimoire helps finding the Lycanthrope"
         },
         "Witch": {
             "good": "Targeted Minions prevent the Lycanthrope from outing"
@@ -9820,7 +9820,7 @@
             "good": "Summoner can help a Princess bluff"
         },
         "Vizier": {
-            "conflict": "Vizier can fully prevent a Princess execution without good coordination",
+            "conflict": "Vizier can fully prevent a Princess execution if the good team has bad coordination",
             "good": "This role can bait the Vizier into executing it"
         },
         "Witch": {
@@ -14992,7 +14992,7 @@
             "good": "Politician can help a Widow stay hidden. Seeing the Grimoire makes it easier to hire the Policitian"
         },
         "Xaan": {
-            "warning": "Hidden Outsiders make Xaan hard to solve for. Politician can be poisoned on final day without knowing"
+            "warning": "Hidden Outsiders make Xaan hard to solve for"
         },
         "Fang Gu": {
             "warning": "Beware two extra evil players"
@@ -15658,9 +15658,6 @@
         },
         "Psychopath": {
             "good": "Extra deaths work well with this Outsider"
-        },
-        "Spy": {
-            "info": "Spy can appear as good (not a good idea)"
         },
         "Summoner": {
             "good": "Good target for the Summoner",
